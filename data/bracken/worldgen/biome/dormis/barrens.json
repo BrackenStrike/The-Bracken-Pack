@@ -1,0 +1,93 @@
+{
+  "starts": [
+    "bracken:dormis_box"
+  ],
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "misc": [],
+    "water_creature": [],
+    "creature": [],
+    "monster": [{
+        "type": "minecraft:vindicator",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },{
+        "type": "minecraft:enderman",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "surface_builder": "bracken:dormis/barrens",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava",
+      "bracken:dormis/coral_blob",
+      "bracken:dormis/basalt_pillar",
+      "bracken:dormis/rock"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "scale": 0.9,
+  "temperature": 0.95,
+  "downfall": 0.1,
+  "effects": {
+    "sky_color": 16777215,
+    "fog_color": 0,
+    "water_color": 0,
+    "water_fog_color": 0,
+    "grass_color": 16777215,
+    "foliage_colour": 16777215,
+
+"mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 1000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+
+"additions_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_chance": 0.001
+    },
+    "music": {
+      "sound": "minecraft:music.nether.basalt_deltas",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false},
+
+
+      "ambient_sound": "minecraft:block.roots.step"
+},
+  "precipitation": "none",
+  "player_spawn_friendly": true,
+  "category": "none",
+  "depth": 0.1
+}

@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:cyan_concrete_powder"
+    },
+    "under_material": {
+      "Name": "minecraft:cyan_stained_glass"
+    },
+    "underwater_material": {
+      "Name": "minecraft:sea_lantern"
+    }
+  },
+  "type": "minecraft:default"
+}

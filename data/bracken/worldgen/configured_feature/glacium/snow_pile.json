@@ -1,0 +1,27 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "state_provider": {
+          "entries": [
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:ice"
+              }
+            }
+          ],
+          "type": "minecraft:weighted_state_provider"
+        }
+      },
+      "type": "minecraft:block_pile"
+    },
+    "decorator": {
+      "config": {
+        "count": 5
+      },
+      "type": "minecraft:count_multilayer"
+    }
+  },
+  "type": "minecraft:decorated"
+}

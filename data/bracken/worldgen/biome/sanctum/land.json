@@ -1,0 +1,97 @@
+{
+  "starts": [
+    "minecraft:nether_fossil",
+    "bracken:buried_building",
+    "bracken:sanctum_gear"
+  ],
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [],
+    "creature": [
+      {
+        "type": "minecraft:ravagers",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {},
+
+  "surface_builder": "bracken:sanctum/land",
+  "carvers": {
+    "air": []
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_water"
+    ],
+    [
+      "minecraft:basalt_pillar"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:spring_water"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "scale": 0.9,
+  "temperature": 0.95,
+  "downfall": 0.1,
+  "effects": {
+
+    "fog_color": 14594985,
+    "water_color": 16146734,
+    "water_fog_color": 11414808,
+      "grass_color": 13882581,
+
+  "sky_color": 16750986,
+  "foliage_colour": 13882581,
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.118093334
+    },
+"mood_sound": {
+      "sound": "minecraft:entity.zombie_villager.converted",
+      "tick_delay": 1000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+
+"additions_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.loop",
+      "tick_chance": 0.05
+    },
+    "music": {
+      "sound": "minecraft:music.nether.soul_sand_valley",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false},
+
+
+      "ambient_sound":"minecraft:block.roots.step"
+},
+  "precipitation": "none",
+  "player_spawn_friendly": true,
+  "category": "nether",
+  "depth": 0.1
+}

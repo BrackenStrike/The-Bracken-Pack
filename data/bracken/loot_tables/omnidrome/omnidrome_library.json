@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ink_sac",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chorus_fruit",
+
+          "functions":[
+  {"function":"set_count","count":1},
+  {"function":"set_nbt","tag":"{Potion:\"minecraft:instant_damage\"}"}
+],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+
+
+
+        {
+          "type": "item",
+          "name": "minecraft:wither_skeleton_skull",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ],
+          "functions": [
+             {"function":"set_nbt","tag":"{CustomModelData:2,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:blast_protection\",lvl:9s}]}"},
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.28,
+                "max": 0.33
+              }
+            }
+          ]
+        },
+
+{
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.9
+            }
+          ],
+          "functions": [
+             {"function":"set_nbt","tag":"{StoredEnchantments:[{id:\"minecraft:protection\",lvl:1s}]}"}
+          ]
+        }
+      ]
+    }
+  ]
+}

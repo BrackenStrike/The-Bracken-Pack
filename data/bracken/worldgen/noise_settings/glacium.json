@@ -1,0 +1,76 @@
+{
+  "noise_caves_enabled": false,
+  "deepslate_enabled": false,
+  "ore_veins_enabled": false,
+  "noodle_caves_enabled": false,
+  "aquifers_enabled": false,
+  "min_surface_level": 0,
+  "bedrock_roof_position": -2147483648,
+  "bedrock_floor_position": -3,
+  "sea_level": 63,
+  "disable_mob_generation": false,
+  "structures": {
+    "structures": {
+      "minecraft:igloo": {
+            "spacing": 15,
+            "separation": 4,
+            "salt": 14357618
+          },
+          "minecraft:village": {
+            "spacing": 15,
+            "separation": 11,
+            "salt": 14357618
+          },
+          "minecraft:ruined_portal": {
+            "spacing": 15,
+            "separation": 7,
+            "salt": 14357618
+          },
+          "minecraft:ocean_ruin": {
+            "spacing": 15,
+            "separation": 11,
+            "salt": 14357618
+          },
+          "minecraft:bastion_remnant": {
+            "spacing": 12,
+            "separation": 7,
+            "salt": 30084232
+          }
+        }
+  },
+  "noise": {
+    "min_y": 0,
+    "height": 208,
+    "sampling": {
+      "xz_scale": 1.0,
+      "y_scale": 1.0,
+      "xz_factor": 80.0,
+      "y_factor": 160.0
+    },
+    "top_slide": {
+      "target": -10,
+      "size": 3,
+      "offset": 0
+    },
+    "bottom_slide": {
+      "target": -30,
+      "size": 0,
+      "offset": 0
+    },
+    "size_horizontal": 4,
+    "size_vertical": 4,
+    "density_factor": 0,
+    "density_offset": -0.46875,
+    "simplex_surface_noise": true,
+    "amplified": true
+  },
+  "default_block": {
+    "Name": "minecraft:blue_ice"
+  },
+  "default_fluid": {
+    "Name": "minecraft:water",
+        "Properties": {
+          "level": "0"
+        }
+  }
+}

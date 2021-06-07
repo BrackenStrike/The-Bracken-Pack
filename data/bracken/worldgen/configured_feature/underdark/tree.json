@@ -1,0 +1,32 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "hat_state": {
+          "Name": "minecraft:gray_concrete_powder"
+        },
+        "decor_state": {
+          "Name": "minecraft:cobweb"
+        },
+        "planted": false,
+        "valid_base_block": {
+          "Name": "minecraft:andesite"
+        },
+        "stem_state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:polished_basalt"
+        }
+      },
+      "type": "minecraft:huge_fungus"
+    },
+    "decorator": {
+      "config": {
+        "count": 1
+      },
+      "type": "minecraft:count_multilayer"
+    }
+  },
+  "type": "minecraft:decorated"
+}

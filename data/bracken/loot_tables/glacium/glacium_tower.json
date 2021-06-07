@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 10,
+        "max": 17
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ice",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+
+          "functions":[
+  {"function":"set_count","count":1},
+  {"function":"set_nbt","tag":"{Potion:\"minecraft:slowness\"}"}
+],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.6
+            }
+          ]
+        },
+
+
+
+        {
+          "type": "item",
+          "name": "minecraft:diamond_axe",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ],
+          "functions": [
+             {"function":"set_nbt","tag":"{CustomModelData:888502,AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-10,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:12,Operation:0,UUID:[I;1401610331,1048199356,-1607358411,589202321],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:5s},{id:\"minecraft:knockback\",lvl:3s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"},
+              {"function":"set_name","name":[{"text":"Frosbeak","color":"blue","bold":true}]},
+              {"function":"set_lore","lore":[{"text":"Jeg skiver!","color":"dark_aqua"}]},
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.78,
+                "max": 0.83
+              }
+            }
+          ]
+        },
+
+{
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ],
+          "functions": [
+             {"function":"set_nbt","tag":"{CustomModelData:888502,AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-10,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:14,Operation:0,UUID:[I;1401610331,1048199356,-1607358411,589202321],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:5s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"},
+
+              {"function":"set_name","name":[{"text":"Frosfang","color":"blue","bold":true}]},
+              {"function":"set_lore","lore":[{"text":"jeg biter!","color":"dark_aqua"}]},
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.88,
+                "max": 0.93
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

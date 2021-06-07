@@ -1,0 +1,72 @@
+{
+  "type": "bracken:pax",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -1464245863,
+    "biome_source": {
+	 "humidity_noise": {
+      "firstOctave": -7,
+      "amplitudes": [
+        1.0,
+        1.0
+      ]
+    },
+    "altitude_noise": {
+      "firstOctave": -7,
+      "amplitudes": [
+        1.0,
+        1.0
+      ]
+    },
+    "weirdness_noise": {
+      "firstOctave": -7,
+      "amplitudes": [
+        1.0,
+        1.0
+      ]
+    },
+    "temperature_noise": {
+      "firstOctave": -7,
+      "amplitudes": [
+        1.0,
+        1.0
+      ]
+    },
+      "type": "minecraft:multi_noise",
+      "seed": -1464245863,
+      "biomes": [
+        {
+          "biome": "bracken:pax/sky_garden",
+          "parameters": {
+            "altitude": 0.5,
+            "temperature": 0,
+            "humidity": 1,
+            "weirdness": 1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bracken:pax/cloud_canopy",
+          "parameters": {
+            "altitude": 0,
+            "temperature": 0.8,
+            "humidity": 1,
+            "weirdness": 0,
+            "offset": 0.8
+          }
+        },
+        {
+          "biome": "bracken:pax/petal_grove",
+          "parameters": {
+            "altitude": 0,
+            "temperature": -0.8,
+            "humidity": 1,
+            "weirdness": 0,
+            "offset": 0.8
+          }
+        }
+      ]
+    },
+    "settings": "bracken:pax"
+  }
+}
