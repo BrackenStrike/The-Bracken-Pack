@@ -15,4 +15,4 @@ execute as @a[team=Villain] at @s run function bracken:race/villain/tick
 
 execute at @a[team=Watcher,gamemode=spectator] unless block ~ ~ ~ air run gamemode survival @a[distance=..1,team=Watcher]
 
-schedule function bracken:team_player_effects 4t
+schedule function bracken:team_player_effects 240t
