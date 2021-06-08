@@ -61,6 +61,7 @@ scoreboard objectives add return1 dummy
 scoreboard objectives add tooth1 dummy
 scoreboard objectives add giant dummy
 scoreboard objectives add book minecraft.used:minecraft.knowledge_book
+scoreboard objectives add book_number dummy
 
 scoreboard objectives add change dummy
 scoreboard objectives add automech trigger
