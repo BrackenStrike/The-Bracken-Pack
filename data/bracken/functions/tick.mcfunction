@@ -6,8 +6,6 @@ scoreboard players set @a[scores={tick=2,sneakcharge=..10}] jump 0
 scoreboard players set @a[scores={tick=2}] sleep 0
 scoreboard players set @a[scores={tick=2}] hurting 0
 scoreboard players set @a[scores={longtick=200..}] longtick 0
-
-
 scoreboard players add @a longtick 1
 scoreboard players set @a[scores={longtick=200..,deaths=1..}] deaths 0
 scoreboard players set @a[scores={verylongtick=600..}] verylongtick 0
@@ -16,13 +14,31 @@ effect give @a[scores={sleep=1..}] hunger 3 3 true
 scoreboard players add @a[scores={sneak=1..}] sneakcharge 4
 scoreboard players set @a[scores={sneakcharge=31..}] sneakcharge 30
 scoreboard players remove @a[scores={sneakcharge=1..,sneak=0}] sneakcharge 1
-
 execute as @p[scores={armor=11,gold=..19},team=Realmkeeper,nbt={Inventory:[{Slot:103b,id:"minecraft:golden_helmet"},{Slot:102b,id:"minecraft:golden_chestplate"},{Slot:101b,id:"minecraft:golden_leggings"},{Slot:100b,id:"minecraft:golden_boots"}]}] run scoreboard players set @s gold 20
-
 scoreboard players set @a[scores={armor=..10}] gold 0
-
 scoreboard players set @a[scores={deaths=1..}] mark 0
 execute at @a[scores={mark=1..}] run scoreboard players set @a[distance=4..100] mark 0
+
+##########   SPELL BOOKS   ##########
+execute as @a[scores={book=1..}] at @s run function bracken:book_based_commands
+execute as @a[nbt={SelectedItem:{id:"minecraft:knowledge_book"}}] store result score @s book_number run data get entity @s SelectedItem.tag.Spell_Book
+execute as @a[nbt={SelectedItem:{id:"minecraft:knowledge_book"}}] run function bracken:spell_book_activation
+
+##########   TEAM PLAYER EFFECTS   ##########
+
+execute as @a[team=Automech] at @s run function bracken:race/automech/tick
+execute as @a[team=Dweller] at @s run function bracken:race/dweller/tick
+execute as @a[team=Enderling] at @s run function bracken:race/enderling/tick
+execute as @a[team=Faefolk] at @s run function bracken:race/faefolk/tick
+execute as @a[team=Frostkin] at @s run function bracken:race/frostkin/tick
+execute as @a[team=Human] at @s run function bracken:race/human/tick
+execute as @a[team=Hunter] at @s run function bracken:race/hunter/tick
+execute as @a[team=Nereid] at @s run function bracken:race/nereid/tick
+execute as @a[team=Netherkin] at @s run function bracken:race/netherkin/tick
+execute as @a[team=Outlander] at @s run function bracken:race/outlander/tick
+execute as @a[team=Realmkeeper] at @s run function bracken:race/realmkeeper/tick
+execute as @a[team=Villain] at @s run function bracken:race/villain/tick
+execute at @a[team=Watcher,gamemode=spectator] unless block ~ ~ ~ air run gamemode survival @a[distance=..1,team=Watcher]
 
 ##########   DIMENSION COMMANDS   ##########
 execute as @a[nbt={Dimension:"bracken:dormis"}] at @s run function bracken:dimension_commands/dormis
@@ -101,6 +117,7 @@ kill @e[type=armor_stand,name=omnidrome_spark]
 
 bossbar set bp:solatium_thrall players
 execute as @e[type=minecraft:giant,tag=bp.solatium_thrall] at @s if entity @p[distance=..100] run function bracken:boss/solatium_thrall/tick
+
 
 
 ##########   BYGONE VICEROY   ##########
