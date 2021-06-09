@@ -151,14 +151,13 @@ execute at @a[team=Nereid] if block ~ ~1 ~ minecraft:air run effect give @p mine
 #netherkin
 execute at @a[team=Netherkin] if block ~ ~1 ~ minecraft:water run effect give @p minecraft:wither 1 1 false
 
-#outlander
-effect give @a[team=Outlander,scores={food=..15}] minecraft:saturation 1 0 true
+
 
 #realmguard
-effect give @a[team=Realmguard,scores={armor=12..}] minecraft:weakness 13 9 true
-effect give @a[team=Realmguard,scores={armor=12..}] minecraft:glowing 13 9 true
-execute at @a[team=Realmguard,scores={health=18..},y=25,dy=250] run effect give @p minecraft:absorption 2 0 true
-execute at @a[team=Realmguard,scores={gold=1..},y=25,dy=250] run effect give @p minecraft:absorption 2 0 true
+effect give @a[team=Realmkeeper,scores={armor=12..}] minecraft:weakness 13 9 true
+effect give @a[team=Realmkeeper,scores={armor=12..}] minecraft:glowing 13 9 true
+execute at @a[team=Realmkeeper,scores={health=18..}] run execute as @a[y=25,dy=250] run effect give @s minecraft:absorption 2 0 true
+execute at @a[team=Realmkeeper,scores={gold=1..}] run execute as @a[y=25,dy=250] run effect give @s minecraft:absorption 2 0 true
 
 #villain
 effect clear @a[team=Villain] minecraft:hero_of_the_village
