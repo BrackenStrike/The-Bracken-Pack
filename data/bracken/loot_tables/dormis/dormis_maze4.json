@@ -47,9 +47,6 @@
             }
           ]
         },
-
-
-
         {
           "type": "item",
           "name": "minecraft:wither_skeleton_skull",
@@ -60,7 +57,15 @@
             }
           ],
           "functions": [
-             {"function":"set_nbt","tag":"{CustomModelData:2,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:blast_protection\",lvl:9s}]}"},
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:binding_curse": 1,
+                "minecraft:protection": 3,
+                "minecraft:blast_protection": 9
+              },
+              "add": false
+            },
             {
               "function": "set_damage",
               "damage": {
@@ -70,8 +75,7 @@
             }
           ]
         },
-
-{
+        {
           "type": "item",
           "name": "minecraft:iron_chestplate",
           "conditions": [
@@ -81,9 +85,13 @@
             }
           ],
           "functions": [
-             {"function":"set_nbt","tag":"{CustomModelData:2,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}]}"},
-              
-              
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:binding_curse": 1
+              },
+              "add": false
+            },
             {
               "function": "set_damage",
               "damage": {

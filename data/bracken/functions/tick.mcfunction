@@ -20,9 +20,8 @@ scoreboard players set @a[scores={deaths=1..}] mark 0
 execute at @a[scores={mark=1..}] run scoreboard players set @a[distance=4..100] mark 0
 
 ##########   SPELL BOOKS   ##########
-execute as @a[scores={book=1..}] at @s run function bracken:book_based_commands
-execute as @a[nbt={SelectedItem:{id:"minecraft:knowledge_book"}}] store result score @s book_number run data get entity @s SelectedItem.tag.Spell_Book
-execute as @a[nbt={SelectedItem:{id:"minecraft:knowledge_book"}}] run function bracken:spell_book_activation
+execute as @a[scores={book=1..}] at @s run function bracken:book
+execute as @a[nbt={SelectedItem:{id:"minecraft:knowledge_book"}}] store result score @s book_id run data get entity @s SelectedItem.tag.book_id
 
 ##########   TEAM PLAYER EFFECTS   ##########
 

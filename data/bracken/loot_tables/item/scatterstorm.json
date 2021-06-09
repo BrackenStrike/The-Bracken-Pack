@@ -1,0 +1,18 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "functions": [
+             {"function":"set_nbt","tag":"{book_id:13b,CustomModelData:888513,Enchantments:[{}],Recipes:[{}]}"},
+             {"function":"set_name","name":[{"text":"Scatterstorm","color":"light_purple","bold":true}]},
+             {"function":"set_lore","lore":[{"text":"requires 7 levels","color":"light_purple"}]}
+          ]
+        }
+      ]
+    }
+  ]
+}

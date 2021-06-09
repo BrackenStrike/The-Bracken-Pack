@@ -40,21 +40,19 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:tipped_arrow",
-
-          "functions":[
-  {"function":"set_count","count":1},
-  {"function":"set_nbt","tag":"{Potion:\"minecraft:weakness\"}"}
-],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
               "chance": 0.2
             }
+          ],
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:weakness\"}"
+            }
           ]
         },
-
-
-
         {
           "type": "item",
           "name": "minecraft:leather_chestplate",
@@ -65,7 +63,13 @@
             }
           ],
           "functions": [
-             {"function":"set_nbt","tag":"{CustomModelData:2,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}]}"},
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:binding_curse": 1
+              },
+              "add": false
+            },
             {
               "function": "set_damage",
               "damage": {
@@ -75,8 +79,7 @@
             }
           ]
         },
-
-{
+        {
           "type": "item",
           "name": "minecraft:iron_boots",
           "conditions": [
@@ -86,9 +89,13 @@
             }
           ],
           "functions": [
-             {"function":"set_nbt","tag":"{CustomModelData:2,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}]}"},
-              
-              
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:binding_curse": 1
+              },
+              "add": false
+            },
             {
               "function": "set_damage",
               "damage": {

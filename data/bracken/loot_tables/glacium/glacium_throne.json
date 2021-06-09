@@ -37,7 +37,7 @@
             }
           ]
         },
-{
+        {
           "type": "minecraft:item",
           "name": "minecraft:ice",
           "conditions": [
@@ -47,50 +47,23 @@
             }
           ]
         },
-
-
         {
-          "type": "item",
-          "name": "minecraft:diamond_helmet",
+          "type": "loot_table",
+          "name": "bracken:item/viceroys_visor",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
               "chance": 0.1
-            }
-          ],
-          "functions": [
-             {"function":"set_nbt","tag":"{CustomModelData:888502,AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-10,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"head\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:aqua_affinity\",lvl:5s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"},
-              {"function":"set_name","name":[{"text":"Viceroy's Visor","color":"blue","bold":true}]},
-              {"function":"set_lore","lore":[{"text":"Jeg ser!","color":"dark_aqua"}]},
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.78,
-                "max": 0.83
-              }
             }
           ]
         },
-
-{
-          "type": "item",
-          "name": "minecraft:diamond_chestplate",
+        {
+          "type": "loot_table",
+          "name": "bracken:item/frosplakkrt",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
               "chance": 0.1
-            }
-          ],
-          "functions": [
-             {"function":"set_nbt","tag":"{CustomModelData:888502,AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-10,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"chest\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:8s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"},
-              {"function":"set_name","name":[{"text":"Frosplakkrt","color":"blue","bold":true}]},
-              {"function":"set_lore","lore":[{"text":"vokte hjertet mitt!","color":"dark_aqua"}]},
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.88,
-                "max": 0.93
-              }
             }
           ]
         }

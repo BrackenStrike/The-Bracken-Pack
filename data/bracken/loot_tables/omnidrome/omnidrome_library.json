@@ -40,11 +40,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chorus_fruit",
-
-          "functions":[
-  {"function":"set_count","count":1},
-  {"function":"set_nbt","tag":"{Potion:\"minecraft:instant_damage\"}"}
-],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -52,9 +47,6 @@
             }
           ]
         },
-
-
-
         {
           "type": "item",
           "name": "minecraft:wither_skeleton_skull",
@@ -65,7 +57,15 @@
             }
           ],
           "functions": [
-             {"function":"set_nbt","tag":"{CustomModelData:2,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:blast_protection\",lvl:9s}]}"},
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:binding_curse": 1,
+                "minecraft:protection": 3,
+                "minecraft:blast_protection": 9
+              },
+              "add": false
+            },
             {
               "function": "set_damage",
               "damage": {
@@ -75,8 +75,7 @@
             }
           ]
         },
-
-{
+        {
           "type": "item",
           "name": "minecraft:enchanted_book",
           "conditions": [
@@ -86,7 +85,13 @@
             }
           ],
           "functions": [
-             {"function":"set_nbt","tag":"{StoredEnchantments:[{id:\"minecraft:protection\",lvl:1s}]}"}
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 1
+              },
+              "add": false
+            }
           ]
         }
       ]

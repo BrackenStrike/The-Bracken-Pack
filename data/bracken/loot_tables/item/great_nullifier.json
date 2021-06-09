@@ -1,0 +1,18 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "functions": [
+             {"function":"set_nbt","tag":"{book_id:15b,CustomModelData:888515,Enchantments:[{}],Recipes:[{}]}"},
+             {"function":"set_name","name":[{"text":"Great Nullifier","color":"white","bold":true}]},
+             {"function":"set_lore","lore":[{"text":"requires 5 levels","color":"white"}]}
+          ]
+        }
+      ]
+    }
+  ]
+}
