@@ -37,8 +37,7 @@
             }
           ]
         },
-
-{
+        {
           "type": "item",
           "name": "minecraft:diamond_pickaxe",
           "conditions": [
@@ -63,9 +62,6 @@
             }
           ]
         },
-
-
-
         {
           "type": "minecraft:item",
           "name": "minecraft:redstone",

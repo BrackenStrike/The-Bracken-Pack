@@ -1,7 +1,7 @@
 execute unless entity @s[level=25..] run item replace entity @s weapon with air
 execute unless entity @s[level=25..] run loot replace entity @s weapon loot bracken:item/worm_toothed_burrower
 
-execute if entity @s[level=25..] run summon giant ~ ~30 ~ {Tags:["tooth"],Silent:1b,Invulnerable:1b,CustomNameVisible:0b,CustomName:'{"text":"Dinnerbone"}',HandItems:[{id:"minecraft:netherite_pickaxe",Count:1b,tag:{CustomModelData:1}},{}],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:200000000,ShowParticles:0b}]}
+execute if entity @s[level=25..] run summon giant ~ ~30 ~ {Tags:["tooth"],Silent:1b,Invulnerable:1b,CustomNameVisible:0b,CustomName:'{"text":"Dinnerbone"}',HandItems:[{id:"minecraft:netherite_pickaxe",Count:1b,tag:{CustomModelData:888501}},{}],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:200000000,ShowParticles:0b}]}
 execute if entity @s[level=25..] run say @s generated [WORM-TOOTHED BURROWER]
 execute if entity @s[level=25..] run schedule function bracken:spell_books/worm-toothed_burrower_folder/worm-toothed_burrower 1t
 
