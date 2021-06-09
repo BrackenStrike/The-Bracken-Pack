@@ -111,6 +111,59 @@ execute at @e[type=minecraft:armor_stand,name=omnidrome_spark] run setblock ~ ~1
 
 kill @e[type=armor_stand,name=omnidrome_spark]
 
+##########   TEAM INSTANT EFFECTS   ##########
+
+#automech
+execute at @a[team=Automech] if block ~ ~1 ~ minecraft:water run effect give @p minecraft:slowness 1 4 true
+
+#dweller
+effect give @a[team=Dweller,scores={food=20}] minecraft:hunger 1 1 true
+
+#enderling
+effect give @a[team=Enderling] minecraft:wither 1 0 true
+execute at @a[team=Enderling,scores={sneakcharge=28..,jump=1..}] run spreadplayers ~ ~ 13 15 under 100 false @p
+execute as @a[team=Enderling,scores={sneakcharge=2..}] run particle minecraft:portal ~ ~ ~ 0.2 .8 0.2 0.01 1
+execute as @a[team=Enderling,scores={sneakcharge=28..,jump=1..}] run playsound minecraft:entity.enderman.teleport player @a[distance=..20] ~ ~ ~ 10
+execute as @a[team=Enderling,scores={sneakcharge=2..,jump=1..}] run experience add @p -1 points
+execute as @a[team=Enderling,scores={sneakcharge=2..,jump=1..}] run scoreboard players set @p sneakcharge 0
+
+#faefolk
+experience add @a[team=Faefolk,scores={verylongtick=60}] 1 points
+effect give @a[team=Faefolk,predicate=bracken:sprint] minecraft:speed 2 0 true
+effect clear @a[team=Faefolk,predicate=!bracken:sprint] minecraft:speed
+
+#frostkin
+effect clear @a[team=Frostkin] minecraft:slowness
+execute at @a[team=Frostkin] if block ~ ~ ~ fire run effect give @p minecraft:instant_damage 1 0 true
+execute at @a[team=Frostkin] if block ~ ~ ~ lava run effect give @p minecraft:instant_damage 1 1 true
+
+#hunter
+effect give @a[team=Hunter,predicate=bracken:sprint,scores={food=20}] minecraft:speed 1 1 true
+effect give @a[team=Hunter,predicate=bracken:sprint,scores={food=9..}] minecraft:speed 1 0 true
+effect clear @a[team=Hunter,predicate=!bracken:sprint] minecraft:speed
+execute as @a[team=Hunter,scores={sneak=1..}] run effect give @a[distance=..100,scores={mark=2..}] glowing 3 9 false
+execute at @a[team=Hunter,scores={hurting=1..}] run scoreboard players set @p[distance=0.1..4] mark 3
+effect give @a[team=Hunter,predicate=bracken:sneak] jump_boost 1 255 false
+
+#nereid
+execute at @a[team=Nereid] if block ~ ~1 ~ minecraft:air run effect give @p minecraft:slowness 1 0 true
+
+#netherkin
+execute at @a[team=Netherkin] if block ~ ~1 ~ minecraft:water run effect give @p minecraft:wither 1 1 false
+
+#outlander
+effect give @a[team=Outlander,scores={food=..15}] minecraft:saturation 1 0 true
+
+#realmguard
+effect give @a[team=Realmguard,scores={armor=12..}] minecraft:weakness 13 9 true
+effect give @a[team=Realmguard,scores={armor=12..}] minecraft:glowing 13 9 true
+execute at @a[team=Realmguard,scores={health=18..},y=25,dy=250] run effect give @p minecraft:absorption 2 0 true
+execute at @a[team=Realmguard,scores={gold=1..},y=25,dy=250] run effect give @p minecraft:absorption 2 0 true
+
+#villain
+effect clear @a[team=Villain] minecraft:hero_of_the_village
+execute at @a[team=Villain] run data modify entity @e[type=iron_golem,limit=1,distance=..50] AngryAt set from entity @p[team=Villain] UUID
+
 
 ##########   SOLATIUM THRALL   ##########
 
