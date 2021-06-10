@@ -65,10 +65,10 @@ scoreboard players remove @a[scores={creeper=1..}] creeper 1
 
 #glacium
 execute at @a if block ~ ~-1 ~ minecraft:air run scoreboard players set @p ice 0
-execute at @a if block ~ ~-1 ~ minecraft:beacon{Levels:1} run scoreboard players add @p ice 2
-execute at @a if block ~ ~-1 ~ minecraft:beacon{Levels:2} run scoreboard players add @p ice 3
-execute at @a if block ~ ~-1 ~ minecraft:beacon{Levels:3} run scoreboard players add @p ice 4
-execute at @a if block ~ ~-1 ~ minecraft:beacon{Levels:4} run scoreboard players add @p ice 5
+execute at @a if block ~ ~-1 ~ minecraft:beacon{Levels:1} run scoreboard players add @p ice 3
+execute at @a if block ~ ~-1 ~ minecraft:beacon{Levels:2} run scoreboard players add @p ice 4
+execute at @a if block ~ ~-1 ~ minecraft:beacon{Levels:3} run scoreboard players add @p ice 5
+execute at @a if block ~ ~-1 ~ minecraft:beacon{Levels:4} run scoreboard players add @p ice 6
 scoreboard players remove @a[scores={ice=1..}] ice 1
 scoreboard players set @a[scores={ice=401..}] ice 400
 execute at @a[scores={ice=50..}] run particle minecraft:item_snowball ~ ~ ~ 0.2 0.2 0.2 0.01 1
