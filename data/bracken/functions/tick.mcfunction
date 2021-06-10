@@ -64,7 +64,7 @@ scoreboard players set @a[nbt={Inventory:[{Slot:103b,id:"minecraft:creeper_head"
 scoreboard players remove @a[scores={creeper=1..}] creeper 1
 
 #glacium
-execute at @a if block ~ ~-1 ~ minecraft:blue_ice run scoreboard players set @p ice 0
+execute at @a if block ~ ~-1 ~ minecraft:air run scoreboard players set @p ice 0
 execute at @a if block ~ ~-1 ~ minecraft:beacon{Levels:1} run scoreboard players add @p ice 2
 execute at @a if block ~ ~-1 ~ minecraft:beacon{Levels:2} run scoreboard players add @p ice 3
 execute at @a if block ~ ~-1 ~ minecraft:beacon{Levels:3} run scoreboard players add @p ice 4
@@ -75,7 +75,7 @@ execute at @a[scores={ice=50..}] run particle minecraft:item_snowball ~ ~ ~ 0.2 
 execute at @a[scores={ice=150..}] run effect give @p minecraft:nausea 5 5 true
 execute at @a[scores={ice=300..}] run particle minecraft:cloud ~ ~ ~ 2 2 2 0.01 10
 effect give @a[scores={ice=390..}] minecraft:resistance 7 7 false
-execute at @a[team=!Frostkin,scores={ice=1..}] if block ~ ~-1 ~ minecraft:beacon run effect give @a[team=!Frostkin,scores={ice=1..},distance	=..1] minecraft:wither 2 0 true
+execute at @a[team=!Frostkin,scores={ice=1..}] if block ~ ~-1 ~ minecraft:beacon run effect give @a[team=!Frostkin,scores={ice=1..},distance=..1] minecraft:wither 2 0 true
 
 effect clear @a[nbt={Inventory:[{id:"minecraft:elytra",Slot:102b,tag:{CustomModelData:888512}}]}] wither
 
