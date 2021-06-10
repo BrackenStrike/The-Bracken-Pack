@@ -17,6 +17,6 @@ execute at @s[scores={book_id=15}] run function bracken:spell_books/swordfall
 execute at @s[scores={book_id=16}] run function bracken:spell_books/worm_toothed_burrower
 execute at @s[scores={book_id=17}] run function bracken:spell_books/great_nullifier
 
-scoreboard players set @s book_number 0
+scoreboard players set @s book_id 0
 scoreboard players set @s book 0
 gamemode spectator @a[gamemode=survival,team=Watcher,scores={sneakcharge=20..}]

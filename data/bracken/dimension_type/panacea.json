@@ -13,5 +13,5 @@
     "ambient_light": -0.45,
     "has_skylight": true,
     "has_ceiling": false,
-    "fixed_time":10000
+    "fixed_time":7000
 }
