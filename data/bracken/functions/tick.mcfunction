@@ -24,20 +24,20 @@ execute as @a[scores={book=1..}] at @s run function bracken:book
 execute as @a[nbt={SelectedItem:{id:"minecraft:knowledge_book"}}] store result score @s book_id run data get entity @s SelectedItem.tag.book_id
 
 ##########   TEAM PLAYER EFFECTS   ##########
-
-execute as @a[team=Automech] at @s run function bracken:race/automech/tick
-execute as @a[team=Dweller] at @s run function bracken:race/dweller/tick
-execute as @a[team=Enderling] at @s run function bracken:race/enderling/tick
-execute as @a[team=Faefolk] at @s run function bracken:race/faefolk/tick
-execute as @a[team=Frostkin] at @s run function bracken:race/frostkin/tick
-execute as @a[team=Human] at @s run function bracken:race/human/tick
-execute as @a[team=Hunter] at @s run function bracken:race/hunter/tick
-execute as @a[team=Nereid] at @s run function bracken:race/nereid/tick
-execute as @a[team=Netherkin] at @s run function bracken:race/netherkin/tick
-execute as @a[team=Outlander] at @s run function bracken:race/outlander/tick
-execute as @a[team=Realmkeeper] at @s run function bracken:race/realmkeeper/tick
-execute as @a[team=Villain] at @s run function bracken:race/villain/tick
-execute at @a[team=Watcher,gamemode=spectator] unless block ~ ~ ~ air run gamemode survival @a[distance=..1,team=Watcher]
+#remove pound sign for constant tick check
+#execute as @a[team=Automech] at @s run function bracken:race/automech/tick
+#execute as @a[team=Dweller] at @s run function bracken:race/dweller/tick
+#execute as @a[team=Enderling] at @s run function bracken:race/enderling/tick
+#execute as @a[team=Faefolk] at @s run function bracken:race/faefolk/tick
+#execute as @a[team=Frostkin] at @s run function bracken:race/frostkin/tick
+#execute as @a[team=Human] at @s run function bracken:race/human/tick
+#execute as @a[team=Hunter] at @s run function bracken:race/hunter/tick
+#execute as @a[team=Nereid] at @s run function bracken:race/nereid/tick
+#execute as @a[team=Netherkin] at @s run function bracken:race/netherkin/tick
+#execute as @a[team=Outlander] at @s run function bracken:race/outlander/tick
+#execute as @a[team=Realmkeeper] at @s run function bracken:race/realmkeeper/tick
+#execute as @a[team=Villain] at @s run function bracken:race/villain/tick
+#execute at @a[team=Watcher,gamemode=spectator] unless block ~ ~ ~ air run gamemode survival @a[distance=..1,team=Watcher]
 
 ##########   DIMENSION COMMANDS   ##########
 execute as @a[nbt={Dimension:"bracken:dormis"}] at @s run function bracken:dimension_commands/dormis
