@@ -165,20 +165,15 @@ execute at @a[team=Villain] run data modify entity @e[type=iron_golem,limit=1,di
 
 
 ##########   SOLATIUM THRALL   ##########
-
 bossbar set bp:solatium_thrall players
 execute as @e[type=minecraft:giant,tag=bp.solatium_thrall] at @s if entity @p[distance=..100] run function bracken:boss/solatium_thrall/tick
-
-
-
 ##########   BYGONE VICEROY   ##########
-
 bossbar set bp:bygone_viceroy.top players
 bossbar set bp:bygone_viceroy.bottom players
 execute as @e[type=minecraft:wither_skeleton,tag=bp.bygone_viceroy] at @s run function bracken:boss/bygone_viceroy/tick
-
-
 ##########   THE DISRUPTOR   ##########
-
 bossbar set bp:the_disruptor players
 execute as @e[type=minecraft:elder_guardian,tag=bp.the_disruptor] at @s run function bracken:boss/the_disruptor/tick
+##########   Project Ruination   ##########
+bossbar set bp:project_ruination players
+execute as @e[type=minecraft:marker,tag=bp.project_ruination] at @s run function bracken:boss/project_ruination/tick

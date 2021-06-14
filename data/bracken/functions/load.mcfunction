@@ -5,6 +5,7 @@ function bracken:math/load
 function bracken:boss/solatium_thrall/load
 function bracken:boss/bygone_viceroy/load
 function bracken:boss/the_disruptor/load
+function bracken:boss/project_ruination/load
 
 ##########   ADD SCOREBOARD OBJECTIVES   ##########
 scoreboard objectives add food food
