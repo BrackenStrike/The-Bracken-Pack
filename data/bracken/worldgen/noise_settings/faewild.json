@@ -1,5 +1,5 @@
 {
-  "noise_caves_enabled": false,
+  "noise_caves_enabled": true,
   "deepslate_enabled": false,
   "ore_veins_enabled": false,
   "noodle_caves_enabled": false,
@@ -120,11 +120,11 @@
     "size_horizontal": 2,
     "size_vertical": 1,
     "min_y": 0,
-    "height": 144,
+    "height": 128,
     "sampling": {
-      "xz_scale": 2.0,
-      "y_scale": 0.50,
-      "xz_factor": 80.0,
+      "xz_scale": 3.0,
+      "y_scale": 0.10,
+      "xz_factor": 500.0,
       "y_factor": 160.0
     },
     "top_slide": {
