@@ -3,7 +3,7 @@
     "min_y": 0,
     "ultrawarm": false,
     "infiniburn": "minecraft:infiniburn_overworld",
-    "logical_height": 100,
+    "logical_height": 128,
     "has_raids": true,
     "respawn_anchor_works": false,
     "bed_works": true,
