@@ -7,10 +7,10 @@
             "feature": {
               "config": {
                 "target": {
-                  "Name": "minecraft:mossy_cobblestone"
+                  "Name": "minecraft:moss_block"
                 },
                 "state": {
-                  "Name": "minecraft:coal_ore"
+                  "Name": "minecraft:deepslate_coal_ore"
                 },
                 "radius": {
                   "value": {
