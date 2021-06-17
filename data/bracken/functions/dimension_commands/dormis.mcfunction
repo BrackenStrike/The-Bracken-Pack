@@ -2,7 +2,7 @@ effect give @s[scores={longtick=2}] minecraft:slowness 13 0 true
 effect give @s[scores={longtick=2}] minecraft:bad_omen 100000 10 true
 
 attribute @s[scores={pax=2..}] minecraft:generic.max_health base set 20
-effect give @s[scores={longtick=10}] minecraft:resistance 3 9 true
+effect give @s[scores={longtick=10}] minecraft:resistance 3 9 false
 
 execute at @s run execute as @a[y=-20,dy=-100,predicate=bracken:dormis] run execute in bracken:pax run tp @s ~ 1500 ~
 
