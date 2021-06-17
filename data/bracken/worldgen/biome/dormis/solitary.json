@@ -1,6 +1,6 @@
 {
   "starts": [
-    "bracken:dormis_courtyard","minecraft:ruined_portal"
+    "bracken:dormis_courtyard"
   ],
   "spawners": {
     "water_ambient": [],
