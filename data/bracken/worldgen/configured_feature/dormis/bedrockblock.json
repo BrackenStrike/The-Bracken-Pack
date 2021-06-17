@@ -18,7 +18,7 @@
             },
             "inner": {
               "config": {
-                "heightmap": "WORLD_SURFACE_WG"
+                "heightmap": "WORLD_SURFACE"
               },
               "type": "minecraft:heightmap"
             }
