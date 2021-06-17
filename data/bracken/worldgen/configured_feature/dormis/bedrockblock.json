@@ -5,7 +5,7 @@
         "feature": {
           "config": {
             "state": {
-              "Name": "minecraft:magma_block"
+              "Name": "minecraft:glowstone"
             }
           },
           "type": "minecraft:forest_rock"
@@ -30,7 +30,7 @@
     },
     "decorator": {
       "config": {
-        "count": 15
+        "count": 17
       },
       "type": "minecraft:count"
     }
