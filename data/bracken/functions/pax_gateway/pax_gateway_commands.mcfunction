@@ -1,5 +1,5 @@
 ##########   PAX GATEWAY   ##########
-execute if entity @e[type=minecraft:armor_stand,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=0,b=0,w=0}] if entity @a[scores={portal=1..}] run function bracken:dimensions/pax_portal_to_dormis
+execute if entity @e[type=minecraft:armor_stand,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=0,b=0,w=0}] as @a[scores={portal=1..}] run function bracken:dimensions/pax_portal_to_dormis
 execute if entity @e[type=minecraft:armor_stand,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=1,b=1,w=1}] in bracken:glacium run tp @a[scores={portal=1..}] ~ 400 ~
 execute if entity @e[type=minecraft:armor_stand,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=1,b=0,w=1}] in bracken:omnidrome run tp @a[scores={portal=1..}] ~ 260 ~
 execute if entity @e[type=minecraft:armor_stand,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=1,b=0,w=0}] in bracken:panacea run tp @a[scores={portal=1..}] ~ 400 ~
