@@ -27,9 +27,9 @@
     "min_y": 0,
     "height": 208,
     "sampling": {
-      "xz_scale": 1.0,
-      "y_scale": 1.0,
-      "xz_factor": 80.0,
+      "xz_scale": 0.5,
+      "y_scale": 0.5,
+      "xz_factor": 380.0,
       "y_factor": 160.0
     },
     "top_slide": {
@@ -45,7 +45,7 @@
     "size_horizontal": 1,
     "size_vertical": 4,
     "density_factor": 1.0,
-    "density_offset": -0.46875,
+    "density_offset": -0.86875,
     "simplex_surface_noise": true,
     "amplified": true
   },
