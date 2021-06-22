@@ -1,5 +1,5 @@
 {
-    "height": 256,
+    "height": 384,
     "min_y": 0,
     "ultrawarm": false,
     "infiniburn": "minecraft:infiniburn_overworld",
@@ -10,7 +10,7 @@
     "piglin_safe": true,
     "natural": true,
     "coordinate_scale": 1.0,
-    "ambient_light": -0.45,
+    "ambient_light": -0.4,
     "has_skylight": true,
     "has_ceiling": false,
     "fixed_time":7000
