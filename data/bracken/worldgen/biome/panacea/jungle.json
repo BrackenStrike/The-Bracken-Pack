@@ -4,7 +4,10 @@
     "bracken:panacea_pad"
   ],
   "spawners": {
-    "water_ambient": [{
+    "water_ambient": [],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [{
         "type": "minecraft:pufferfish",
         "weight": 10,
         "minCount": 8,
@@ -16,9 +19,6 @@
         "minCount": 0,
         "maxCount": 1
       }],
-    "ambient": [],
-    "misc": [],
-    "water_creature": [],
     "creature": [
       {
         "type": "minecraft:pig",
