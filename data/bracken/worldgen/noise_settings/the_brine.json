@@ -1,13 +1,13 @@
 {
   "noise_caves_enabled": false,
-  "deepslate_enabled": false,
+  "deepslate_enabled": true,
   "ore_veins_enabled": false,
   "noodle_caves_enabled": false,
   "aquifers_enabled": false,
   "min_surface_level": 0,
   "bedrock_roof_position": -2147483648,
   "bedrock_floor_position": -2147483648,
-  "sea_level": 230,
+  "sea_level": 479,
   "disable_mob_generation": false,
   "structures": {
     "structures": {
@@ -20,12 +20,12 @@
   },
   "noise": {
     "min_y": 0,
-    "height": 256,
+    "height": 512,
     "sampling": {
-      "xz_scale": 10.0,
-      "y_scale": 1.0,
-      "xz_factor": 80.0,
-      "y_factor": 160.0
+      "xz_scale": 15.0,
+      "y_scale": 0.50,
+      "xz_factor": 400.0,
+      "y_factor": 60.0
     },
     "top_slide": {
       "target": -20,
@@ -37,10 +37,10 @@
       "size": 0,
       "offset": 0
     },
-    "size_horizontal": 2,
+    "size_horizontal": 4,
     "size_vertical": 4,
-    "density_factor": 0.02,
-    "density_offset": -0.46875,
+    "density_factor": 0.50,
+    "density_offset": -0.3,
     "simplex_surface_noise": true,
     "amplified": true
   },
