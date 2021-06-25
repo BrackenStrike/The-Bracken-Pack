@@ -117,7 +117,7 @@
 
 
     "music": {
-      "sound": "minecraft:music.credits",
+      "sound": "bracken:pax",
       "min_delay": 1200,
       "max_delay": 2400,
       "replace_current_music": false}
