@@ -1,4 +1,4 @@
-execute positioned 0 0 0 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["bp.math.random"]}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["bp.math.random"]}
 execute store result score #random bp.math.var run data get entity @e[type=minecraft:area_effect_cloud,tag=bp.math.random,limit=1] UUID[0]
 kill @e[type=minecraft:area_effect_cloud,tag=bp.math.random,limit=1]
 
