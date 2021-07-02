@@ -76,4 +76,4 @@ execute at @a[scores={villain=1..}] run team join Villain @p
 experience add @a[scores={villain=1..}] -50 levels
 scoreboard players remove @a[scores={villain=1..,tick=2..}] villain 1
 
-schedule function bracken:book_change_species 5s
+schedule function bracken:book_change_species 1t
