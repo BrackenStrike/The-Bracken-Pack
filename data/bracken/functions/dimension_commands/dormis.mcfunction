@@ -19,5 +19,4 @@ execute at @e[type=armor_stand,tag=dormis_platform_north] if block ~ ~ ~ bedrock
 execute at @e[type=armor_stand,tag=dormis_platform_west] if block ~ ~ ~ bedrock run function bracken:dimensions/dormis_spawn_platform_drill/dormis_platform_west
 execute at @e[type=armor_stand,tag=dormis_platform_south] if block ~ ~ ~ bedrock run function bracken:dimensions/dormis_spawn_platform_drill/dormis_platform_south
 
-execute at @e[type=armor_stand,tag=bp_dimension_armor_stand] unless block ~ ~-1 ~ minecraft:redstone_block run kill @e[type=armor_stand,tag=bp_dimension_armor_stand,distance=..1]
-execute at @e[type=armor_stand,tag=dormis_platform_remove] run forceload add ~ ~
+execute at @e[type=armor_stand,tag=bp_dimension_armor_stand] unless block ~ ~-1 ~ minecraft:redstone_block unless entity @p[distance=..30] run kill @e[type=armor_stand,tag=bp_dimension_armor_stand,distance=..1]
