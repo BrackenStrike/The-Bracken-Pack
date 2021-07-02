@@ -14,7 +14,6 @@ effect give @a[scores={sleep=1..}] hunger 3 3 true
 scoreboard players add @a[scores={sneak=1..}] sneakcharge 4
 scoreboard players set @a[scores={sneakcharge=31..}] sneakcharge 30
 scoreboard players remove @a[scores={sneakcharge=1..,sneak=0}] sneakcharge 1
-execute as @p[scores={armor=11,gold=..19},team=Realmkeeper,nbt={Inventory:[{Slot:103b,id:"minecraft:golden_helmet"},{Slot:102b,id:"minecraft:golden_chestplate"},{Slot:101b,id:"minecraft:golden_leggings"},{Slot:100b,id:"minecraft:golden_boots"}]}] run scoreboard players set @s gold 20
 scoreboard players set @a[scores={armor=..10}] gold 0
 scoreboard players set @a[scores={deaths=1..}] mark 0
 execute at @a[scores={mark=1..}] run scoreboard players set @a[distance=4..100] mark 0
@@ -154,6 +153,7 @@ execute at @a[team=Netherkin] if block ~ ~1 ~ minecraft:water run effect give @p
 
 
 #realmguard
+execute as @a[scores={armor=11,gold=..19},team=Realmkeeper,nbt={Inventory:[{Slot:103b,id:"minecraft:golden_helmet"},{Slot:102b,id:"minecraft:golden_chestplate"},{Slot:101b,id:"minecraft:golden_leggings"},{Slot:100b,id:"minecraft:golden_boots"}]}] run scoreboard players set @s gold 20
 effect give @a[team=Realmkeeper,scores={armor=12..}] minecraft:weakness 13 9 true
 effect give @a[team=Realmkeeper,scores={armor=12..}] minecraft:glowing 13 9 true
 execute at @a[team=Realmkeeper,scores={health=18..}] run execute as @a[y=25,dy=250] run effect give @s minecraft:absorption 2 0 true
