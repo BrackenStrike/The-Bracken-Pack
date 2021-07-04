@@ -7,7 +7,7 @@
   "min_surface_level": 0,
   "bedrock_roof_position": -1,
   "bedrock_floor_position": -5,
-  "sea_level": 53,
+  "sea_level": 63,
   "disable_mob_generation": false,
   "structures": {
     "structures": {
@@ -37,9 +37,9 @@
     "min_y": 0,
     "height": 256,
     "sampling": {
-      "xz_scale": 1.0,
+      "xz_scale": 0.75,
       "y_scale": 1.0,
-      "xz_factor": 80.0,
+      "xz_factor": 280.0,
       "y_factor": 160.0
     },
     "top_slide": {
@@ -55,7 +55,7 @@
     "size_horizontal": 4,
     "size_vertical": 4,
     "density_factor": 1.0,
-    "density_offset": -0.46875,
+    "density_offset": -0.8,
     "simplex_surface_noise": true
   },
   "default_block": {
