@@ -14,4 +14,7 @@ effect give @s[scores={sprintcharge=100..}] minecraft:resistance 3 4 true
 execute at @s[scores={sprintcharge=100..}] run execute as @p run execute in minecraft:overworld run tp @s ~ 100 ~
 effect give @a[scores={longtick=7},predicate=bracken:sprint0] minecraft:saturation 1 0 true
 
+execute if block ~ ~ ~ minecraft:bedrock run tp @s ~ ~10 ~
+execute if block ~ ~ ~ minecraft:cyan_stained_glass run tp @s ~ ~10 ~
+
 execute at @a[scores={ice=400..}] run function bracken:dimensions/overworld_to_glacium
