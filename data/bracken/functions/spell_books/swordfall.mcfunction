@@ -1,8 +1,8 @@
-execute unless entity @s[level=25..] run item replace entity @s weapon with air
-execute unless entity @s[level=25..] run loot replace entity @s weapon loot bracken:item/swordfall
+item replace entity @s weapon with air
+loot replace entity @s weapon loot bracken:item/swordfall
 
 execute if entity @s[level=25..] run summon giant ~ ~10 ~ {Tags:["sword"],Silent:1b,Invulnerable:1b,CustomNameVisible:0b,CustomName:'{"text":"Dinnerbone"}',HandItems:[{id:"minecraft:netherite_sword",Count:1b,tag:{CustomModelData:888501}},{}],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:200000000,ShowParticles:0b}]}
-execute if entity @s[level=25..] run say @s generated [SWORDFALL]
+execute if entity @s[level=25..] run tellraw @s ["",{"selector":"@s "},{"text":" generated [SWORDFALL]"}]
 execute if entity @s[level=25..] run scoreboard players set @s giant 200
 
 execute if entity @s[level=25..] run experience add @s -12 levels
