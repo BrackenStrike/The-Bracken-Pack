@@ -14,7 +14,6 @@ effect give @a[scores={sleep=1..}] hunger 3 3 true
 scoreboard players add @a[scores={sneak=1..}] sneakcharge 4
 scoreboard players set @a[scores={sneakcharge=31..}] sneakcharge 30
 scoreboard players remove @a[scores={sneakcharge=1..,sneak=0}] sneakcharge 1
-execute as @p[scores={armor=11,gold=..19},team=Realmkeeper,nbt={Inventory:[{Slot:103b,id:"minecraft:golden_helmet"},{Slot:102b,id:"minecraft:golden_chestplate"},{Slot:101b,id:"minecraft:golden_leggings"},{Slot:100b,id:"minecraft:golden_boots"}]}] run scoreboard players set @s gold 20
 scoreboard players set @a[scores={armor=..10}] gold 0
 scoreboard players set @a[scores={deaths=1..}] mark 0
 execute at @a[scores={mark=1..}] run scoreboard players set @a[distance=4..100] mark 0
@@ -129,7 +128,7 @@ effect give @a[team=Hunter,predicate=bracken:sprint,scores={food=9..}] minecraft
 effect clear @a[team=Hunter,predicate=!bracken:sprint] minecraft:speed
 execute as @a[team=Hunter,scores={sneak=1..}] run effect give @a[distance=..100,scores={mark=2..}] glowing 3 9 false
 execute at @a[team=Hunter,scores={hurting=1..}] run scoreboard players set @p[distance=0.1..4] mark 3
-execute as @a[team=Hunter,predicate=bracken:sneak] at @s if block ~ ~-1 ~ air run effect give @s jump_boost 1 255 false
+effect give @a[team=Hunter,predicate=bracken:sneak] jump_boost 1 255 false
 
 #nereid
 execute at @a[team=Nereid] if block ~ ~1 ~ minecraft:air run effect give @p minecraft:slowness 1 0 true
@@ -142,11 +141,11 @@ effect give @a[team=Realmkeeper,scores={armor=12..}] minecraft:weakness 13 9 tru
 effect give @a[team=Realmkeeper,scores={armor=12..}] minecraft:glowing 13 9 true
 execute at @a[team=Realmkeeper,scores={health=18..}] run execute as @a[y=25,dy=250] run effect give @s minecraft:absorption 2 0 true
 execute at @a[team=Realmkeeper,scores={gold=1..}] run execute as @a[y=25,dy=250] run effect give @s minecraft:absorption 2 0 true
+execute as @a[scores={armor=11,gold=..19},team=Realmkeeper,nbt={Inventory:[{Slot:103b,id:"minecraft:golden_helmet"},{Slot:102b,id:"minecraft:golden_chestplate"},{Slot:101b,id:"minecraft:golden_leggings"},{Slot:100b,id:"minecraft:golden_boots"}]}] run scoreboard players set @s gold 20
 
 #villain
 effect clear @a[team=Villain] minecraft:hero_of_the_village
 execute at @a[team=Villain] run data modify entity @e[type=iron_golem,limit=1,distance=..50] AngryAt set from entity @p[team=Villain] UUID
-
 
 ##########   SOLATIUM THRALL   ##########
 bossbar set bp:solatium_thrall players
