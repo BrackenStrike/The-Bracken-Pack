@@ -11,5 +11,5 @@ attribute @s[scores={panacea=2..}] minecraft:generic.max_health base set 40
 effect clear @s minecraft:bad_omen
 kill @e[type=arrow,distance=..100]
 
-execute at @s run execute as @a[y=-15,dy=-100,predicate=bracken:pax] run execute in bracken:the_faewild run tp @s ~ 248 ~
-execute at @s run execute as @a[y=1550,dy=100,predicate=bracken:pax] run function bracken:dimensions/pax_to_dormis
+execute if entity @s[y=-15,dy=-100] in bracken:the_faewild run tp @s ~ 248 ~
+execute if entity @s[y=1550,dy=100] run function bracken:dimensions/pax_to_dormis

@@ -20,7 +20,7 @@ execute at @e[type=zombie_villager,distance=..100,limit=1,sort=nearest] run summ
 tp @e[type=zombie_villager,distance=..100,sort=nearest,limit=1] ~ -512 ~
 
 
-execute at @s run execute as @a[y=-32,dy=-100,predicate=bracken:glacium] run execute in bracken:void run tp @s ~ 240 ~
+execute if entity @s[y=-32,dy=-100] in bracken:void run tp @s ~ 240 ~
 
 
 

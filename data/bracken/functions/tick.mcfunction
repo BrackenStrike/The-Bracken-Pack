@@ -89,8 +89,8 @@ execute at @e[type=lightning_bolt] run execute as @p[distance=..3] run execute i
 scoreboard players remove @a[scores={fae=1..}] fae 1
 
 #the end
-execute as @a[predicate=bracken:the_end] at @s[y=252,dy=100] run execute in bracken:void run tp @s ~ 15 ~
-
+#execute at @a[predicate=bracken:the_end,y=252,dy=100] run execute in bracken:void run tp @s ~ 15 ~
+execute as @a[predicate=bracken:the_end] at @s run execute in bracken:void run tp @s[y=252,dy=100] ~ 15 ~
 
 ##########   ARMOR STAND STRUCTURE CREATION   ##########
 

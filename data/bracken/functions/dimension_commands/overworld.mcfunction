@@ -11,5 +11,5 @@ execute as @s[nbt={ActiveEffects:[{Id:29b}]}] if block ^ ^ ^ minecraft:conduit r
 
 execute as @s[scores={ice=400..}] if block ~ ~-1 ~ beacon run function bracken:dimensions/overworld_to_glacium
 
-execute at @s run execute as @a[y=250,dy=100,nbt={Dimension:"minecraft:overworld"}] run execute in bracken:the_faewild run tp @s ~ 15 ~
-execute at @s run execute as @a[y=2,dy=-100,nbt={Dimension:"minecraft:overworld"}] run function bracken:dimensions/overworld_to_underdark
+execute if entity @s[y=250,dy=100] in bracken:the_faewild run tp @s ~ 15 ~
+execute if entity @s[y=2,dy=-100] run function bracken:dimensions/overworld_to_underdark

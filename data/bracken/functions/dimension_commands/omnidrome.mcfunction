@@ -7,9 +7,9 @@ effect clear @a[predicate=bracken:omnidrome,scores={sneak=0,sneakcharge=..28}] m
 effect give @a[predicate=bracken:omnidrome,predicate=bracken:sprint] minecraft:speed 1 4 true
 effect give @a[predicate=bracken:omnidrome,scores={longtick=2}] minecraft:jump_boost 15 255 true
 
-execute at @s run execute as @a[y=-42,dy=-100,predicate=bracken:omnidrome] run execute in bracken:omnidrome run tp @s ~ 275 ~
-execute at @s run execute as @a[y=280,dy=100,predicate=bracken:omnidrome] run execute in bracken:omnidrome run tp @s ~ -38 ~
-execute at @s run execute as @a[y=275,dy=100,predicate=bracken:omnidrome] run effect give @s slow_falling 1 1 true
+execute if entity @s[y=-42,dy=-100] in bracken:omnidrome run tp @s ~ 275 ~
+execute if entity @s[y=280,dy=100] in bracken:omnidrome run tp @s ~ -38 ~
+execute if entity @s[y=275,dy=100] run effect give @s slow_falling 1 1 true
 
 
 ##########   FLYING TURRET   ##########
