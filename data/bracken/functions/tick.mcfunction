@@ -1,15 +1,14 @@
 ##########   PLAYER SCOREBOARD COMMANDS   ##########
-scoreboard players set @a[scores={tick=2..}] tick 0
+execute as @a[scores={tick=2..}] run function bracken:tick_score
 scoreboard players add @a tick 1
-scoreboard players set @a[scores={tick=2}] sneak 0
-scoreboard players set @a[scores={tick=2,sneakcharge=..10}] jump 0
-scoreboard players set @a[scores={tick=2}] sleep 0
-scoreboard players set @a[scores={tick=2}] hurting 0
+
 scoreboard players set @a[scores={longtick=200..}] longtick 0
 scoreboard players add @a longtick 1
 scoreboard players set @a[scores={longtick=200..,deaths=1..}] deaths 0
+
 scoreboard players set @a[scores={verylongtick=600..}] verylongtick 0
 scoreboard players add @a verylongtick 1
+
 effect give @a[scores={sleep=1..}] hunger 3 3 true
 scoreboard players add @a[scores={sneak=1..}] sneakcharge 4
 scoreboard players set @a[scores={sneakcharge=31..}] sneakcharge 30
