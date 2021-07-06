@@ -42,10 +42,10 @@
     "min_y": 0,
     "height": 208,
     "sampling": {
-      "xz_scale": 1.0,
-      "y_scale": 1.0,
-      "xz_factor": 80.0,
-      "y_factor": 160.0
+      "xz_scale": 0.70,
+      "y_scale": 0.20,
+      "xz_factor": 50.0,
+      "y_factor": 100.0
     },
     "top_slide": {
       "target": -10,
