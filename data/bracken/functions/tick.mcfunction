@@ -121,11 +121,9 @@ effect give @a[team=Dweller,scores={food=20}] minecraft:hunger 1 1 true
 
 #enderling
 effect give @a[team=Enderling] minecraft:wither 1 0 true
-execute at @a[team=Enderling,scores={sneakcharge=28..,jump=1..}] run spreadplayers ~ ~ 13 15 under 100 false @p
+execute as @a[team=Enderling,scores={sneakcharge=28..,jump=1..}] at @s run function bracken:race/enderling/teleport
 execute as @a[team=Enderling,scores={sneakcharge=2..}] run particle minecraft:portal ~ ~ ~ 0.2 .8 0.2 0.01 1
-execute as @a[team=Enderling,scores={sneakcharge=28..,jump=1..}] run playsound minecraft:entity.enderman.teleport player @a[distance=..20] ~ ~ ~ 10
-execute as @a[team=Enderling,scores={sneakcharge=2..,jump=1..}] run experience add @p -1 points
-execute as @a[team=Enderling,scores={sneakcharge=2..,jump=1..}] run scoreboard players set @p sneakcharge 0
+execute as @a[team=Enderling,scores={sneakcharge=2..,jump=1..}] run scoreboard players set @s sneakcharge 0
 
 #faefolk
 experience add @a[team=Faefolk,scores={verylongtick=60}] 1 points
