@@ -91,24 +91,9 @@ execute at @a[nbt={Dimension:"minecraft:the_end"}] run execute as @a[y=252,dy=10
 
 ##########   ARMOR STAND STRUCTURE CREATION   ##########
 
-execute at @e[type=minecraft:armor_stand,name=fae_well] run setblock ~ ~ ~ minecraft:structure_block{posY:-35,posX:0,posZ:0,powered:0b,mode:"LOAD",name:"bracken:fae_well"}
-execute at @e[type=minecraft:armor_stand,name=fae_well] run setblock ~ ~1 ~ minecraft:redstone_block
-kill @e[type=armor_stand,name=fae_well]
-
-
-
-execute at @e[type=minecraft:armor_stand,name=sanctum_post] run setblock ~ ~ ~ minecraft:structure_block{posY:0,posX:0,posZ:0,powered:0b,mode:"LOAD",name:"bracken:sanctum_post"}
-
-execute at @e[type=minecraft:armor_stand,name=sanctum_post] run setblock ~ ~1 ~ minecraft:redstone_block
-
-kill @e[type=armor_stand,name=sanctum_post]
-
-
-execute at @e[type=minecraft:armor_stand,name=omnidrome_spark] run setblock ~ ~ ~ minecraft:structure_block{posY:0,posX:0,posZ:0,powered:0b,mode:"LOAD",name:"bracken:omnidrome_spark"}
-
-execute at @e[type=minecraft:armor_stand,name=omnidrome_spark] run setblock ~ ~1 ~ minecraft:redstone_block
-
-kill @e[type=armor_stand,name=omnidrome_spark]
+execute as @e[type=minecraft:armor_stand,name=fae_well] at @s run function bracken:armor_stand_structure_creation/fae_well
+execute as @e[type=minecraft:armor_stand,name=sanctum_post] at @s run function bracken:armor_stand_structure_creation/sanctum_post
+execute as @e[type=minecraft:armor_stand,name=omnidrome_spark] at @s run function bracken:armor_stand_structure_creation/omnidrome_spark
 
 ##########   TEAM INSTANT EFFECTS   ##########
 
