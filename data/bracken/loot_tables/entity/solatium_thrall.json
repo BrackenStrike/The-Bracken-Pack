@@ -40,6 +40,10 @@
            "name": "minecraft:netherite_chestplate",
            "functions": [
 	    {
+              "function": "minecraft:set_nbt",
+              "tag": "{tags:bp.fire_immune}"
+            },
+	    {
               "function": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
@@ -58,6 +62,10 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_leggings",
 	   "functions": [
+ 	    {
+              "function": "minecraft:set_nbt",
+              "tag": "{tags:bp.fire_immune}"
+            },
 	    {
               "function": "minecraft:set_damage",
               "damage": {
