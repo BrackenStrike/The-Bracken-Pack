@@ -14,7 +14,7 @@ execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=
 execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=0,b=0,w=1}] in minecraft:the_nether run tp @a[scores={portal=1..}] ~ 100 ~
 execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=0,b=1,w=1}] in minecraft:the_end run tp @a[scores={portal=1..}] ~ 300 ~
 
-execute unless entity @e[type=marker,tag=pax_scores,tag=bp.dormis_platform,distance=..25,limit=1] run function bracken:dimensions/spawn_platforms/dormis_spawn_platform
+execute as @p[distance=..100] if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=0,b=0,w=0}] unless entity @e[type=marker,tag=pax_scores,tag=bp.dormis_platform,distance=..25,limit=1] in bracken:dormis unless entity @e[type=armor_stand,sort=nearest,limit=1,tag=bp.dormis_spawn_platform,distance=..1000] run function bracken:dimensions/spawn_platforms/dormis_spawn_platform
 
 effect give @a[scores={portal=1..}] resistance 11 9 false
 attribute @p[scores={portal=1..}] minecraft:generic.max_health base set 20
