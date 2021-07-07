@@ -9,7 +9,7 @@
           "functions": [
              {"function":"set_nbt","tag":"{book_id:5b,CustomModelData:888505,Enchantments:[{}],Recipes:[{}]}"},
              {"function":"set_name","name":[{"text":"Fang Attack","color":"gray","bold":true}]},
-             {"function":"set_lore","lore":[{"text":"requires 7 levels","color":"gray"}]}
+             {"function":"set_lore","lore":[{"text":"consumes 3 levels","color":"gray"}]}
           ]
         }
       ]
