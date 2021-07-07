@@ -11,6 +11,7 @@ execute if entity @s[y=-42,dy=-100] in bracken:omnidrome run tp @s ~ 275 ~
 execute if entity @s[y=280,dy=100] in bracken:omnidrome run tp @s ~ -38 ~
 execute if entity @s[y=275,dy=100] run effect give @s slow_falling 1 1 true
 
+execute as @e[type=armor_stand,tag=bp_dimension_armor_stand] at @s if block ~ ~-1 ~ air run function bracken:dimensions/spawn_platforms/remove_spawn_platform
 
 ##########   FLYING TURRET   ##########
 execute at @e[type=minecraft:guardian,tag=turret] run effect give @e[type=vex,tag=turret,distance=..1] minecraft:instant_health 1 3 true

@@ -1,18 +1,20 @@
 ##########   PAX GATEWAY   ##########
-execute if entity @e[type=minecraft:marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=0,b=0,w=0}] as @a[scores={portal=1..}] run function bracken:dimensions/pax_portal_to_dormis
-execute if entity @e[type=minecraft:marker,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=1,b=1,w=1}] in bracken:glacium run tp @a[scores={portal=1..}] ~ 400 ~
-execute if entity @e[type=minecraft:marker,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=1,b=0,w=1}] in bracken:omnidrome run tp @a[scores={portal=1..}] ~ 260 ~
-execute if entity @e[type=minecraft:marker,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=1,b=0,w=0}] in bracken:panacea run tp @a[scores={portal=1..}] ~ 400 ~
-execute if entity @e[type=minecraft:marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=1,b=1,w=1}] in bracken:pax run tp @a[scores={portal=1..}] ~ 400 ~
-execute if entity @e[type=minecraft:marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=1,b=0,w=1}] in bracken:sanctum run tp @a[scores={portal=1..}] ~ 200 ~
-execute if entity @e[type=minecraft:marker,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=0,b=1,w=0}] in bracken:the_brine run tp @a[scores={portal=1..}] ~ 253 ~
-execute if entity @e[type=minecraft:marker,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=1,b=1,w=0}] in bracken:the_faewild run tp @a[scores={portal=1..}] ~ 200 ~
-execute if entity @e[type=minecraft:marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=1,b=1,w=0}] in bracken:the_underdark run tp @a[scores={portal=1..}] ~ 100 ~
-execute if entity @e[type=minecraft:marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=0,b=1,w=0}] in bracken:varskspace run tp @a[scores={portal=1..}] ~ 400 ~
-execute if entity @e[type=minecraft:marker,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=0,b=0,w=1}] in bracken:void run tp @a[scores={portal=1..}] ~ 200 ~
-execute if entity @e[type=minecraft:marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=1,b=0,w=0}] in minecraft:overworld run tp @a[scores={portal=1..}] ~ 200 ~
-execute if entity @e[type=minecraft:marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=0,b=0,w=1}] in minecraft:the_nether run tp @a[scores={portal=1..}] ~ 100 ~
-execute if entity @e[type=minecraft:marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=0,b=1,w=1}] in minecraft:the_end run tp @a[scores={portal=1..}] ~ 300 ~
+execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=0,b=0,w=0}] as @a[scores={portal=1..}] run function bracken:dimensions/pax_portal_to_dormis
+execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=1,b=1,w=1}] in bracken:glacium run tp @a[scores={portal=1..}] ~ 400 ~
+execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=1,b=0,w=1}] in bracken:omnidrome run tp @a[scores={portal=1..}] ~ 260 ~
+execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=1,b=0,w=0}] in bracken:panacea run tp @a[scores={portal=1..}] ~ 400 ~
+execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=1,b=1,w=1}] in bracken:pax run tp @a[scores={portal=1..}] ~ 400 ~
+execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=1,b=0,w=1}] in bracken:sanctum run tp @a[scores={portal=1..}] ~ 200 ~
+execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=0,b=1,w=0}] in bracken:the_brine run tp @a[scores={portal=1..}] ~ 253 ~
+execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=1,b=1,w=0}] in bracken:the_faewild run tp @a[scores={portal=1..}] ~ 200 ~
+execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=1,b=1,w=0}] in bracken:the_underdark run tp @a[scores={portal=1..}] ~ 100 ~
+execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=0,b=1,w=0}] in bracken:varskspace run tp @a[scores={portal=1..}] ~ 400 ~
+execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=0,b=0,w=1}] in bracken:void run tp @a[scores={portal=1..}] ~ 200 ~
+execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=1,b=0,w=0}] in minecraft:overworld run tp @a[scores={portal=1..}] ~ 200 ~
+execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=0,b=0,w=1}] in minecraft:the_nether run tp @a[scores={portal=1..}] ~ 100 ~
+execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=0,b=1,w=1}] in minecraft:the_end run tp @a[scores={portal=1..}] ~ 300 ~
+
+execute unless entity @e[type=marker,tag=pax_scores,tag=bp.dormis_platform,distance=..25,limit=1] run function bracken:dimensions/spawn_platforms/dormis_spawn_platform
 
 effect give @a[scores={portal=1..}] resistance 11 9 false
 attribute @p[scores={portal=1..}] minecraft:generic.max_health base set 20
