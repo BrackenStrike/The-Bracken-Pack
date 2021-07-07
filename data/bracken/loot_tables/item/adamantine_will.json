@@ -9,7 +9,7 @@
           "functions": [
              {"function":"set_nbt","tag":"{book_id:10b,CustomModelData:888510,Enchantments:[{}],Recipes:[{}]}"},
              {"function":"set_name","name":[{"text":"Adamantine Will","color":"dark_red","bold":true}]},
-             {"function":"set_lore","lore":[{"text":"requires 15 levels","color":"dark_red"}]}
+             {"function":"set_lore","lore":[{"text":"consumes 7 levels","color":"dark_red"}]}
           ]
         }
       ]
