@@ -7,7 +7,7 @@
           "type": "item",
           "name": "minecraft:knowledge_book",
           "functions": [
-             {"function":"set_nbt","tag":"{book_id:16b,CustomModelData:888516,Enchantments:[{}],Recipes:[{}]}"},
+             {"function":"set_nbt","tag":"{tags:bp.fire_immune,book_id:16b,CustomModelData:888516,Enchantments:[{}],Recipes:[{}]}"},
              {"function":"set_name","name":[{"text":"Worm-Toothed Burrower","color":"gray","bold":true}]},
              {"function":"set_lore","lore":[{"text":"requires 25 levels","color":"gray"}]}
           ]
