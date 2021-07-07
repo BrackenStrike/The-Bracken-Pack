@@ -9,7 +9,7 @@
           "functions": [
              {"function":"set_nbt","tag":"{book_id:12b,CustomModelData:888512,Enchantments:[{}],Recipes:[{}]}"},
              {"function":"set_name","name":[{"text":"Frostlock","color":"blue","bold":true}]},
-             {"function":"set_lore","lore":[{"text":"requires 7 levels","color":"blue"}]}
+             {"function":"set_lore","lore":[{"text":"consumes 3 levels","color":"blue"}]}
           ]
         }
       ]
