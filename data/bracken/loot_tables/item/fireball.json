@@ -9,7 +9,7 @@
           "functions": [
              {"function":"set_nbt","tag":"{book_id:1b,CustomModelData:888501,Enchantments:[{}],Recipes:[{}]}"},
              {"function":"set_name","name":[{"text":"Fireball","color":"gold","bold":true}]},
-             {"function":"set_lore","lore":[{"text":"requires 5 levels","color":"gold"}]}
+             {"function":"set_lore","lore":[{"text":"consumes 2 levels","color":"gold"}]}
           ]
         }
       ]
