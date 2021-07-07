@@ -23,7 +23,7 @@ execute at @a[scores={mark=1..}] run scoreboard players set @a[distance=4..100] 
 execute as @a[scores={book=1..}] at @s run function bracken:book
 execute as @a[nbt={SelectedItem:{id:"minecraft:knowledge_book"}}] store result score @s book_id run data get entity @s SelectedItem.tag.book_id
 execute as @e[type=marker,tag=bp.recall] at @s unless block ~ ~-0.5 ~ minecraft:enchanting_table run function bracken:spell_books/recall/home_destroyed
-execute as @e[type=item,nbt={Item:{tag:{book_id:16b}}}] run data merge entity @s {Invulnerable:1b}
+execute as @e[type=item,nbt={Item:{tag:{tags:bp.fire_immune}}}] run data merge entity @s {Invulnerable:1b}
 
 ##########   TEAM PLAYER EFFECTS   ##########
 #remove pound sign for constant tick check
