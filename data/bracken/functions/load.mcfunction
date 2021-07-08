@@ -20,6 +20,9 @@ scoreboard objectives add tick dummy
 scoreboard objectives add longtick dummy
 scoreboard objectives add verylongtick dummy
 
+scoreboard objectives add bp.omni_platform dummy
+scoreboard players set #1 bp.omni_platform 1
+
 scoreboard objectives add bp.recall_marker dummy
 scoreboard objectives add bp.recall_world dummy
 scoreboard objectives add bp.recall_void dummy
