@@ -1,4 +1,3 @@
-execute in minecraft:the_nether run tag @e[type=end_crystal,distance=..800] add bp.omnidrome_platform
 execute in bracken:omnidrome run forceload add ~ ~
 scoreboard players set #1 bp.math.in 100
 function bracken:math/random
