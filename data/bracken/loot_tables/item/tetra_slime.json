@@ -9,7 +9,7 @@
           "functions": [
              {"function":"set_nbt","tag":"{book_id:4b,CustomModelData:888504,Enchantments:[{}],Recipes:[{}]}"},
              {"function":"set_name","name":[{"text":"Tetra Slime","color":"dark_green","bold":true}]},
-             {"function":"set_lore","lore":[{"text":"requires 25 levels","color":"dark_green"}]}
+             {"function":"set_lore","lore":[{"text":"consumes 12 levels","color":"dark_green"}]}
           ]
         }
       ]
