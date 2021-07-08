@@ -23,6 +23,7 @@ kill @e[type=armor_stand,tag=viceroy]
 #########   DORMIS SPAWN PLATFORM   ##########
 execute as @e[type=armor_stand,tag=dormis_platform_remove] at @s if block ~ ~ ~ air run kill @s 
 execute as @e[type=armor_stand,tag=bp.dormis_spawn_platform] at @s if block ~ ~-1 ~ air run function bracken:dimensions/spawn_platforms/remove_spawn_platform
+execute as @e[type=armor_stand,tag=bp.dormis_spawn_platform] at @s run forceload remove ~ ~
 
 
 
