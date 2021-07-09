@@ -6,7 +6,7 @@ effect give @s[scores={longtick=3}] minecraft:hunger 13 0 true
 attribute @s[scores={overworld=2..}] minecraft:generic.max_health base set 24
 attribute @s[scores={pax=2..}] minecraft:generic.max_health base set 24
 
-execute as @s[scores={creeper=2..8}] run function bracken:dimensions/panacea_to_overworld
+execute as @s[scores={creeper=..8}] run function bracken:dimensions/panacea_to_overworld
 
 effect give @s[scores={overworld=2..}] jump_boost 10 255 true
 
