@@ -1,6 +1,6 @@
 item replace entity @s weapon with air
 loot replace entity @s weapon loot bracken:item/great_nullifier
-
+execute if entity @s[level=2..] run playsound bracken:ability_book_tier_2 player @a ~ ~ ~ 10
 execute if entity @s[level=2..] run effect clear @e[distance=..10]
 execute if entity @s[level=2..] run data merge entity @e[type=!player,limit=1,distance=..30,sort=nearest,nbt={PersistenceRequired:0b}] {PersistenceRequired:1b,ConversionTime:0,ExplosionRadius:0b,Lifetime:2399,LifeTicks:0,AngerTime:0,Tame:1b,IsImmuneToZombification:1b}
 execute if entity @s[level=2..] run execute as @e[type=cat,distance=..10] run data modify entity @s Owner set from entity @p UUID
