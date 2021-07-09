@@ -1,6 +1,6 @@
 item replace entity @s weapon with air
 loot replace entity @s weapon loot bracken:item/swordfall
-
+execute if entity @s[level=12..] run playsound bracken:ability_book_tier_5 player @a ~ ~ ~ 10 
 execute if entity @s[level=12..] run summon giant ~ ~10 ~ {Tags:["sword"],Silent:1b,Invulnerable:1b,CustomNameVisible:0b,CustomName:'{"text":"Dinnerbone"}',HandItems:[{id:"minecraft:netherite_sword",Count:1b,tag:{CustomModelData:888501}},{}],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:200000000,ShowParticles:0b}]}
 execute if entity @s[level=12..] run tellraw @s ["",{"selector":"@s "},{"text":" generated [SWORDFALL]"}]
 execute if entity @s[level=12..] run scoreboard players set @s giant 200
