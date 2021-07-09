@@ -14,4 +14,4 @@ execute at @e[type=minecraft:giant,name=Dinnerbone,tag=sword,nbt={Silent:1b,Invu
 execute at @e[type=minecraft:giant,name=Dinnerbone,tag=sword,nbt={Silent:1b,Invulnerable:1b}] positioned ^1.5 ^ ^5 if entity @e[type=!minecraft:item,distance=..2] run particle minecraft:firework ~ ~ ~ 1 4 1 0.01 10
 
 scoreboard players remove @a[scores={giant=1..}] giant 1
-execute at @a[scores={giant=1..}] run schedule function bracken:spell_books/swordfall 2t
+execute at @a[scores={giant=1..}] run schedule function bracken:ability_books/swordfall 2t
