@@ -1,6 +1,10 @@
 execute in bracken:glacium run tp @s ~ 400 ~
 execute at @s run forceload add ~ ~
-execute at @s[gamemode=!spectator] run fill ~ ~1 ~ ~ ~0 ~ air 
+#execute at @s run spreadplayers ~ ~ 0 20 under 400 false @s
 scoreboard players set @s ice 0
 effect give @s resistance 11 9 false
-execute at @s run forceload remove ~ ~
+execute as @s in bracken:glacium run function bracken:remove_forceload
+
+
+
+

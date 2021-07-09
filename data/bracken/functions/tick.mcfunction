@@ -88,6 +88,9 @@ execute at @e[type=lightning_bolt] run execute as @p[distance=..3] run execute i
 #the_faewild
 scoreboard players remove @a[scores={fae=1..}] fae 1
 
+#the_nether
+execute at @p[scores={longtick=200}] unless entity @e[type=end_crystal,predicate=bracken:the_nether,distance=..20] run scoreboard players set #1 bp.omni_platform 0
+
 #the end
 #execute at @a[predicate=bracken:the_end,y=252,dy=100] run execute in bracken:void run tp @s ~ 15 ~
 execute as @a[predicate=bracken:the_end] at @s run execute in bracken:void run tp @s[y=252,dy=100] ~ 15 ~
