@@ -131,7 +131,7 @@ effect give @a[team=Hunter,predicate=bracken:sprint,scores={food=9..}] minecraft
 effect clear @a[team=Hunter,predicate=!bracken:sprint] minecraft:speed
 execute as @a[team=Hunter,scores={sneak=1..}] run effect give @a[distance=..100,scores={mark=2..}] glowing 3 9 false
 execute at @a[team=Hunter,scores={hurting=1..}] run scoreboard players set @p[distance=0.1..4] mark 3
-execute at @a[team=Hunter,predicate=bracken:sneak] if block ~ ~ ~ air run effect give @p jump_boost 1 255 false
+execute at @a[team=Hunter,predicate=bracken:sneak] if block ~ ~-1 ~ air run effect give @p jump_boost 1 255 false
 
 #nereid
 execute at @a[team=Nereid] if block ~ ~1 ~ minecraft:air run effect give @p minecraft:slowness 1 0 true
