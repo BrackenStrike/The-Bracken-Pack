@@ -1,5 +1,5 @@
-execute if entity @s[scores={bp.recall_use=0}] run scoreboard players add #1 bp.recall_world 1
-execute if entity @s[scores={bp.recall_use=0}] run scoreboard players operation @s bp.recall_marker = #1 bp.recall_world
+execute unless entity @s[scores={bp.recall_use=1}] run scoreboard players add #1 bp.recall_world 1
+execute unless entity @s[scores={bp.recall_use=1}] run scoreboard players operation @s bp.recall_marker = #1 bp.recall_world
 scoreboard players set @s bp.recall_use 1
 
 tag @s add bp.target2
