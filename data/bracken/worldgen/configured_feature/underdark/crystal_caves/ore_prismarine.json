@@ -6,21 +6,21 @@
           "config": {
             "feature": {
               "config": {
-                "target": {
-                  "Name": "minecraft:stone"
-                },
-                "state": {
-                  "Name": "minecraft:cyan_stained_glass"
-                },
-                "radius": {
-                  "value": {
-                    "min_inclusive": 1,
-                    "max_inclusive": 2
-                  },
-                  "type": "minecraft:uniform"
-                }
+                "targets": [
+                  {
+                    "target": {
+                      "block": "minecraft:stone",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:prismarine"
+                    }
+                  }
+                ],
+                "size": 17,
+                "discard_chance_on_air_exposure": 0.0
               },
-              "type": "minecraft:netherrack_replace_blobs"
+              "type": "minecraft:ore"
             },
             "decorator": {
               "config": {
@@ -48,7 +48,7 @@
     },
     "decorator": {
       "config": {
-        "count": 75
+        "count": 64
       },
       "type": "minecraft:count"
     }

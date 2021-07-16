@@ -52,7 +52,7 @@
     ]
   },
   "spawn_costs": {},
-  "surface_builder": "bracken:the_underdark/crystal_caves",
+  "surface_builder": "minecraft:nope",
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -68,7 +68,8 @@
       "minecraft:lake_lava"
     ],
     [
-      "minecraft:basalt_pillar"
+      "bracken:underdark/crystal_caves/crystal",
+      "bracken:underdark/crystal_caves/light"
     ],
     [
       "minecraft:monster_room"
@@ -76,8 +77,6 @@
     [],
     [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
       "minecraft:ore_diorite",
       "minecraft:ore_coal",
       "minecraft:ore_iron",
@@ -85,32 +84,15 @@
       "minecraft:ore_redstone",
       "minecraft:ore_diamond",
       "minecraft:ore_lapis",
-      "minecraft:disk_sand",
-      "minecraft:ore_gold_extra",
       "bracken:underdark/emerald_ore",
       "bracken:underdark/diamond_ore",
-      "bracken:underdark/magma_lower",
-      "bracken:underdark/bedrock",
-      "bracken:underdark/prismarine",
-      "bracken:underdark/crystal/lantern",
-      "bracken:underdark/crystal/diamond",
-      "bracken:underdark/crystal/emerald",
-      "bracken:underdark/crystal/glass",
-      "bracken:underdark/bedrock_opening"
-  ],
-    [
-      "minecraft:ore_infested"
+      "bracken:underdark/crystal_caves/ore_prismarine",
+      "bracken:underdark/bedrock"
     ],
+    [],
+    [],
     [
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:spring_water",
-      "minecraft:spring_lava",
-      "minecraft:mushroom_field_vegetation",
-      "minecraft:brown_mushroom_taiga",
-      "minecraft:red_mushroom_taiga"
-    ],
-    [
+      "bracken:underdark/bedrock_opening",
       "minecraft:freeze_top_layer"
     ]
   ],

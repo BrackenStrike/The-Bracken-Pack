@@ -1,0 +1,132 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "features": [
+                  {
+                    "config": {
+                      "feature": {
+                        "config": {
+                          "to_place": {
+                            "state": {
+                              "Name": "minecraft:light",
+                              "Properties": {
+                                "waterlogged": "false",
+                                "level": "15"
+                              }
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          },
+                          "place_on": [],
+                          "place_in": [],
+                          "place_under": [
+                            {
+                              "Name": "minecraft:cyan_stained_glass"
+                            },
+                            {
+                              "Name": "minecraft:light_blue_stained_glass"
+                            },
+                            {
+                              "Name": "minecraft:blue_stained_glass"
+                            },
+                            {
+                              "Name": "minecraft:white_stained_glass"
+                            }
+                          ]
+                        },
+                        "type": "minecraft:simple_block"
+                      },
+                      "decorator": {
+                        "config": {
+                          "surface": "ceiling",
+                          "floor_to_ceiling_search_range": 256
+                        },
+                        "type": "minecraft:cave_surface"
+                      }
+                    },
+                    "type": "minecraft:decorated"
+                  },
+                  {
+                    "config": {
+                      "feature": {
+                        "config": {
+                          "to_place": {
+                            "state": {
+                              "Name": "minecraft:light",
+                              "Properties": {
+                                "waterlogged": "false",
+                                "level": "15"
+                              }
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          },
+                          "place_on": [
+                            {
+                              "Name": "minecraft:cyan_stained_glass"
+                            },
+                            {
+                              "Name": "minecraft:light_blue_stained_glass"
+                            },
+                            {
+                              "Name": "minecraft:blue_stained_glass"
+                            },
+                            {
+                              "Name": "minecraft:white_stained_glass"
+                            }
+                          ],
+                          "place_in": [],
+                          "place_under": []
+                        },
+                        "type": "minecraft:simple_block"
+                      },
+                      "decorator": {
+                        "config": {
+                          "surface": "floor",
+                          "floor_to_ceiling_search_range": 256
+                        },
+                        "type": "minecraft:cave_surface"
+                      }
+                    },
+                    "type": "minecraft:decorated"
+                  }
+                ]
+              },
+              "type": "minecraft:simple_random_selector"
+            },
+            "decorator": {
+              "config": {
+                "height": {
+                  "max_inclusive": {
+                    "below_top": 0
+                  },
+                  "min_inclusive": {
+                    "above_bottom": 0
+                  },
+                  "type": "minecraft:uniform"
+                }
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 128
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}
