@@ -19,6 +19,11 @@ scoreboard objectives add armor armor
 scoreboard objectives add tick dummy
 scoreboard objectives add longtick dummy
 scoreboard objectives add verylongtick dummy
+scoreboard objectives add bp.offhand dummy
+scoreboard objectives add bp.x_rotation dummy
+scoreboard objectives add bp.z_rotation dummy
+scoreboard objectives add bp.xx_rotation dummy
+scoreboard objectives add bp.zz_rotation dummy
 
 scoreboard objectives add bp.omni_platform dummy
 scoreboard players set #1 bp.omni_platform 1
@@ -36,6 +41,7 @@ scoreboard objectives add bp.recall_use dummy
 scoreboard objectives add sprintcharge dummy
 scoreboard objectives add sneakcharge dummy
 scoreboard objectives add creeper dummy
+scoreboard objectives add bp.wither_skull dummy
 scoreboard objectives add ice dummy
 scoreboard objectives add mark dummy
 scoreboard objectives add gold dummy

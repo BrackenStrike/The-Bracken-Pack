@@ -6,8 +6,8 @@ kill @e[type=tnt,distance=..200]
 kill @e[type=tnt_minecart,distance=..200]
 kill @e[type=end_crystal,distance=..200]
 kill @e[type=fireball,distance=..200]
-tp @e[type=wither] ~ ~-400 ~
-kill @e[type=wither]
+tp @e[type=wither,distance=..200] ~ -400 ~
 
-execute if entity @s[y=252,dy=100] in minecraft:the_nether run tp @s ~ 7 ~
+
+execute if entity @s[y=252,dy=100] run function bracken:dimensions/sanctum_to_nether
 execute if entity @s[y=-32,dy=-100] run execute in bracken:void run tp @s ~ 240 ~

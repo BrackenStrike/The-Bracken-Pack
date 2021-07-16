@@ -20,8 +20,12 @@ execute at @a[scores={mark=1..}] run scoreboard players set @a[distance=4..100] 
 
 
 ##########   SPELL BOOKS   ##########
+
 execute as @a[scores={book=1..}] at @s run function bracken:book
-execute as @a[nbt={SelectedItem:{id:"minecraft:knowledge_book"}}] store result score @s book_id run data get entity @s SelectedItem.tag.book_id
+scoreboard players set @a[tag=!bp.safe_check] book_id 0
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:knowledge_book"}]}] run function bracken:ability_books/off_hand_check/off_hand_yes
+execute as @a[nbt={SelectedItem:{id:"minecraft:knowledge_book"}}] run function bracken:ability_books/off_hand_check/off_hand_no
+
 execute as @e[type=marker,tag=bp.recall] at @s unless block ~ ~-0.5 ~ minecraft:enchanting_table run function bracken:ability_books/recall/home_destroyed
 execute as @e[type=item,nbt={Item:{tag:{tags:bp.fire_immune}}}] run data merge entity @s {Invulnerable:1b}
 
@@ -83,6 +87,7 @@ effect clear @a[nbt={Inventory:[{id:"minecraft:elytra",Slot:102b,tag:{CustomMode
 
 #pax
 scoreboard players remove @a[scores={pax=1..}] pax 1
+
 #varskspace
 execute at @e[type=lightning_bolt] run execute as @p[distance=..3] run execute in bracken:varskspace run tp @s ~ 100 ~
 #the_faewild
@@ -90,6 +95,8 @@ scoreboard players remove @a[scores={fae=1..}] fae 1
 
 #the_nether
 execute at @p[scores={longtick=200}] unless entity @e[type=end_crystal,predicate=bracken:the_nether,distance=..20] run scoreboard players set #1 bp.omni_platform 0
+scoreboard players set @a[nbt={Inventory:[{Slot:103b,id:"minecraft:wither_skeleton_skull",Count:1b}]}] bp.wither_skull 10
+scoreboard players remove @a[scores={bp.wither_skull=1..}] bp.wither_skull 1
 
 #the end
 #execute at @a[predicate=bracken:the_end,y=252,dy=100] run execute in bracken:void run tp @s ~ 15 ~
@@ -107,7 +114,7 @@ execute as @e[type=minecraft:armor_stand,name=omnidrome_spark] at @s run functio
 execute at @a[team=Automech] if block ~ ~1 ~ minecraft:water run effect give @p minecraft:slowness 1 4 true
 
 #dweller
-effect give @a[team=Dweller,scores={food=20}] minecraft:hunger 1 1 true
+effect give @a[team=Dweller,scores={food=15..}] minecraft:hunger 1 1 true
 
 #enderling
 effect give @a[team=Enderling] minecraft:wither 1 0 true
@@ -131,10 +138,12 @@ effect give @a[team=Hunter,predicate=bracken:sprint,scores={food=9..}] minecraft
 effect clear @a[team=Hunter,predicate=!bracken:sprint] minecraft:speed
 execute as @a[team=Hunter,scores={sneak=1..}] run effect give @a[distance=..100,scores={mark=2..}] glowing 3 9 false
 execute at @a[team=Hunter,scores={hurting=1..}] run scoreboard players set @p[distance=0.1..4] mark 3
+
 execute at @a[team=Hunter,predicate=bracken:sneak] if block ~ ~-1 ~ air run effect give @p jump_boost 1 255 false
 
 #nereid
 execute at @a[team=Nereid] if block ~ ~1 ~ minecraft:air run effect give @p minecraft:slowness 1 0 true
+execute at @a[team=Nereid] if block ~ ~1 ~ minecraft:water run effect give @p minecraft:conduit_power 1 15 true
 
 #netherkin
 execute at @a[team=Netherkin] if block ~ ~1 ~ minecraft:water run effect give @p minecraft:wither 1 1 false

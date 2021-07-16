@@ -8,5 +8,5 @@ attribute @s[scores={overworld=2..}] minecraft:generic.max_health base set 18
 attribute @s[scores={pax=2..}] minecraft:generic.max_health base set 18
 
 execute if entity @s[y=250,dy=100] run function bracken:dimensions/faewild_to_pax
-execute if entity @s[y=-15,dy=-100] in minecraft:overworld run tp @s ~ 248 ~
+execute if entity @s[y=-15,dy=-100] run function bracken:dimensions/faewild_to_overworld
 execute if entity @s[y=25,dy=-100,scores={overworld=2..}] run fill ~3 11 ~3 ~-3 11 ~-3 minecraft:oak_leaves replace minecraft:air

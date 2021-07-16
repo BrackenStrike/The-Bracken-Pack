@@ -1,5 +1,8 @@
-item replace entity @s weapon with air
-loot replace entity @s weapon loot bracken:item/frostlock
+item replace entity @s[scores={bp.offhand=0}] weapon with air
+loot replace entity @s[scores={bp.offhand=0}] weapon loot bracken:item/frostlock
+item replace entity @s[scores={bp.offhand=1}] weapon.offhand with air
+loot replace entity @s[scores={bp.offhand=1}] weapon.offhand loot bracken:item/frostlock
+
 execute if entity @s[level=3..] run playsound bracken:ability_book_tier_3 player @a ~ ~ ~ 10
 execute if entity @s[level=3..] run summon area_effect_cloud ~ ~ ~ {Radius:25f,RadiusPerTick:-0.05f,Duration:1000,Color:9811166,Effects:[{Id:2b,Amplifier:9b,Duration:60,ShowParticles:1b}],CustomName:'{"text":"frostlock","color":"blue","bold":true}'}
 execute if entity @s[level=3..] run tellraw @s ["",{"selector":"@s "},{"text":" generated [FROSTLOCK]"}]

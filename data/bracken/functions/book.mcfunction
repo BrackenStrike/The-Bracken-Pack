@@ -1,4 +1,6 @@
 ##########   BOOK BASED COMMANDS   ##########
+tag @s add bp.safe_check
+
 execute at @s[scores={book_id=1}] run function bracken:ability_books/fireball
 execute at @s[scores={book_id=2}] run function bracken:ability_books/lightning_bolt
 execute at @s[scores={book_id=3}] run function bracken:ability_books/iron_golem
@@ -19,6 +21,6 @@ execute at @s[scores={book_id=17}] run function bracken:ability_books/great_null
 execute at @s[scores={book_id=18}] run function bracken:ability_books/recall/recall
 execute at @s[scores={book_id=19}] run function bracken:ability_books/mansion/mansion
 
-scoreboard players set @s book_id 0
 scoreboard players set @s book 0
+tag @s remove bp.safe_check
 gamemode spectator @a[gamemode=survival,team=Watcher,scores={sneakcharge=20..}]
