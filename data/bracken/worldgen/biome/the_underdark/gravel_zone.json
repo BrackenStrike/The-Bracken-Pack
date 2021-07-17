@@ -13,6 +13,21 @@
         "maxCount":4
       }
     ],
+"underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:axolotl",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+
     "misc": [],
     "water_creature": [
       {
@@ -25,7 +40,7 @@
     "monster": [
       {
         "type": "minecraft:pillager",
-        "weight": 3,
+        "weight": 4,
         "minCount": 4,
         "maxCount": 4
       },
@@ -33,7 +48,7 @@
         "type": "minecraft:enderman",
         "weight": 1,
         "minCount": 1,
-        "maxCount": 4
+        "maxCount": 1
       },
       {
         "type": "minecraft:creeper",
@@ -42,7 +57,7 @@
         "maxCount": 1
       },
       {
-        "type": "minecraft:cave_spider",
+        "type": "minecraft:spider",
         "weight": 5,
         "minCount": 2,
         "maxCount": 6
@@ -63,18 +78,28 @@
       "minecraft:lake_water",
       "minecraft:lake_lava"
     ],
-    [
-      "minecraft:basalt_pillar"
-    ],
+    [],
     [
       "minecraft:monster_room"
     ],
-    [],
-    [],
+    [
+      "minecraft:rare_dripstone_cluster",
+      "minecraft:rare_small_dripstone",
+      "bracken:underdark/dripstone",
+      "bracken:underdark/large_dripstone",
+      "minecraft:small_dripstone"
+    ],
+    [
+      "minecraft:patch_tall_grass_2",
+      "minecraft:plain_vegetation",
+      "bracken:underdark/lichen",
+      "bracken:underdark/lichen2",
+      
+      "minecraft:patch_grass_plain"
+    ],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_diorite",
       "minecraft:ore_coal",
       "minecraft:ore_iron",
       "minecraft:ore_gold",
@@ -90,7 +115,8 @@
       "bracken:underdark/blackstone_small",
       "bracken:underdark/blackstone_big",
       "bracken:underdark/bedrock_opening",
-      "bracken:underdark/gravel"
+      "bracken:underdark/gravel",
+      "bracken:underdark/smooth_basalt"
   ],
     [
       "minecraft:ore_infested"
