@@ -4,5 +4,5 @@ tp @e[type=zombie_villager,distance=..200,sort=nearest,limit=1] ~ -512 ~
 data merge entity @e[type=pillager,distance=..200,limit=1,name=!lost_miner,sort=nearest] {Team:"Human",CanPickUpLoot:1b,CustomName:'{"text":"lost_miner"}',HandItems:[{id:"minecraft:iron_pickaxe",Count:1b},{id:"minecraft:diamond",Count:1b,tag:{display:{Lore:['{"text":"thx Aza","italic":true}']}}}],HandDropChances:[0.085F,0.100F]}
 
 
-execute if entity @s[y=252,dy=100] run function bracken:dimensions/underdark_to_overworld
+execute if entity @s[y=222,dy=100] run function bracken:dimensions/underdark_to_overworld
 execute if entity @s[y=5,dy=-100] run function bracken:dimensions/underdark_to_nether
