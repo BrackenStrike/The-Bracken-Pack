@@ -10,7 +10,7 @@
         },
         "planted": false,
         "valid_base_block": {
-          "Name": "minecraft:andesite"
+          "Name": "minecraft:tuff"
         },
         "stem_state": {
           "Properties": {
