@@ -37,13 +37,13 @@
       },
       {
         "type": "minecraft:silverfish",
-        "weight": 5,
+        "weight": 25,
         "minCount": 1,
         "maxCount": 3
       },
       {
         "type": "minecraft:cave_spider",
-        "weight": 25,
+        "weight": 5,
         "minCount": 2,
         "maxCount": 6
       },
@@ -93,10 +93,15 @@
       "bracken:underdark/diamond_ore",
       "bracken:underdark/magma_lower",
       "bracken:underdark/bedrock",
+      "bracken:underdark/bedrock_opening",
+      "bracken:underdark/diorite_opening",
+      "bracken:underdark/lichen",
       "bracken:underdark/blackstone_small",
-      "bracken:underdark/blackstone_big"
+      "bracken:underdark/blackstone_big",
+      "minecraft:patch_tall_grass_2",
+      "bracken:underdark/smooth_basalt"
     ],
-    [],
+    ["minecraft:ore_infested"],
     [],
     [
       "minecraft:freeze_top_layer"
@@ -112,7 +117,7 @@
     "water_color": 8166054,
     "water_fog_color": 6383526,
     "grass_color": 12162409,
-    "foliage_colour": 12162409,
+    "foliage_colour": 14078891,
     "particle": {
       "options": {
         "type": "minecraft:mycelium"
