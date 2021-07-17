@@ -30,7 +30,7 @@
       },
       {
         "type": "minecraft:magma_cube",
-        "weight": 5,
+        "weight": 25,
         "minCount": 1,
         "maxCount": 1
       },
@@ -42,13 +42,13 @@
       },
       {
         "type": "minecraft:silverfish",
-        "weight": 25,
+        "weight": 2,
         "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:enderman",
-        "weight": 1,
+        "weight": 4,
         "minCount": 1,
         "maxCount": 1
       },
@@ -92,9 +92,7 @@
     [],
     [],
     [
-      "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_diorite",
       "minecraft:ore_coal",
       "minecraft:ore_iron",
       "minecraft:ore_gold",
@@ -110,12 +108,10 @@
       "bracken:underdark/bedrock",
       "bracken:underdark/blackstone_small",
       "bracken:underdark/blackstone_big",
-      "bracken:underdark/bedrock_opening",
-      "bracken:underdark/basalt_pillar"
+      "bracken:underdark/basalt_pillar",
+      "bracken:underdark/smooth_basalt"
   ],
-    [
-      "minecraft:ore_infested"
-    ],
+    [],
     [
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
