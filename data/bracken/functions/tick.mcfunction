@@ -87,6 +87,7 @@ effect clear @a[nbt={Inventory:[{id:"minecraft:elytra",Slot:102b,tag:{CustomMode
 
 #pax
 scoreboard players remove @a[scores={pax=1..}] pax 1
+scoreboard players remove @a[scores={portal=1..}] portal 1
 
 #varskspace
 execute at @e[type=lightning_bolt] run execute as @p[distance=..3] run execute in bracken:varskspace run tp @s ~ 100 ~
