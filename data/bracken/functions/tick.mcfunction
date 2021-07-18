@@ -143,7 +143,10 @@ execute at @a[team=Hunter,predicate=bracken:sneak] if block ~ ~-1 ~ air run effe
 
 #nereid
 execute at @a[team=Nereid] if block ~ ~1 ~ minecraft:air run effect give @p minecraft:slowness 1 0 true
-execute at @a[team=Nereid] if block ~ ~1 ~ minecraft:water run effect give @p minecraft:conduit_power 1 15 true
+execute at @a[team=Nereid] if block ~ ~1 ~ minecraft:water run effect give @p minecraft:haste 1 2 true
+effect give @a[team=Nereid,predicate=bracken:conduit,scores={longtick=199}] minecraft:regeneration 1 4 false
+execute at @a[team=Nereid,predicate=bracken:conduit,scores={longtick=150..}] run particle minecraft:bubble_column_up ~ ~1 ~ 0.2 1 0.2 0.05 2
+execute at @a[team=Nereid,predicate=bracken:conduit,scores={longtick=150..}] run particle minecraft:falling_dripstone_water ~ ~1 ~ 0.2 0.5 0.5 0.02 2
 
 #netherkin
 execute at @a[team=Netherkin] if block ~ ~1 ~ minecraft:water run effect give @p minecraft:wither 1 1 false
