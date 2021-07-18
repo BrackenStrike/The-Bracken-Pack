@@ -8,7 +8,7 @@ execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=
 execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=0,b=1,w=0}] in bracken:the_brine run tp @a[scores={portal=1..}] ~ 253 ~
 execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=1,b=1,w=0}] in bracken:the_faewild run tp @a[scores={portal=1..}] ~ 200 ~
 execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=1,b=1,w=0}] in bracken:the_underdark run tp @a[scores={portal=1..}] ~ 100 ~
-execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=0,b=1,w=0}] in bracken:varskspace run tp @a[scores={portal=1..}] ~ 400 ~
+execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=0,b=1,w=0}] in bracken:varskspace run tp @a[scores={portal=1..}] ~ 100 ~
 execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=0,b=0,w=1}] in bracken:void run tp @a[scores={portal=1..}] ~ 200 ~
 execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=1,b=0,w=0}] in minecraft:overworld run tp @a[scores={portal=1..}] ~ 200 ~
 execute if entity @e[type=marker,tag=pax_scores,distance=..25,limit=1,scores={r=1,g=0,b=0,w=1}] in minecraft:the_nether run tp @a[scores={portal=1..}] ~ 100 ~
@@ -24,8 +24,6 @@ execute at @a[predicate=bracken:the_faewild] run execute as @a[y=230,dy=100,pred
 execute at @a[predicate=bracken:the_faewild] run execute as @a[y=230,dy=100,predicate=bracken:the_faewild] run scoreboard players set @s g 0
 execute at @a[predicate=bracken:the_faewild] run execute as @a[y=230,dy=100,predicate=bracken:the_faewild] run scoreboard players set @s w 0
 
-
-scoreboard players remove @a[scores={portal=1..}] portal 1
 
 ##########   PAX GATEWAY EFFECTS   ##########
 execute at @a[distance=..30] if entity @e[type=minecraft:marker,tag=pax_scores,distance=..25,limit=1,scores={r=0,g=1,b=0,w=1}] run particle minecraft:dust 0 1 0 1 ~ ~1 ~ 0.2 0.4 0.2 0.01 1          
