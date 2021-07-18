@@ -86,13 +86,12 @@
       "minecraft:ore_lapis",
       "bracken:underdark/emerald_ore",
       "bracken:underdark/diamond_ore",
-      "bracken:underdark/crystal_caves/ore_prismarine",
-      "bracken:underdark/bedrock"
+      "bracken:underdark/crystal_caves/ore_calcite",
+      "bracken:underdark/crystal_caves/diamond_ore"
     ],
     [],
     [],
     [
-      "bracken:underdark/bedrock_opening",
       "minecraft:freeze_top_layer"
     ]
   ],
