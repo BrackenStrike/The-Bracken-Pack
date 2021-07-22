@@ -18,6 +18,16 @@
           ]
         },
         {
+          "type": "loot_table",
+          "name": "bracken:item/flying_boat",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:experience_bottle",
           "conditions": [
