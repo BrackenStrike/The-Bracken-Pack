@@ -109,7 +109,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disk_wait",
+          "name": "minecraft:music_disc_wait",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
