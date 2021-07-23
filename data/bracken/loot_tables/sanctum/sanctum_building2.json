@@ -19,7 +19,17 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disk_wait",
+          "name": "minecraft:polished_blackstone_brick_stairs",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_wait",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
