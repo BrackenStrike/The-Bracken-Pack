@@ -19,6 +19,16 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:polished_blackstone_brick_stairs",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:iron_bars",
           "conditions": [
             {
