@@ -1,0 +1,44 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "fossil_processors": "minecraft:empty",
+            "overlay_processors": "minecraft:empty",
+            "max_empty_corners_allowed": 7,
+            "fossil_structures": [
+              "bracken:sanctum_marauder"
+            ],
+            "overlay_structures": [
+              "bracken:sanctum_marauder"
+            ]
+          },
+          "type": "minecraft:fossil"
+        },
+        "decorator": {
+          "config": {
+            "height": {
+              "min_inclusive": {
+                "absolute": 30
+              },
+              "max_inclusive": {
+                "absolute": 31
+              },
+              "type": "minecraft:uniform"
+            }
+          },
+          "type": "minecraft:range"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "chance": 10
+      },
+      "type": "minecraft:chance"
+    }
+  },
+  "type": "minecraft:decorated"
+}
