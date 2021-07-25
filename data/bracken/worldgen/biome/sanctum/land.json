@@ -46,7 +46,8 @@
     [],
     [],
     [
-      "minecraft:spring_water"
+      "minecraft:spring_water",
+      "bracken:sanctum/marauder"
     ],
     [
       "minecraft:freeze_top_layer"
