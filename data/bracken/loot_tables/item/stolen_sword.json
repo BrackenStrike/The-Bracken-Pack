@@ -7,7 +7,7 @@
           "type": "item",
           "name": "minecraft:netherite_sword",
           "functions": [
-             {"function":"set_nbt","tag":"{CustomModelData:888502,Enchantments:[{id:\"minecraft:sharpness\",lvl:3s},{id:\"minecraft:fire_aspect\",lvl:2s},{id:\"minecraft:looting\",lvl:1s},{id:\"minecraft:knockback\",lvl:3s}]}"},
+             {"function":"set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:3s},{id:\"minecraft:fire_aspect\",lvl:2s},{id:\"minecraft:looting\",lvl:1s},{id:\"minecraft:knockback\",lvl:3s}]}"},
 
               {"function":"set_name","name":[{"text":"Stolen Sword","color":"dark_gray","bold":false}]},
               {"function":"set_lore","lore":[{"text":"This item has been looted off someone before.","color":"gray"}]}
