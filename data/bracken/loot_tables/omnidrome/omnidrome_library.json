@@ -4,7 +4,7 @@
     {
       "rolls": {
         "min": 2,
-        "max": 10
+        "max": 6
       },
       "entries": [
         {
@@ -13,7 +13,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.8
+              "chance": 0.7
             }
           ]
         },
@@ -34,6 +34,26 @@
             {
               "condition": "minecraft:random_chance",
               "chance": 0.9
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_block",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.4
             }
           ]
         },
@@ -103,7 +123,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.02
+              "chance": 0.05
             }
           ],
           "functions": [
@@ -122,7 +142,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.02
+              "chance": 0.05
             }
           ],
           "functions": [
@@ -141,7 +161,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.02
+              "chance": 0.05
             }
           ],
           "functions": [
@@ -160,7 +180,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.02
+              "chance": 0.05
             }
           ],
           "functions": [
@@ -179,7 +199,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.02
+              "chance": 0.05
             }
           ],
           "functions": [
@@ -198,7 +218,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.02
+              "chance": 0.05
             }
           ],
           "functions": [
@@ -212,10 +232,6 @@
           ]
         }
       ]
-    }
-  ]
-}
-
     }
   ]
 }
