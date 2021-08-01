@@ -9,7 +9,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather",
+          "name": "minecraft:name_tag",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -18,12 +18,12 @@
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:ink_sac",
+          "type": "loot_table",
+          "name": "bracken:item/iron_golem",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "chance": 0.05
             }
           ]
         },
@@ -33,13 +33,63 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.9
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chorus_fruit",
+          "name": "minecraft:globe_banner_pattern",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:creeper_banner_pattern",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flower_banner_pattern",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skull_banner_pattern",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:piglin_banner_pattern",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mojang_banner_pattern",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -49,29 +99,20 @@
         },
         {
           "type": "item",
-          "name": "minecraft:wither_skeleton_skull",
+          "name": "minecraft:enchanted_book",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.1
+              "chance": 0.02
             }
           ],
           "functions": [
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "minecraft:binding_curse": 1,
-                "minecraft:protection": 3,
-                "minecraft:blast_protection": 9
+                "minecraft:luck_of_the_sea": 1
               },
               "add": false
-            },
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.28,
-                "max": 0.33
-              }
             }
           ]
         },
@@ -81,20 +122,100 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.9
+              "chance": 0.02
             }
           ],
           "functions": [
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "minecraft:protection": 1
+                "minecraft:multishot": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fortune": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:infinity": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:silk_touch": 1
+              },
+              "add": false
+            }
+          ]
+        },        
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:looting": 1
               },
               "add": false
             }
           ]
         }
       ]
+    }
+  ]
+}
+
     }
   ]
 }
