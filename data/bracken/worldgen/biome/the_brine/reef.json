@@ -1,6 +1,6 @@
 {
   "starts": [
-    "bracken:bastion_remnant0"
+    "bracken:bastion_remnant0","minecraft:shipwreck"
   ],
   "spawners": {
     "water_ambient": [
