@@ -12,7 +12,7 @@
   "structures": {
     "structures": {
             "minecraft:bastion_remnant": {
-            "spacing": 10,
+            "spacing": 7,
             "separation": 4,
             "salt": 30084232
             },
