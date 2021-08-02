@@ -1,6 +1,6 @@
 {
   "starts": [
-    "bracken:brine_jelly"
+    "bracken:brine_jelly","minecraft:shipwreck"
   ],
   "spawners": {
     "water_ambient": [
