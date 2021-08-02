@@ -15,6 +15,11 @@
             "spacing": 10,
             "separation": 4,
             "salt": 30084232
+            },
+          "minecraft:shipwreck": {
+            "spacing": 15,
+            "separation": 11,
+            "salt": 14357618
           }
         }
   },
