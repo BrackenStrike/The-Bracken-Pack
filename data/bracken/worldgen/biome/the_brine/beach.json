@@ -1,6 +1,6 @@
 {
   "starts": [
-    "bracken:root","minecraft:shipwreck"
+    "bracken:root","bracken:brine_pirate_ship"
   ],
   "spawners": {
     "water_ambient": [
