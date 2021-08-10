@@ -38,7 +38,7 @@
           ]
         },
         {
-          "type": "loot_table",
+         "type": "minecraft:item",
           "name": "minecraft:heart_of_the_sea",
           "conditions": [
             {
