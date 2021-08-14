@@ -48,11 +48,11 @@
 {
           "biome": "bracken:sanctum/dark_soot_dunes",
           "parameters": {
-            "altitude": -1,
-            "temperature": 0.1,
-            "humidity": 0,
-            "weirdness": 0.1,
-            "offset": 0
+            "altitude": 0,
+            "temperature": 0.2,
+            "humidity": 1,
+            "weirdness": 0.2,
+            "offset": 0.1
           }
         },
         {
