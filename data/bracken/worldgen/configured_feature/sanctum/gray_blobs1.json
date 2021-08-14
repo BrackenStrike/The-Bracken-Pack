@@ -10,9 +10,9 @@
                   "Name": "minecraft:black_concrete_powder"
                 },
                 "state": {
-                  "Name": "minecraft:white_concrete_powder"
+                  "Name": "minecraft:gray_concrete_powder"
                 },
-                "radius": 10
+                "radius": 4
               },
               "type": "minecraft:netherrack_replace_blobs"
             },
@@ -42,7 +42,7 @@
     },
     "decorator": {
       "config": {
-        "count": 3
+        "count": 13
       },
       "type": "minecraft:count"
     }
