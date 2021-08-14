@@ -7,10 +7,10 @@
             "feature": {
               "config": {
                 "target": {
-                  "Name": "minecraft:black_concrete_powder"
+                  "Name": "minecraft:light_gray_concrete_powder"
                 },
                 "state": {
-                  "Name": "minecraft:light_gray_concrete_powder"
+                  "Name": "minecraft:white_concrete_powder"
                 },
                 "radius": 0
               },
@@ -42,7 +42,7 @@
     },
     "decorator": {
       "config": {
-        "count": 21
+        "count": 25
       },
       "type": "minecraft:count"
     }
