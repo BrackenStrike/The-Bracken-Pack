@@ -20,3 +20,10 @@ execute at @e[type=armor_stand,tag=caveclear] if block ~ ~-1 ~ clay run kill @e[
 
 ##########   SANCTUM AWAKE NETHERITE GOLEMS   ##########
 data merge entity @e[predicate=!bracken:sneak,type=wither_skeleton,tag=netherite_golem,distance=..4,limit=1,nbt={NoAI:1b,Invulnerable:1b}] {NoAI:0,Invulnerable:0}
+
+
+execute at @e[tag=netherite_golem,type=minecraft:wither_skeleton] if entity @a[distance=..18,scores={longtick=5..35}] run particle minecraft:dust 1 0 0 1 ~ ~1.5 ~ 0.2 0.5 0.2 0.01 10
+execute at @e[tag=netherite_golem,type=minecraft:wither_skeleton] if entity @a[distance=..18,scores={longtick=25}] run playsound minecraft:block.redstone_torch.burnout hostile @a ~ ~ ~ 100 0
+
+
+execute at @e[tag=netherite_golem,type=minecraft:wither_skeleton] if entity @a[distance=..18,scores={longtick=35}] run summon area_effect_cloud ~ ~ ~ {Particle:"dust 1.000 0.000 0.000 1",Radius:1f,RadiusPerTick:.5f,Duration:10,Potion:"minecraft:strong_harming"}
