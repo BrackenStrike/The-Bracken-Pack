@@ -5,6 +5,15 @@
     {
       "weight": 1,
       "element": {
+        "location": "bracken:sanctum_d_path1",
+        "processors": "bracken:ruin",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
         "location": "bracken:sanctum_d_path",
         "processors": "bracken:ruin",
         "projection": "rigid",
