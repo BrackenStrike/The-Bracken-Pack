@@ -28,7 +28,9 @@
   "features": [
     [],
     [
-      "minecraft:lake_water"
+      "minecraft:lake_water",
+      "bracken:sanctum/marauder",
+      "bracken:sanctum/rubble1"
     ],
     [
       "minecraft:basalt_pillar"
@@ -37,13 +39,11 @@
     [],
     [],
     [],
-    [],
+    ["bracken:sanctum/city_junk"],
     [
       "minecraft:spring_water",
       "bracken:sanctum/gray_blobs",
-      "bracken:sanctum/blackstone_blobs",
-      "bracken:sanctum/city_tree1",
-      "bracken:sanctum/city_tree2"
+      "bracken:sanctum/blackstone_blobs"
     ],
     [
       "minecraft:freeze_top_layer"
