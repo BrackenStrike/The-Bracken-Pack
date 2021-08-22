@@ -45,7 +45,7 @@
   "foliage_colour": 0,
 
 "mood_sound": {
-      "sound": "minecraft:ambient.cave",
+      "sound": "bracken:void_ambient",
       "tick_delay": 1000,
       "block_search_extent": 8,
       "offset": 2.0
@@ -53,7 +53,7 @@
 
 "additions_sound": {
       "sound": "minecraft:block.end_portal.spawn",
-      "tick_chance": 0.002
+      "tick_chance": 0.0002
     },
     "music": {
       "sound": "minecraft:music_disc.13",
