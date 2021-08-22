@@ -132,7 +132,7 @@
     },
 
 "additions_sound": {
-      "sound": "minecraft:ambient.crimson_forest.additions",
+      "sound": "bracken:underdark_ambient_wind",
       "tick_chance": 0.0001
     },
     "music": {
