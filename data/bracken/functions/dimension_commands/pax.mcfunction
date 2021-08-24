@@ -1,7 +1,7 @@
 scoreboard players set @s pax 10
 
 effect give @s[scores={longtick=4}] minecraft:jump_boost 13 2 true
-effect give @s[scores={longtick=4}] minecraft:weakness 13 9 true
+effect give @s[scores={longtick=4}] minecraft:weakness 13 99 true
 effect give @s[scores={food=..18}] minecraft:saturation 1 0 true
 effect clear @s minecraft:poison
 
