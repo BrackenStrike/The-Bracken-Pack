@@ -90,7 +90,7 @@ scoreboard players remove @a[scores={pax=1..}] pax 1
 scoreboard players remove @a[scores={portal=1..}] portal 1
 
 #varskspace
-execute at @e[type=lightning_bolt] run execute as @p[distance=..3] run execute in bracken:varskspace run tp @s ~ 100 ~
+execute at @e[type=lightning_bolt] run execute as @p[distance=..3] run function bracken:dimensions/varskspace_travel
 #the_faewild
 scoreboard players remove @a[scores={fae=1..}] fae 1
 
