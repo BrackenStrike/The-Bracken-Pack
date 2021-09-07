@@ -1,0 +1,49 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "hat_state": {
+        "Properties": {
+          "west": "false",
+          "up": "false",
+          "south": "false",
+          "north": "false",
+          "east": "false",
+          "down": "false"
+        },
+          "Name": "minecraft:brown_mushroom_block"
+        },
+        "decor_state": {
+          "Name": "minecraft:shroomlight"
+        },
+        "planted": false,
+        "valid_base_block": {
+          "Name": "minecraft:mycelium",
+          "Properties": {"snowy": "false"}
+                      },
+        "stem_state": {
+          "Properties": {
+            "axis": "y"
+          },
+        "Properties": {
+          "west": "true",
+          "up": "true",
+          "south": "true",
+          "north": "true",
+          "east": "true",
+          "down": "true"
+        },
+          "Name": "minecraft:mushroom_stem"
+        }
+      },
+      "type": "minecraft:huge_fungus"
+    },
+    "decorator": {
+      "config": {
+        "count": 1
+      },
+      "type": "minecraft:count_multilayer"
+    }
+  },
+  "type": "minecraft:decorated"
+}
