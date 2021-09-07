@@ -1,4 +1,4 @@
-tellraw @s ["",{"selector":"@s "},{"text":" generated [RECALL]"}]
+tellraw @s ["",{"selector":"@s "},{"text":" generated [RETURNING TIDES]"}]
 tag @s add bp.target
 execute as @e[type=marker,tag=bp.recall] at @s if score @p[tag=bp.target] bp.recall_marker = @s bp.recall_marker run tp @p[tag=bp.target] @s
 execute as @e[type=marker,tag=bp.recall] at @s if score @p[tag=bp.target] bp.recall_marker = @s bp.recall_marker run scoreboard players set @p[tag=bp.target] bp.recall_void 1
