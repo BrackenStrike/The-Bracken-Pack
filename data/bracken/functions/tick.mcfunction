@@ -176,3 +176,10 @@ execute as @e[type=minecraft:elder_guardian,tag=bp.the_disruptor] at @s run func
 ##########   Project Ruination   ##########
 bossbar set bp:project_ruination players
 execute as @e[type=minecraft:marker,tag=bp.project_ruination] at @s run function bracken:boss/project_ruination/tick
+
+##########   POISON SWORD   ##########
+execute at @a[scores={hurting=1..,poison=1..}] run summon area_effect_cloud ^ ^1.5 ^2 {RadiusPerTick:0.4f,Duration:6,Color:5149489,Potion:"minecraft:strong_poison"}
+effect clear @a[scores={poison=1..}] poison
+scoreboard players remove @a[scores={poison=1..}] poison 1
+scoreboard players remove @a[scores={hurting=1..}] hurting 1
+scoreboard players set @p[nbt={SelectedItem:{id:"minecraft:iron_sword",tag:{display:{Name:'{"text":"Skogabogg Scimitar","color":"dark_green","bold":true}',Lore:['{"text":"A sword by any other name would sting as sharp","color":"dark_gray"}']},CustomModelData:888502}    }}] poison 2
