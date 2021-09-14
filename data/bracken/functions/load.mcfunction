@@ -16,6 +16,7 @@ scoreboard objectives add jump minecraft.custom:minecraft.jump
 scoreboard objectives add deaths deathCount
 scoreboard objectives add health health
 scoreboard objectives add armor armor
+scoreboard objectives add poison dummy
 scoreboard objectives add tick dummy
 scoreboard objectives add longtick dummy
 scoreboard objectives add verylongtick dummy
