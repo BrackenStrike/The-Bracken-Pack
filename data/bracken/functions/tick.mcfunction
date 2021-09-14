@@ -178,7 +178,8 @@ bossbar set bp:project_ruination players
 execute as @e[type=minecraft:marker,tag=bp.project_ruination] at @s run function bracken:boss/project_ruination/tick
 
 ##########   POISON SWORD   ##########
-execute at @a[scores={hurting=1..,poison=1..}] run summon area_effect_cloud ^ ^1.5 ^2 {RadiusPerTick:0.4f,Duration:6,Color:5149489,Potion:"minecraft:strong_poison"}
+execute at @a[scores={hurting=1..,poison=1..}] run summon area_effect_cloud ^ ^1.5 ^2 {RadiusPerTick:0.5f,Duration:6,Color:5149489,Potion:"minecraft:poison"}
+execute at @a[scores={hurting=1..,poison=1..}] run playsound minecraft:block.redstone_torch.burnout player @a[distance=..20] ~ ~ ~ 100 2
 effect clear @a[scores={poison=1..}] poison
 scoreboard players remove @a[scores={poison=1..}] poison 1
 scoreboard players remove @a[scores={hurting=1..}] hurting 1
