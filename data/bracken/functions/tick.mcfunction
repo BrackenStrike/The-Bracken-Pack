@@ -182,5 +182,5 @@ execute at @a[scores={hurting=1..,poison=1..}] run summon area_effect_cloud ^ ^1
 execute at @a[scores={hurting=1..,poison=1..}] run playsound minecraft:block.redstone_torch.burnout player @a[distance=..20] ~ ~ ~ 100 2
 effect clear @a[scores={poison=1..}] poison
 scoreboard players remove @a[scores={poison=1..}] poison 1
-scoreboard players remove @a[scores={hurting=1..}] hurting 1
+scoreboard players remove @a[scores={hurting=1..,tick=1..}] hurting 1
 scoreboard players set @p[nbt={SelectedItem:{id:"minecraft:iron_sword",tag:{display:{Name:'{"text":"Skogabogg Scimitar","color":"dark_green","bold":true}',Lore:['{"text":"A sword by any other name would sting as sharp","color":"dark_gray"}']},CustomModelData:888502}    }}] poison 4
