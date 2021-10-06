@@ -152,6 +152,8 @@ execute at @a[team=Nereid,predicate=bracken:conduit,scores={longtick=150..}] run
 
 #netherkin
 execute at @a[team=Netherkin] if block ~ ~1 ~ minecraft:water run effect give @p minecraft:wither 1 1 false
+execute at @a[team=Netherkin] if block ~ ~ ~ fire run effect give @p minecraft:strength 5 0 true
+
 
 #realmguard
 effect give @a[team=Realmkeeper,scores={armor=12..}] minecraft:weakness 13 9 true
