@@ -115,6 +115,7 @@ execute as @e[type=minecraft:armor_stand,name=omnidrome_spark] at @s run functio
 
 #automech
 execute at @a[team=Automech] if block ~ ~1 ~ minecraft:water run effect give @p minecraft:slowness 1 4 true
+execute at @a[team=Automech] if block ~ ~-1 ~ minecraft:redstone_block run effect give @p minecraft:saturation 1 0 false
 
 #dweller
 effect give @a[team=Dweller,scores={food=15..}] minecraft:hunger 1 1 true
@@ -156,6 +157,8 @@ execute at @a[team=Netherkin] if block ~ ~1 ~ minecraft:water run effect give @p
 execute at @a[team=Netherkin] if block ~ ~ ~ fire run effect give @p minecraft:strength 5 0 true
 execute at @a[team=Netherkin,nbt={Dimension:"minecraft:nether"}] run effect give @p minecraft:strength 10 0 true
 
+#outlander
+effect give @a[team=Outlander,scores={walk=0}] minecraft:invisibility 1 0 true
 
 #realmguard
 effect give @a[team=Realmkeeper,scores={armor=12..}] minecraft:weakness 13 9 true
