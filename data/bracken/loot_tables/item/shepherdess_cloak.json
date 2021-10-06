@@ -1,0 +1,18 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+             {"function":"set_nbt","tag":"{Enchantments:[{id:\"minecraft:thorns\",lvl:100s}],AttributeModifiers:[{Amount:-2d,AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Operation:0,Slot:\"chest\",UUID:[I;-1556938542,-381664793,-1102686690,-60608705]}],CustomModelData:1,display:{color:11247524}}"},
+             {"function":"set_name","name":[{"text":"Shepherdess Cloak","color":"gray","bold":true}]},
+             {"function":"set_lore","lore":[{"text":"Be safe my little one, I'll only be gone a little while...","color":"gray"}]}
+          ]
+        }
+      ]
+    }
+  ]
+}
