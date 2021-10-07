@@ -9,8 +9,7 @@ tp @s ~ ~ ~ facing entity @p
 effect clear @a[distance=..50] invisibility
 effect clear @s glowing
 effect give @s fire_resistance 10 1 true
-particle minecraft:glow_squid_ink ~ ~1 ~ 0.5 0.5 0.5 0.01 10
-particle minecraft:sneeze ~ ~2 ~ 2.5 2 2.5 0.01 70
+
 
 
 execute if entity @e[distance=..3,type=armor_stand] run effect give @s instant_health 1 0 false
