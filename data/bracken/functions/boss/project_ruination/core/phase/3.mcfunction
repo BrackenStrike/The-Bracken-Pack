@@ -36,4 +36,4 @@ effect give @a[distance=..50] slowness 2 2 true
 effect give @a[distance=..50] glowing 2 2 true
 effect give @a[distance=..50] mining_fatigue 2 2 true
 
-execute at @e[type=minecraft:squid,tag=turret] run effect give @e[tag=!turret,type=!giant,distance=..2] wither 2 2 true
+execute at @e[type=minecraft:squid,tag=turret] run effect give @e[tag=!turret,type=!giant,distance=..2] wither 2 0 true
