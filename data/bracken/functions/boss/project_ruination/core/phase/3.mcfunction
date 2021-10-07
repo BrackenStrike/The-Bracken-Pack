@@ -21,6 +21,8 @@ scoreboard players remove @s bp.prjct_ruin.cd 1
 
 particle minecraft:explosion ~ ~2 ~ 10 10 10 0.01 1
 particle minecraft:campfire_signal_smoke ~ ~2 ~ 1 1 1 0.01 10
+particle minecraft:glow_squid_ink ~ ~1 ~ 0.5 0.5 0.5 0.01 10
+particle minecraft:squid_ink ~ ~2 ~ 2.5 2 2.5 0.01 20
 
 effect clear @a[distance=..50] strength
 effect clear @a[distance=..50] speed
