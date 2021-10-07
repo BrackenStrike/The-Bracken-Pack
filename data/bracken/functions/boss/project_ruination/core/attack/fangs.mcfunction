@@ -1,5 +1,5 @@
-
-
+execute if score @s bp.prjct_ruin.cd matches ..0 run summon minecraft:evoker_fangs ^ ^ ^3
+execute if score @s bp.prjct_ruin.cd matches ..0 run summon minecraft:evoker_fangs ^ ^ ^4
 execute if score @s bp.prjct_ruin.cd matches ..0 run summon minecraft:evoker_fangs ^ ^ ^5
 execute if score @s bp.prjct_ruin.cd matches ..0 run summon minecraft:evoker_fangs ^ ^ ^6
 execute if score @s bp.prjct_ruin.cd matches ..0 run summon minecraft:evoker_fangs ^ ^ ^7
