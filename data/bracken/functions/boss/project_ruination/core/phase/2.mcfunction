@@ -23,7 +23,7 @@ effect give @a[distance=..50] slowness 2 0 true
 particle minecraft:campfire_cosy_smoke ~ ~2 ~ 1 1 1 0.01 10
 
 particle minecraft:firework ~ ~1 ~ 0.5 0.5 0.5 0.01 5
-particle minecraft:glow_squid_ink ~ ~2 ~ 2.5 2 2.5 0.01 70
+particle minecraft:glow_squid_ink ~ ~2 ~ 2 1.5 2 0.01 50
 
 
 
