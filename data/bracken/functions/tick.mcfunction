@@ -124,7 +124,7 @@ effect give @a[team=Dweller,scores={food=15..}] minecraft:hunger 1 1 true
 execute at @a[team=Enderling] if block ~ ~1 ~ minecraft:water run effect give @p[team=Enderling] wither 1 1 false
 
 execute as @a[team=Enderling,scores={sneakcharge=28..,jump=1..}] at @s run function bracken:race/enderling/teleport
-execute as @a[team=Enderling,scores={sneakcharge=2..}] run particle minecraft:portal ~ ~ ~ 0.2 0.8 0.2 0.01 1
+execute at @a[team=Enderling,scores={sneakcharge=2..}] run particle minecraft:portal ~ ~ ~ 0.3 0.8 0.3 0.01 4
 
 execute as @a[team=Enderling,scores={sneakcharge=2..,jump=1..}] run scoreboard players set @s sneakcharge 0
 
