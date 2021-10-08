@@ -186,7 +186,7 @@ bossbar set bp:the_disruptor players
 execute as @e[type=minecraft:elder_guardian,tag=bp.the_disruptor] at @s run function bracken:boss/the_disruptor/tick
 ##########   Project Ruination   ##########
 bossbar set bp:project_ruination players
-execute as @e[type=minecraft:armor_stand,tag=bp.project_ruination] at @s run function bracken:boss/project_ruination/tick
+execute as @e[type=minecraft:area_effect_cloud,tag=bp.project_ruination] at @s run function bracken:boss/project_ruination/tick
 
 ##########   POISON SWORD   ##########
 execute at @a[scores={hurting=1..,poison=1..}] run summon area_effect_cloud ^ ^1.5 ^2 {RadiusPerTick:0.5f,Duration:6,Color:5149489,Potion:"minecraft:poison"}
