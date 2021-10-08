@@ -121,11 +121,11 @@ execute at @a[team=Automech] if block ~ ~-1 ~ minecraft:redstone_block run effec
 effect give @a[team=Dweller,scores={food=15..}] minecraft:hunger 1 1 true
 
 #enderling
-effect give @a[team=Enderling] minecraft:wither 1 0 true
+
 execute at @a[team=Enderling] if block ~ ~1 ~ minecraft:water run spreadplayers ~ ~ 3 5 under 500 false @p[team=Enderling]
 execute at @a[team=Enderling] if block ~ ~1 ~ minecraft:water run spreadplayers ~ ~ 3 5 under 250 false @p[team=Enderling,predicate=bracken:the_underdark]
 execute at @a[team=Enderling] if block ~ ~1 ~ minecraft:water run particle minecraft:portal ~ ~ ~ 0.2 .8 0.2 0.01 1
-execute at @a[team=Enderling] if block ~ ~1 ~ minecraft:water run playsound minecraft:entity.enderman.teleport player @a[distance=..20] ~ ~ ~ 10
+execute at @a[team=Enderling] if block ~ ~1 ~ minecraft:water run effect give @p[team=Enderling] wither 1 1 false
 
 execute as @a[team=Enderling,scores={sneakcharge=28..,jump=1..}] at @s run function bracken:race/enderling/teleport
 execute as @a[team=Enderling,scores={sneakcharge=2..}] run particle minecraft:portal ~ ~ ~ 0.2 .8 0.2 0.01 1
