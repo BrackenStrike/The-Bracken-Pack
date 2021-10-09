@@ -17,8 +17,8 @@
             "salt": 14357921
           },
       "minecraft:village": {
-            "spacing": 38,
-            "separation": 20,
+            "spacing": 34,
+            "separation": 18,
             "salt": 14357921
           },
           "minecraft:pillager_outpost": {
