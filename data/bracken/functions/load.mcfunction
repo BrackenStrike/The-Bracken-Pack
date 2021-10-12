@@ -40,6 +40,21 @@ scoreboard objectives add bp.recall_world dummy
 scoreboard objectives add bp.recall_void dummy
 scoreboard objectives add bp.recall_use dummy
 
+scoreboard objectives add bp.mansion_id dummy
+scoreboard objectives add bp.mansion_world dummy
+scoreboard objectives add bp.mansion_use dummy
+scoreboard objectives add bp.xmansion dummy
+scoreboard objectives add bp.ymansion dummy
+scoreboard objectives add bp.zmansion dummy
+scoreboard objectives add bp.xmansion1 dummy
+scoreboard objectives add bp.ymansion1 dummy
+scoreboard objectives add bp.zmansion1 dummy
+scoreboard objectives add bp.xmansion2 dummy
+scoreboard objectives add bp.ymansion2 dummy
+scoreboard objectives add bp.zmansion2 dummy
+scoreboard objectives add bp.dimension dummy
+scoreboard players set #70 bp.ymansion 70
+
 scoreboard objectives add sprintcharge dummy
 scoreboard objectives add sneakcharge dummy
 scoreboard objectives add creeper dummy
