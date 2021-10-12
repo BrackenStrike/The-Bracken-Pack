@@ -84,7 +84,7 @@ scoreboard objectives add giant dummy
 scoreboard objectives add book minecraft.used:minecraft.knowledge_book
 scoreboard objectives add book_id dummy
 
-scoreboard objectives add change dummy
+scoreboard objectives add bp.arb_book dummy
 scoreboard objectives add automech trigger
 scoreboard objectives add frostkin trigger
 scoreboard objectives add faefolk trigger
@@ -98,6 +98,18 @@ scoreboard objectives add outlander trigger
 scoreboard objectives add realmkeeper trigger
 scoreboard objectives add villain trigger
 
+scoreboard objectives add automech_ trigger
+scoreboard objectives add frostkin_ trigger
+scoreboard objectives add faefolk_ trigger
+scoreboard objectives add human_ trigger
+scoreboard objectives add hunter_ trigger
+scoreboard objectives add dweller_ trigger
+scoreboard objectives add enderling_ trigger
+scoreboard objectives add nereid_ trigger
+scoreboard objectives add netherkin_ trigger
+scoreboard objectives add outlander_ trigger
+scoreboard objectives add realmkeeper_ trigger
+scoreboard objectives add villain_ trigger
 
 
 
@@ -157,7 +169,7 @@ team modify Hunter color dark_green
 
 
 ##########   START TICK FUNCTIONS   ###########
-function bracken:book_change_species
+#function bracken:book_of_arbitrium/boa_start
 ##########function bracken:book_item_crafting
 function bracken:team_player_effects
 function bracken:book_based_commands
