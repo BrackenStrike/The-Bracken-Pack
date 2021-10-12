@@ -7,7 +7,7 @@ execute as @e[type=marker,tag=bp.recall] at @s if score @p[tag=bp.target2] bp.re
 tag @s[tag=bp.target2] remove bp.target2
 
 forceload add ~ ~
-summon marker ~ ~ ~ {Tags:[bp.recall,bp.recall_setup]}
+summon marker ~ ~ ~ {Tags:[bp.recall,bp.recall_setup,bp.forceload]}
 scoreboard players operation @e[type=marker,tag=bp.recall_setup,sort=nearest,limit=1] bp.recall_marker = @s bp.recall_marker
 execute as @e[type=marker,tag=bp.recall_setup,limit=1,sort=nearest] at @s run function bracken:ability_books/recall/setup_marker
 
