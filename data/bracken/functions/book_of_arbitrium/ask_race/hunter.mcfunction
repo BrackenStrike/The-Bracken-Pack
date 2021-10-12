@@ -1,0 +1,3 @@
+scoreboard players enable @s hunter_
+scoreboard players set @s bp.arb_book 0
+tellraw @s ["",{"text":"------------------------------\nWould you like to be a "},{"text":"Hunter","color":"dark_green"},{"text":"?\n+ Can move very quickly, especially at full hunger\n+ Punching a player as a hunter will \"mark\" them\n+ A marked player will glow when the hunter sneaks\n+ Take no fall damage when holding sneak\n- Large quantities of food is required to satisfy you each day\n\n"},{"text":"Click here to change species.","bold":true,"underlined":true,"color":"white","clickEvent":{"action":"run_command","value":"/trigger hunter_"}},{"text":"\n------------------------------"}]

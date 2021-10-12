@@ -1,0 +1,3 @@
+scoreboard players enable @s outlander_
+scoreboard players set @s bp.arb_book 0
+tellraw @s ["",{"text":"------------------------------\nWould you like to be an "},{"text":"Outlander","color":"gray"},{"text":"?\n+ Can turn invisible after not moving for a while\n+ Will regenerate health when hungry\n- Cannot turn invisible while in Sanctum\n- Have Mining Fatigue while in Sanctum\n\n"},{"text":"Click here to change species.","bold":true,"underlined":true,"color":"white","clickEvent":{"action":"run_command","value":"/trigger outlander_"}},{"text":"\n------------------------------"}]

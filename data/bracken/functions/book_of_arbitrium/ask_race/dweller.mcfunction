@@ -1,0 +1,3 @@
+scoreboard players enable @s dweller_
+scoreboard players set @s bp.arb_book 0
+tellraw @s ["",{"text":"------------------------------\nWould you like to be a "},{"text":"Dweller","color":"dark_gray"},{"text":"?\n+ Can mine blocks very quickly\n+ Have night vision\n- Are always hungry and are never satisfied with food\n\n"},{"text":"Click here to change species.","bold":true,"underlined":true,"color":"white","clickEvent":{"action":"run_command","value":"/trigger dweller_"}},{"text":"\n------------------------------"}]
