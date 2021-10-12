@@ -112,6 +112,8 @@ execute as @e[type=minecraft:armor_stand,name=sanctum_post] at @s run function b
 execute as @e[type=minecraft:armor_stand,name=omnidrome_spark] at @s run function bracken:armor_stand_structure_creation/omnidrome_spark
 
 ##########   TEAM INSTANT EFFECTS   ##########
+#Book Of Arbitrium
+execute as @a at @s run function bracken:book_of_arbitrium/boa_start
 
 #automech
 execute at @a[team=Automech] if block ~ ~1 ~ minecraft:water run effect give @p minecraft:slowness 1 4 true
@@ -130,18 +132,19 @@ execute as @a[team=Enderling,scores={sneakcharge=2..,jump=1..}] run scoreboard p
 
 #faefolk
 experience add @a[team=Faefolk,scores={verylongtick=60}] 1 points
-effect give @a[team=Faefolk,predicate=bracken:sprint] minecraft:speed 2 0 true
+effect give @a[team=Faefolk,predicate=bracken:sprint] minecraft:speed 2 1 true
 effect clear @a[team=Faefolk,predicate=!bracken:sprint] minecraft:speed
 
 #frostkin
 effect clear @a[team=Frostkin] minecraft:slowness
-execute at @a[team=Frostkin] if block ~ ~ ~ fire run effect give @p minecraft:instant_damage 1 0 true
+execute at @a[team=Frostkin,predicate=bracken:on_fire,scores={tick=2}] run effect give @p minecraft:wither 1 1 true
 execute at @a[team=Frostkin] if block ~ ~ ~ lava run effect give @p minecraft:instant_damage 1 1 true
+execute at @a[team=Frostkin,predicate=!bracken:sneak,scores={tick=2}] if block ~ ~-1 ~ magma_block run effect give @p minecraft:instant_damage 1 0 true
+
 
 #hunter
-effect give @a[team=Hunter,predicate=bracken:sprint,scores={food=20}] minecraft:speed 1 1 true
-effect give @a[team=Hunter,predicate=bracken:sprint,scores={food=9..}] minecraft:speed 1 0 true
-effect clear @a[team=Hunter,predicate=!bracken:sprint] minecraft:speed
+effect give @a[team=Hunter,scores={food=20}] minecraft:speed 1 1 true
+effect give @a[team=Hunter,scores={food=9..}] minecraft:speed 1 0 true
 execute as @a[team=Hunter,scores={sneak=1..}] run effect give @a[distance=..100,scores={mark=2..}] glowing 3 9 false
 execute at @a[team=Hunter,scores={hurting=1..}] run scoreboard players set @p[distance=0.1..4] mark 3
 
@@ -156,14 +159,14 @@ execute at @a[team=Nereid,predicate=bracken:conduit,scores={longtick=150..}] run
 
 #netherkin
 execute at @a[team=Netherkin] if block ~ ~1 ~ minecraft:water run effect give @p minecraft:wither 1 1 false
-execute at @a[team=Netherkin] if block ~ ~ ~ fire run effect give @p minecraft:strength 5 0 false
+execute at @a[team=Netherkin,predicate=bracken:on_fire] run effect give @p minecraft:strength 5 0 false
 execute at @a[team=Netherkin] if block ~ ~ ~ lava run effect give @p minecraft:strength 10 1 false
 execute at @a[team=Netherkin,nbt={Dimension:"minecraft:the_nether"}] run effect give @p minecraft:strength 10 0 true
 
 #outlander
 effect give @a[team=Outlander,scores={walk=0}] minecraft:invisibility 1 0 true
 
-#realmguard
+#realmkeeper
 effect give @a[team=Realmkeeper,scores={armor=12..}] minecraft:weakness 13 9 true
 effect give @a[team=Realmkeeper,scores={armor=12..}] minecraft:glowing 13 9 true
 execute at @a[team=Realmkeeper,scores={health=18..}] run execute as @a[y=25,dy=250] run effect give @s minecraft:absorption 2 0 true
