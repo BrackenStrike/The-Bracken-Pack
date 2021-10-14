@@ -29,6 +29,8 @@ execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:knowledge_book"}]}] run 
 execute as @a[nbt={SelectedItem:{id:"minecraft:knowledge_book"}}] run function bracken:ability_books/off_hand_check/off_hand_no
 
 execute as @e[type=marker,tag=bp.recall] at @s unless block ~ ~-0.5 ~ minecraft:enchanting_table run function bracken:ability_books/recall/home_destroyed
+execute as @a[tag=bp.recall_wait] at @s run function bracken:ability_books/recall/wait
+
 execute as @e[type=item,nbt={Item:{tag:{tags:bp.fire_immune}}}] run data merge entity @s {Invulnerable:1b}
 
 ##########   TEAM PLAYER EFFECTS   ##########
