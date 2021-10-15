@@ -15,5 +15,5 @@ execute if data entity @s {Dimension:"bracken:dormis"} run scoreboard players se
 #execute if data entity @s {Dimension:"bracken:the_brine"} run scoreboard players set @s bp.dimension 7
 #execute if data entity @s {Dimension:"bracken:varskspace"} run scoreboard players set @s bp.dimension 8
 
-execute if entity @s[scores={bp.dimension=0}] run tellraw @s "§9This dimension is incompatible to use Returning Tides."
+execute if entity @s[scores={bp.dimension=0}] run tellraw @s "§cThis dimension is incompatible to use Returning Tides."
 execute unless entity @s[scores={bp.dimension=0}] run function bracken:ability_books/recall/wait
