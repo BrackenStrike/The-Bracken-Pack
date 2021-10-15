@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:nether/root",
+    "display": {
+        "title": {
+            "text": "An Antique Land"
+        },
+        "description": {
+            "text": "Dig below the Nether",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:netherite_helmet"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:san1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+              "location": {
+                "dimension": "bracken:sanctum"
+              }
+            }
+          }
+        },
+    "requirements": [
+        [
+        "bracken:san1"
+        ]
+    ]
+}
