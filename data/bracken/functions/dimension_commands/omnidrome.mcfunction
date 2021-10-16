@@ -20,3 +20,6 @@ execute at @e[type=minecraft:guardian,tag=turret] run effect give @e[type=player
 execute at @e[type=minecraft:guardian,tag=turret] run effect give @e[type=player,distance=..2] minecraft:hunger 2 30 true
 execute at @e[type=minecraft:guardian,tag=turret] run effect give @e[type=player,distance=..2] minecraft:blindness 2 3 true
 execute at @e[type=minecraft:guardian,tag=turret] run effect give @e[type=player,distance=..2] minecraft:night_vision 2 3 true
+
+
+execute at @a run data modify entity @e[type=iron_golem,limit=1,distance=..50,name=Corrupted_Golem] AngryAt set from entity @p UUID
