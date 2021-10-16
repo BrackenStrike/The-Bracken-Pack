@@ -134,8 +134,7 @@ execute as @a[team=Enderling,scores={sneakcharge=2..,jump=1..}] run scoreboard p
 
 #faefolk
 experience add @a[team=Faefolk,scores={verylongtick=60}] 1 points
-effect give @a[team=Faefolk,predicate=bracken:sprint] minecraft:speed 2 1 true
-effect clear @a[team=Faefolk,predicate=!bracken:sprint] minecraft:speed
+
 
 #frostkin
 effect clear @a[team=Frostkin] minecraft:slowness
