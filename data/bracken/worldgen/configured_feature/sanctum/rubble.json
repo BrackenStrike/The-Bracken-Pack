@@ -23,13 +23,13 @@
                                   "config": {
                                     "body_provider": {
                                       "state": {
-                                        "Name": "minecraft:clay"
+                                        "Name": "minecraft:air"
                                       },
                                       "type": "minecraft:simple_state_provider"
                                     },
                                     "head_provider": {
                                       "state": {
-                                        "Name": "minecraft:clay"
+                                        "Name": "minecraft:air"
                                       },
                                       "type": "minecraft:simple_state_provider"
                                     },
@@ -49,7 +49,7 @@
                                 "replaceable": "minecraft:nope",
                                 "ground_state": {
                                   "state": {
-                                    "Name": "minecraft:clay"
+                                    "Name": "minecraft:air"
                                   },
                                   "type": "minecraft:simple_state_provider"
                                 }
@@ -148,13 +148,13 @@
                                   "config": {
                                     "body_provider": {
                                       "state": {
-                                        "Name": "minecraft:clay"
+                                        "Name": "minecraft:air"
                                       },
                                       "type": "minecraft:simple_state_provider"
                                     },
                                     "head_provider": {
                                       "state": {
-                                        "Name": "minecraft:clay"
+                                        "Name": "minecraft:air"
                                       },
                                       "type": "minecraft:simple_state_provider"
                                     },
@@ -174,7 +174,7 @@
                                 "replaceable": "minecraft:nope",
                                 "ground_state": {
                                   "state": {
-                                    "Name": "minecraft:clay"
+                                    "Name": "minecraft:air"
                                   },
                                   "type": "minecraft:simple_state_provider"
                                 }
@@ -273,13 +273,13 @@
                                   "config": {
                                     "body_provider": {
                                       "state": {
-                                        "Name": "minecraft:clay"
+                                        "Name": "minecraft:air"
                                       },
                                       "type": "minecraft:simple_state_provider"
                                     },
                                     "head_provider": {
                                       "state": {
-                                        "Name": "minecraft:clay"
+                                        "Name": "minecraft:air"
                                       },
                                       "type": "minecraft:simple_state_provider"
                                     },
@@ -299,7 +299,7 @@
                                 "replaceable": "minecraft:nope",
                                 "ground_state": {
                                   "state": {
-                                    "Name": "minecraft:clay"
+                                    "Name": "minecraft:air"
                                   },
                                   "type": "minecraft:simple_state_provider"
                                 }
