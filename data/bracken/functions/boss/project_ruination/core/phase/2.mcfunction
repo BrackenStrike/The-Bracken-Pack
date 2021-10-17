@@ -39,4 +39,3 @@ execute if score data bp.prjct_ruin matches ..100 run playsound minecraft:entity
 execute if score data bp.prjct_ruin matches ..100 run playsound minecraft:entity.firework_rocket.twinkle_far ambient @a[distance=..50] ~ ~ ~ 100 0
 execute if score data bp.prjct_ruin matches ..100 run playsound minecraft:block.bell.resonate ambient @a[distance=..50] ~ ~ ~ 100 0
 
-execute if score data bp.prjct_ruin matches ..100 run spreadplayers ~ ~ 5 10 false @e[type=minecraft:wither_skeleton,distance=..100]
