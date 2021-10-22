@@ -190,6 +190,5 @@ team modify Hunter color dark_green
 ##########   START TICK FUNCTIONS   ###########
 #function bracken:book_of_arbitrium/boa_start
 ##########function bracken:book_item_crafting
-function bracken:team_player_effects
 function bracken:book_based_commands
 function bracken:other_commands
