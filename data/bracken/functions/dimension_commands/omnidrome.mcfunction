@@ -3,7 +3,7 @@ execute as @s[predicate=bracken:sprint] if entity @e[type=minecraft:end_crystal,
 
 #omnidrome movement
 effect give @a[predicate=bracken:omnidrome,scores={sneakcharge=10..}] minecraft:levitation 1 15 true
-effect clear @a[predicate=bracken:omnidrome,scores={sneak=0,sneakcharge=..28}] minecraft:levitation
+effect clear @a[predicate=bracken:omnidrome,predicate=!bracken:sneak,scores={sneakcharge=..28}] minecraft:levitation
 effect give @a[predicate=bracken:omnidrome,predicate=bracken:sprint] minecraft:speed 1 4 true
 effect give @a[predicate=bracken:omnidrome,scores={longtick=2}] minecraft:jump_boost 15 255 true
 

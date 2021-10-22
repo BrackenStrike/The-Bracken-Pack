@@ -11,10 +11,10 @@ scoreboard players set @a[scores={verylongtick=600..}] verylongtick 0
 scoreboard players add @a verylongtick 1
 scoreboard players remove @a[scores={bp.pull=1..}] bp.pull 1
 
-effect give @a[scores={sleep=1..}] hunger 3 3 true
-scoreboard players add @a[scores={sneak=1..}] sneakcharge 4
+scoreboard players add @a[predicate=bracken:sneak] sneakcharge 4
 scoreboard players set @a[scores={sneakcharge=31..}] sneakcharge 30
-scoreboard players remove @a[scores={sneakcharge=1..,sneak=0}] sneakcharge 1
+scoreboard players remove @a[scores={sneakcharge=1..},predicate=!bracken:sneak] sneakcharge 1
+
 scoreboard players set @a[scores={armor=..10}] gold 0
 scoreboard players set @a[scores={deaths=1..}] mark 0
 execute at @a[scores={mark=1..}] run scoreboard players set @a[distance=4..100] mark 0

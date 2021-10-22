@@ -11,8 +11,6 @@ function bracken:boss/project_ruination/load
 scoreboard objectives add food food
 scoreboard objectives add walk minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add hurting minecraft.custom:minecraft.damage_dealt
-scoreboard objectives add sleep minecraft.custom:minecraft.sleep_in_bed
-scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add jump minecraft.custom:minecraft.jump
 scoreboard objectives add deaths deathCount
 scoreboard objectives add health health
@@ -136,7 +134,6 @@ scoreboard objectives add villain_ trigger
 gamerule commandBlockOutput false
 
 ##########   RESET SCOREBOARD PLAYER VALUES   ##########
-scoreboard players set @a sleep 0
 scoreboard players set @a sprintcharge 0
 scoreboard players set @a tick 0
 scoreboard players set @a longtick 0
