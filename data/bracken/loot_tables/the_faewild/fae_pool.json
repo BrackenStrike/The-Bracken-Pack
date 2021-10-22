@@ -27,9 +27,9 @@
             }
           ]
         },
-         {
+        {
           "type": "loot_table",
-          "name": "bracken:item/flying_boat",
+          "name": "bracken:item/mass_heal",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
