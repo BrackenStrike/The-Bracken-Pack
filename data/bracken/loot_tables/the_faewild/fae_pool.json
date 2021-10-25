@@ -18,6 +18,26 @@
           ]
         },
         {
+          "type": "loot_table",
+          "name": "bracken:item/world_soar",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.03
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/mass_heal",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.01
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:cobweb",
           "conditions": [

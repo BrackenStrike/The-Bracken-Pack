@@ -17,6 +17,16 @@
             }
           ]
         },
+          {
+          "type": "loot_table",
+          "name": "bracken:item/swordfall",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.005
+            }
+          ]
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:redstone",
