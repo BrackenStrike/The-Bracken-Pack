@@ -8,8 +8,8 @@
           "name": "minecraft:knowledge_book",
           "functions": [
              {"function":"set_nbt","tag":"{book_id:13b,CustomModelData:888513,Enchantments:[{}],Recipes:[{}]}"},
-             {"function":"set_name","name":[{"text":"Scatterstorm","color":"light_purple","bold":true}]},
-             {"function":"set_lore","lore":[{"text":"consumes 3 levels","color":"light_purple"}]}
+             {"function":"set_name","name":[{"text":"Scatterstorm","color":"white","italic":false}]},
+             {"function":"set_lore","lore":[{"text":"consumes 3 levels","color":"gray","italic":false}]}
           ]
         }
       ]

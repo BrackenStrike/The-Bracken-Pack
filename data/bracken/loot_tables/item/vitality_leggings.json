@@ -8,7 +8,7 @@
           "name": "minecraft:leather_leggings",
           "functions": [
              {"function":"set_nbt","tag":"{AttributeModifiers:[{Amount:3,AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Operation:0,Slot:\"legs\",UUID:[I;-236698701,1065435307,-1573910638,1256473768]}],CustomModelData:888502,display:{color:2072837}}"},
-             {"function":"set_name","name":[{"text":"Vitality Leggings","color":"dark_green","bold":true}]},
+             {"function":"set_name","name":[{"text":"Vitality Leggings","color":"white","italic":false}]},
              {"function":"set_lore","lore":[]}
           ]
         }

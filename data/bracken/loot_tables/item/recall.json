@@ -8,8 +8,8 @@
           "name": "minecraft:knowledge_book",
           "functions": [
              {"function":"set_nbt","tag":"{book_id:18b,CustomModelData:888518,Enchantments:[{}],Recipes:[{}]}"},
-             {"function":"set_name","name":[{"text":"Returning Tides","color":"dark_blue","bold":true}]},
-             {"function":"set_lore","lore":[{"text":"requires 1 level","color":"white"}]}
+             {"function":"set_name","name":[{"text":"Returning Tides","color":"white","italic":false}]},
+             {"function":"set_lore","lore":[{"text":"requires 1 level","color":"gray","italic":false}]}
           ]
         }
       ]

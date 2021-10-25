@@ -8,8 +8,8 @@
           "name": "minecraft:knowledge_book",
           "functions": [
              {"function":"set_nbt","tag":"{book_id:2b,CustomModelData:888502,Enchantments:[{}],Recipes:[{}]}"},
-             {"function":"set_name","name":[{"text":"Lightning Bolt","color":"aqua","bold":true}]},
-             {"function":"set_lore","lore":[{"text":"requires 25 levels","color":"aqua"}]}
+             {"function":"set_name","name":[{"text":"Lightning Bolt","color":"white","italic":false}]},
+             {"function":"set_lore","lore":[{"text":"requires 25 levels","color":"gray","italic":false}]}
           ]
         }
       ]

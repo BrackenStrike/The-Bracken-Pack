@@ -8,8 +8,8 @@
           "name": "minecraft:knowledge_book",
           "functions": [
              {"function":"set_nbt","tag":"{book_id:6b,CustomModelData:888506,Enchantments:[{}],Recipes:[{}]}"},
-             {"function":"set_name","name":[{"text":"Flying Boat","color":"yellow","bold":true}]},
-             {"function":"set_lore","lore":[{"text":"consumes 1 level","color":"yellow"}]}
+             {"function":"set_name","name":[{"text":"Flying Boat","color":"white","italic":false}]},
+             {"function":"set_lore","lore":[{"text":"consumes 1 level","color":"gray","italic":false}]}
           ]
         }
       ]

@@ -8,8 +8,8 @@
           "name": "minecraft:knowledge_book",
           "functions": [
              {"function":"set_nbt","tag":"{book_id:11b,CustomModelData:888511,Enchantments:[{}],Recipes:[{}]}"},
-             {"function":"set_name","name":[{"text":"World Soar","color":"dark_aqua","bold":true}]},
-             {"function":"set_lore","lore":[{"text":"consumes 2 levels","color":"dark_aqua"}]}
+             {"function":"set_name","name":[{"text":"World Soar","color":"white","italic":false}]},
+             {"function":"set_lore","lore":[{"text":"consumes 2 levels","color":"gray","italic":false}]}
           ]
         }
       ]

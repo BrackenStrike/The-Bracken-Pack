@@ -8,8 +8,8 @@
           "name": "minecraft:knowledge_book",
           "functions": [
              {"function":"set_nbt","tag":"{book_id:15b,CustomModelData:888515,Enchantments:[{}],Recipes:[{}]}"},
-             {"function":"set_name","name":[{"text":"Swordfall","color":"white","bold":true}]},
-             {"function":"set_lore","lore":[{"text":"consumes 12 levels","color":"white"}]}
+             {"function":"set_name","name":[{"text":"Swordfall","color":"white","italic":false}]},
+             {"function":"set_lore","lore":[{"text":"consumes 12 levels","color":"gray","italic":false}]}
           ]
         }
       ]

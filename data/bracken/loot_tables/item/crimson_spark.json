@@ -8,8 +8,8 @@
           "name": "minecraft:knowledge_book",
           "functions": [
              {"function":"set_nbt","tag":"{book_id:14b,CustomModelData:888514,Enchantments:[{}],Recipes:[{}]}"},
-             {"function":"set_name","name":[{"text":"Crimson Spark","color":"gray","bold":true}]},
-             {"function":"set_lore","lore":[{"text":"consumes 1 level","color":"gray"}]}
+             {"function":"set_name","name":[{"text":"Crimson Spark","color":"white","italic":false}]},
+             {"function":"set_lore","lore":[{"text":"consumes 1 level","color":"gray","italic":false}]}
           ]
         }
       ]
