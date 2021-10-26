@@ -12,8 +12,5 @@ execute as @s[scores={creeper=0}] unless score @s bp.x_rotation = @s bp.xx_rotat
 
 effect give @s[scores={overworld=2..}] jump_boost 10 255 true
 
-##########   POLYFOLUS   ##########
-execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:red_mushroom_block",tag:{display:{Name:'{"text":"polyfolus"}'},CustomModelData:888501}}}] run summon husk ~ ~ ~ {Silent:1b,CanPickUpLoot:0b,IsBaby:0b,CanBreakDoors:1b,CustomName:'{"text":"Polyfolus","color":"dark_green","bold":true}',ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:14554646}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:14686482}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:14687003}}},{id:"minecraft:red_mushroom_block",Count:1b,tag:{CustomModelData:888501,display:{Name:'{"text":"polyfolus"}'}}}],ArmorDropChances:[0.000F,0.000F,0.000F,0.150F],Attributes:[{Name:generic.follow_range,Base:60},{Name:generic.movement_speed,Base:0.20},{Name:zombie.spawn_reinforcements,Base:1}]}
-
-kill @e[type=minecraft:item,nbt={Age:5s,Item:{id:"minecraft:red_mushroom_block",tag:{display:{Name:'{"text":"polyfolus"}'},CustomModelData:888501}}}]
-kill @e[type=minecraft:item,nbt={Age:6s,Item:{id:"minecraft:red_mushroom_block",tag:{display:{Name:'{"text":"polyfolus"}'},CustomModelData:888501}}}]
+##########   CHLOROCRAFTING   ##########
+execute at @e[type=minecraft:item_frame,nbt={Facing:1b,Item:{id:"minecraft:bone_meal",Count:1b}}] if block ~ ~-1 ~ minecraft:crafting_table run function bracken:dimensions/chlorocrafter
