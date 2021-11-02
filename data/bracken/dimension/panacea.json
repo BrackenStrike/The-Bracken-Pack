@@ -59,7 +59,7 @@
           "biome": "bracken:panacea/creeper_dominion",
           "parameters": {
             "altitude": 0.2,
-            "temperature": 0.6,
+            "temperature": 0.9,
             "humidity": 1,
             "weirdness": 0,
             "offset": 0.1
@@ -68,7 +68,7 @@
           "biome": "bracken:panacea/bamboo_valley",
           "parameters": {
             "altitude": 0.2,
-            "temperature": -0.6,
+            "temperature": -0.9,
             "humidity": 1,
             "weirdness": 0,
             "offset": 0.1
