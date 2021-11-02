@@ -36,7 +36,7 @@
       "seed": -1464245863,
       "biomes": [
         {
-          "biome": "bracken:panacea/forest",
+          "biome": "bracken:panacea/ravenous_greenwood",
           "parameters": {
             "altitude": 0.5,
             "temperature": 0,
@@ -46,7 +46,7 @@
           }
         },
         {
-          "biome": "bracken:panacea/swamp",
+          "biome": "bracken:panacea/sweltering_swamp",
           "parameters": {
             "altitude": 0,
             "temperature": 0.8,
@@ -56,7 +56,26 @@
           }
         },
         {
-          "biome": "bracken:panacea/jungle",
+          "biome": "bracken:panacea/creeper_dominion",
+          "parameters": {
+            "altitude": 0.2,
+            "temperature": 0.6,
+            "humidity": 1,
+            "weirdness": 0,
+            "offset": 0.1
+          }
+        },{
+          "biome": "bracken:panacea/bamboo_valley",
+          "parameters": {
+            "altitude": 0.2,
+            "temperature": -0.6,
+            "humidity": 1,
+            "weirdness": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "bracken:panacea/hungering_jungle",
           "parameters": {
             "altitude": 0,
             "temperature": -0.8,
