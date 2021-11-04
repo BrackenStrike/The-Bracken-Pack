@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:poisonous_potato",
+          "name": "minecraft:melon_seeds",
           "functions": [
              {"function":"set_nbt","tag":"{book_id:18b,CustomModelData:888502}"},
              {"function":"set_name","name":[{"text":"panaspore"}]}
