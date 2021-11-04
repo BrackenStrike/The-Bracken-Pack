@@ -1,4 +1,4 @@
-effect give @s[scores={longtick=72}] minecraft:dolphins_grace 13 4 true
+effect give @s[scores={longtick=72}] minecraft:dolphins_grace 13 2 true
 effect give @s[scores={longtick=72}] minecraft:night_vision 33 0 true
 effect give @s[scores={longtick=72}] minecraft:water_breathing 13 0 true
 execute if block ~ ~1 ~ minecraft:air run effect give @s minecraft:slowness 1 0 true
