@@ -1,4 +1,4 @@
-effect give @s minecraft:hunger 13 0 true
+effect give @s[scores={longtick=62}] minecraft:hunger 13 0 true
 execute if score @s food matches 20 run effect give @s minecraft:speed 1 1 true
 execute if score @s food matches 9.. run effect give @s minecraft:speed 1 0 true
 execute if score @s sneak matches 1.. run effect give @a[distance=..100,scores={mark=2..}] glowing 3 9 false
