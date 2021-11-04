@@ -30,18 +30,18 @@ execute as @a[tag=bp.recall_wait] at @s run function bracken:ability_books/recal
 execute as @e[type=item,nbt={Item:{tag:{tags:bp.fire_immune}}}] run data merge entity @s {Invulnerable:1b}
 
 ##TEAM PLAYER EFFECTS
-execute as @a[team=Automech,scores={longtick=2}] at @s run function bracken:race/automech/tick
-execute as @a[team=Dweller,scores={longtick=12}] at @s run function bracken:race/dweller/tick
-execute as @a[team=Enderling,scores={longtick=22}] at @s run function bracken:race/enderling/tick
-execute as @a[team=Faefolk,scores={longtick=32}] at @s run function bracken:race/faefolk/tick
-execute as @a[team=Frostkin,scores={longtick=42}] at @s run function bracken:race/frostkin/tick
-execute as @a[team=Human,scores={longtick=52}] at @s run function bracken:race/human/tick
-execute as @a[team=Hunter,scores={longtick=62}] at @s run function bracken:race/hunter/tick
-execute as @a[team=Nereid,scores={longtick=72}] at @s run function bracken:race/nereid/tick
-execute as @a[team=Netherkin,scores={longtick=82}] at @s run function bracken:race/netherkin/tick
-execute as @a[team=Outlander,scores={longtick=92}] at @s run function bracken:race/outlander/tick
-execute as @a[team=Realmkeeper,scores={longtick=102}] at @s run function bracken:race/realmkeeper/tick
-execute as @a[team=Villain,scores={longtick=112}] at @s run function bracken:race/villain/tick
+execute as @a[team=Automech] at @s run function bracken:race/automech/tick
+execute as @a[team=Dweller] at @s run function bracken:race/dweller/tick
+execute as @a[team=Enderling] at @s run function bracken:race/enderling/tick
+execute as @a[team=Faefolk] at @s run function bracken:race/faefolk/tick
+execute as @a[team=Frostkin] at @s run function bracken:race/frostkin/tick
+execute as @a[team=Human] at @s run function bracken:race/human/tick
+execute as @a[team=Hunter] at @s run function bracken:race/hunter/tick
+execute as @a[team=Nereid] at @s run function bracken:race/nereid/tick
+execute as @a[team=Netherkin] at @s run function bracken:race/netherkin/tick
+execute as @a[team=Outlander] at @s run function bracken:race/outlander/tick
+execute as @a[team=Realmkeeper] at @s run function bracken:race/realmkeeper/tick
+execute as @a[team=Villain] at @s run function bracken:race/villain/tick
 execute at @a[team=Watcher] at @s run function bracken:race/watcher/tick
 
 ##DIMENSION COMMANDS
