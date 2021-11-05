@@ -8,7 +8,7 @@
           "name": "minecraft:knowledge_book",
           "functions": [
              {"function":"set_nbt","tag":"{book_id:17b,CustomModelData:888515,Enchantments:[{}],Recipes:[{}]}"},
-             {"function":"set_name","name":[{"text":"Great Nullifier","color":"white","italic":false}]},
+             {"function":"set_name","name":[{"text":"Great Nullifier","color":"pink","italic":false}]},
              {"function":"set_lore","lore":[{"text":"consumes 2 levels","color":"gray","italic":false}]}
           ]
         }

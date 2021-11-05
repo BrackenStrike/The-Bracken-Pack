@@ -8,7 +8,7 @@
           "name": "minecraft:knowledge_book",
           "functions": [
              {"function":"set_nbt","tag":"{book_id:12b,CustomModelData:888512,Enchantments:[{}],Recipes:[{}]}"},
-             {"function":"set_name","name":[{"text":"Frostlock","color":"white","italic":false}]},
+             {"function":"set_name","name":[{"text":"Frostlock","color":"pink","italic":false}]},
              {"function":"set_lore","lore":[{"text":"consumes 3 levels","color":"gray","italic":false}]}
           ]
         }

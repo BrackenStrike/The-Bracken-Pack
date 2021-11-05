@@ -8,7 +8,7 @@
           "name": "minecraft:knowledge_book",
           "functions": [
              {"function":"set_nbt","tag":"{book_id:19b,CustomModelData:888519,Enchantments:[{}],Recipes:[{}]}"},
-             {"function":"set_name","name":[{"text":"Magnificent Mansion","color":"white","italic":false}]},
+             {"function":"set_name","name":[{"text":"Magnificent Mansion","color":"yellow","italic":false}]},
              {"function":"set_lore","lore":[{"text":"requires 5 levels","color":"gray","italic":false}]}
           ]
         }
