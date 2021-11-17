@@ -24,3 +24,6 @@ execute at @a[scores={bp.pull=1..},distance=..50] run summon armor_stand ^ ^1.5 
 execute at @a[scores={bp.pull=1..},distance=..50] run experience add @a[distance=..0] -1 points
 execute at @a[scores={bp.pull=1..},distance=..50] run playsound minecraft:block.end_portal_frame.fill ambient @a ~ ~ ~ 100 0
 execute at @e[type=vex,distance=..50,tag=construct] run effect give @a[distance=..1] poison 1 1 false
+
+kill @e[distance=..2,type=armor_stand]
+kill @e[distance=..3,type=experience_orb]
