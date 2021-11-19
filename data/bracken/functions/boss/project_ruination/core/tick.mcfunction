@@ -12,7 +12,7 @@ effect give @s fire_resistance 10 1 true
 
 #DOOMSDAY
 execute if entity @e[distance=..3,type=armor_stand] run effect give @s instant_health 1 0 false
-execute if entity @e[distance=..3,type=armor_stand] run scoreboard players add @s bp.doomsday 1
+execute if entity @e[distance=..4,type=armor_stand] run scoreboard players add @s bp.doomsday 1
 execute if entity @s[scores={bp.doomsday=250..}] run effect give @e[type=vex,distance=..50,tag=construct] weakness 200 20 true
 
 execute if entity @s[scores={bp.doomsday=250}] run tellraw @a[distance=..100] "01101101 01101111 01110010 01100101"
