@@ -39,8 +39,8 @@ scoreboard players add @s[scores={bp.doomsday=750}] bp.doomsday 1
 execute if entity @s[scores={bp.doomsday=750..}] run scoreboard players set @a[distance=..50] bp.pull 10
 execute if entity @s[scores={bp.doomsday=999..}] run summon lightning_bolt ~ ~ ~
 execute if entity @s[scores={bp.doomsday=999..}] run kill @e[type=armor_stand,distance=..50]
-execute if entity @s[scores={bp.doomsday=999..}] run setblock ~ ~ ~ obsidian
-execute if entity @s[scores={bp.doomsday=999..}] run setblock ~ ~1 ~ cake
+execute if entity @s[scores={bp.doomsday=999..}] run fill ~1 ~ ~1 ~-1 ~ ~-1 obsidian
+execute if entity @s[scores={bp.doomsday=999..}] run setblock ~1 ~1 ~1 ~-1 ~1 ~-1 cake
 
 execute if entity @s[scores={bp.doomsday=999}] run tellraw @a[distance=..100] "01110100 01101000 01100001 01101110 01101011 00100000 01111001 01101111 01110101"
 execute if entity @s[scores={bp.doomsday=999}] run loot give @a[distance=..50] loot bracken:item/lightning_bolt 
