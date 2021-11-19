@@ -5,5 +5,5 @@ scoreboard players set @s[scores={jump=1..}] activity 1
 scoreboard players set @s[predicate=sprint] activity 1
 scoreboard players set @s[scores={hurting=2..}] activity 1
 
-effect give @s[scores={activity=..190}] minecraft:invisibility 1 0 true
-effect give @s[scores={activity=..190}] minecraft:wither 1 0 true
+effect give @s[scores={activity=190..}] minecraft:invisibility 1 0 true
+effect give @s[scores={activity=190..}] minecraft:wither 1 0 true
