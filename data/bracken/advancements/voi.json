@@ -1,5 +1,5 @@
 {
-    "parent": "bracken:san",
+    "parent": "bracken:sanctum/enter_sanctum",
     "display": {
         "title": {
             "text": "Nothing here."
