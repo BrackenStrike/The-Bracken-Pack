@@ -20,8 +20,7 @@ execute if score data bp.prjct_ruin matches ..200 run scoreboard players set @s 
 particle minecraft:glow_squid_ink ~ ~1 ~ 0.5 0.5 0.5 0.01 10
 particle minecraft:sneeze ~ ~2 ~ 2.5 2 2.5 0.01 70
 
-kill @e[distance=..2,type=armor_stand]
-kill @e[distance=..2,type=experience_orb]
+
 
 
 particle minecraft:totem_of_undying ~ ~2 ~ 10 10 10 0.01 1
