@@ -17,6 +17,7 @@ scoreboard objectives add health health
 scoreboard objectives add armor armor
 scoreboard objectives add poison dummy
 scoreboard objectives add tick dummy
+scoreboard objectives add activity dummy
 scoreboard objectives add longtick dummy
 scoreboard objectives add verylongtick dummy
 scoreboard objectives add bp.offhand dummy
