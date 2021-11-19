@@ -9,3 +9,4 @@ scoreboard objectives add bp.prjct_ruin.a dummy
 scoreboard objectives add bp.prjct_ruin.cd dummy
 
 scoreboard objectives add bp.pull dummy
+scoreboard objectives add bp.doomsday dummy
