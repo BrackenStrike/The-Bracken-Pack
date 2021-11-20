@@ -5,6 +5,7 @@ scoreboard players add @a tick 1
 scoreboard players set @a[scores={longtick=200..}] longtick 0
 scoreboard players set @a[scores={tick=2..}] walk 0
 scoreboard players remove @a[scores={tick=2..,jump=1..}] jump 1
+scoreboard players set @a[scores={tick=2..,sprint=1..}] sprint 0
 scoreboard players add @a longtick 1
 scoreboard players set @a[scores={longtick=200..,deaths=1..}] deaths 0
 
