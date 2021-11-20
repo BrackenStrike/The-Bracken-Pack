@@ -1,4 +1,5 @@
 effect give @s[scores={longtick=5},team=!Outlander] minecraft:invisibility 13 0 true
+effect clear @s[team=Outlander] minecraft:invisibility
 effect give @s[scores={longtick=5},team=Outlander] minecraft:mining_fatigue 13 0 true
 fill ~20 ~5 ~20 ~-20 ~-5 ~-20 minecraft:air replace minecraft:fire
 fill ~20 ~5 ~20 ~-20 ~-5 ~-20 minecraft:obsidian replace minecraft:lava
