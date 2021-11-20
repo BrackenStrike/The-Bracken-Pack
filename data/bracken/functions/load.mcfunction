@@ -10,6 +10,7 @@ function bracken:boss/project_ruination/load
 ##########   ADD SCOREBOARD OBJECTIVES   ##########
 scoreboard objectives add food food
 scoreboard objectives add walk minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add sprint minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add hurting minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add jump minecraft.custom:minecraft.jump
 scoreboard objectives add deaths deathCount
