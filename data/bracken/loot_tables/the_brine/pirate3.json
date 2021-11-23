@@ -8,6 +8,9 @@
           "name": "minecraft:iron_sword",
           "functions": [
              {"function":"set_nbt","tag":"{CustomModelData:888501,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:fire_aspect\",lvl:2s},{id:\"minecraft:looting\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}]}"},
+            {"function":"set_name","name":[{"text":"Incorruptible Cutlass","gold":"white","italic":false}]},
+              {"function":"set_lore","lore":[{"text":"built to last!","color":"gray","italic":false}]},
+
             {
               "function": "set_damage",
               "damage": {
