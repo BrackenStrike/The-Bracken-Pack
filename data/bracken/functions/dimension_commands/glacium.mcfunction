@@ -39,7 +39,7 @@ execute at @e[type=armor_stand,tag=caveclear] if block ~ ~-1 ~ blue_ice run kill
 
 
 execute at @e[type=minecraft:wither_skeleton,nbt={NoAI:1b,Invulnerable:1b}] unless block ~ ~ ~ blue_ice run data merge entity @e[type=minecraft:wither_skeleton,nbt={NoAI:1b,Invulnerable:1b},limit=1,sort=nearest] {Invulnerable:0,NoAI:0}
-
+execute at @e[type=minecraft:wither_skeleton,nbt={NoAI:1b,Invulnerable:1b}] if entity @a[distance=..6] run advancement grant @a[distance=..20] only bracken:glacium/wake
 execute at @e[type=minecraft:wither_skeleton,nbt={NoAI:1b,Invulnerable:1b}] if entity @a[distance=..6] run summon tnt ~ ~ ~ {CustomName:'{"text":"vicefrost attack","color":"blue","bold":true}'}
 execute at @e[type=minecraft:wither_skeleton,nbt={NoAI:1b,Invulnerable:1b}] if entity @a[distance=..6] run fill ~1 ~6 ~1 ~-1 ~ ~-1 air replace blue_ice
 
