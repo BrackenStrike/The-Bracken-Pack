@@ -8,7 +8,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:blue_ice"
+            "item": "minecraft:ice"
         },
         "frame": "task",
         "show_toast": false,
