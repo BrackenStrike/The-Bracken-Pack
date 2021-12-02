@@ -1,42 +1,20 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
-          "functions": [
-             {"function":"set_nbt","tag":"{CustomModelData:888501,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:fire_aspect\",lvl:2s},{id:\"minecraft:looting\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}]}"},
-            {"function":"set_name","name":[{"text":"Incorruptible Cutlass","gold":"white","italic":false}]},
-              {"function":"set_lore","lore":[{"text":"built to last!","color":"gray","italic":false}]},
-
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.78,
-                "max": 0.83
-              }
-            }
-          ]
-
-
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.5
-        }
-      ]
-    },
-    
+  "pools": [   
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:totem_of_undying"
+        }
+      ]
+    },
+     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_block"
         }
       ]
     },
