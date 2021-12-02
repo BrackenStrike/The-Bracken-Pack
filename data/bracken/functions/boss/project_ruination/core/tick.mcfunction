@@ -36,7 +36,7 @@ execute if entity @s[scores={bp.doomsday=750}] run playsound minecraft:entity.ev
 execute if entity @s[scores={bp.doomsday=750}] run summon firework_rocket ~ ~1 ~ {CustomNameVisible:0b,LifeTime:1,CustomName:'{"text":"Project\'s Doom Event","color":"green"}',FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;16715061],FadeColors:[I;15087886]}]}}}}
 scoreboard players add @s[scores={bp.doomsday=750}] bp.doomsday 1
 
-execute if entity @s[scores={bp.doomsday=750..}] run scoreboard players set @a[distance=..50] bp.pull 10
+execute if entity @s[scores={bp.doomsday=500..}] run scoreboard players set @a[distance=..50] bp.pull 10
 execute if entity @s[scores={bp.doomsday=999..}] run summon lightning_bolt ~ ~ ~
 execute if entity @s[scores={bp.doomsday=999..}] run kill @e[type=armor_stand,distance=..50]
 execute if entity @s[scores={bp.doomsday=999..}] run fill ~1 ~ ~1 ~-1 ~ ~-1 obsidian
