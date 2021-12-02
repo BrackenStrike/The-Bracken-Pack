@@ -9,12 +9,12 @@
         }
       ]
     },
-     {
+    {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_block"
+          "name": "minecraft:gold_block"
         }
       ]
     },
@@ -29,4 +29,3 @@
     }
   ]
 }
-
