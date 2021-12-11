@@ -15,7 +15,7 @@ execute if entity @s[tag=slam] unless block ~ ~-0.5 ~ air run scoreboard players
 execute if entity @s[tag=slam] unless block ~ ~-0.5 ~ air run scoreboard players set attack.cd bp.the_disruptor 60
 #execute if entity @s[tag=slam] unless block ~ ~-0.5 ~ air run summon creeper ~ ~ ~ {ExplosionRadius:-5b,Fuse:0,ignited:1b,Silent:1b}
 
-execute if entity @s[tag=slam] unless block ~ ~-0.5 ~ air as @a[distance=..3] run function bracken:boss/the_disruptor/dmg/slam
+execute if entity @s[tag=slam] unless block ~ ~-0.5 ~ air as @a[distance=..2] run function bracken:boss/the_disruptor/dmg/slam
 
 execute if entity @s[tag=slam] unless block ~ ~-0.5 ~ air run tag @s remove slam
 
