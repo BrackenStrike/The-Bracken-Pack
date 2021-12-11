@@ -2,14 +2,14 @@
     "parent": "bracken:sanctum/enter_sanctum",
     "display": {
         "title": {
-            "text": "Nothing here."
+            "text": "Anti-Grief Dimension"
         },
         "description": {
-            "text": "Slip beneath worlds. Forget what you see there.",
+            "text": "Place a tnt block in Sanctum. Up to you if you wanna light it.",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:barrier"
+            "item": "minecraft:tnt"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,18 +17,19 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:voi1": {
-            "trigger": "minecraft:location",
+        "bracken:sanctum/tnt1": {
+            "trigger": "minecraft:placed_block",
             "conditions": {
-              "location": {
-                "dimension": "bracken:void"
-              }
-            }
+        "block": "minecraft:tnt",
+        "location": {
+          "dimension": "bracken:sanctum"
+        }
+      }
           }
         },
     "requirements": [
         [
-        "bracken:voi1"
+        "bracken:sanctum/tnt1"
         ]
     ]
 }

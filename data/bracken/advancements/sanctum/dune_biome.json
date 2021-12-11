@@ -1,15 +1,15 @@
 {
-    "parent": "minecraft:nether/create_full_beacon",
+    "parent": "bracken:sanctum/enter_sanctum",
     "display": {
         "title": {
-            "text": "Snowfall"
+            "text": "Vitrified Lands"
         },
         "description": {
-            "text": "Survive standing on an activated beacon. Crash through to Glacium.",
+            "text": "Enter the dark soot dunes biome",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:snow_block"
+            "item": "minecraft:calcite"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,18 +17,18 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:gla1": {
+        "bracken:sanctum/dune_biome1": {
             "trigger": "minecraft:location",
             "conditions": {
-              "location": {
-                "dimension": "bracken:glacium"
-              }
-            }
+        "location": {
+          "biome": "bracken:sanctum/dark_soot_dunes"
+        }
+      }
           }
         },
     "requirements": [
         [
-        "bracken:gla1"
+        "bracken:sanctum/dune_biome1"
         ]
     ]
 }

@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text": "Sanctum"
+        },
+        "description": {
+            "text": "A mostly abandoned dimension",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:cracked_deepslate_bricks"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "bracken:textures/gui/advancements/backgrounds/sanctum.png"
+    },
+    "criteria": {
+        "bracken:sanctum/san2": {
+            "trigger": "minecraft:location",
+            "conditions": {
+              "location": {
+                "dimension": "bracken:sanctum"
+              }
+            }
+          }
+        },
+    "requirements": [
+        [
+        "bracken:sanctum/san2"
+        ]
+    ]
+}
