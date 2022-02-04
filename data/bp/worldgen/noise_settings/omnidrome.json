@@ -68,7 +68,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:omnidrome/1"
+            "bp:omnidrome/1"
           ]
         },
         "then_run": {
@@ -115,7 +115,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:omnidrome/2"
+            "bp:omnidrome/2"
           ]
         },
         "then_run": {
@@ -161,7 +161,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:omnidrome/3"
+            "bp:omnidrome/3"
           ]
         },
         "then_run": {
