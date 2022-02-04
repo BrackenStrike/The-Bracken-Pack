@@ -1,7 +1,0 @@
-{
-  "config": {
-    "start_pool": "bracken:viperfish",
-    "size": 6
-  },
-  "type": "minecraft:bastion_remnant"
-}

@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:adventure/throw_trident",
+    "display": {
+        "title": {
+            "text": "Cherenkovicious"
+        },
+        "description": {
+            "text": "Get struck by lightning. Arrive somewhere else???",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:copper_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bp:fae1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "dimension": "bp:varskspace"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bp:fae1"
+        ]
+    ]
+}

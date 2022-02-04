@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:fossil",
+  "config": {
+    "fossil_processors": "minecraft:empty",
+    "overlay_processors": "minecraft:empty",
+    "max_empty_corners_allowed": 7,
+    "fossil_structures": [
+      "bp:sanctum_marauder"
+    ],
+    "overlay_structures": [
+      "bp:sanctum_marauder"
+    ]
+  }
+}

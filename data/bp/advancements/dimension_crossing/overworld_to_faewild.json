@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "Bracken": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "y": {
+                        "min": 313,
+                        "max": 413
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bp:dimension_crossing/overworld_to_faewild"
+    }
+}

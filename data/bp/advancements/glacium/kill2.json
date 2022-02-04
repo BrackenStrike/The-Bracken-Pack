@@ -1,0 +1,53 @@
+{
+    "parent": "bp:glacium/wake",
+    "display": {
+        "title": {
+            "text": "Aim High"
+        },
+        "description": {
+            "text": "Slay the upper half of the Viceroy with a bow",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bp:glacium/kill21": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:wither_skeleton",
+                            "nbt": "{Tags:[\"bp.bygone_viceroy.top\"]}"
+                        }
+                    }
+                ],
+                "killing_blow": {
+                    "source_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [
+                                    "minecraft:bow"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bp:glacium/kill21"
+        ]
+    ]
+}

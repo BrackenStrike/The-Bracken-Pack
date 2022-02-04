@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "Bracken": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "bp:the_brine",
+                "position": {
+                    "y": {
+                        "min": -100,
+                        "max": -2
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bp:dimension_crossing/to_void"
+    }
+}
+

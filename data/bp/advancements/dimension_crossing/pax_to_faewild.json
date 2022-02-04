@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "Bracken": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "bp:pax",
+                "position": {
+                    "y": {
+                        "min": -115,
+                        "max": -15
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bp:dimension_crossing/pax_to_faewild"
+    }
+}

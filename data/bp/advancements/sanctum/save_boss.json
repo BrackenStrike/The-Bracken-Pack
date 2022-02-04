@@ -1,0 +1,29 @@
+{
+    "parent": "bp:sanctum/boss",
+    "display": {
+        "title": {
+            "text": "Ruination Validation"
+        },
+        "description": {
+            "text": "Feed xp to the program until it can be free",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "bp:sanctum/save_boss1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "bp:sanctum/save_boss1"
+        ]
+    ]
+}

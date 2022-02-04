@@ -1,0 +1,223 @@
+{
+  "noise_caves_enabled": true,
+  "deepslate_enabled": false,
+  "ore_veins_enabled": true,
+  "noodle_caves_enabled": true,
+  "disable_mob_generation": false,
+  "aquifers_enabled": false,
+  "default_fluid": {
+    "Properties": {
+      "level": "0"
+    },
+    "Name": "minecraft:water"
+  },
+  "bedrock_roof_position": 0,
+  "bedrock_floor_position": 0,
+  "sea_level": 32,
+  "structures": {
+    "stronghold": {
+      "distance": 32,
+      "spread": 3,
+      "count": 128
+    },
+    "structures": {
+      "minecraft:mineshaft": {
+        "spacing": 2,
+        "separation": 1,
+        "salt": 14357921
+      },
+      "minecraft:bastion_remnant": {
+        "spacing": 9,
+        "separation": 5,
+        "salt": 0
+      },
+      "minecraft:stronghold": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14357619
+      }
+    }
+  },
+  "noise": {
+    "size_vertical": 2,
+    "top_slide": {
+      "target": 0.9375,
+      "size": 3,
+      "offset": 0
+    },
+    "bottom_slide": {
+      "target": 2.5,
+      "size": 4,
+      "offset": -1
+    },
+    "size_horizontal": 1,
+    "min_y": 0,
+    "height": 256,
+    "sampling": {
+      "xz_scale": 0.4,
+      "y_scale": 0.45,
+      "xz_factor": 100,
+      "y_factor": 160
+    },
+    "terrain_shaper": {
+      "offset": 0,
+      "factor": 0,
+      "jaggedness": 0
+    }
+  },
+  "default_block": {
+    "Name": "minecraft:deepslate"
+  },
+  "legacy_random_source": false,
+  "surface_rule": {
+    "type": "minecraft:sequence",
+    "sequence": [
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "netherrack",
+          "true_at_and_below": {
+            "above_bottom": 0
+          },
+          "false_at_and_above": {
+            "below_top": 240
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:blackstone"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "blackstone",
+          "true_at_and_below": {
+            "above_bottom": 1
+          },
+          "false_at_and_above": {
+            "below_top": 200
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:blackstone"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "bp:underdark/gravel_zone"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:granite"
+          }
+        }
+      },
+      
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "bp:the_underdark/petrified_forest"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "floor",
+                "add_surface_depth": false,
+                "add_surface_secondary_depth": false
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:grass_block"
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 1,
+                "surface_type": "floor",
+                "add_surface_depth": true,
+                "add_surface_secondary_depth": false
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:dirt"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "bp:the_underdark/ruby_fungi_forest"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "floor",
+                "add_surface_depth": false,
+                "add_surface_secondary_depth": false
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:mycelium"
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 1,
+                "surface_type": "floor",
+                "add_surface_depth": true,
+                "add_surface_secondary_depth": false
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:dirt"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

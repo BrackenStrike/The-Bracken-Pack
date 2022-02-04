@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "Bracken": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "the_nether",
+                "position": {
+                    "y": {
+                        "min": -100,
+                        "max": 1
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bp:dimension_crossing/nether_to_sanctum"
+    }
+}

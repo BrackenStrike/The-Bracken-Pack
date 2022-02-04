@@ -1,0 +1,74 @@
+{
+  "type": "bp:the_underdark",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -1464245863,
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        
+        {
+          "biome": "bp:the_underdark/petrified_forest",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bp:the_underdark/eroded",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bp:the_underdark/gravel_zone",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0,
+            "continentalness": 1,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "bp:the_underdark/ruby_fungi_forest",
+          "parameters": {
+            "temperature": 0.2,
+            "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bp:the_underdark/crystal_caves",
+          "parameters": {
+            "temperature": 0,
+            "humidity": -1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.7
+          }
+        }
+      ]
+    },
+    "settings": "bp:the_underdark"
+  }
+}

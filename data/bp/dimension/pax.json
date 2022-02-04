@@ -1,0 +1,49 @@
+{
+  "type": "bp:pax",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -1464245863,
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "bp:pax/sky_garden",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 1,
+            "continentalness": 0.5,
+            "erosion": 0,
+            "weirdness": 1,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bp:pax/cloud_canopy",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.8
+          }
+        },
+        {
+          "biome": "bp:pax/petal_grove",
+          "parameters": {
+            "temperature": -0.8,
+            "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.8
+          }
+        }
+      ]
+    },
+    "settings": "bp:pax"
+  }
+}

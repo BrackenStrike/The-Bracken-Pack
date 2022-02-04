@@ -1,2 +1,0 @@
-# BrackenPack
-Stay frosty!

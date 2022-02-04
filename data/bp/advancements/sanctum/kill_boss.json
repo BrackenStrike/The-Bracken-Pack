@@ -1,0 +1,43 @@
+{
+    "parent": "bp:sanctum/boss",
+    "display": {
+        "title": {
+            "text": "Ruination Termination"
+        },
+        "description": {
+            "text": "Defeat the program before it's too late",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bp:sanctum/kill_boss1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:giant",
+                            "location": {
+                                "dimension": "bp:sanctum"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bp:sanctum/kill_boss1"
+        ]
+    ]
+}

@@ -1,7 +1,0 @@
-{
-  "config": {
-    "start_pool": "bracken:snowflake",
-    "size": 6
-  },
-  "type": "minecraft:village"
-}

@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:adventure/root",
+    "display": {
+        "title": {
+            "text": "Diggy Diggy Hole"
+        },
+        "description": {
+            "text": "Dig down to the Underdark",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bp:und1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "dimension": "bp:the_underdark"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bp:und1"
+        ]
+    ]
+}

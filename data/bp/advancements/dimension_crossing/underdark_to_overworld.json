@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "Bracken": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "bp:the_underdark",
+                "position": {
+                    "y": {
+                        "min": 243,
+                        "max": 350
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bp:dimension_crossing/underdark_to_overworld"
+    }
+}
