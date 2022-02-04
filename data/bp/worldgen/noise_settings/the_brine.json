@@ -150,7 +150,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:the_brine/beach"
+            "bp:the_brine/beach"
           ]
         },
         "then_run": {
@@ -196,7 +196,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:the_brine/reef"
+            "bp:the_brine/reef"
           ]
         },
         "then_run": {
@@ -242,7 +242,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:the_brine/fungus"
+            "bp:the_brine/fungus"
           ]
         },
         "then_run": {
