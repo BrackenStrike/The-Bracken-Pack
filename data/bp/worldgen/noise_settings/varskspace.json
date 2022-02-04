@@ -62,7 +62,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bp:varskspace/expanse"
+            "bracken:varskspace/expanse"
           ]
         },
         "then_run": {
@@ -80,7 +80,7 @@
               "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "minecraft:cyan_concrete_powder"
+                  "Name": "minecraft:air"
                 }
               }
             },
@@ -89,6 +89,22 @@
               "if_true": {
                 "type": "minecraft:stone_depth",
                 "offset": 3,
+                "surface_type": "floor",
+                "add_surface_depth": false,
+                "add_surface_secondary_depth": false
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:cyan_concrete_powder"
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 4,
                 "surface_type": "floor",
                 "add_surface_depth": true,
                 "add_surface_secondary_depth": true

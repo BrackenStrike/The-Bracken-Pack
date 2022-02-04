@@ -115,7 +115,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bp:underdark/gravel_zone"
+            "bracken:underdark/gravel_zone"
           ]
         },
         "then_run": {
@@ -131,7 +131,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bp:the_underdark/petrified_forest"
+            "bracken:the_underdark/petrified_forest"
           ]
         },
         "then_run": {
@@ -177,7 +177,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bp:the_underdark/ruby_fungi_forest"
+            "bracken:the_underdark/ruby_fungi_forest"
           ]
         },
         "then_run": {

@@ -41,28 +41,28 @@
     "min_y": 0,
     "height": 288,
     "sampling": {
-      "xz_scale": 0.1,
-      "y_scale": 0.2,
-      "xz_factor": 280,
-      "y_factor": 660
+      "xz_scale": 0.5,
+      "y_scale": 0.1,
+      "xz_factor": 80,
+      "y_factor": 160
     },
     "top_slide": {
       "target": -0.078125,
-      "size": 1,
-      "offset": 10
+      "size": 2,
+      "offset": 0
     },
     "bottom_slide": {
-      "target": -0.11718575,
-      "size": 15,
-      "offset": -10
+      "target": 0.4,
+      "size": 12,
+      "offset": -5
     },
     "size_horizontal": 1,
-    "size_vertical": 3,
-    "amplified": true,
+    "size_vertical": 2,
+    "amplified": false,
     "terrain_shaper": {
       "offset": 0.1,
-      "factor": 0.2,
-      "jaggedness": 3.5
+      "factor": 0,
+      "jaggedness": 0.5
     }
   },
   "default_block": {
@@ -1072,10 +1072,10 @@
           "type": "minecraft:vertical_gradient",
           "random_name": "layer1",
           "true_at_and_below": {
-            "absolute": 154
+            "absolute": 158
           },
           "false_at_and_above": {
-            "absolute": 155
+            "absolute": 159
           }
         },
         "then_run": {
@@ -1085,6 +1085,616 @@
           }
         }
       },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 159
+          },
+          "false_at_and_above": {
+            "absolute": 161
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 162
+          },
+          "false_at_and_above": {
+            "absolute": 164
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:snow_block"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 165
+          },
+          "false_at_and_above": {
+            "absolute": 167
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer7",
+          "true_at_and_below": {
+            "absolute": 176
+          },
+          "false_at_and_above": {
+            "absolute": 177
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:blue_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 177
+          },
+          "false_at_and_above": {
+            "absolute": 178
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 178
+          },
+          "false_at_and_above": {
+            "absolute": 178
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:snow_block"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 179
+          },
+          "false_at_and_above": {
+            "absolute": 179
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer7",
+          "true_at_and_below": {
+            "absolute": 188
+          },
+          "false_at_and_above": {
+            "absolute": 189
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:blue_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 189
+          },
+          "false_at_and_above": {
+            "absolute": 190
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 191
+          },
+          "false_at_and_above": {
+            "absolute": 192
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:snow_block"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 193
+          },
+          "false_at_and_above": {
+            "absolute": 194
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer7",
+          "true_at_and_below": {
+            "absolute": 200
+          },
+          "false_at_and_above": {
+            "absolute": 202
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:blue_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 203
+          },
+          "false_at_and_above": {
+            "absolute": 204
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 205
+          },
+          "false_at_and_above": {
+            "absolute": 207
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:snow_block"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 208
+          },
+          "false_at_and_above": {
+            "absolute": 209
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer7",
+          "true_at_and_below": {
+            "absolute": 213
+          },
+          "false_at_and_above": {
+            "absolute": 214
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:blue_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 215
+          },
+          "false_at_and_above": {
+            "absolute": 216
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 217
+          },
+          "false_at_and_above": {
+            "absolute": 218
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:snow_block"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 219
+          },
+          "false_at_and_above": {
+            "absolute": 220
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer7",
+          "true_at_and_below": {
+            "absolute": 231
+          },
+          "false_at_and_above": {
+            "absolute": 232
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:blue_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 232
+          },
+          "false_at_and_above": {
+            "absolute": 232
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 233
+          },
+          "false_at_and_above": {
+            "absolute": 233
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:snow_block"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 234
+          },
+          "false_at_and_above": {
+            "absolute": 235
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer7",
+          "true_at_and_below": {
+            "absolute": 238
+          },
+          "false_at_and_above": {
+            "absolute": 239
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:blue_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 239
+          },
+          "false_at_and_above": {
+            "absolute": 239
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 240
+          },
+          "false_at_and_above": {
+            "absolute": 240
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:snow_block"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 241
+          },
+          "false_at_and_above": {
+            "absolute": 242
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer7",
+          "true_at_and_below": {
+            "absolute": 251
+          },
+          "false_at_and_above": {
+            "absolute": 252
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:blue_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 252
+          },
+          "false_at_and_above": {
+            "absolute": 252
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 253
+          },
+          "false_at_and_above": {
+            "absolute": 253
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:snow_block"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer8",
+          "true_at_and_below": {
+            "absolute": 254
+          },
+          "false_at_and_above": {
+            "absolute": 255
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer7",
+          "true_at_and_below": {
+            "absolute": 259
+          },
+          "false_at_and_above": {
+            "absolute": 260
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:blue_ice"
+          }
+        }
+      },
+      
+
 
 
 
@@ -1096,7 +1706,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bp:glacium/glacial_mass"
+            "bracken:glacium/glacial_mass"
           ]
         },
         "then_run": {
@@ -1142,7 +1752,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bp:glacium/fractured_wastes"
+            "bracken:glacium/fractured_wastes"
           ]
         },
         "then_run": {
@@ -1188,7 +1798,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bp:glacium/boreal_frontier"
+            "bracken:glacium/boreal_frontier"
           ]
         },
         "then_run": {
@@ -1234,7 +1844,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bp:glacium/invasive_forest"
+            "bracken:glacium/invasive_forest"
           ]
         },
         "then_run": {

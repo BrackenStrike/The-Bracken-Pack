@@ -68,7 +68,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bp:panacea/bamboo_valley"
+            "bracken:panacea/bamboo_valley"
           ]
         },
         "then_run": {
@@ -115,7 +115,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bp:panacea/hungering_jungle"
+            "bracken:panacea/hungering_jungle"
           ]
         },
         "then_run": {
@@ -161,7 +161,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bp:panacea/sweltering_swamp"
+            "bracken:panacea/sweltering_swamp"
           ]
         },
         "then_run": {
@@ -207,7 +207,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bp:panacea/ravenous_greenwood"
+            "bracken:panacea/ravenous_greenwood"
           ]
         },
         "then_run": {

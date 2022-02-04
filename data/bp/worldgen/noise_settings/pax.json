@@ -64,7 +64,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bp:pax/cloud_canopy"
+            "bracken:pax/cloud_canopy"
           ]
         },
         "then_run": {
@@ -110,7 +110,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bp:pax/petal_grove"
+            "bracken:pax/petal_grove"
           ]
         },
         "then_run": {
@@ -156,7 +156,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bp:pax/sky_garden"
+            "bracken:pax/sky_garden"
           ]
         },
         "then_run": {
