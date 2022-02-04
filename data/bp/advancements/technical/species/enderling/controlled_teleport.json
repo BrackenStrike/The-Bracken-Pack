@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"bp.enderling\"]}"
+        },
+        "item": {
+          "items": [
+            "minecraft:ender_eye"
+          ],
+          "nbt": "{bp:{id:\"enderling_controlled_teleport\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bp:player/species/enderling/controlled_teleport"
+  }
+}

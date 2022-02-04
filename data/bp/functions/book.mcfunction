@@ -29,4 +29,4 @@ execute at @s[scores={bp.book_id=19}] run function bp:ability_books/mansion/mans
 
 scoreboard players set @s bp.book 0
 tag @s remove bp.safe_check
-gamemode spectator @a[gamemode=survival,team=Watcher,scores={bp.sneakcharge=20..}]
+gamemode spectator @a[gamemode=survival,tag=bp.watcher,scores={bp.sneakcharge=20..}]

@@ -13,4 +13,4 @@ execute at @s[scores={bp.ice=150..}] run effect give @s minecraft:nausea 5 5 tru
 execute at @s[scores={bp.ice=300..}] run particle minecraft:cloud ~ ~ ~ 2 2 2 0.01 10
 effect give @s[scores={bp.ice=390..}] minecraft:resistance 7 7 false
 
-execute at @s[team=!Frostkin,scores={bp.ice=1..}] run effect give @s[team=!Frostkin,scores={bp.ice=1..},distance=..1] minecraft:wither 2 0 true
+execute at @s[tag=!bp.frostkin,scores={bp.ice=1..}] run effect give @s[tag=!bp.frostkin,scores={bp.ice=1..},distance=..1] minecraft:wither 2 0 true

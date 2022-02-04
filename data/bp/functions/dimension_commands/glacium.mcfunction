@@ -3,7 +3,7 @@
 # Creators: Bracken
 ##########################################################
 
-execute at @s[team=!Frostkin] if block ~ ~1 ~ minecraft:water run effect give @s minecraft:wither 2 0 true
+execute at @s[tag=!bp.frostkin] if block ~ ~1 ~ minecraft:water run effect give @s minecraft:wither 2 0 true
 fill ~20 ~5 ~20 ~-20 ~-5 ~-20 minecraft:air replace minecraft:fire
 fill ~20 ~5 ~20 ~-20 ~-5 ~-20 minecraft:campfire[lit=false] replace minecraft:campfire
 

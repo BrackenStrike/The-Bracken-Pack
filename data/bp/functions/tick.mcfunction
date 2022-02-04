@@ -4,7 +4,7 @@
 ##########################################################
 
 ## PLAYER COMMANDS
-execute as @a at @s run function bp:player/main
+execute as @a at @s run function bp:player/tick
 
 ## ENTITY COMMANDS
 execute as @e[tag=bp.entity] at @s run function bp:entities/main

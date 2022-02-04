@@ -109,23 +109,9 @@ scoreboard objectives add outlander_ trigger
 scoreboard objectives add realmkeeper_ trigger
 scoreboard objectives add villain_ trigger
 
-# score for hunter morphing :D
-scoreboard objectives add bp.hmorph dummy
-### Here's How It Works: ###
-# 0: The Hunter is Not Morphed. It activates by default and by eating raw animal meat (porkchops, beef and mutton) or drinking milk. They have speed depending on hunger.
-# 1: The Hunter ate Chicken. They have Feather Falling.
-# 2: The Hunter ate Rabbit. They have Jump Boost II.
-# 3: The Hunter ate Rotten Flesh. They Have Strength.
-# 4: The Hunter ate Tropical Fish, Cod or Salmon. They have Water Breathing.
-# 5: The Hunter ate Pufferfish. They have a "Poison Area" and have Water Breathing.
-# 6: The Hunter ate a Spider Eye. They have "Poison Touch", are Immune to Poison and have Speed.
-# 7: The Hunter ate a Potato. They have Haste.
-# 8: The Hunter ate Melon. They have Regeneration.
-# 9: The Hunter ate an Apple. They have Health Boost.
-# 10: The Hunter ate a Carrot. They have Night Vision.
-# 11: The Hunter ate a Beetroot. They have Resistance.
-# 12: The Hunter ate Sweet Berries. They have a "Poison Area".
-# 13: The Hunter ate Glow Berries. The hunter has a "Glow Touch".
+scoreboard objectives add bp.hunter_morph dummy
+scoreboard objectives add bp.enderling_teleport dummy
+scoreboard objectives add bp.outlander_charge dummy
 
 ##########   GAMERULE COMMANDBLOCK OUTPUT FALSE   ##########
 gamerule commandBlockOutput false
