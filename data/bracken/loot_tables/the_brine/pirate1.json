@@ -7,7 +7,10 @@
           "type": "minecraft:item",
           "name": "minecraft:crossbow",
           "functions": [
-             {"function":"set_nbt","tag":"{Enchantments:[{id:\"minecraft:quick_charge\",lvl:3s}]}"},
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:quick_charge\",lvl:3s}]}"
+            },
             {
               "function": "set_damage",
               "damage": {
@@ -16,8 +19,6 @@
               }
             }
           ]
-
-
         }
       ],
       "conditions": [
@@ -27,7 +28,6 @@
         }
       ]
     },
-    
     {
       "rolls": {
         "min": 0,
@@ -42,4 +42,3 @@
     }
   ]
 }
-

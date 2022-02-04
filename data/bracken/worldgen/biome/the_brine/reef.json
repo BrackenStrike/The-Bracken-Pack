@@ -1,21 +1,13 @@
 {
-  "starts": [
-    "bracken:bastion_remnant0","minecraft:shipwreck"
-  ],
   "spawners": {
     "water_ambient": [
-     {
+      {
         "type": "minecraft:tropical_fish",
-        "weight": 30,
+        "weight": 3,
         "minCount": 1,
         "maxCount": 4
       },
-      {
-        "type": "minecraft:squid",
-        "weight": 40,
-        "minCount": 3,
-        "maxCount": 5
-      },
+     
       {
         "type": "minecraft:turtle",
         "weight": 5,
@@ -25,20 +17,26 @@
     ],
     "ambient": [],
     "misc": [],
-    "water_creature": [],
+    "water_creature": [{
+        "type": "minecraft:squid",
+        "weight": 40,
+        "minCount": 3,
+        "maxCount": 5
+      }],
     "creature": [
-    {
+      {
         "type": "minecraft:turtle",
         "weight": 5,
         "minCount": 2,
         "maxCount": 5
-      },{
+      },
+      {
         "type": "minecraft:hoglin",
         "weight": 2,
         "minCount": 1,
         "maxCount": 1
       }
-  ],
+    ],
     "monster": [
       {
         "type": "minecraft:enderman",
@@ -49,25 +47,24 @@
     ]
   },
   "spawn_costs": {},
-  "surface_builder": "bracken:the_brine/reef",
   "carvers": {
     "air": [
       "minecraft:cave",
-      "minecraft:canyon",
-      "minecraft:ocean_cave"
+      "minecraft:canyon"
     ]
   },
   "features": [
     [],
     [
-      "minecraft:lake_water",
-      "minecraft:lake_lava"
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground"
     ],
     [],
     [],
     [
-    	"minecraft:desert_well"
+      "minecraft:desert_well"
     ],
+    [],
     [],
     [],
     [],
@@ -77,14 +74,13 @@
       "minecraft:patch_sugar_cane_desert",
       "minecraft:patch_dead_bush_2",
       "minecraft:patch_grass_jungle",
-      "bracken:brine/blackstone_blobs",
-      "bracken:brine/redstone_blobs",
+
+
       "minecraft:patch_sugar_cane",
       "minecraft:patch_melon",
       "minecraft:seagrass_warm",
       "minecraft:seagrass_simple",
       "bracken:brine/prismarine_blobs",
-      "minecraft:warm_ocean_vegetation",
       "minecraft:warm_ocean_vegetation",
       "bracken:brine/sea_tree",
       "minecraft:sea_pickle",
@@ -95,44 +91,39 @@
       "minecraft:freeze_top_layer"
     ]
   ],
-  "scale": 0.9,
   "temperature": 0.95,
   "downfall": 0.1,
   "effects": {
     "fog_color": 14745599,
     "water_color": 5095618,
     "water_fog_color": 3093076,
-      "grass_color": 2320701,
-      "sky_color": 9633746,
-  "foliage_colour": 2320701,
+    "grass_color": 2320701,
+    "sky_color": 9633746,
+    "foliage_colour": 2320701,
     "particle": {
       "options": {
         "type": "minecraft:warped_spore"
       },
       "probability": 0.02428
     },
-"mood_sound": {
+    "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2.0
+      "offset": 2
     },
-
-"additions_sound": {
+    "additions_sound": {
       "sound": "minecraft:ambient.underwater.loop.additions",
       "tick_chance": 0.02
     },
     "music": {
-      "sound": "minecraft:music.under_water",
+      "sound": "bracken:brine",
       "min_delay": 1200,
       "max_delay": 2400,
-      "replace_current_music": false},
-
-
-      "ambient_sound": "minecraft:ambient.underwater.loop"
-},
+      "replace_current_music": true
+    },
+    "ambient_sound": "minecraft:ambient.underwater.loop"
+  },
   "precipitation": "rain",
-  "player_spawn_friendly": true,
-  "category": "jungle",
-  "depth": 0.1
+  "category": "jungle"
 }

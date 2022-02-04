@@ -1,3 +1,8 @@
+##########################################################
+# Description: Commands that activate when the player uses the ability book Fireball.
+# Creators: Bracken and Grandmaster
+##########################################################
+
 item replace entity @s[scores={bp.offhand=1}] weapon.offhand with air
 loot replace entity @s[scores={bp.offhand=1}] weapon.offhand loot bracken:item/fireball
 item replace entity @s[scores={bp.offhand=0}] weapon with air

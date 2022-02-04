@@ -1,5 +1,9 @@
-kill @e[type=minecraft:marker,distance=..25,limit=5,tag=floating_text]
-kill @e[type=minecraft:marker,distance=..25,limit=1,tag=pax_scores]
+##########################################################
+# Description: Summons markers that set up the pax portal.
+# Creators: Bracken and Grandmaster
+##########################################################
+
+tellraw @a[distance=..25] "The portal has been activated."
 
 # Facing South
 summon minecraft:marker ~-15 ~-0.5 ~-7 {Tags:[floating_text]}

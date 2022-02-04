@@ -20,15 +20,15 @@
         "bracken:sanctum/dune_biome1": {
             "trigger": "minecraft:location",
             "conditions": {
-        "location": {
-          "biome": "bracken:sanctum/dark_soot_dunes"
+                "location": {
+                    "biome": "bracken:sanctum/dark_soot_dunes"
+                }
+            }
         }
-      }
-          }
-        },
+    },
     "requirements": [
         [
-        "bracken:sanctum/dune_biome1"
+            "bracken:sanctum/dune_biome1"
         ]
     ]
 }

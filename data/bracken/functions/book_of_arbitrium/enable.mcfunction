@@ -1,3 +1,8 @@
+##########################################################
+# Description: List of trigger commands when a player holds the Book of Arbitrium or the Beginner Species Book.
+# Creators: Bracken and Grandmaster
+##########################################################
+
 scoreboard players enable @s automech
 scoreboard players enable @s faefolk
 scoreboard players enable @s dweller

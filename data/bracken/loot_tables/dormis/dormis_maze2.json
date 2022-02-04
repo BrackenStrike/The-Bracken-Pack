@@ -46,7 +46,7 @@
               "chance": 0.2
             }
           ],
-          "functions":[
+          "functions": [
             {
               "function": "set_nbt",
               "tag": "{Potion:\"minecraft:weakness\"}"

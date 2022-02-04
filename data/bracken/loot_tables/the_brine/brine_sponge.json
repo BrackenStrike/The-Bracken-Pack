@@ -37,7 +37,7 @@
             }
           ]
         },
-         {
+        {
           "type": "loot_table",
           "name": "bracken:item/tetra_slime",
           "conditions": [

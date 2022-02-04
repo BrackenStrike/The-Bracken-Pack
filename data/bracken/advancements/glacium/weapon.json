@@ -22,30 +22,31 @@
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "dimension": "bracken:glacium"
-              }
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:glacium"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond_sword",
+                            "minecraft:diamond_axe"
+                        ],
+                        "nbt": "{CustomModelData:888502}"
+                    }
+                ]
             }
-          }
-        ],
-        "items": [
-          {
-            "items": [
-              "minecraft:diamond_sword",
-              "minecraft:diamond_axe"
-            ],
-            "nbt": "{CustomModelData:888502}"
-          }
-        ]}
-          }
-        },
+        }
+    },
     "requirements": [
         [
-        "bracken:glacium/weapon1"
+            "bracken:glacium/weapon1"
         ]
     ]
 }

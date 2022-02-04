@@ -7,9 +7,30 @@
           "type": "item",
           "name": "minecraft:knowledge_book",
           "functions": [
-             {"function":"set_nbt","tag":"{book_id:8b,CustomModelData:888508,Enchantments:[{}],Recipes:[{}]}"},
-             {"function":"set_name","name":[{"text":"Kill","color":"pink","italic":false}]},
-             {"function":"set_lore","lore":[{"text":"consumes 2 levels","color":"gray","italic":false}]}
+            {
+              "function": "set_nbt",
+              "tag": "{bp.book_id:8b,CustomModelData:888508,Enchantments:[{}],Recipes:[{}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Kill",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "consumes 2 levels",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
           ]
         }
       ]

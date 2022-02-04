@@ -1,1 +1,0 @@
-execute if entity @s[gamemode=spectator] unless block ~ ~ ~ air run gamemode survival @s

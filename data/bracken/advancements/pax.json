@@ -8,8 +8,10 @@
             "text": "Ascend further to the Pax dimesion",
             "color": "green"
         },
-        "icon": {"item": "minecraft:player_head",
-            "nbt": "{SkullOwner:MHF_Sheep}"},
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:MHF_Sheep}"
+        },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
@@ -19,15 +21,15 @@
         "bracken:pax1": {
             "trigger": "minecraft:location",
             "conditions": {
-              "location": {
-                "dimension": "bracken:pax"
-              }
+                "location": {
+                    "dimension": "bracken:pax"
+                }
             }
-          }
-        },
+        }
+    },
     "requirements": [
         [
-        "bracken:pax1"
+            "bracken:pax1"
         ]
     ]
 }

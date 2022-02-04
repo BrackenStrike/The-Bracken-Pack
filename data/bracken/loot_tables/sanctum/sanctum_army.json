@@ -7,7 +7,6 @@
         "max": 5
       },
       "entries": [
-        
         {
           "type": "minecraft:item",
           "name": "minecraft:clock",

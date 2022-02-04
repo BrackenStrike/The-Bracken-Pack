@@ -1,3 +1,8 @@
+##########################################################
+# Description: Commands that activate when the player uses the ability book Returning Tides.
+# Creators: Grandmaster
+##########################################################
+
 item replace entity @s[scores={bp.offhand=1}] weapon.offhand with air
 loot replace entity @s[scores={bp.offhand=1}] weapon.offhand loot bracken:item/recall
 item replace entity @s[scores={bp.offhand=0}] weapon with air

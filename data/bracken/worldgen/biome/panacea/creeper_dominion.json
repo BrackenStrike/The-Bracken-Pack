@@ -1,7 +1,4 @@
 {
-  "starts": [
-    "bracken:panacea_tree"
-  ],
   "spawners": {
     "water_ambient": [],
     "ambient": [
@@ -12,7 +9,8 @@
         "maxCount": 8
       }
     ],
-    "misc": [{
+    "misc": [
+      {
         "type": "minecraft:pig",
         "weight": 5,
         "minCount": 4,
@@ -23,9 +21,10 @@
         "weight": 3,
         "minCount": 4,
         "maxCount": 4
-      }],
+      }
+    ],
     "water_creature": [
-    {
+      {
         "type": "minecraft:pufferfish",
         "weight": 1,
         "minCount": 1,
@@ -68,7 +67,6 @@
     ]
   },
   "spawn_costs": {},
-  "surface_builder": "minecraft:nope",
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -79,13 +77,11 @@
   },
   "features": [
     [],
-    [
-      "minecraft:lake_water",
-      "minecraft:lake_lava"
-    ],
+    [],
     [
       "minecraft:forest_rock"
     ],
+    [],
     [],
     [],
     [],
@@ -103,7 +99,6 @@
       "minecraft:freeze_top_layer"
     ]
   ],
-  "scale": 0.9,
   "temperature": 0.95,
   "downfall": 0.1,
   "effects": {
@@ -111,18 +106,15 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2.0
+      "offset": 2
     },
     "fog_color": 13494155,
     "water_color": 9936213,
     "water_fog_color": 10657365,
-      "grass_color": 4310859,
-
-  "sky_color": 11460793,
-
-  "foliage_color": 4310859,
-
-"additions_sound": {
+    "grass_color": 4310859,
+    "sky_color": 11460793,
+    "foliage_color": 4310859,
+    "additions_sound": {
       "sound": "minecraft:entity.parrot.ambient",
       "tick_chance": 0.0002
     },
@@ -130,13 +122,10 @@
       "sound": "minecraft:music.creative",
       "min_delay": 12000,
       "max_delay": 24000,
-      "replace_current_music": false},
-
-
-      "ambient_sound": "minecraft:block.roots.step"
-},
+      "replace_current_music": false
+    },
+    "ambient_sound": "minecraft:block.roots.step"
+  },
   "precipitation": "rain",
-  "player_spawn_friendly": true,
-  "category": "jungle",
-  "depth": 0.1
+  "category": "jungle"
 }

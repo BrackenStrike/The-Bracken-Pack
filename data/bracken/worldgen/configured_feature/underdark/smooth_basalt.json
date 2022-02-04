@@ -1,57 +1,18 @@
 {
+  "type": "minecraft:netherrack_replace_blobs",
   "config": {
-    "feature": {
-      "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {
-                "target": {
-                  "Name": "minecraft:stone"
-                },
-                "state": {
-                  "Name": "minecraft:smooth_basalt"
-                },
-                "radius": {
-                  "value": {
-                    "min_inclusive": 0,
-                    "max_inclusive": 3
-                  },
-                  "type": "minecraft:uniform"
-                }
-              },
-              "type": "minecraft:netherrack_replace_blobs"
-            },
-            "decorator": {
-              "config": {
-                "height": {
-                  "min_inclusive": {
-                    "above_bottom": 0
-                  },
-                  "max_inclusive": {
-                    "absolute": 165
-                  },
-                  "type": "minecraft:uniform"
-                }
-              },
-              "type": "minecraft:range"
-            }
-          },
-          "type": "minecraft:decorated"
-        },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
-        }
-      },
-      "type": "minecraft:decorated"
+    "target": {
+      "Name": "minecraft:stone"
     },
-    "decorator": {
-      "config": {
-        "count": 75
+    "state": {
+      "Name": "minecraft:smooth_basalt"
+    },
+    "radius": {
+      "value": {
+        "min_inclusive": 0,
+        "max_inclusive": 3
       },
-      "type": "minecraft:count"
+      "type": "minecraft:uniform"
     }
-  },
-  "type": "minecraft:decorated"
+  }
 }

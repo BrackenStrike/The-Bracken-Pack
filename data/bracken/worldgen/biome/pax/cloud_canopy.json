@@ -1,13 +1,10 @@
 {
-  "starts": [
-    "bracken:pax_arch"
-  ],
   "spawners": {
     "water_ambient": [],
     "ambient": [],
     "misc": [],
     "water_creature": [
-    {
+      {
         "type": "minecraft:dolphin",
         "weight": 1,
         "minCount": 2,
@@ -31,7 +28,6 @@
     "monster": []
   },
   "spawn_costs": {},
-  "surface_builder": "bracken:pax/clouds",
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -40,9 +36,7 @@
   },
   "features": [
     [],
-    [
-      "minecraft:lake_water"
-    ],
+    [],
     [],
     [],
     [],
@@ -50,18 +44,24 @@
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_andesite",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
       "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
       "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
     [],
+    [],
     [
-
       "minecraft:flower_swamp",
       "bracken:pax/peace_tree1",
       "bracken:pax/peace_tree2",
@@ -77,39 +77,34 @@
       "minecraft:freeze_top_layer"
     ]
   ],
-  "scale": 0.9,
   "temperature": 0.95,
   "downfall": 0.1,
   "effects": {
     "fog_color": 16773336,
-    "water_color": 16776935,
-    "water_fog_color": 16768970,
-      "grass_color": 15588262,
-
-  "sky_color": 16777190,
-  "foliage_color": 16777215,
+    "water_color": 11851209,
+    "water_fog_color": 2173534,
+    "grass_color": 15588262,
+    "sky_color": 16777190,
+    "foliage_color": 16777215,
     "particle": {
       "options": {
         "type": "minecraft:falling_nectar"
       },
       "probability": 0.00001
     },
-"mood_sound": {
+    "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000000,
       "block_search_extent": 8,
-      "offset": 2.0
+      "offset": 2
     },
-
-
     "music": {
       "sound": "bracken:pax",
       "min_delay": 1200,
       "max_delay": 2400,
-      "replace_current_music": false}
-},
+      "replace_current_music": false
+    }
+  },
   "precipitation": "rain",
-  "player_spawn_friendly": true,
-  "category": "forest",
-  "depth": 0.1
+  "category": "forest"
 }

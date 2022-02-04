@@ -1,32 +1,21 @@
 {
+  "type": "minecraft:huge_fungus",
   "config": {
-    "feature": {
-      "config": {
-        "hat_state": {
-          "Name": "minecraft:air"
-        },
-        "decor_state": {
-          "Name": "minecraft:air"
-        },
-        "planted": false,
-        "valid_base_block": {
-          "Name": "minecraft:packed_ice"
-        },
-        "stem_state": {
-          "Properties": {
-            "axis": "y"
-          },
-          "Name": "minecraft:ice"
-        }
-      },
-      "type": "minecraft:huge_fungus"
+    "hat_state": {
+      "Name": "minecraft:air"
     },
-    "decorator": {
-      "config": {
-        "count": 70
+    "decor_state": {
+      "Name": "minecraft:air"
+    },
+    "planted": false,
+    "valid_base_block": {
+      "Name": "minecraft:packed_ice"
+    },
+    "stem_state": {
+      "Properties": {
+        "axis": "y"
       },
-      "type": "minecraft:count_multilayer"
+      "Name": "minecraft:ice"
     }
-  },
-  "type": "minecraft:decorated"
+  }
 }

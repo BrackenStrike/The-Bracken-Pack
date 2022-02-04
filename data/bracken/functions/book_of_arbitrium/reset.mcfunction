@@ -1,3 +1,8 @@
+##########################################################
+# Description: Will run when a player changes race with the Beginner Species Book.
+# Creators: Bracken and Grandmaster
+##########################################################
+
 scoreboard players reset @s automech
 scoreboard players reset @s faefolk
 scoreboard players reset @s dweller

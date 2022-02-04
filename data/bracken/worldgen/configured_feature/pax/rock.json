@@ -1,45 +1,8 @@
 {
+  "type": "minecraft:forest_rock",
   "config": {
-    "feature": {
-      "config": {
-        "feature": {
-          "config": {
-            "state": {
-              "Name": "minecraft:smooth_quartz"
-            }
-          },
-          "type": "minecraft:forest_rock"
-        },
-        "decorator": {
-          "config": {
-            "outer": {
-              "config": {},
-              "type": "minecraft:square"
-            },
-            "inner": {
-              "config": {
-                "heightmap": "WORLD_SURFACE"
-              },
-              "type": "minecraft:heightmap"
-            }
-          },
-          "type": "minecraft:decorated"
-        }
-      },
-      "type": "minecraft:decorated"
-    },
-    "decorator": {
-      "config": {
-        "count": {
-          "value": {
-            "min_inclusive": 0,
-            "max_inclusive": 2
-          },
-          "type": "minecraft:uniform"
-        }
-      },
-      "type": "minecraft:count"
+    "state": {
+      "Name": "minecraft:smooth_quartz"
     }
-  },
-  "type": "minecraft:decorated"
+  }
 }

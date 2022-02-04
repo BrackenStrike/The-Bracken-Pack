@@ -1,7 +1,4 @@
 {
-  "starts": [
-    "bracken:village_taiga"
-  ],
   "spawners": {
     "water_ambient": [],
     "ambient": [
@@ -12,12 +9,14 @@
         "maxCount": 8
       }
     ],
-    "misc": [{
+    "misc": [
+      {
         "type": "minecraft:giant",
         "weight": 1,
         "minCount": 2,
         "maxCount": 2
-      }],
+      }
+    ],
     "water_creature": [],
     "creature": [
       {
@@ -85,7 +84,6 @@
     ]
   },
   "spawn_costs": {},
-  "surface_builder": "minecraft:swamp",
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -94,14 +92,13 @@
   },
   "features": [
     [],
+    [],
+    [],
     [
-      "minecraft:lake_water"
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
-    [
-    ],
-    [
-      "minecraft:monster_room"
-    ],
+    [],
     [],
     [],
     [],
@@ -110,7 +107,7 @@
       "minecraft:flower_swamp",
       "minecraft:patch_grass_normal",
       "minecraft:patch_dead_bush",
-      "minecraft:patch_waterlilly",
+      "minecraft:patch_waterlily",
       "minecraft:brown_mushroom_swamp",
       "minecraft:red_mushroom_swamp",
       "minecraft:brown_mushroom_normal",
@@ -120,9 +117,8 @@
       "minecraft:spring_water",
       "minecraft:seagrass_swamp",
       "minecraft:patch_large_fern",
-      "bracken:faewild/large_fern",
-      "minecraft:brown_mushroom_giant",
-      "minecraft:red_mushroom_giant",
+      "minecraft:brown_mushroom_old_growth",
+      "minecraft:red_mushroom_old_growth",
       "minecraft:vines",
       "minecraft:sea_pickle",
       "bracken:faewild/thin_tree",
@@ -132,26 +128,22 @@
       "minecraft:freeze_top_layer"
     ]
   ],
-  "scale": 0.9,
   "temperature": 0.95,
   "downfall": 0.1,
   "effects": {
     "fog_color": 8554450,
     "water_color": 4996043,
     "water_fog_color": 4995962,
-      "grass_color": 2065734,
-
-  "sky_color": 3132319,
-  "foliage_color": 2065734,
-
-"mood_sound": {
+    "grass_color": 2065734,
+    "sky_color": 3132319,
+    "foliage_color": 2065734,
+    "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2.0
+      "offset": 2
     },
-
-"additions_sound": {
+    "additions_sound": {
       "sound": "minecraft:ambient.crimson_forest.additions",
       "tick_chance": 0.005
     },
@@ -159,13 +151,10 @@
       "sound": "bracken:faewild",
       "min_delay": 12000,
       "max_delay": 24000,
-      "replace_current_music": false},
-
-
-      "ambient_sound": "minecraft:block.roots.step"
-},
+      "replace_current_music": false
+    },
+    "ambient_sound": "minecraft:block.roots.step"
+  },
   "precipitation": "rain",
-  "player_spawn_friendly": true,
-  "category": "jungle",
-  "depth": 0.1
+  "category": "jungle"
 }

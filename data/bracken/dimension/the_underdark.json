@@ -4,84 +4,66 @@
     "type": "minecraft:noise",
     "seed": -1464245863,
     "biome_source": {
-   "humidity_noise": {
-      "firstOctave": -7,
-      "amplitudes": [
-        1.0,
-        1.0
-      ]
-    },
-    "altitude_noise": {
-      "firstOctave": -7,
-      "amplitudes": [
-        1.0,
-        1.0
-      ]
-    },
-    "weirdness_noise": {
-      "firstOctave": -7,
-      "amplitudes": [
-        1.0,
-        1.0
-      ]
-    },
-    "temperature_noise": {
-      "firstOctave": -7,
-      "amplitudes": [
-        1.0,
-        1.0
-      ]
-    },
       "type": "minecraft:multi_noise",
-      "seed": -1464245863,
       "biomes": [
+        
         {
-          "biome": "bracken:the_underdark/eroded",
+          "biome": "bracken:the_underdark/petrified_forest",
           "parameters": {
-            "altitude": 0,
-            "temperature": 1,
+            "temperature": -1,
             "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
             "weirdness": 0,
+            "depth": 0,
             "offset": 0
           }
         },
         {
-          "biome": "bracken:the_underdark/petrified_forest",
+          "biome": "bracken:the_underdark/eroded",
           "parameters": {
-            "altitude": 0,
-            "temperature": -1,
+            "temperature": 1,
             "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
             "weirdness": 0,
+            "depth": 0,
             "offset": 0
           }
         },
         {
           "biome": "bracken:the_underdark/gravel_zone",
           "parameters": {
-            "altitude": 1,
             "temperature": 0.5,
             "humidity": 0,
+            "continentalness": 1,
+            "erosion": 0,
             "weirdness": 0,
+            "depth": 0,
             "offset": 0.2
           }
         },
         {
           "biome": "bracken:the_underdark/ruby_fungi_forest",
           "parameters": {
-            "altitude": 0,
             "temperature": 0.2,
             "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0,
             "weirdness": 0,
+            "depth": 0,
             "offset": 0
           }
         },
         {
           "biome": "bracken:the_underdark/crystal_caves",
           "parameters": {
-            "altitude": 0,
             "temperature": 0,
             "humidity": -1,
+            "continentalness": 0,
+            "erosion": 0,
             "weirdness": 0,
+            "depth": 0,
             "offset": 0.7
           }
         }

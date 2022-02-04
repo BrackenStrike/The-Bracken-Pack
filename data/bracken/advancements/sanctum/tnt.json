@@ -20,16 +20,16 @@
         "bracken:sanctum/tnt1": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-        "block": "minecraft:tnt",
-        "location": {
-          "dimension": "bracken:sanctum"
+                "block": "minecraft:tnt",
+                "location": {
+                    "dimension": "bracken:sanctum"
+                }
+            }
         }
-      }
-          }
-        },
+    },
     "requirements": [
         [
-        "bracken:sanctum/tnt1"
+            "bracken:sanctum/tnt1"
         ]
     ]
 }

@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "Bracken": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "bracken:void",
+                "position": {
+                    "y": {
+                        "min": -120,
+                        "max": -20
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:dimension_crossing/void_to_end"
+    }
+}

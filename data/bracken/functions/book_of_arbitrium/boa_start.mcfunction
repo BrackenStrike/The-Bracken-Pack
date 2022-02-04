@@ -1,6 +1,13 @@
+##########################################################
+# Description: Main function for the Beginner Species Book and the Book of Arbitrium.
+#   Will check if a player is holding either book, if a player clicks a race in the books,
+#   and will grant and remove trigger commands.
+# Creators: Bracken and Grandmaster
+##########################################################
+
 execute as @s[scores={bp.arb_book=0}] run function bracken:book_of_arbitrium/reset
 scoreboard players set @s bp.arb_book 0
-execute as @s[level=50..,nbt={SelectedItem:{id:"minecraft:written_book",tag:{display:{Lore:['{"text":"Use to change species.","color":"gold"}']}}}}] unless entity @s[scores={bp.arb_book=1..}] run function bracken:book_of_arbitrium/enable
+execute as @s[level=50..,nbt={SelectedItem:{id:"minecraft:written_book",tag:{display:{Lore:['{"color":"gold","text":"Use to change species."}']}}}}] unless entity @s[scores={bp.arb_book=1..}] run function bracken:book_of_arbitrium/enable
 execute as @s[nbt={SelectedItem:{tag:{bp.species_book:10b}}}] unless entity @s[tag=bp.book_used] unless entity @s[scores={bp.arb_book=1..}] run function bracken:book_of_arbitrium/enable
 
 execute as @s[scores={automech=1..}] run function bracken:book_of_arbitrium/ask_race/automech

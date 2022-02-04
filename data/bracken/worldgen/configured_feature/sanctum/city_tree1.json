@@ -1,32 +1,21 @@
 {
+  "type": "minecraft:huge_fungus",
   "config": {
-    "feature": {
-      "config": {
-        "hat_state": {
-          "Name": "minecraft:air"
-        },
-        "decor_state": {
-          "Name": "minecraft:air"
-        },
-        "planted": false,
-        "valid_base_block": {
-          "Name": "minecraft:cracked_polished_blackstone_bricks"
-        },
-        "stem_state": {
-          "Properties": {
-            "axis": "y"
-          },
-          "Name": "minecraft:cracked_polished_blackstone_bricks"
-        }
-      },
-      "type": "minecraft:huge_fungus"
+    "hat_state": {
+      "Name": "minecraft:air"
     },
-    "decorator": {
-      "config": {
-        "count": 100
+    "decor_state": {
+      "Name": "minecraft:air"
+    },
+    "planted": false,
+    "valid_base_block": {
+      "Name": "minecraft:cracked_polished_blackstone_bricks"
+    },
+    "stem_state": {
+      "Properties": {
+        "axis": "y"
       },
-      "type": "minecraft:count_multilayer"
+      "Name": "minecraft:cracked_polished_blackstone_bricks"
     }
-  },
-  "type": "minecraft:decorated"
+  }
 }

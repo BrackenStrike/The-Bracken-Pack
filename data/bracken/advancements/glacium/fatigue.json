@@ -20,26 +20,27 @@
         "bracken:glacium/fatigue1": {
             "trigger": "minecraft:location",
             "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:player",
-              "effects": {
-                "minecraft:mining_fatigue": {}
-              }
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "effects": {
+                                "minecraft:mining_fatigue": {}
+                            }
+                        }
+                    }
+                ],
+                "location": {
+                    "dimension": "bracken:glacium"
+                }
             }
-          }
-        ],
-        "location": {
-          "dimension": "bracken:glacium"
-        }}
-          }
-        },
+        }
+    },
     "requirements": [
         [
-        "bracken:glacium/fatigue1"
+            "bracken:glacium/fatigue1"
         ]
     ]
 }

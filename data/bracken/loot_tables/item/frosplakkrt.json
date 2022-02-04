@@ -7,9 +7,30 @@
           "type": "item",
           "name": "minecraft:diamond_chestplate",
           "functions": [
-             {"function":"set_nbt","tag":"{CustomModelData:888502,AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-10,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"chest\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:8s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"},
-              {"function":"set_name","name":[{"text":"Frosplakkrt","color":"white","italic":false}]},
-              {"function":"set_lore","lore":[{"text":"vokte hjertet mitt!","color":"gray","italic":false}]},
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:888502,AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-10,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"chest\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:8s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Frosplakkrt",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "vokte hjertet mitt!",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
             {
               "function": "set_damage",
               "damage": {

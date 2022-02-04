@@ -1,8 +1,4 @@
 {
-  "starts": [
-    "bracken:glacium_snowflake",
-    "bracken:glacium_orb"
-  ],
   "spawners": {
     "water_ambient": [],
     "ambient": [],
@@ -44,7 +40,6 @@
     ]
   },
   "spawn_costs": {},
-  "surface_builder": "bracken:glacium/fractured_wastes",
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -54,7 +49,6 @@
   "features": [
     [],
     [
-      "minecraft:lake_water",
       "bracken:glacium/snow_pile",
       "bracken:glacium/snow_tree"
     ],
@@ -63,12 +57,15 @@
       "minecraft:iceberg_blue"
     ],
     [
-      "minecraft:monster_room"
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
-    [ "minecraft:ice_spike",
+    [
+      "minecraft:ice_spike",
       "minecraft:ice_patch",
       "minecraft:blue_ice"
     ],
+    [],
     [],
     [],
     [],
@@ -77,8 +74,7 @@
       "minecraft:freeze_top_layer"
     ]
   ],
-  "scale": 0.9,
-  "temperature": 0.0,
+  "temperature": 0,
   "downfall": 0.1,
   "effects": {
     "sky_color": 0,
@@ -87,15 +83,13 @@
     "water_fog_color": 7897757,
     "grass_color": 5074010,
     "foliage_colour": 5074010,
-
-"mood_sound": {
+    "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2.0
+      "offset": 2
     },
-
-"additions_sound": {
+    "additions_sound": {
       "sound": "minecraft:ambient.soul_sand_valley.additions",
       "tick_chance": 0.02
     },
@@ -103,13 +97,10 @@
       "sound": "minecraft:music.nether.crimson_forest",
       "min_delay": 12000,
       "max_delay": 24000,
-      "replace_current_music": false},
-
-
-      "ambient_sound": "minecraft:item.elytra.flying"
-},
+      "replace_current_music": false
+    },
+    "ambient_sound": "minecraft:item.elytra.flying"
+  },
   "precipitation": "snow",
-  "player_spawn_friendly": false,
-  "category": "icy",
-  "depth": 0.425
+  "category": "icy"
 }

@@ -20,23 +20,24 @@
         "bracken:glacium/boat1": {
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:boat",
-              "location": {
-                "biome": "bracken:glacium/glacial_mass"
-              }
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:boat",
+                            "location": {
+                                "biome": "bracken:glacium/glacial_mass"
+                            }
+                        }
+                    }
+                ]
             }
-          }
-        ]}
-          }
-        },
+        }
+    },
     "requirements": [
         [
-        "bracken:glacium/boat1"
+            "bracken:glacium/boat1"
         ]
     ]
 }

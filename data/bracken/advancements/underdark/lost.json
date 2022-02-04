@@ -1,0 +1,51 @@
+{
+    "parent": "bracken:underdark/enter_underdark",
+    "display": {
+        "title": {
+            "text": "What? Why?"
+        },
+        "description": {
+            "text": "Find a lost miner. Then punch them for some reason",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:filled_map"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "bracken:underdark/lost1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "bracken:the_underdark"
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:pillager"
+            }
+          }
+        ]
+      }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:underdark/lost1"
+        ]
+    ]
+}

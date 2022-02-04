@@ -1,15 +1,20 @@
-scoreboard players set @s overworld 10
-effect give @s[scores={fae=8..}] slow_falling 2 2 true
-attribute @s[scores={portal=1..}] minecraft:generic.max_health base set 20
-attribute @s[scores={fae=2..}] minecraft:generic.max_health base set 20
-attribute @s[scores={panacea=2..}] minecraft:generic.max_health base set 20
-attribute @s[scores={pax=2..}] minecraft:generic.max_health base set 20
+##########################################################
+# Description: List of dimension effects for the Overworld.
+# Creators: Bracken
+##########################################################
 
-execute as @s[scores={creeper=2..}] if entity @e[type=minecraft:creeper,distance=..1] run function bracken:dimensions/overworld_to_panacea
-execute as @s[nbt={ActiveEffects:[{Id:29b}]}] if block ^ ^ ^ minecraft:conduit run function bracken:dimensions/overworld_to_brine
+scoreboard players set @s bp.overworld 10
+effect give @s[scores={bp.fae=8..}] slow_falling 2 2 true
+attribute @s[scores={bp.portal=1..}] minecraft:generic.max_health base set 20
+attribute @s[scores={bp.fae=2..}] minecraft:generic.max_health base set 20
+attribute @s[scores={bp.panacea=2..}] minecraft:generic.max_health base set 20
+attribute @s[scores={bp.pax=2..}] minecraft:generic.max_health base set 20
 
+execute as @s[scores={bp.creeper=2..}] if entity @e[type=minecraft:creeper,distance=..1] run function bracken:dimension_crossing/overworld_to_panacea
+execute as @s[nbt={ActiveEffects:[{Id:29b}]}] if block ^ ^ ^ minecraft:conduit run function bracken:dimension_crossing/overworld_to_brine
 
-execute as @s[scores={ice=400..}] if block ~ ~-1 ~ beacon run function bracken:dimensions/overworld_to_glacium
+execute as @s[scores={bp.ice=400..}] if block ~ ~-1 ~ beacon run function bracken:dimension_crossing/overworld_to_glacium
 
-execute if entity @s[y=250,dy=100] run function bracken:dimensions/overworld_to_faewild
-execute if entity @s[y=2,dy=-100] run function bracken:dimensions/overworld_to_underdark
+# migrated to advancement
+#execute if entity @s[y=313,dy=100] run function bracken:dimension_crossing/overworld_to_faewild
+#execute if entity @s[y=-62,dy=-100] run function bracken:dimension_crossing/overworld_to_underdark

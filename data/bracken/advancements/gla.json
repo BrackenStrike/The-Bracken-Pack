@@ -20,15 +20,15 @@
         "bracken:gla1": {
             "trigger": "minecraft:location",
             "conditions": {
-              "location": {
-                "dimension": "bracken:glacium"
-              }
+                "location": {
+                    "dimension": "bracken:glacium"
+                }
             }
-          }
-        },
+        }
+    },
     "requirements": [
         [
-        "bracken:gla1"
+            "bracken:gla1"
         ]
     ]
 }

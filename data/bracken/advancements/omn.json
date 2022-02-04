@@ -20,15 +20,15 @@
         "bracken:omn1": {
             "trigger": "minecraft:location",
             "conditions": {
-              "location": {
-                "dimension": "bracken:omnidrome"
-              }
+                "location": {
+                    "dimension": "bracken:omnidrome"
+                }
             }
-          }
-        },
+        }
+    },
     "requirements": [
         [
-        "bracken:omn1"
+            "bracken:omn1"
         ]
     ]
 }

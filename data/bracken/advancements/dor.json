@@ -20,15 +20,15 @@
         "bracken:dor1": {
             "trigger": "minecraft:location",
             "conditions": {
-              "location": {
-                "dimension": "bracken:dormis"
-              }
+                "location": {
+                    "dimension": "bracken:dormis"
+                }
             }
-          }
-        },
+        }
+    },
     "requirements": [
         [
-        "bracken:dor1"
+            "bracken:dor1"
         ]
     ]
 }

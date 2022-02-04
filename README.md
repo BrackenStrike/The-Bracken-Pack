@@ -1,2 +1,2 @@
 # BrackenPack
-very good pack :)
+Stay frosty!

@@ -1,25 +1,23 @@
+##########################################################
+# Description: List of dimension effects for Omnidrome.
+# Creators: Bracken and Grandmaster
+##########################################################
+
 #travel nether
-execute as @s[predicate=bracken:sprint] if entity @e[type=minecraft:end_crystal,distance=..2] run function bracken:dimensions/omnidrome_to_nether
+execute as @s[predicate=bracken:sprint] if entity @e[type=minecraft:end_crystal,distance=..2] run function bracken:dimension_crossing/omnidrome_to_nether
+execute as @e[type=armor_stand,tag=bp_dimension_armor_stand] at @s if block ~ ~-1 ~ air in bracken:omnidrome run function bracken:dimension_crossing/spawn_platforms/remove_spawn_platform
 
 #omnidrome movement
-effect give @a[predicate=bracken:omnidrome,scores={sneakcharge=10..}] minecraft:levitation 1 15 true
-effect clear @a[predicate=bracken:omnidrome,predicate=!bracken:sneak,scores={sneakcharge=..28}] minecraft:levitation
-effect give @a[predicate=bracken:omnidrome,predicate=bracken:sprint] minecraft:speed 1 4 true
-effect give @a[predicate=bracken:omnidrome,scores={longtick=2}] minecraft:jump_boost 15 255 true
+effect give @s[scores={bp.sneakcharge=10..}] minecraft:levitation 1 15 true
+effect clear @s[predicate=!bracken:sneak,scores={bp.sneakcharge=..28}] minecraft:levitation
+effect give @s[predicate=bracken:sprint] minecraft:speed 1 4 true
+effect give @s[scores={bp.longtick=2}] minecraft:jump_boost 15 255 true
 
 execute if entity @s[y=-42,dy=-100] in bracken:omnidrome run tp @s ~ 275 ~
 execute if entity @s[y=280,dy=100] in bracken:omnidrome run tp @s ~ -38 ~
 execute if entity @s[y=275,dy=100] run effect give @s slow_falling 1 1 true
 
-execute as @e[type=armor_stand,tag=bp_dimension_armor_stand] at @s if block ~ ~-1 ~ air in bracken:omnidrome run function bracken:dimensions/spawn_platforms/remove_spawn_platform
-
 ##########   FLYING TURRET   ##########
-execute at @e[type=minecraft:guardian,tag=turret] run effect give @e[type=vex,tag=turret,distance=..1] minecraft:instant_health 1 3 true
-execute at @e[type=minecraft:guardian,tag=turret] run particle minecraft:end_rod ~ ~ ~ .2 .2 .2 0.01 1
-execute at @e[type=minecraft:guardian,tag=turret] run effect give @e[type=player,distance=..2] minecraft:poison 2 3 true
-execute at @e[type=minecraft:guardian,tag=turret] run effect give @e[type=player,distance=..2] minecraft:hunger 2 30 true
-execute at @e[type=minecraft:guardian,tag=turret] run effect give @e[type=player,distance=..2] minecraft:blindness 2 3 true
-execute at @e[type=minecraft:guardian,tag=turret] run effect give @e[type=player,distance=..2] minecraft:night_vision 2 3 true
+execute as @e[type=minecraft:guardian,tag=turret] at @s run function bracken:entities/omnidrome/flying_turrent
 
 
-execute at @a run data modify entity @e[type=iron_golem,limit=1,distance=..50,name=Corrupted_Golem] AngryAt set from entity @p UUID

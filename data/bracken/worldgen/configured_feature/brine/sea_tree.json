@@ -1,32 +1,21 @@
 {
+  "type": "minecraft:huge_fungus",
   "config": {
-    "feature": {
-      "config": {
-        "hat_state": {
-          "Name": "minecraft:slime_block"
-        },
-        "decor_state": {
-          "Name": "minecraft:glowstone"
-        },
-        "planted": false,
-        "valid_base_block": {
-          "Name": "minecraft:warped_wart_block"
-        },
-        "stem_state": {
-          "Properties": {
-            "axis": "y"
-          },
-          "Name": "minecraft:melon"
-        }
-      },
-      "type": "minecraft:huge_fungus"
+    "hat_state": {
+      "Name": "minecraft:slime_block"
     },
-    "decorator": {
-      "config": {
-        "count": 1
+    "decor_state": {
+      "Name": "minecraft:glowstone"
+    },
+    "planted": false,
+    "valid_base_block": {
+      "Name": "minecraft:warped_wart_block"
+    },
+    "stem_state": {
+      "Properties": {
+        "axis": "y"
       },
-      "type": "minecraft:count_multilayer"
+      "Name": "minecraft:melon"
     }
-  },
-  "type": "minecraft:decorated"
+  }
 }

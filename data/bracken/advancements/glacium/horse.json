@@ -20,23 +20,24 @@
         "bracken:glacium/horse1": {
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:skeleton_horse",
-              "location": {
-                "dimension": "bracken:glacium"
-              }
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:skeleton_horse",
+                            "location": {
+                                "dimension": "bracken:glacium"
+                            }
+                        }
+                    }
+                ]
             }
-          }
-        ]}
-          }
-        },
+        }
+    },
     "requirements": [
         [
-        "bracken:glacium/horse1"
+            "bracken:glacium/horse1"
         ]
     ]
 }

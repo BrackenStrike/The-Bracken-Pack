@@ -20,24 +20,25 @@
         "bracken:sanctum/dune_biome1": {
             "trigger": "minecraft:location",
             "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:player",
-              "team": "Outlander"
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "team": "Outlander"
+                        }
+                    }
+                ],
+                "location": {
+                    "dimension": "bracken:sanctum"
+                }
             }
-          }
-        ],
-        "location": {
-          "dimension": "bracken:sanctum"
-        }}
-          }
-        },
+        }
+    },
     "requirements": [
         [
-        "bracken:sanctum/dune_biome1"
+            "bracken:sanctum/dune_biome1"
         ]
     ]
 }

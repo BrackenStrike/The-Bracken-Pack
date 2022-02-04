@@ -20,30 +20,32 @@
         "bracken:glacium/water1": {
             "trigger": "minecraft:location",
             "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:player",
-              "effects": {
-                "minecraft:wither": {}
-              }
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "effects": {
+                                "minecraft:wither": {}
+                            }
+                        }
+                    }
+                ],
+                "location": {
+                    "dimension": "bracken:glacium",
+                    "block": {
+                        "blocks": [
+                            "minecraft:water"
+                        ]
+                    }
+                }
             }
-          }
-        ],
-        "location": {
-          "dimension": "bracken:glacium","block": {
-            "blocks": [
-              "minecraft:water"
-            ]
-          }
-        }}
-          }
-        },
+        }
+    },
     "requirements": [
         [
-        "bracken:glacium/water1"
+            "bracken:glacium/water1"
         ]
     ]
 }

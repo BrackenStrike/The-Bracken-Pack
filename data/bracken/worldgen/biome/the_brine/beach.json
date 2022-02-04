@@ -1,27 +1,63 @@
 {
-  "starts": [
-    "bracken:root","bracken:brine_pirate_ship"
-  ],
   "spawners": {
-    "water_ambient": [
+    "water_ambient": [{
+        "type": "minecraft:cod",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 4
+      }
+      
+    ],
+    "ambient": [],
+    "misc": [
+      {
+        "type": "minecraft:turtle",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 5
+      }
+     
+
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:turtle",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:squid",
+        "weight": 100,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:pufferfish",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:tropical_fish",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 1
+      },
       {
         "type": "minecraft:guardian",
         "weight": 1,
         "minCount": 1,
         "maxCount": 1
       },
-      {
-        "type": "minecraft:cod",
-        "weight": 30,
-        "minCount": 1,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:squid",
-        "weight": 40,
-        "minCount": 3,
-        "maxCount": 5
-      },
+    ],
+    "creature": [
       {
         "type": "minecraft:turtle",
         "weight": 5,
@@ -29,36 +65,17 @@
         "maxCount": 5
       }
     ],
-    "ambient": [{
-        "type": "minecraft:turtle",
-        "weight": 5,
-        "minCount": 2,
-        "maxCount": 5
-      }],
-    "misc": [{
-        "type": "minecraft:turtle",
-        "weight": 5,
-        "minCount": 2,
-        "maxCount": 5
-      }],
-    "water_creature": [{
-        "type": "minecraft:turtle",
-        "weight": 5,
-        "minCount": 2,
-        "maxCount": 5
-      }],
-    "creature": [
-    {
-        "type": "minecraft:turtle",
-        "weight": 5,
-        "minCount": 2,
-        "maxCount": 5
-      }
-  ],
     "monster": [
       {
         "type": "minecraft:enderman",
         "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      
+      {
+        "type": "minecraft:slime",
+        "weight": 10,
         "minCount": 1,
         "maxCount": 1
       },
@@ -71,26 +88,23 @@
     ]
   },
   "spawn_costs": {},
-  "surface_builder": "minecraft:full_sand",
   "carvers": {
     "air": [
       "minecraft:cave",
-      "minecraft:canyon",
-      "minecraft:ocean_cave"
+      "minecraft:canyon"
     ]
   },
   "features": [
     [],
     [
-      "minecraft:lake_water",
-      "minecraft:lake_lava"
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground"
     ],
     [],
     [],
     [
-    	"minecraft:desert_well"
+      "minecraft:desert_well"
     ],
-    [],
     [],
     [],
     [
@@ -103,34 +117,34 @@
       "minecraft:seagrass_simple",
       "minecraft:warm_ocean_vegetation"
     ],
+    [],
+    [],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
-  "scale": 0.9,
   "temperature": 0.95,
   "downfall": 0.1,
   "effects": {
     "fog_color": 14745599,
     "water_color": 5095618,
     "water_fog_color": 3093076,
-      "grass_color": 2320701,
-      "sky_color": 9633746,
-  "foliage_colour": 2320701,
+    "grass_color": 2320701,
+    "sky_color": 9633746,
+    "foliage_colour": 2320701,
     "particle": {
       "options": {
         "type": "minecraft:warped_spore"
       },
       "probability": 0.01428
     },
-"mood_sound": {
+    "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2.0
+      "offset": 2
     },
-
-"additions_sound": {
+    "additions_sound": {
       "sound": "minecraft:ambient.underwater.loop.additions.ultra_rare",
       "tick_chance": 0.001
     },
@@ -138,13 +152,10 @@
       "sound": "minecraft:music.under_water",
       "min_delay": 12000,
       "max_delay": 24000,
-      "replace_current_music": false},
-
-
-      "ambient_sound":"minecraft:ambient.underwater.loop"
-},
+      "replace_current_music": false
+    },
+    "ambient_sound": "minecraft:ambient.underwater.loop"
+  },
   "precipitation": "rain",
-  "player_spawn_friendly": true,
-  "category": "jungle",
-  "depth": 0.1
+  "category": "jungle"
 }

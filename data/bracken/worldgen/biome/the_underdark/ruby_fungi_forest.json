@@ -1,7 +1,4 @@
 {
-  "starts": [
-"bracken:underdark_mushroom_boss"
-],
   "spawners": {
     "water_ambient": [],
     "ambient": [
@@ -22,14 +19,13 @@
         "minCount": 1,
         "maxCount": 1
       },
-    {
+      {
         "type": "minecraft:enderman",
         "weight": 1,
         "minCount": 1,
         "maxCount": 1
       },
-
-    {
+      {
         "type": "minecraft:creeper",
         "weight": 5,
         "minCount": 1,
@@ -56,7 +52,6 @@
     ]
   },
   "spawn_costs": {},
-  "surface_builder": "minecraft:mycelium",
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -68,9 +63,11 @@
   "features": [
     [],
     [
-      "minecraft:lake_lava",
-      "minecraft:lake_water",
-      "bracken:underdark/rock","bracken:underdark/crimson_spot","bracken:underdark/fungus_roots",
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground",
+      "bracken:underdark/rock",
+      "bracken:underdark/crimson_spot",
+      "bracken:underdark/fungus_roots",
       "bracken:underdark/red_mush_tree",
       "bracken:underdark/alt_mush_tree",
       "bracken:underdark/small_mush_tree",
@@ -83,13 +80,22 @@
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_diorite",
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
       "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
       "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
       "minecraft:disk_sand",
       "minecraft:ore_gold_extra",
       "bracken:underdark/emerald_ore",
@@ -104,17 +110,20 @@
       "minecraft:patch_tall_grass_2",
       "bracken:underdark/smooth_basalt"
     ],
-    ["minecraft:ore_infested"],
-    ["minecraft:mushroom_field_vegetation"],
+    [
+      "minecraft:ore_infested"
+    ],
+    [],
+    [
+      "minecraft:mushroom_island_vegetation"
+    ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
-  "scale": 0.9,
   "temperature": 0.95,
   "downfall": 0.1,
   "effects": {
-
     "sky_color": 8600895,
     "fog_color": 5786701,
     "water_color": 8166054,
@@ -127,14 +136,13 @@
       },
       "probability": 0.118093334
     },
-"mood_sound": {
+    "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2.0
+      "offset": 2
     },
-
-"additions_sound": {
+    "additions_sound": {
       "sound": "bracken:underdark_ambient_wind",
       "tick_chance": 0.0001
     },
@@ -142,13 +150,10 @@
       "sound": "minecraft:music.nether.basalt_deltas",
       "min_delay": 12000,
       "max_delay": 24000,
-      "replace_current_music": false},
-
-
-      "ambient_sound":"minecraft:block.roots.step"
-},
+      "replace_current_music": false
+    },
+    "ambient_sound": "minecraft:block.roots.step"
+  },
   "precipitation": "none",
-  "player_spawn_friendly": true,
-  "category": "none",
-  "depth": 0.1
+  "category": "none"
 }

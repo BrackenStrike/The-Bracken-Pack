@@ -20,33 +20,34 @@
         "bracken:glacium/kill21": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:wither_skeleton",
-              "nbt": "{Tags:[\"bp.bygone_viceroy.top\"]}"
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:wither_skeleton",
+                            "nbt": "{Tags:[\"bp.bygone_viceroy.top\"]}"
+                        }
+                    }
+                ],
+                "killing_blow": {
+                    "source_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [
+                                    "minecraft:bow"
+                                ]
+                            }
+                        }
+                    }
+                }
             }
-          }
-        ],
-        "killing_blow": {
-          "source_entity": {
-            "type": "minecraft:player",
-            "equipment": {
-              "mainhand": {
-                "items": [
-                  "minecraft:bow"
-                ]
-              }
-            }
-          }
-        }}
-          }
-        },
+        }
+    },
     "requirements": [
         [
-        "bracken:glacium/kill21"
+            "bracken:glacium/kill21"
         ]
     ]
 }

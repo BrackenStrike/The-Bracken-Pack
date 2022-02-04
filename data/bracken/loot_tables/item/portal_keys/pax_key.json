@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{bp.portal_key:4b,CustomModelData:444444}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Pax Portal Key",
+                  "color": "white",
+                  "italic": true,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Unlocks a door to somewhere...",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

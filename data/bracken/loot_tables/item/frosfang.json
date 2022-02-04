@@ -7,10 +7,30 @@
           "type": "item",
           "name": "minecraft:diamond_sword",
           "functions": [
-             {"function":"set_nbt","tag":"{CustomModelData:888502,AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-10,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:14,Operation:0,UUID:[I;1401610331,1048199356,-1607358411,589202321],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:5s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"},
-
-              {"function":"set_name","name":[{"text":"Frosfang","color":"white","italic":false}]},
-              {"function":"set_lore","lore":[{"text":"jeg biter!","color":"gray","italic":false}]},
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:888502,AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-10,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:14,Operation:0,UUID:[I;1401610331,1048199356,-1607358411,589202321],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:5s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Frosfang",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "jeg biter!",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
             {
               "function": "set_damage",
               "damage": {

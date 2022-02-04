@@ -1,132 +1,107 @@
 {
+  "type": "minecraft:simple_random_selector",
   "config": {
-    "feature": {
-      "config": {
+    "features": [
+      {
         "feature": {
+          "type": "minecraft:simple_block",
           "config": {
-            "feature": {
-              "config": {
-                "features": [
-                  {
-                    "config": {
-                      "feature": {
-                        "config": {
-                          "to_place": {
-                            "state": {
-                              "Name": "minecraft:light",
-                              "Properties": {
-                                "waterlogged": "false",
-                                "level": "15"
-                              }
-                            },
-                            "type": "minecraft:simple_state_provider"
-                          },
-                          "place_on": [],
-                          "place_in": [],
-                          "place_under": [
-                            {
-                              "Name": "minecraft:cyan_stained_glass"
-                            },
-                            {
-                              "Name": "minecraft:light_blue_stained_glass"
-                            },
-                            {
-                              "Name": "minecraft:blue_stained_glass"
-                            },
-                            {
-                              "Name": "minecraft:white_stained_glass"
-                            }
-                          ]
-                        },
-                        "type": "minecraft:simple_block"
-                      },
-                      "decorator": {
-                        "config": {
-                          "surface": "ceiling",
-                          "floor_to_ceiling_search_range": 256
-                        },
-                        "type": "minecraft:cave_surface"
-                      }
-                    },
-                    "type": "minecraft:decorated"
-                  },
-                  {
-                    "config": {
-                      "feature": {
-                        "config": {
-                          "to_place": {
-                            "state": {
-                              "Name": "minecraft:light",
-                              "Properties": {
-                                "waterlogged": "false",
-                                "level": "15"
-                              }
-                            },
-                            "type": "minecraft:simple_state_provider"
-                          },
-                          "place_on": [
-                            {
-                              "Name": "minecraft:cyan_stained_glass"
-                            },
-                            {
-                              "Name": "minecraft:light_blue_stained_glass"
-                            },
-                            {
-                              "Name": "minecraft:blue_stained_glass"
-                            },
-                            {
-                              "Name": "minecraft:white_stained_glass"
-                            }
-                          ],
-                          "place_in": [],
-                          "place_under": []
-                        },
-                        "type": "minecraft:simple_block"
-                      },
-                      "decorator": {
-                        "config": {
-                          "surface": "floor",
-                          "floor_to_ceiling_search_range": 256
-                        },
-                        "type": "minecraft:cave_surface"
-                      }
-                    },
-                    "type": "minecraft:decorated"
-                  }
-                ]
-              },
-              "type": "minecraft:simple_random_selector"
-            },
-            "decorator": {
-              "config": {
-                "height": {
-                  "max_inclusive": {
-                    "below_top": 0
-                  },
-                  "min_inclusive": {
-                    "above_bottom": 0
-                  },
-                  "type": "minecraft:uniform"
+            "to_place": {
+              "state": {
+                "Name": "minecraft:light",
+                "Properties": {
+                  "waterlogged": "false",
+                  "level": "15"
                 }
               },
-              "type": "minecraft:range"
+              "type": "minecraft:simple_state_provider"
             }
-          },
-          "type": "minecraft:decorated"
+          }
         },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
-        }
+        "placement": [
+          {
+            "type": "minecraft:environment_scan",
+            "direction_of_search": "up",
+            "target_condition": {
+              "type": "minecraft:solid"
+            },
+            "allowed_search_condition": {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:air"
+              ]
+            },
+            "max_steps": 32
+          },
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                1,
+                0
+              ],
+              "blocks": [
+                "minecraft:cyan_stained_glass",
+                "minecraft:light_blue_stained_glass",
+                "minecraft:blue_stained_glass",
+                "minecraft:white_stained_glass"
+              ]
+            }
+          }
+        ]
       },
-      "type": "minecraft:decorated"
-    },
-    "decorator": {
-      "config": {
-        "count": 128
-      },
-      "type": "minecraft:count"
-    }
-  },
-  "type": "minecraft:decorated"
+      {
+        "feature": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "state": {
+                "Name": "minecraft:light",
+                "Properties": {
+                  "waterlogged": "false",
+                  "level": "15"
+                }
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:environment_scan",
+            "direction_of_search": "down",
+            "target_condition": {
+              "type": "minecraft:solid"
+            },
+            "allowed_search_condition": {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:air"
+              ]
+            },
+            "max_steps": 32
+          },
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": [
+                "minecraft:cyan_stained_glass",
+                "minecraft:light_blue_stained_glass",
+                "minecraft:blue_stained_glass",
+                "minecraft:white_stained_glass"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
 }

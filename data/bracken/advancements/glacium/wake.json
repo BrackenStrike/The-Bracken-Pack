@@ -19,11 +19,11 @@
     "criteria": {
         "bracken:glacium/wake1": {
             "trigger": "minecraft:impossible"
-          }
-        },
+        }
+    },
     "requirements": [
         [
-        "bracken:glacium/wake1"
+            "bracken:glacium/wake1"
         ]
     ]
 }

@@ -20,15 +20,15 @@
         "bracken:pan1": {
             "trigger": "minecraft:location",
             "conditions": {
-              "location": {
-                "dimension": "bracken:panacea"
-              }
+                "location": {
+                    "dimension": "bracken:panacea"
+                }
             }
-          }
-        },
+        }
+    },
     "requirements": [
         [
-        "bracken:pan1"
+            "bracken:pan1"
         ]
     ]
 }

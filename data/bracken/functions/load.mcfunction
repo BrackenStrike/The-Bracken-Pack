@@ -2,25 +2,25 @@
 function bracken:math/load
 
 #Boss Init
-function bracken:boss/solatium_thrall/load
-function bracken:boss/bygone_viceroy/load
-function bracken:boss/the_disruptor/load
-function bracken:boss/project_ruination/load
+function bracken:entities/boss/solatium_thrall/load
+function bracken:entities/boss/bygone_viceroy/load
+function bracken:entities/boss/the_disruptor/load
+function bracken:entities/boss/project_ruination/load
 
 ##########   ADD SCOREBOARD OBJECTIVES   ##########
-scoreboard objectives add food food
-scoreboard objectives add walk minecraft.custom:minecraft.walk_one_cm
-scoreboard objectives add sprint minecraft.custom:minecraft.sprint_one_cm
-scoreboard objectives add hurting minecraft.custom:minecraft.damage_dealt
-scoreboard objectives add jump minecraft.custom:minecraft.jump
-scoreboard objectives add deaths deathCount
-scoreboard objectives add health health
-scoreboard objectives add armor armor
-scoreboard objectives add poison dummy
-scoreboard objectives add tick dummy
-scoreboard objectives add activity dummy
-scoreboard objectives add longtick dummy
-scoreboard objectives add verylongtick dummy
+scoreboard objectives add bp.food food
+scoreboard objectives add bp.walk minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add bp.sprint minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add bp.hurting minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add bp.jump minecraft.custom:minecraft.jump
+scoreboard objectives add bp.deaths deathCount
+scoreboard objectives add bp.health health
+scoreboard objectives add bp.armor armor
+scoreboard objectives add bp.poison dummy
+scoreboard objectives add bp.tick dummy
+scoreboard objectives add bp.activity dummy
+scoreboard objectives add bp.longtick dummy
+scoreboard objectives add bp.verylongtick dummy
 scoreboard objectives add bp.offhand dummy
 scoreboard objectives add bp.x_rotation dummy
 scoreboard objectives add bp.z_rotation dummy
@@ -59,49 +59,28 @@ scoreboard objectives add bp.zmansion2 dummy
 scoreboard objectives add bp.dimension dummy
 scoreboard players set #70 bp.ymansion 70
 
-scoreboard objectives add sprintcharge dummy
-scoreboard objectives add sneakcharge dummy
-scoreboard objectives add creeper dummy
+scoreboard objectives add bp.sprintcharge dummy
+scoreboard objectives add bp.sneakcharge dummy
+scoreboard objectives add bp.creeper dummy
 scoreboard objectives add bp.wither_skull dummy
-scoreboard objectives add ice dummy
-scoreboard objectives add mark dummy
-scoreboard objectives add gold dummy
+scoreboard objectives add bp.ice dummy
+scoreboard objectives add bp.mark dummy
+scoreboard objectives add bp.gold dummy
 
-scoreboard objectives add overworld dummy
-scoreboard objectives add fae dummy
-scoreboard objectives add panacea dummy
-scoreboard objectives add pax dummy
+scoreboard objectives add bp.overworld dummy
+scoreboard objectives add bp.fae dummy
+scoreboard objectives add bp.panacea dummy
+scoreboard objectives add bp.pax dummy
 
 scoreboard objectives add r dummy
 scoreboard objectives add g dummy
 scoreboard objectives add b dummy
 scoreboard objectives add w dummy
-scoreboard objectives add portal dummy
+scoreboard objectives add bp.portal dummy
 
-
-scoreboard objectives add fireball1 dummy
-scoreboard objectives add lightning1 dummy
-scoreboard objectives add iron1 dummy
-scoreboard objectives add slime1 dummy
-scoreboard objectives add fangs1 dummy
-scoreboard objectives add boat1 dummy
-scoreboard objectives add heal1 dummy
-scoreboard objectives add kill1 dummy
-scoreboard objectives add glow1 dummy
-scoreboard objectives add soar1 dummy
-scoreboard objectives add frostlock1 dummy
-scoreboard objectives add adamantine1 dummy
-scoreboard objectives add soar1 dummy
-scoreboard objectives add null1 dummy
-scoreboard objectives add null dummy
-scoreboard objectives add frostlock1 dummy
-scoreboard objectives add scatter1 dummy
-scoreboard objectives add spark1 dummy
-scoreboard objectives add return1 dummy
-scoreboard objectives add tooth1 dummy
-scoreboard objectives add giant dummy
-scoreboard objectives add book minecraft.used:minecraft.knowledge_book
-scoreboard objectives add book_id dummy
+scoreboard objectives add bp.giant dummy
+scoreboard objectives add bp.book minecraft.used:minecraft.knowledge_book
+scoreboard objectives add bp.book_id dummy
 
 scoreboard objectives add bp.arb_book dummy
 scoreboard objectives add automech trigger
@@ -130,30 +109,45 @@ scoreboard objectives add outlander_ trigger
 scoreboard objectives add realmkeeper_ trigger
 scoreboard objectives add villain_ trigger
 
-
+# score for hunter morphing :D
+scoreboard objectives add bp.hmorph dummy
+### Here's How It Works: ###
+# 0: The Hunter is Not Morphed. It activates by default and by eating raw animal meat (porkchops, beef and mutton) or drinking milk. They have speed depending on hunger.
+# 1: The Hunter ate Chicken. They have Feather Falling.
+# 2: The Hunter ate Rabbit. They have Jump Boost II.
+# 3: The Hunter ate Rotten Flesh. They Have Strength.
+# 4: The Hunter ate Tropical Fish, Cod or Salmon. They have Water Breathing.
+# 5: The Hunter ate Pufferfish. They have a "Poison Area" and have Water Breathing.
+# 6: The Hunter ate a Spider Eye. They have "Poison Touch", are Immune to Poison and have Speed.
+# 7: The Hunter ate a Potato. They have Haste.
+# 8: The Hunter ate Melon. They have Regeneration.
+# 9: The Hunter ate an Apple. They have Health Boost.
+# 10: The Hunter ate a Carrot. They have Night Vision.
+# 11: The Hunter ate a Beetroot. They have Resistance.
+# 12: The Hunter ate Sweet Berries. They have a "Poison Area".
+# 13: The Hunter ate Glow Berries. The hunter has a "Glow Touch".
 
 ##########   GAMERULE COMMANDBLOCK OUTPUT FALSE   ##########
 gamerule commandBlockOutput false
 
 ##########   RESET SCOREBOARD PLAYER VALUES   ##########
-scoreboard players set @a sprintcharge 0
-scoreboard players set @a tick 0
-scoreboard players set @a longtick 0
-scoreboard players set @a verylongtick 0
-scoreboard players set @a hurting 0
-scoreboard players set @a deaths 0
-scoreboard players set @a sprintcharge 0
-scoreboard players set @a creeper 0
-scoreboard players set @a mark 0
-scoreboard players set @a gold 0
+scoreboard players set @a bp.sprintcharge 0
+scoreboard players set @a bp.tick 0
+scoreboard players set @a bp.longtick 0
+scoreboard players set @a bp.verylongtick 0
+scoreboard players set @a bp.hurting 0
+scoreboard players set @a bp.deaths 0
+scoreboard players set @a bp.creeper 0
+scoreboard players set @a bp.mark 0
+scoreboard players set @a bp.gold 0
 scoreboard players set @a r 0
 scoreboard players set @a g 0
 scoreboard players set @a b 0
 scoreboard players set @a w 0
-scoreboard players set @a portal 0
+scoreboard players set @a bp.portal 0
 
 ##########   DISPLAY HEARTS   ##########
-scoreboard objectives setdisplay list health
+#scoreboard objectives setdisplay list bp.health
 
 
 ##########   ADD TEAMS   ##########
@@ -187,7 +181,19 @@ team modify Hunter color dark_green
 
 
 ##########   START TICK FUNCTIONS   ###########
-#function bracken:book_of_arbitrium/boa_start
-##########function bracken:book_item_crafting
-function bracken:book_based_commands
 function bracken:other_commands
+
+
+##########   SANCTUM BUILD   ###########
+execute in bracken:sanctum run setblock 0 128 0 structure_block[mode=load]{name:"bracken:sanctum_d_boss",rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b} replace
+
+execute in bracken:sanctum run setblock 0 127 0 structure_block[mode=load]{name:"bracken:sanctum_d_enter",posX:-10,posY:-12,posZ:8,rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b} replace
+
+execute in bracken:sanctum run setblock 0 129 0 structure_block[mode=load]{name:"bracken:sanctum_d_float",posX:7,posY:43,posZ:7,rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b} replace
+
+execute in bracken:sanctum run setblock 0 129 1 redstone_block
+execute in bracken:sanctum run setblock 0 128 1 redstone_block
+execute in bracken:sanctum run setblock 0 127 1 redstone_block
+
+#test only
+#execute in bracken:glacium run tp @p ~ ~200 ~

@@ -20,19 +20,19 @@
         "bracken:sanctum/vault1": {
             "trigger": "minecraft:location",
             "conditions": {
-        "location": {
-          "biome": "bracken:sanctum/dark_soot_dunes",
-          "feature": "village",
-          "light": {
-            "light": 0
-          }
+                "location": {
+                    "biome": "bracken:sanctum/dark_soot_dunes",
+                    "feature": "village",
+                    "light": {
+                        "light": 0
+                    }
+                }
+            }
         }
-      }
-          }
-        },
+    },
     "requirements": [
         [
-        "bracken:sanctum/vault1"
+            "bracken:sanctum/vault1"
         ]
     ]
 }

@@ -4,7 +4,6 @@
   "ore_veins_enabled": false,
   "noodle_caves_enabled": false,
   "aquifers_enabled": false,
-  "min_surface_level": 0,
   "bedrock_roof_position": -2147483648,
   "bedrock_floor_position": -2147483648,
   "sea_level": 0,
@@ -18,32 +17,39 @@
     "sampling": {
       "xz_scale": 0.2,
       "y_scale": 0.2,
-      "xz_factor": 80.0,
-      "y_factor": 160.0
+      "xz_factor": 80,
+      "y_factor": 160
     },
     "top_slide": {
-      "target": -10,
+      "target": -0.078125,
       "size": 3,
       "offset": 0
     },
     "bottom_slide": {
-      "target": -30,
+      "target": -0.234375,
       "size": 0,
       "offset": 0
     },
     "size_horizontal": 4,
     "size_vertical": 4,
-    "density_factor": 1.0,
-    "density_offset": -0.46875,
-    "simplex_surface_noise": true
+    "terrain_shaper": {
+      "offset": 0,
+      "factor": 0,
+      "jaggedness": 0
+    }
   },
   "default_block": {
     "Name": "minecraft:air"
   },
   "default_fluid": {
     "Name": "minecraft:water",
-        "Properties": {
-          "level": "0"
-        }
+    "Properties": {
+      "level": "0"
+    }
+  },
+  "legacy_random_source": false,
+  "surface_rule": {
+    "type": "minecraft:sequence",
+    "sequence": []
   }
 }

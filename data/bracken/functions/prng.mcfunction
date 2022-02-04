@@ -1,3 +1,8 @@
+##########################################################
+# Description: A psuedo-random number generator.
+# Creators: Sulfenir
+##########################################################
+
 scoreboard objectives add sulf.math.in dummy
 scoreboard objectives add sulf.math.out dummy
 scoreboard objectives add sulf.math.var dummy

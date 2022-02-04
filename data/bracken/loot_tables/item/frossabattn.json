@@ -7,9 +7,30 @@
           "type": "item",
           "name": "minecraft:diamond_boots",
           "functions": [
-             {"function":"set_nbt","tag":"{CustomModelData:888502,AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-10,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"feet\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:frost_walker\",lvl:5s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"},
-              {"function":"set_name","name":[{"text":"Frossabattn","color":"white","italic":false}]},
-              {"function":"set_lore","lore":[{"text":"jeg løper!","color":"gray","italic":false}]},
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:888502,AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-10,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"feet\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:frost_walker\",lvl:5s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Frossabattn",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "jeg løper!",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
             {
               "function": "set_damage",
               "damage": {

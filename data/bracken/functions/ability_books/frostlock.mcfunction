@@ -1,3 +1,8 @@
+##########################################################
+# Description: Commands that activate when the player uses the ability book Frostlock.
+# Creators: Bracken and Grandmaster
+##########################################################
+
 item replace entity @s[scores={bp.offhand=0}] weapon with air
 loot replace entity @s[scores={bp.offhand=0}] weapon loot bracken:item/frostlock
 item replace entity @s[scores={bp.offhand=1}] weapon.offhand with air
@@ -8,6 +13,6 @@ execute if entity @s[level=3..] run summon area_effect_cloud ~ ~ ~ {Radius:25f,R
 execute if entity @s[level=3..] run tellraw @s ["",{"selector":"@s "},{"text":" generated [FROSTLOCK]"}]
 execute if entity @s[level=3..] run experience add @s -3 levels
 
-execute at @e[type=minecraft:area_effect_cloud,name=frostlock] run effect give @e[distance=..8,team=!Frostkin] minecraft:jump_boost 2 240 true
-execute at @e[type=minecraft:area_effect_cloud,name=frostlock] run particle minecraft:effect ~ ~ ~ 4 4 4 0.01 100
-execute at @e[type=minecraft:area_effect_cloud,name=frostlock] run schedule function bracken:spell_books/frostlock 5t
+execute at @e[type=minecraft:area_effect_cloud,name="frostlock"] run effect give @e[distance=..8,team=!Frostkin] minecraft:jump_boost 2 240 true
+execute at @e[type=minecraft:area_effect_cloud,name="frostlock"] run particle minecraft:effect ~ ~ ~ 4 4 4 0.01 100
+execute at @e[type=minecraft:area_effect_cloud,name="frostlock"] run schedule function bracken:spell_books/frostlock 5t

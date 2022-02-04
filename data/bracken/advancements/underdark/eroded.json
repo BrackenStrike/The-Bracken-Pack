@@ -1,0 +1,42 @@
+{
+    "parent": "bracken:underdark/enter_underdark",
+    "display": {
+        "title": {
+            "text": "Swept Away"
+        },
+        "description": {
+            "text": "Enter the eroded biome",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:underdark/eroded1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "bracken:the_underdark/eroded"
+              }
+            }
+          }
+        ]
+      }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:underdark/eroded1"
+        ]
+    ]
+}

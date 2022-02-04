@@ -36,7 +36,7 @@
               "chance": 0.6
             }
           ],
-          "functions":[
+          "functions": [
             {
               "function": "set_nbt",
               "tag": "{Potion:\"minecraft:slowness\"}"

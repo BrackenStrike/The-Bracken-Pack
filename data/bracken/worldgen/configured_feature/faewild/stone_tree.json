@@ -1,32 +1,21 @@
 {
+  "type": "minecraft:huge_fungus",
   "config": {
-    "feature": {
-      "config": {
-        "hat_state": {
-          "Name": "minecraft:light_blue_stained_glass"
-        },
-        "decor_state": {
-          "Name": "minecraft:sea_lantern"
-        },
-        "planted": false,
-        "valid_base_block": {
-          "Name": "minecraft:warped_nylium"
-        },
-        "stem_state": {
-          "Properties": {
-            "axis": "y"
-          },
-          "Name": "minecraft:chiseled_stone_bricks"
-        }
-      },
-      "type": "minecraft:huge_fungus"
+    "hat_state": {
+      "Name": "minecraft:light_blue_stained_glass"
     },
-    "decorator": {
-      "config": {
-        "count": 1
+    "decor_state": {
+      "Name": "minecraft:sea_lantern"
+    },
+    "planted": false,
+    "valid_base_block": {
+      "Name": "minecraft:warped_nylium"
+    },
+    "stem_state": {
+      "Properties": {
+        "axis": "y"
       },
-      "type": "minecraft:count_multilayer"
+      "Name": "minecraft:chiseled_stone_bricks"
     }
-  },
-  "type": "minecraft:decorated"
+  }
 }

@@ -17,7 +17,7 @@
             }
           ]
         },
-          {
+        {
           "type": "loot_table",
           "name": "bracken:item/fireball",
           "conditions": [

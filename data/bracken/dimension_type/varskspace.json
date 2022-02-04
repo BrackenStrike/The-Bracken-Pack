@@ -9,7 +9,7 @@
     "bed_works": true,
     "piglin_safe": true,
     "natural": false,
-    "coordinate_scale": 100.0,
+    "coordinate_scale": 100,
     "ambient_light": -0.1,
     "has_skylight": true,
     "has_ceiling": true,

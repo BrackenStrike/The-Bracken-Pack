@@ -19,11 +19,11 @@
     "criteria": {
         "bracken:sanctum/save_boss1": {
             "trigger": "minecraft:impossible"
-          }
-        },
+        }
+    },
     "requirements": [
         [
-        "bracken:sanctum/save_boss1"
+            "bracken:sanctum/save_boss1"
         ]
     ]
 }

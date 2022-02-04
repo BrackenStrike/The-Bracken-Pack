@@ -1,16 +1,12 @@
 {
-  "starts": [
-    "bracken:panacea_flower"
-  ],
   "spawners": {
     "water_ambient": [
-    {
+      {
         "type": "minecraft:pufferfish",
         "weight": 10,
         "minCount": 8,
         "maxCount": 8
       }
-
     ],
     "ambient": [
       {
@@ -21,12 +17,14 @@
       }
     ],
     "misc": [],
-    "water_creature": [{
+    "water_creature": [
+      {
         "type": "minecraft:dolphin",
         "weight": 1,
         "minCount": 0,
         "maxCount": 1
-      }],
+      }
+    ],
     "creature": [
       {
         "type": "minecraft:pig",
@@ -87,47 +85,43 @@
     ]
   },
   "spawn_costs": {},
-  "surface_builder": "bracken:panacea/swamp",
   "carvers": {
     "air": []
   },
   "features": [
     [],
     [
-      "minecraft:lake_water",
-      "bracken:panacea/lake",
-      "minecraft:lake_lava"
+      "bracken:panacea/lake"
     ],
     [
       "minecraft:forest_rock"
     ],
     [
-      "minecraft:monster_room"
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
-    [],
-    [],
-    [],
-    [],
-    [
-      "minecraft:mushroom_field_vegetation",
+    ["minecraft:mushroom_island_vegetation",
       "bracken:panacea/slime_blobs",
       "bracken:panacea/swamp_tree",
       "minecraft:brown_mushroom_taiga",
       "minecraft:red_mushroom_taiga",
       "minecraft:trees_swamp",
-      "minecraft:trees_giant_spruce",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:flower_swamp",
+      "minecraft:trees_old_growth_spruce_taiga",
+      "minecraft:patch_tall_grass_2"],
+    ["minecraft:flower_swamp",
       "minecraft:bamboo_light",
       "minecraft:patch_grass_jungle",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:brown_mushroom_giant",
-      "minecraft:red_mushroom_giant",
-      "minecraft:patch_berry_sparse",
+      "minecraft:brown_mushroom_old_growth"],
+    [],
+    [],
+    [ "minecraft:red_mushroom_old_growth",
+
       "minecraft:patch_large_fern",
       "minecraft:patch_grass_jungle",
-      "minecraft:vines",
+      "minecraft:vines"],
+    [
       "minecraft:patch_sugar_cane",
       "minecraft:spring_water",
       "minecraft:spring_lava",
@@ -137,7 +131,6 @@
       "minecraft:freeze_top_layer"
     ]
   ],
-  "scale": 0.9,
   "temperature": 0.95,
   "downfall": 0.1,
   "effects": {
@@ -145,24 +138,21 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2.0
+      "offset": 2
     },
     "fog_color": 14280587,
     "water_color": 11509077,
     "water_fog_color": 11503445,
-      "grass_color": 7238193,
-
-  "sky_color": 11919559,
-
-  "foliage_color": 9653504,
+    "grass_color": 7238193,
+    "sky_color": 11919559,
+    "foliage_color": 9653504,
     "particle": {
       "options": {
         "type": "minecraft:sneeze"
       },
       "probability": 0.0001428
     },
-
-"additions_sound": {
+    "additions_sound": {
       "sound": "minecraft:entity.parrot.ambient",
       "tick_chance": 0.0002
     },
@@ -170,13 +160,10 @@
       "sound": "minecraft:music.creative",
       "min_delay": 12000,
       "max_delay": 24000,
-      "replace_current_music": false},
-
-
-      "ambient_sound": "minecraft:block.roots.step"
-},
+      "replace_current_music": false
+    },
+    "ambient_sound": "minecraft:block.roots.step"
+  },
   "precipitation": "rain",
-  "player_spawn_friendly": true,
-  "category": "jungle",
-  "depth": 0.1
+  "category": "jungle"
 }

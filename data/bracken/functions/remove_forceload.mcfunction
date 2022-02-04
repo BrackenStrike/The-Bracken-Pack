@@ -1,3 +1,9 @@
+##########################################################
+# Description: If a forceloaded chunk must be removed this function will check for nearby Recall markers
+#   so as not to remove a necessary forceloaded chunk.
+# Creators: Grandmaster
+##########################################################
+
 execute as @s store result score @s bp.xchunk run data get entity @s Pos[0]
 execute as @s store result score @s bp.zchunk run data get entity @s Pos[2]
 scoreboard players operation @s bp.xchunk /= #1 bp.xchunk

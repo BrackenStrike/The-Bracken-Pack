@@ -20,15 +20,15 @@
         "bracken:und1": {
             "trigger": "minecraft:location",
             "conditions": {
-              "location": {
-                "dimension": "bracken:the_underdark"
-              }
+                "location": {
+                    "dimension": "bracken:the_underdark"
+                }
             }
-          }
-        },
+        }
+    },
     "requirements": [
         [
-        "bracken:und1"
+            "bracken:und1"
         ]
     ]
 }

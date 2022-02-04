@@ -1,3 +1,8 @@
+##########################################################
+# Description: Searches for the players home placed using Returning Tides before teleporting the player to it.
+# Creators: Grandmaster
+##########################################################
+
 tag @s remove bp.recall_wait
 
 tellraw @s ["",{"selector":"@s "},{"text":" generated [RECALL]"}]
@@ -11,6 +16,5 @@ scoreboard players set @s bp.recall_void 0
 
 tag @p[tag=bp.target] remove bp.target
 
-#execute at @s run setblock ~ ~-1 ~ minecraft:iron_block
 
 

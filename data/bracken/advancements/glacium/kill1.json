@@ -1,25 +1,25 @@
 {
-    "parent": "bracken:glacium/wake",
-    "display": {
-        "title": {
-            "text": "Strike Low"
-        },
-        "description": {
-            "text": "Slay the lower half of the Viceroy with a sword",
-            "color": "green"
-        },
-        "icon": {
-            "item": "minecraft:diamond_sword"
-        },
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "parent": "bracken:glacium/wake",
+  "display": {
+    "title": {
+      "text": "Strike Low"
     },
-    "criteria": {
-        "bracken:glacium/kill11": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
+    "description": {
+      "text": "Slay the lower half of the Viceroy with a sword",
+      "color": "green"
+    },
+    "icon": {
+      "item": "minecraft:diamond_sword"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bracken:glacium/kill11": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
@@ -46,12 +46,13 @@
               }
             }
           }
-        }}
-          }
-        },
-    "requirements": [
-        [
-        "bracken:glacium/kill11"
-        ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bracken:glacium/kill11"
     ]
+  ]
 }

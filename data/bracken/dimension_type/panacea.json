@@ -9,9 +9,9 @@
     "bed_works": true,
     "piglin_safe": true,
     "natural": true,
-    "coordinate_scale": 1.0,
+    "coordinate_scale": 1,
     "ambient_light": -0.4,
     "has_skylight": true,
     "has_ceiling": false,
-    "fixed_time":7000
+    "fixed_time": 7000
 }
