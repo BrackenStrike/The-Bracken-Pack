@@ -290,7 +290,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:sanctum/dark_soot_dunes"
+            "bp:sanctum/dark_soot_dunes"
           ]
         },
         "then_run": {
@@ -337,7 +337,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:sanctum/land"
+            "bp:sanctum/land"
           ]
         },
         "then_run": {
@@ -383,7 +383,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:sanctum/city"
+            "bp:sanctum/city"
           ]
         },
         "then_run": {
