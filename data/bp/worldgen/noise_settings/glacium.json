@@ -1706,7 +1706,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:glacium/glacial_mass"
+            "bp:glacium/glacial_mass"
           ]
         },
         "then_run": {
@@ -1752,7 +1752,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:glacium/fractured_wastes"
+            "bp:glacium/fractured_wastes"
           ]
         },
         "then_run": {
@@ -1798,7 +1798,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:glacium/boreal_frontier"
+            "bp:glacium/boreal_frontier"
           ]
         },
         "then_run": {
@@ -1844,7 +1844,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:glacium/invasive_forest"
+            "bp:glacium/invasive_forest"
           ]
         },
         "then_run": {
