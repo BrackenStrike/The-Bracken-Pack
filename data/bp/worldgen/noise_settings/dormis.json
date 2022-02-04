@@ -109,7 +109,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:dormis/barrens"
+            "bp:dormis/barrens"
           ]
         },
         "then_run": {
@@ -155,7 +155,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:dormis/commons"
+            "bp:dormis/commons"
           ]
         },
         "then_run": {
@@ -201,7 +201,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:dormis/solitary"
+            "bp:dormis/solitary"
           ]
         },
         "then_run": {
