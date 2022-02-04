@@ -62,7 +62,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:varskspace/expanse"
+            "bp:varskspace/expanse"
           ]
         },
         "then_run": {
