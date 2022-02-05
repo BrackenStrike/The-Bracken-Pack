@@ -30,7 +30,7 @@ execute as @e[type=minecraft:armor_stand,name="fae_well"] at @s run function bp:
 execute as @e[type=minecraft:armor_stand,name="sanctum_post"] at @s run function bp:entities/structure_creation/sanctum_post
 execute as @e[type=minecraft:armor_stand,name="omnidrome_spark"] at @s run function bp:entities/structure_creation/omnidrome_spark
 
-execute at @e[type=marker,tag=bp.pax_portal_redstone_block] run setblock ~ ~-1 ~ redstone_block
+execute at @e[type=marker,tag=bp.pax_portal_redstone_block] run setblock ~ ~ ~ redstone_block
 kill @e[type=marker,tag=bp.pax_portal_redstone_block]
 
 
