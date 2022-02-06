@@ -3,7 +3,7 @@
 # Creators: Bracken
 ##########################################################
 
-execute at @s[tag=!bp.frostkin] if block ~ ~1 ~ minecraft:water run effect give @s minecraft:wither 2 0 true
+execute unless predicate bp:in_boat if block ~ ~ ~ minecraft:water if entity @s[tag=!bp.frostkin] run effect give @s minecraft:wither 2 0 true
 fill ~20 ~5 ~20 ~-20 ~-5 ~-20 minecraft:air replace minecraft:fire
 fill ~20 ~5 ~20 ~-20 ~-5 ~-20 minecraft:campfire[lit=false] replace minecraft:campfire
 
