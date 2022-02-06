@@ -112,6 +112,7 @@ scoreboard objectives add villain_ trigger
 scoreboard objectives add bp.hunter_morph dummy
 scoreboard objectives add bp.enderling_teleport dummy
 scoreboard objectives add bp.outlander_charge dummy
+scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death
 
 ##########   GAMERULE COMMANDBLOCK OUTPUT FALSE   ##########
 gamerule commandBlockOutput false

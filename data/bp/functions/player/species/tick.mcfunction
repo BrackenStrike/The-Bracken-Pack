@@ -3,6 +3,8 @@
 # Creators: 
 ##########################################################
 
+execute if score @s bp.death matches 0 run function bp:player/species/join
+
 execute if entity @s[tag=bp.automech] run function bp:player/species/automech/tick
 execute if entity @s[tag=bp.dweller] run function bp:player/species/dweller/tick
 execute if entity @s[tag=bp.enderling] run function bp:player/species/enderling/tick
