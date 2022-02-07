@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "Bracken": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "bracken:glacium",
+                "position": {
+                    "y": {
+                        "min": -100,
+                        "max": -2
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:dimension_crossing/to_void"
+    }
+}
+

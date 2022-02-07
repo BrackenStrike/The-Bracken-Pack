@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:random_selector",
-  "config": {
-    "features": [],
-    "default": "bp:underdark/small_mush_tree1"
-  }
-}

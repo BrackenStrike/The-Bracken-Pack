@@ -1,7 +1,0 @@
-{
-  "config": {
-    "start_pool": "bp:escape",
-    "size": 6
-  },
-  "type": "minecraft:village"
-}

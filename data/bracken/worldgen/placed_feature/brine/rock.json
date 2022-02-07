@@ -1,0 +1,22 @@
+{
+    "feature": "bracken:brine/rock",
+    "placement": [
+        {
+            "type": "count",
+            "count": {
+                "value": {
+                    "min_inclusive": 1,
+                    "max_inclusive": 3
+                },
+                "type": "minecraft:uniform"
+            }
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "feature": "bracken:sanctum/city_tree1",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 100
+        }
+    ]
+}

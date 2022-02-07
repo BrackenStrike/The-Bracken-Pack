@@ -1,7 +1,0 @@
-{
-  "config": {
-    "start_pool": "bp:orb",
-    "size": 6
-  },
-  "type": "minecraft:bastion_remnant"
-}

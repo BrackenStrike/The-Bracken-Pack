@@ -1,7 +1,0 @@
-{
-  "config": {
-    "start_pool": "bp:spire",
-    "size": 6
-  },
-  "type": "minecraft:village"
-}

@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text": "Glacium"
+        },
+        "description": {
+            "text": "Bring winter clothes",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "bracken:textures/gui/advancements/backgrounds/glacium.png"
+    },
+    "criteria": {
+        "bracken:glacium/gla1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "dimension": "bracken:glacium"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:glacium/gla1"
+        ]
+    ]
+}

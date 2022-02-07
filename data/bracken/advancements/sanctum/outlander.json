@@ -1,0 +1,44 @@
+{
+    "parent": "bracken:sanctum/enter_sanctum",
+    "display": {
+        "title": {
+            "text": "You Shouldn't Be Here "
+        },
+        "description": {
+            "text": "Enter the Sanctum as an Outlander",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "bracken:sanctum/dune_biome1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "nbt": "{Tags:[\"bp.outlander\"]}"
+                        }
+                    }
+                ],
+                "location": {
+                    "dimension": "bracken:sanctum"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:sanctum/dune_biome1"
+        ]
+    ]
+}

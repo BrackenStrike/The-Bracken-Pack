@@ -1,0 +1,38 @@
+{
+    "parent": "bracken:sanctum/dune_biome",
+    "display": {
+        "title": {
+            "text": "Place of Diecide"
+        },
+        "description": {
+            "text": "Enter the tunnels beneath the dark dunes vault and walk into complete darkness",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:sanctum/vault1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "bracken:sanctum/dark_soot_dunes",
+                    "feature": "village",
+                    "light": {
+                        "light": 0
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:sanctum/vault1"
+        ]
+    ]
+}

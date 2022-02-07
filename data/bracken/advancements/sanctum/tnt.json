@@ -1,0 +1,35 @@
+{
+    "parent": "bracken:sanctum/enter_sanctum",
+    "display": {
+        "title": {
+            "text": "Anti-Grief Dimension"
+        },
+        "description": {
+            "text": "Place a tnt block in Sanctum. Up to you if you wanna light it.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:tnt"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:sanctum/tnt1": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:tnt",
+                "location": {
+                    "dimension": "bracken:sanctum"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:sanctum/tnt1"
+        ]
+    ]
+}

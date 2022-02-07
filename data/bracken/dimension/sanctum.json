@@ -1,0 +1,49 @@
+{
+  "type": "bracken:sanctum",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -1464245863,
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "bracken:sanctum/land",
+          "parameters": {
+            "temperature": 0.1,
+            "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bracken:sanctum/dark_soot_dunes",
+          "parameters": {
+            "temperature": 0.2,
+            "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.2,
+            "depth": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "bracken:sanctum/city",
+          "parameters": {
+            "temperature": 0.15,
+            "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.2,
+            "depth": 0,
+            "offset": 0.1
+          }
+        }
+      ]
+    },
+    "settings": "bracken:sanctum"
+  }
+}

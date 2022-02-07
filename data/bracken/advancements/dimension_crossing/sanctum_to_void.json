@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "Bracken": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "bracken:sanctum",
+                "position": {
+                    "y": {
+                        "min": -102,
+                        "max": -2
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:dimension_crossing/to_void"
+    }
+}
+
