@@ -20,6 +20,10 @@ execute at @e[type=armor_stand,tag=caveclear] run function bracken:entities/glac
 execute at @e[type=armor_stand,tag=viceroy] run function bracken:entities/boss/bygone_viceroy/summon
 kill @e[type=armor_stand,tag=viceroy]
 
+##########   DISRUPTOR BOSS SUMMON   ##########
+execute at @e[type=marker,tag=bp.disruptor_boss] run function bracken:entities/boss/the_disruptor/summon
+kill @e[type=marker,tag=bp.disruptor_boss]
+
 #########   DORMIS SPAWN PLATFORM   ##########
 execute as @e[type=marker,tag=dormis_platform_remove] at @s if block ~ ~ ~ air run kill @s 
 execute as @e[type=marker,tag=bp.dormis_spawn_platform] at @s if block ~ ~-1 ~ air run function bracken:dimension_crossing/spawn_platforms/remove_spawn_platform
