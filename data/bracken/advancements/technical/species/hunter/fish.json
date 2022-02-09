@@ -9,7 +9,8 @@
         "item": {
           "items": [
             "minecraft:cod",
-            "minecraft:salmon"
+            "minecraft:salmon",
+            "minecraft:tropical_fish"
           ]
         }
       }
