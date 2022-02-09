@@ -1,9 +1,3 @@
-##########################################################
-# Description: Morphs hunter chicken
-# Creators: 
-##########################################################
-
-advancement revoke @s only bracken:technical/species/hunter/chicken
-
-execute unless score @s bp.hunter_morph matches 1 run function bracken:player/species/hunter/morph
+function bracken:player/species/hunter/effectclearance
 scoreboard players set @s bp.hunter_morph 1
+function bracken:player/species/hunter/morph

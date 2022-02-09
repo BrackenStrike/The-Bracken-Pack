@@ -1,9 +1,3 @@
-##########################################################
-# Description: Morphs hunter sweet_berries
-# Creators: 
-##########################################################
-
-advancement revoke @s only bracken:technical/species/hunter/sweet_berries
-
-execute unless score @s bp.hunter_morph matches 11 run function bracken:player/species/hunter/morph
-scoreboard players set @s bp.hunter_morph 11
+function bracken:player/species/hunter/effectclearance
+scoreboard players set @s bp.hunter_morph 12
+function bracken:player/species/hunter/morph

@@ -1,9 +1,3 @@
-##########################################################
-# Description: Morphs hunter spider_eye
-# Creators: 
-##########################################################
-
-advancement revoke @s only bracken:technical/species/hunter/spider_eye
-
-execute unless score @s bp.hunter_morph matches 6 run function bracken:player/species/hunter/morph
+function bracken:player/species/hunter/effectclearance
 scoreboard players set @s bp.hunter_morph 6
+function bracken:player/species/hunter/morph
