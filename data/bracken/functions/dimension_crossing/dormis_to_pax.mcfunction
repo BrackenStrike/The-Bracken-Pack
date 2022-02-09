@@ -5,4 +5,4 @@
 
 execute in bracken:pax run tp @s ~ 1500 ~
 execute in bracken:dormis run spreadplayers ~ ~ 0 20 under 100 false @s
-advancement revoke @s only bracken:dimension_crossing/dormis_to_pax
+advancement revoke @s only bracken:technical/dimension_crossing/dormis_to_pax

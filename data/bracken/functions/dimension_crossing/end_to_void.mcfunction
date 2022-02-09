@@ -6,5 +6,5 @@
 execute in bracken:void align xz run tp @s ~0.5 15 ~0.5
 execute at @s run forceload add ~ ~
 execute at @s[gamemode=!spectator] run fill ~ ~1 ~ ~ ~0 ~ air 
-advancement revoke @s only bracken:dimension_crossing/end_to_void
+advancement revoke @s only bracken:technical/dimension_crossing/end_to_void
 execute as @s in bracken:void run function bracken:remove_forceload
