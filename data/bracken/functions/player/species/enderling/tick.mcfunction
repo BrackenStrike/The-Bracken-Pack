@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed every tick by enderling
-# Creators: 
+# Creators: Bracken, Sulfenir, and Grandmaster
 ##########################################################
 
 execute unless predicate bracken:sneak run clear @s minecraft:ender_eye{bracken:{id:"enderling_controlled_teleport"}}

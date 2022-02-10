@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed every tick by outlanders
-# Creators: 
+# Creators: Bracken
 ##########################################################
 
 execute if score @s bp.food matches ..15 run effect give @s minecraft:saturation 1 0 true

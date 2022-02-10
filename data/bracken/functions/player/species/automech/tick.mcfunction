@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed every tick by automechs
-# Creators: 
+# Creators: Bracken and Sulfenir
 ##########################################################
 
 execute unless predicate bracken:in_boat if block ~ ~ ~ minecraft:water run effect give @s minecraft:slowness 1 4 true

@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed every tick by watchers
-# Creators: 
+# Creators: Bracken
 ##########################################################
 
 execute if entity @s[gamemode=survival] if score @s bp.sneakcharge matches 20.. run gamemode spectator @s

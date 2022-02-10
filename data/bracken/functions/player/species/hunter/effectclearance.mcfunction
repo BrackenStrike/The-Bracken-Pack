@@ -1,3 +1,8 @@
+##########################################################
+# Description: Clears effects a Hunter gained from morphing.
+# Creators: AileeNyx
+##########################################################
+
 execute if score @s bp.hunter_morph matches 1 run effect clear @s minecraft:slow_falling
 execute if score @s bp.hunter_morph matches 2 run effect clear @s minecraft:jump_boost
 execute if score @s bp.hunter_morph matches 3 run effect clear @s minecraft:strength

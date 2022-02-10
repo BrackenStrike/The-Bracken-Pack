@@ -1,3 +1,8 @@
+##########################################################
+# Description: Commands and effects that run when a Hunter morphs.
+# Creators: AileeNyx
+##########################################################
+
 execute at @s run playsound minecraft:entity.zombie_villager.cure ambient @s ~ ~ ~
 execute at @s run particle large_smoke ~ ~ ~ 0 0 0 0.05 2000
 effect give @a slowness 2 10 true

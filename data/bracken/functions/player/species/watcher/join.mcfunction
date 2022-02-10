@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed by players joining the watchers
-# Creators: 
+# Creators: Sulfenir
 ##########################################################
 
 tag @s add bp.species

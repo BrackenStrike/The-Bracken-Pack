@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Triggered by controlled_teleport
-# Creators: 
+# Creators: Sulfenir
 ##########################################################
 
 execute if entity @s[distance=32..] run scoreboard players set @s bp.enderling_teleport 0

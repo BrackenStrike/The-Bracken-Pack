@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed by players joining the automech
-# Creators: 
+# Creators: Grandmaster and Sulfenir
 ##########################################################
 
 tag @s add bp.species

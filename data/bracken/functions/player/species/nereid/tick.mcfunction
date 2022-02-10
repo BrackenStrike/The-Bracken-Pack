@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed every tick by nereids
-# Creators: 
+# Creators: Bracken, Sulfenir, and Grandmaster
 ##########################################################
 
 execute if block ~ ~ ~ minecraft:air run attribute @s minecraft:generic.movement_speed modifier add 635aac34-da46-4906-b1d7-f7bb7ecb89b4 "bp.nereid.movement_speed" -0.015 add

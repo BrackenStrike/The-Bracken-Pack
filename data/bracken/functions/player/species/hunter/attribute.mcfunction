@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Attributes and potion effects for Hunters.
-# Creators: AileeNyx and Grandmaster
+# Creators: AileeNyx, Grandmaster, and Sulfenir
 ##########################################################
 
 effect give @s minecraft:hunger 2 0 true

@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed every tick by villains
-# Creators: 
+# Creators: Bracken
 ##########################################################
 
 data modify entity @e[type=minecraft:iron_golem,distance=..50,limit=1] AngryAt set from entity @s UUID

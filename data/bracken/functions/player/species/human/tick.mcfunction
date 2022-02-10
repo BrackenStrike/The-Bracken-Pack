@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed every tick by humans
-# Creators: 
+# Creators: Bracken
 ##########################################################
 
 execute unless predicate bracken:overworld run effect give @s minecraft:unluck 1 4 true

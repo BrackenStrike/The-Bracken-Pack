@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed by players leaving the automech
-# Creators: 
+# Creators: Grandmaster and Sulfenir
 ##########################################################
 
 tag @s remove bp.species

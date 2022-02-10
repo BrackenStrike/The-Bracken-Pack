@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed by players leaving the faefolk
-# Creators: 
+# Creators: Sulfenir and Grandmaster
 ##########################################################
 
 tag @s remove bp.species

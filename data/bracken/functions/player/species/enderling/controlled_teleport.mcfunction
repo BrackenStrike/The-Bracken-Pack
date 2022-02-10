@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Triggered by enderling using special ender_eye
-# Creators: 
+# Creators: Sulfenir
 ##########################################################
 
 advancement revoke @s only bracken:technical/species/enderling/controlled_teleport

@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed by players joining the faefolk
-# Creators: 
+# Creators: Sulfenir and Grandmaster
 ##########################################################
 
 tag @s add bp.species

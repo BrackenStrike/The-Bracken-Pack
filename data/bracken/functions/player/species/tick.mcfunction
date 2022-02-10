@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed every tick by species members
-# Creators: 
+# Creators: Sulfenir
 ##########################################################
 
 execute if score @s bp.death matches 0 run function bracken:player/species/join

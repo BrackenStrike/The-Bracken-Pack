@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed by players joining the enderling
-# Creators: 
+# Creators: Sulfenir and Grandmaster
 ##########################################################
 
 tag @s add bp.species

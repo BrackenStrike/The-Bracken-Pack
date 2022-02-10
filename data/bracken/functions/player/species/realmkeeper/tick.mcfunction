@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed every tick by realmkeepers
-# Creators: 
+# Creators: Bracken
 ##########################################################
 
 execute if score @s bp.armor matches 12.. run effect give @s minecraft:weakness 1 9 true

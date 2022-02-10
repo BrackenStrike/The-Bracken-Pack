@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Race abilities for Hunters.
-# Creators: AileeNyx
+# Creators: AileeNyx and Grandmaster
 ##########################################################
 
 execute if entity @s[scores={bp.hunter_morph=0}] run function bracken:player/species/hunter/attribute

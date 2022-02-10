@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed by players leaving the nereids
-# Creators: 
+# Creators: Sulfenir and Grandmaster
 ##########################################################
 
 tag @s remove bp.species

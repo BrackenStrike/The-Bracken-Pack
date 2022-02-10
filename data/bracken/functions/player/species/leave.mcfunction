@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Leaves current species
-# Creators: 
+# Creators: Sulfenir
 ##########################################################
 
 execute if entity @s[tag=bp.automech] run function bracken:player/species/automech/leave

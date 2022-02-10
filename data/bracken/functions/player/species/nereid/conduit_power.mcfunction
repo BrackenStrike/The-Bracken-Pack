@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Triggered when nereid has conduit_power
-# Creators: 
+# Creators: Bracken
 ##########################################################
 
 execute if score @s bp.longtick matches 0 run effect give @s minecraft:regeneration 1 4 false

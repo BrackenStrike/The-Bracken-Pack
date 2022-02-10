@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed by players leaving the humans
-# Creators: 
+# Creators: Sulfenir
 ##########################################################
 
 tag @s remove bp.species

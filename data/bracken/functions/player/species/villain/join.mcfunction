@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed by players joining the villains
-# Creators: 
+# Creators: Sulfenir and Grandmaster
 ##########################################################
 
 tag @s add bp.species
