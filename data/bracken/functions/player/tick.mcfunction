@@ -17,7 +17,7 @@ scoreboard players add @s bp.verylongtick 1
 execute unless entity @s[tag=bp.enderling] run clear @s minecraft:ender_eye{bracken:{id:"enderling_controlled_teleport"}}
 
 # Player species
-execute if entity @s[tag=bp.species] run function bracken:player/species/tick
+execute if score #bp.species_dummy bp.species_con matches 1 if entity @s[tag=bp.species] run function bracken:player/species/tick
 
 # Poison Sword
 function bracken:player/poison_sword
@@ -31,3 +31,4 @@ function bracken:book_of_arbitrium/boa_start
 
 # Ability books
 function bracken:player/ability_books
+

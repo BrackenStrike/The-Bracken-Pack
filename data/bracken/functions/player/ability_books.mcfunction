@@ -11,3 +11,4 @@ execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:knowledge_book"}]}] run 
 execute as @s[nbt={SelectedItem:{id:"minecraft:knowledge_book"}}] run function bracken:ability_books/off_hand_check/off_hand_no
 
 execute as @s[tag=bp.recall_wait] run function bracken:ability_books/recall/wait
+

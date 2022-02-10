@@ -19,3 +19,6 @@ execute if entity @s[name="Corrupted_Golem",type=minecraft:iron_golem] run parti
 ## DORMIS SPAWN PLATFORM
 execute if entity @s[type=marker,tag=dormis_platform_remove] run function bracken:entities/dormis_spawn_platform_drill/main
 
+## MANSION PORTALS
+execute if entity @s[type=marker,tag=bp.mm_portal] run function bracken:ability_books/mansion/portal_commands
+execute if entity @s[type=marker,tag=bp.mm_portal2] run function bracken:ability_books/mansion/mansion_portal_commands

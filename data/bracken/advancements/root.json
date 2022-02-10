@@ -23,9 +23,6 @@
     },
     "rewards": {
         "experience": 5,
-        "function": "bracken:set_score",
-        "loot": [
-            "bracken:item/species_beginner_book"
-        ]
+        "function": "bracken:set_score"
     }
 }

@@ -27,6 +27,13 @@ scoreboard objectives add bp.z_rotation dummy
 scoreboard objectives add bp.xx_rotation dummy
 scoreboard objectives add bp.zz_rotation dummy
 
+scoreboard objectives add bp.teams_con dummy
+scoreboard objectives add bp.species_con dummy
+scoreboard objectives add bp.books_con dummy
+execute unless score #bp.teams_dummy bp.teams_con matches 1 run scoreboard players set #bp.teams_dummy bp.teams_con 0
+execute unless score #bp.species_dummy bp.species_con matches 0 run scoreboard players set #bp.species_dummy bp.species_con 1
+execute unless score #bp.ability_books_dummy bp.books_con matches 0 run scoreboard players set #bp.ability_books_dummy bp.books_con 1
+
 scoreboard objectives add bp.omni_platform dummy
 scoreboard players set #1 bp.omni_platform 1
 
@@ -136,36 +143,8 @@ scoreboard players set @a bp.portal 0
 ##########   DISPLAY HEARTS   ##########
 #scoreboard objectives setdisplay list bp.health
 
-
 ##########   ADD TEAMS   ##########
-team add Automech
-team add Realmkeeper
-team add Faefolk
-team add Human
-team add Dweller
-team add Netherkin
-team add Frostkin
-team add Outlander
-team add Enderling
-team add Nereid
-team add Villain
-team add Hunter
-
-
-##########   GIVE TEAMS COLORS   ##########
-team modify Automech color green
-team modify Realmkeeper color yellow
-team modify Faefolk color blue
-team modify Human color red
-team modify Dweller color dark_gray
-team modify Netherkin color gold
-team modify Frostkin color aqua
-team modify Outlander color gray
-team modify Enderling color dark_purple
-team modify Nereid color dark_blue
-team modify Villain color dark_red
-team modify Hunter color dark_green
-
+execute if score #bp.teams_dummy bp.teams_con matches 1 run function bracken:player/add_teams
 
 ##########   START TICK FUNCTIONS   ###########
 function bracken:other_commands

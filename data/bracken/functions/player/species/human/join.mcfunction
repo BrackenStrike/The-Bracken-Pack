@@ -5,3 +5,4 @@
 
 tag @s add bp.species
 tag @s add bp.human
+team join Human

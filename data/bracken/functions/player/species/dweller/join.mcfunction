@@ -5,3 +5,4 @@
 
 tag @s add bp.species
 tag @s add bp.dweller
+team join Dweller

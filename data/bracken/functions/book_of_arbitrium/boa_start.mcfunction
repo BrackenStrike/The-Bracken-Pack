@@ -7,7 +7,7 @@
 
 execute as @s[scores={bp.arb_book=0}] run function bracken:book_of_arbitrium/reset
 scoreboard players set @s bp.arb_book 0
-execute as @s[level=50..,nbt={SelectedItem:{id:"minecraft:written_book",tag:{display:{Lore:['{"color":"gold","text":"Use to change species."}']}}}}] unless entity @s[scores={bp.arb_book=1..}] run function bracken:book_of_arbitrium/enable
+execute as @s[level=50..,nbt={SelectedItem:{id:"minecraft:written_book",tag:{tags:[bp.book_of_arbitrium]}}}] unless entity @s[scores={bp.arb_book=1..}] run function bracken:book_of_arbitrium/enable
 execute as @s[nbt={SelectedItem:{tag:{bp.species_book:10b}}}] unless entity @s[tag=bp.book_used] unless entity @s[scores={bp.arb_book=1..}] run function bracken:book_of_arbitrium/enable
 
 execute as @s[scores={automech=1..}] run function bracken:book_of_arbitrium/ask_race/automech

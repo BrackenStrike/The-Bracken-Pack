@@ -14,6 +14,8 @@ attribute @s[scores={bp.pax=2..}] minecraft:generic.max_health base set 18
 
 execute if entity @s[y=25,dy=-100,scores={bp.overworld=2..}] run fill ~3 11 ~3 ~-3 11 ~-3 minecraft:oak_leaves replace minecraft:air
 
+execute if entity @s[tag=bp.from_mansion] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
+
 # migrated to advancement
 #execute if entity @s[y=250,dy=100] run function bracken:dimension_crossing/faewild_to_pax
 #execute if entity @s[y=-15,dy=-100] run function bracken:dimension_crossing/faewild_to_overworld
