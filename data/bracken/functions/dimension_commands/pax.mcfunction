@@ -10,9 +10,8 @@ effect give @s[scores={bp.longtick=4}] minecraft:weakness 13 99 true
 effect give @s[scores={bp.food=..18}] minecraft:saturation 1 0 true
 effect clear @s minecraft:poison
 
-attribute @s[scores={bp.fae=2..}] minecraft:generic.max_health base set 40
-attribute @s[scores={bp.overworld=2..}] minecraft:generic.max_health base set 40
-attribute @s[scores={bp.panacea=2..}] minecraft:generic.max_health base set 40
+attribute @s[scores={bp.pax=10}] minecraft:generic.max_health modifier add 35709842-6f1c-48eb-9683-43bcf0faa33e "bp.pax_health" 20 add
+
 effect clear @s minecraft:bad_omen
 execute in bracken:pax run kill @e[type=arrow,distance=..100]
 

@@ -6,7 +6,6 @@
 
 ##########   PAX GATEWAY   ##########
 effect give @a[scores={bp.portal=1..}] resistance 11 9 false
-attribute @p[scores={bp.portal=1..}] minecraft:generic.max_health base set 20
 execute as @e[type=marker,tag=pax_scores,distance=..25,limit=1] run function bracken:pax_gateway/teleport_player
 
 

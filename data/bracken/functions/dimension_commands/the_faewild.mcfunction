@@ -9,9 +9,7 @@ effect give @s[scores={bp.longtick=6}] minecraft:jump_boost 13 1 true
 effect give @s[predicate=bracken:sneak] minecraft:slow_falling 1 0 true
 effect clear @s[predicate=!bracken:sneak] minecraft:slow_falling
 experience add @s[scores={bp.longtick=60}] 1 points
-attribute @s[scores={bp.overworld=2..}] minecraft:generic.max_health base set 18
-attribute @s[scores={bp.pax=2..}] minecraft:generic.max_health base set 18
-
+attribute @s[scores={bp.fae=10}] minecraft:generic.max_health modifier add 15c1c42e-9de9-4c7a-a427-776166bc6cac "bp.fae_health" -2 add
 execute if entity @s[y=25,dy=-100,scores={bp.overworld=2..}] run fill ~3 11 ~3 ~-3 11 ~-3 minecraft:oak_leaves replace minecraft:air
 
 execute if entity @s[tag=bp.from_mansion] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup

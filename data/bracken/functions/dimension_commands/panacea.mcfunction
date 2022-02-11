@@ -8,8 +8,7 @@ scoreboard players set @s bp.panacea 10
 effect give @s[scores={bp.longtick=3}] minecraft:regeneration 2 0 true
 effect give @s[scores={bp.longtick=3}] minecraft:hunger 13 0 true
 
-attribute @s[scores={bp.overworld=2..}] minecraft:generic.max_health base set 24
-attribute @s[scores={bp.pax=2..}] minecraft:generic.max_health base set 24
+attribute @s[scores={bp.panacea=10}] minecraft:generic.max_health modifier add b9615b04-a3a9-45f8-adb1-dc03b37fe2a3 "bp.panacea_health" 4 add
 
 execute as @s[scores={bp.creeper=1..8}] run function bracken:player/set_rotation 
 execute as @s[scores={bp.creeper=0}] run function bracken:player/get_rotation
