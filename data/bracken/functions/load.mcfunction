@@ -150,17 +150,3 @@ execute if score #bp.teams_dummy bp.teams_con matches 1 run function bracken:pla
 ##########   START TICK FUNCTIONS   ###########
 function bracken:other_commands
 
-
-##########   SANCTUM BUILD   ###########
-execute in bracken:sanctum run setblock 0 128 0 structure_block[mode=load]{name:"bracken:sanctum_d_boss",rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b} replace
-
-execute in bracken:sanctum run setblock 0 127 0 structure_block[mode=load]{name:"bracken:sanctum_d_enter",posX:-10,posY:-12,posZ:8,rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b} replace
-
-execute in bracken:sanctum run setblock 0 129 0 structure_block[mode=load]{name:"bracken:sanctum_d_float",posX:7,posY:43,posZ:7,rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b} replace
-
-execute in bracken:sanctum run setblock 0 129 1 redstone_block
-execute in bracken:sanctum run setblock 0 128 1 redstone_block
-execute in bracken:sanctum run setblock 0 127 1 redstone_block
-
-#test only
-#execute in bracken:glacium run tp @p ~ ~200 ~

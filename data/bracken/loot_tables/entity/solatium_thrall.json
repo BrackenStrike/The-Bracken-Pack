@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/worm_toothed_burrower"
+          "name": "bracken:item/ability_books/worm_toothed_burrower"
         }
       ]
     },

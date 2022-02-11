@@ -109,7 +109,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/scatterstorm",
+          "name": "bracken:item/ability_books/scatterstorm",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

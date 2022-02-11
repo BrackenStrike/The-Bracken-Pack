@@ -119,7 +119,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/fang_attack",
+          "name": "bracken:item/ability_books/fang_attack",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

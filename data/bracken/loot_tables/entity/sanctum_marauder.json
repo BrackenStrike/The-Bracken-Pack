@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/truelight_glow"
+          "name": "bracken:item/ability_books/truelight_glow"
         }
       ],
       "conditions": [

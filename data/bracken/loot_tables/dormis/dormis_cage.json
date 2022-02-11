@@ -29,7 +29,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/adamantine_will",
+          "name": "bracken:item/ability_books/adamantine_will",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

@@ -19,7 +19,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/iron_golem",
+          "name": "bracken:item/ability_books/iron_golem",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

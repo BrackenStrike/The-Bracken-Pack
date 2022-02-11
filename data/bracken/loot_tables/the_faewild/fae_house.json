@@ -43,7 +43,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/flying_boat",
+          "name": "bracken:item/ability_books/flying_boat",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -53,7 +53,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/world_soar",
+          "name": "bracken:item/ability_books/world_soar",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

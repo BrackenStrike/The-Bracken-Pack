@@ -19,7 +19,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/fireball",
+          "name": "bracken:item/ability_books/fireball",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -109,7 +109,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/truelight_glow",
+          "name": "bracken:item/ability_books/truelight_glow",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

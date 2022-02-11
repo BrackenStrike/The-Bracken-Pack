@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/glacium_glider"
+          "name": "bracken:item/ability_books/glacium_glider"
         }
       ]
     },
