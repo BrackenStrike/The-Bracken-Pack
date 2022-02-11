@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"lightning_bolt\"}}"
+              "tag": "{bp:{id:\"lightning_bolt\"},CustomModelData:888502,Enchantments:[{}]}"
             }
           ]
         }

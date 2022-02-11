@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"mass_heal\"}}"
+              "tag": "{bp:{id:\"mass_heal\"},CustomModelData:888507,Enchantments:[{}]}"
             }
           ]
         }

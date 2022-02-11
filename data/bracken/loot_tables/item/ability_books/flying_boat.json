@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"flying_boat\"}}"
+              "tag": "{bp:{id:\"flying_boat\"},CustomModelData:888506,Enchantments:[{}]}"
             }
           ]
         }

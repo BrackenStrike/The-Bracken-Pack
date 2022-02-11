@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"kill\"}}"
+              "tag": "{bp:{id:\"kill\"},CustomModelData:888508,Enchantments:[{}]}"
             }
           ]
         }

@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"magnificent_mansion\"}}"
+              "tag": "{bp:{id:\"magnificent_mansion\"},CustomModelData:888519,Enchantments:[{}]}"
             }
           ]
         }

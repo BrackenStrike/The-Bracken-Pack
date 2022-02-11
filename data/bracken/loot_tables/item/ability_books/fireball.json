@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"fireball\"}}"
+              "tag": "{bp:{id:\"fireball\"},CustomModelData:888501,Enchantments:[{}]}"
             }
           ]
         }

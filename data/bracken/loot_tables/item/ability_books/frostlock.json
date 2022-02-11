@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"frostlock\"}}"
+              "tag": "{bp:{id:\"frostlock\"},CustomModelData:888512,Enchantments:[{}]}"
             }
           ]
         }

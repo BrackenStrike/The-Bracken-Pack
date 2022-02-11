@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"truelight_glow\"}}"
+              "tag": "{bp:{id:\"truelight_glow\"},CustomModelData:888509,Enchantments:[{}]}"
             }
           ]
         }

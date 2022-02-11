@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"fang_attack\"}}"
+              "tag": "{bp:{id:\"fang_attack\"},CustomModelData:888505,Enchantments:[{}]}"
             }
           ]
         }

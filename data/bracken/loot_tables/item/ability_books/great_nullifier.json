@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"great_nullifier\"}}"
+              "tag": "{bp:{id:\"great_nullifier\"},CustomModelData:888517,Enchantments:[{}]}"
             }
           ]
         }

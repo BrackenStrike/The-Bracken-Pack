@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"adamantine_will\"}}"
+              "tag": "{bp:{id:\"adamantine_will\"},CustomModelData:888510,Enchantments:[{}]}"
             }
           ]
         }

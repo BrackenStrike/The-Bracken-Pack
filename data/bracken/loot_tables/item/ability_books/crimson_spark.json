@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"crimson_spark\"}}"
+              "tag": "{bp:{id:\"crimson_spark\"},CustomModelData:888514,Enchantments:[{}]}"
             }
           ]
         }

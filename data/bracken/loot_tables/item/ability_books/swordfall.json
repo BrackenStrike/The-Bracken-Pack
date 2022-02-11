@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"swordfall\"}}"
+              "tag": "{bp:{id:\"swordfall\"},CustomModelData:888515,Enchantments:[{}]}"
             }
           ]
         }

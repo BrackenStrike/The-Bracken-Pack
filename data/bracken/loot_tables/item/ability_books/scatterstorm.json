@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"scatterstorm\"}}"
+              "tag": "{bp:{id:\"scatterstorm\"},CustomModelData:888513,Enchantments:[{}]}"
             }
           ]
         }

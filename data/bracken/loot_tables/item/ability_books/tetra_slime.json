@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"tetra_slime\"}}"
+              "tag": "{bp:{id:\"tetra_slime\"},CustomModelData:888504,Enchantments:[{}]}"
             }
           ]
         }

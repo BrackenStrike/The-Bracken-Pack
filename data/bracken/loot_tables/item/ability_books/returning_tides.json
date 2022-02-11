@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"returning_tides\"}}"
+              "tag": "{bp:{id:\"returning_tides\"},CustomModelData:888518,Enchantments:[{}]}"
             }
           ]
         }

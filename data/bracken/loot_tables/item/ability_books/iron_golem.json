@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"iron_golem\"}}"
+              "tag": "{bp:{id:\"iron_golem\"},CustomModelData:888503,Enchantments:[{}]}"
             }
           ]
         }

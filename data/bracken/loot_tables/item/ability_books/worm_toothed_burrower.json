@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"worm_toothed_burrower\"}}"
+              "tag": "{bp:{id:\"worm_toothed_burrower\"},CustomModelData:888516,Enchantments:[{}]}"
             }
           ]
         }
