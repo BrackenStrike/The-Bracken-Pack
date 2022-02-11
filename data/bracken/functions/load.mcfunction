@@ -88,8 +88,7 @@ scoreboard objectives add w dummy
 scoreboard objectives add bp.portal dummy
 
 scoreboard objectives add bp.giant dummy
-scoreboard objectives add bp.book minecraft.used:minecraft.knowledge_book
-scoreboard objectives add bp.book_id dummy
+scoreboard objectives add bp.coas minecraft.used:minecraft.carrot_on_a_stick
 
 scoreboard objectives add bp.arb_book dummy
 scoreboard objectives add automech trigger
