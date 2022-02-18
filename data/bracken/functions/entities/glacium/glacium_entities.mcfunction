@@ -16,7 +16,7 @@ tp @e[type=zombie_villager,distance=..100,sort=nearest,limit=1] ~ -512 ~
 
 
 ##########   GLACIUM TOWER   ##########
-execute at @e[type=minecraft:armor_stand,tag=frozen] run function bracken:entities/glacium/glacium_tower
+execute at @e[type=minecraft:armor_stand,tag=bp.frozen] run function bracken:entities/glacium/glacium_tower
 
 
 ##########   GLACIUM VICEROY BASE THAW   ##########
@@ -24,4 +24,4 @@ execute at @e[type=minecraft:wither_skeleton,nbt={NoAI:1b,Invulnerable:1b}] run 
 
 
 ##########   GLACIUM VALKYRIE   ##########
-execute at @e[type=minecraft:drowned,tag=valkyrie] run particle minecraft:poof ^ ^2 ^-.2 0 0 0 0.01 3
+execute at @e[type=minecraft:drowned,tag=bp.valkyrie] run particle minecraft:poof ^ ^2 ^-.2 0 0 0 0.01 3

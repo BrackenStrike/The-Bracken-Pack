@@ -4,7 +4,7 @@
 ##########################################################
 
 #travel nether
-execute as @s[predicate=bracken:sprint] if entity @e[type=minecraft:end_crystal,distance=..2] run function bracken:dimension_crossing/omnidrome_to_nether
+execute as @s[predicate=bracken:sprint] if entity @e[type=minecraft:end_crystal,distance=..2,predicate=bracken:omnidrome] run function bracken:dimension_crossing/omnidrome_to_nether
 execute as @e[type=armor_stand,tag=bp_dimension_armor_stand] at @s if block ~ ~-1 ~ air in bracken:omnidrome run function bracken:dimension_crossing/spawn_platforms/remove_spawn_platform
 
 #omnidrome movement
@@ -20,6 +20,6 @@ execute if entity @s[y=275,dy=100] run effect give @s slow_falling 1 1 true
 execute if entity @s[tag=bp.from_mansion] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 
 ##########   FLYING TURRET   ##########
-execute as @e[type=minecraft:guardian,tag=turret] at @s run function bracken:entities/omnidrome/flying_turrent
+execute as @e[type=minecraft:guardian,tag=bp.turret] at @s run function bracken:entities/omnidrome/flying_turrent
 
 

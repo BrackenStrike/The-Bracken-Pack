@@ -1,3 +1,3 @@
-scoreboard players enable @s faefolk_
+scoreboard players enable @s bp.faefolk_
 scoreboard players set @s bp.arb_book 0
-tellraw @s ["",{"text":"------------------------------\nWould you like to be a "},{"text":"Faefolk","color":"blue"},{"text":"?\n+ Can jump two blocks high\n+ Can run faster than most species\n+ Will passively gain small amounts of experience points over time \n- Are weaker than most species and deal less damage\n\n"},{"text":"Click here to change species.","bold":true,"underlined":true,"color":"white","clickEvent":{"action":"run_command","value":"/trigger faefolk_"}},{"text":"\n------------------------------"}]
+tellraw @s ["",{"text":"------------------------------\nWould you like to be a "},{"text":"Faefolk","color":"blue"},{"text":"?\n+ Can jump two blocks high\n+ Can run faster than most species\n+ Will passively gain small amounts of experience points over time \n- Are weaker than most species and deal less damage\n\n"},{"text":"Click here to change species.","bold":true,"underlined":true,"color":"white","clickEvent":{"action":"run_command","value":"/trigger bp.faefolk_"}},{"text":"\n------------------------------"}]

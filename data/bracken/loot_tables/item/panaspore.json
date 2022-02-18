@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{bp.book_id:18b,CustomModelData:888502}"
+              "tag": "{CustomModelData:888502}"
             },
             {
               "function": "set_name",

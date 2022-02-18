@@ -14,7 +14,7 @@ effect give @s fire_resistance 10 1 true
 #DOOMSDAY
 execute if entity @e[distance=..3,type=armor_stand] run effect give @s instant_health 1 0 false
 execute if entity @e[distance=..3,type=armor_stand] run scoreboard players add @s bp.doomsday 1
-execute if entity @s[scores={bp.doomsday=250..}] run effect give @e[type=vex,distance=..50,tag=construct] weakness 200 20 true
+execute if entity @s[scores={bp.doomsday=250..}] run effect give @e[type=vex,distance=..50,tag=bp.construct] weakness 200 20 true
 
 execute if entity @s[scores={bp.doomsday=250}] run tellraw @a[distance=..50] "01101101 01101111 01110010 01100101"
 execute if entity @s[scores={bp.doomsday=250}] run playsound minecraft:entity.ravager.celebrate hostile @a ~ ~ ~ 100 0
@@ -62,7 +62,7 @@ execute at @a[scores={bp.pull=1..},distance=..50,level=1..] run summon armor_sta
 
 execute at @a[scores={bp.pull=1..},distance=..50] run experience add @a[distance=..0] -1 points
 execute at @a[scores={bp.pull=1..},distance=..50,level=1..] run playsound minecraft:block.end_portal_frame.fill ambient @a ~ ~ ~ 100 0
-execute if entity @s[scores={bp.doomsday=..249}] at @e[type=vex,distance=..50,tag=construct] run effect give @a[distance=..1] poison 1 1 false
+execute if entity @s[scores={bp.doomsday=..249}] at @e[type=vex,distance=..50,tag=bp.construct] run effect give @a[distance=..1] poison 1 1 false
 
 
 kill @e[distance=..2,type=armor_stand]

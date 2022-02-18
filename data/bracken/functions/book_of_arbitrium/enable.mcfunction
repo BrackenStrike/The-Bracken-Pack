@@ -3,17 +3,17 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-scoreboard players enable @s automech
-scoreboard players enable @s faefolk
-scoreboard players enable @s dweller
-scoreboard players enable @s frostkin
-scoreboard players enable @s enderling
-scoreboard players enable @s human
-scoreboard players enable @s hunter
-scoreboard players enable @s nereid
-scoreboard players enable @s netherkin
-scoreboard players enable @s outlander
-scoreboard players enable @s realmkeeper
-scoreboard players enable @s villain
+scoreboard players enable @s bp.automech
+scoreboard players enable @s bp.faefolk
+scoreboard players enable @s bp.dweller
+scoreboard players enable @s bp.frostkin
+scoreboard players enable @s bp.enderling
+scoreboard players enable @s bp.human
+scoreboard players enable @s bp.hunter
+scoreboard players enable @s bp.nereid
+scoreboard players enable @s bp.netherkin
+scoreboard players enable @s bp.outlander
+scoreboard players enable @s bp.realmkeeper
+scoreboard players enable @s bp.villain
 
 scoreboard players set @s bp.arb_book 1

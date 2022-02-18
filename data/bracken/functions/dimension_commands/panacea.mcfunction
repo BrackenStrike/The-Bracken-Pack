@@ -21,5 +21,5 @@ execute at @e[type=minecraft:item_frame,nbt={Facing:1b,Item:{id:"minecraft:bone_
 execute at @e[type=villager,nbt={Invulnerable:1b}] unless block ~ ~1 ~ minecraft:flowering_azalea run kill @e[type=minecraft:villager,distance=..1,limit=1,nbt={Invulnerable:1b}]
 
 ##########   SPORE DROPS   ##########
-data merge entity @e[distance=1..5,limit=1,type=!minecraft:item,tag=!spore,sort=nearest] {DeathLootTable:"bracken:panacea/sporedrop",Tags:["spore"]}
-execute at @e[tag=spore] run particle minecraft:dust 0.1 0.7 0 1 ~ ~1 ~ 0.2 0.4 0.2 0.01 1
+data merge entity @e[distance=1..5,limit=1,type=!minecraft:item,tag=!bp.spore,sort=nearest] {DeathLootTable:"bracken:panacea/sporedrop",Tags:["bp.spore"]}
+execute at @e[tag=bp.spore] run particle minecraft:dust 0.1 0.7 0 1 ~ ~1 ~ 0.2 0.4 0.2 0.01 1

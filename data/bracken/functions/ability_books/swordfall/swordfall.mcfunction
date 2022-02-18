@@ -5,7 +5,7 @@
 
 
 playsound bracken:ability_book_tier_5 player @a ~ ~ ~ 10 
-summon giant ~ ~100 ~ {Tags:["sword"],Silent:1b,Invulnerable:1b,CustomNameVisible:0b,CustomName:'{"text":"Dinnerbone"}',HandItems:[{id:"minecraft:netherite_sword",Count:1b,tag:{CustomModelData:888501}},{}],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:200000000,ShowParticles:0b}]}
+summon giant ~ ~100 ~ {Tags:["bp.sword"],Silent:1b,Invulnerable:1b,CustomNameVisible:0b,CustomName:'{"text":"Dinnerbone"}',HandItems:[{id:"minecraft:netherite_sword",Count:1b,tag:{CustomModelData:888501}},{}],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:200000000,ShowParticles:0b}]}
 tellraw @s ["",{"selector":"@s "},{"text":" generated [SWORDFALL]"}]
 scoreboard players set @s bp.giant 200
 

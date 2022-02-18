@@ -2,7 +2,7 @@
 execute if score attack.cd bp.the_disruptor matches 0 run scoreboard players set attack.cd bp.the_disruptor 80
 
 #commands
-execute store result score bp.health bp.the_disruptor run data get entity @e[type=minecraft:elder_guardian,tag=the_disruptor,limit=1] Health
+execute store result score bp.health bp.the_disruptor run data get entity @e[type=minecraft:elder_guardian,tag=bp.the_disruptor,limit=1] Health
 scoreboard players set speed bp.the_disruptor 75
 scoreboard players operation speed bp.the_disruptor /= bp.health bp.the_disruptor
 execute store result score target.x bp.the_disruptor run data get entity @p Pos[0]

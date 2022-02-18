@@ -11,13 +11,13 @@ execute if entity @s[type=marker,tag=bp.recall] unless block ~ ~-0.5 ~ minecraft
 #execute if entity @s[type=marker,tag=bp.structure] run function bracken:entities/structure_creation/structure_list
 
 ## CONSTRUCTS
-execute if entity @s[type=vex,tag=construct] run particle minecraft:sneeze ~ ~ ~ 0.5 0.5 0.5 0.01 5
+execute if entity @s[type=vex,tag=bp.construct] run particle minecraft:sneeze ~ ~ ~ 0.5 0.5 0.5 0.01 5
 
 #omnidrome
 execute if entity @s[name="Corrupted_Golem",type=minecraft:iron_golem] run particle minecraft:portal ~ ~ ~ .5 1.2 .5 0.01 10
 
 ## DORMIS SPAWN PLATFORM
-execute if entity @s[type=marker,tag=dormis_platform_remove] run function bracken:entities/dormis_spawn_platform_drill/main
+execute if entity @s[type=marker,tag=bp.dormis_platform_remove] run function bracken:entities/dormis_spawn_platform_drill/main
 
 ## MANSION PORTALS
 execute if entity @s[type=marker,tag=bp.mm_portal] run function bracken:ability_books/mansion/portal_commands

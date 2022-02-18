@@ -13,20 +13,34 @@ scoreboard objectives add bp.walk minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add bp.sprint minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add bp.hurting minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add bp.jump minecraft.custom:minecraft.jump
-scoreboard objectives add bp.deaths deathCount
 scoreboard objectives add bp.health health
-scoreboard objectives add bp.armor armor
 scoreboard objectives add bp.poison dummy
+scoreboard objectives add bp.sprintcharge dummy
+scoreboard objectives add bp.sneakcharge dummy
+
 scoreboard objectives add bp.tick dummy
-scoreboard objectives add bp.activity dummy
 scoreboard objectives add bp.longtick dummy
 scoreboard objectives add bp.verylongtick dummy
-scoreboard objectives add bp.offhand dummy
-scoreboard objectives add bp.x_rotation dummy
-scoreboard objectives add bp.z_rotation dummy
-scoreboard objectives add bp.xx_rotation dummy
-scoreboard objectives add bp.zz_rotation dummy
 
+##########   SPECIES  ##########
+scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death
+
+# Hunters
+scoreboard objectives add bp.hunter_morph dummy
+scoreboard objectives add bp.mark dummy
+scoreboard objectives add bp.deaths deathCount
+
+#Enderlings
+scoreboard objectives add bp.enderling_teleport dummy
+
+# Outlanders
+scoreboard objectives add bp.outlander_charge dummy
+
+# Realmkeepers
+scoreboard objectives add bp.gold dummy
+scoreboard objectives add bp.armor armor
+
+##########   CONFIG MENU  ##########
 scoreboard objectives add bp.teams_con dummy
 scoreboard objectives add bp.species_con dummy
 scoreboard objectives add bp.books_con dummy
@@ -36,14 +50,16 @@ execute unless score #bp.species_dummy bp.species_con matches 0 run scoreboard p
 execute unless score #bp.ability_books_dummy bp.books_con matches 0 run scoreboard players set #bp.ability_books_dummy bp.books_con 1
 execute unless score #bp.portal_keys_dummy bp.portal_keys_con matches 0 run scoreboard players set #bp.portal_keys_dummy bp.portal_keys_con 1
 
-scoreboard objectives add bp.omni_platform dummy
-scoreboard players set #1 bp.omni_platform 1
-
+##########   REMOVE FORCELOAD  ##########
 scoreboard objectives add bp.xchunk dummy
 scoreboard objectives add bp.zchunk dummy
 scoreboard players set #1 bp.xchunk 16
 scoreboard players set #1 bp.zchunk 16
 
+##########   SPELL BOOKS  ##########
+scoreboard objectives add bp.offhand dummy
+
+# Returning Tides
 scoreboard objectives add bp.recall_marker dummy
 scoreboard objectives add bp.recall_world dummy
 scoreboard objectives add bp.recall_void dummy
@@ -53,6 +69,7 @@ scoreboard objectives add bp.recall_walk minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add bp.recall_sprint minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add bp.recall_jump minecraft.custom:minecraft.jump
 
+# Mansion
 scoreboard objectives add bp.mansion_id dummy
 scoreboard objectives add bp.mansion_world dummy
 scoreboard objectives add bp.mansion_use dummy
@@ -68,59 +85,63 @@ scoreboard objectives add bp.zmansion2 dummy
 scoreboard objectives add bp.dimension dummy
 scoreboard players set #70 bp.ymansion 70
 
-scoreboard objectives add bp.sprintcharge dummy
-scoreboard objectives add bp.sneakcharge dummy
-scoreboard objectives add bp.creeper dummy
-scoreboard objectives add bp.wither_skull dummy
-scoreboard objectives add bp.ice dummy
-scoreboard objectives add bp.mark dummy
-scoreboard objectives add bp.gold dummy
-
+##########   DIMENSIONS  ##########
 scoreboard objectives add bp.overworld dummy
 scoreboard objectives add bp.fae dummy
 scoreboard objectives add bp.panacea dummy
 scoreboard objectives add bp.pax dummy
 
-scoreboard objectives add r dummy
-scoreboard objectives add g dummy
-scoreboard objectives add b dummy
-scoreboard objectives add w dummy
+scoreboard objectives add bp.ice dummy
+
+scoreboard objectives add bp.creeper dummy
+scoreboard objectives add bp.wither_skull dummy
+
+scoreboard objectives add bp.omni_platform dummy
+scoreboard players set #1 bp.omni_platform 1
+
+scoreboard objectives add bp.x_rotation dummy
+scoreboard objectives add bp.z_rotation dummy
+scoreboard objectives add bp.xx_rotation dummy
+scoreboard objectives add bp.zz_rotation dummy
+
+##########   PAX PORTAL   ##########
+scoreboard objectives add bp.portal_R dummy
+scoreboard objectives add bp.portal_G dummy
+scoreboard objectives add bp.portal_B dummy
+scoreboard objectives add bp.portal_W dummy
 scoreboard objectives add bp.portal dummy
 
+##########   SPELL BOOKS   ##########
 scoreboard objectives add bp.giant dummy
 scoreboard objectives add bp.coas minecraft.used:minecraft.carrot_on_a_stick
 
+##########   SPECIES BOOKS   ##########
 scoreboard objectives add bp.arb_book dummy
-scoreboard objectives add automech trigger
-scoreboard objectives add frostkin trigger
-scoreboard objectives add faefolk trigger
-scoreboard objectives add human trigger
-scoreboard objectives add hunter trigger
-scoreboard objectives add dweller trigger
-scoreboard objectives add enderling trigger
-scoreboard objectives add nereid trigger
-scoreboard objectives add netherkin trigger
-scoreboard objectives add outlander trigger
-scoreboard objectives add realmkeeper trigger
-scoreboard objectives add villain trigger
+scoreboard objectives add bp.automech trigger
+scoreboard objectives add bp.frostkin trigger
+scoreboard objectives add bp.faefolk trigger
+scoreboard objectives add bp.human trigger
+scoreboard objectives add bp.hunter trigger
+scoreboard objectives add bp.dweller trigger
+scoreboard objectives add bp.enderling trigger
+scoreboard objectives add bp.nereid trigger
+scoreboard objectives add bp.netherkin trigger
+scoreboard objectives add bp.outlander trigger
+scoreboard objectives add bp.realmkeeper trigger
+scoreboard objectives add bp.villain trigger
 
-scoreboard objectives add automech_ trigger
-scoreboard objectives add frostkin_ trigger
-scoreboard objectives add faefolk_ trigger
-scoreboard objectives add human_ trigger
-scoreboard objectives add hunter_ trigger
-scoreboard objectives add dweller_ trigger
-scoreboard objectives add enderling_ trigger
-scoreboard objectives add nereid_ trigger
-scoreboard objectives add netherkin_ trigger
-scoreboard objectives add outlander_ trigger
-scoreboard objectives add realmkeeper_ trigger
-scoreboard objectives add villain_ trigger
-
-scoreboard objectives add bp.hunter_morph dummy
-scoreboard objectives add bp.enderling_teleport dummy
-scoreboard objectives add bp.outlander_charge dummy
-scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death
+scoreboard objectives add bp.automech_ trigger
+scoreboard objectives add bp.frostkin_ trigger
+scoreboard objectives add bp.faefolk_ trigger
+scoreboard objectives add bp.human_ trigger
+scoreboard objectives add bp.hunter_ trigger
+scoreboard objectives add bp.dweller_ trigger
+scoreboard objectives add bp.enderling_ trigger
+scoreboard objectives add bp.nereid_ trigger
+scoreboard objectives add bp.netherkin_ trigger
+scoreboard objectives add bp.outlander_ trigger
+scoreboard objectives add bp.realmkeeper_ trigger
+scoreboard objectives add bp.villain_ trigger
 
 ##########   GAMERULE COMMANDBLOCK OUTPUT FALSE   ##########
 gamerule commandBlockOutput false
@@ -135,10 +156,6 @@ scoreboard players set @a bp.deaths 0
 scoreboard players set @a bp.creeper 0
 scoreboard players set @a bp.mark 0
 scoreboard players set @a bp.gold 0
-scoreboard players set @a r 0
-scoreboard players set @a g 0
-scoreboard players set @a b 0
-scoreboard players set @a w 0
 scoreboard players set @a bp.portal 0
 
 ##########   DISPLAY HEARTS   ##########

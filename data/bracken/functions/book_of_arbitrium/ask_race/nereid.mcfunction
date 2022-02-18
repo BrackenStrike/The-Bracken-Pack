@@ -1,3 +1,3 @@
-scoreboard players enable @s nereid_
+scoreboard players enable @s bp.nereid_
 scoreboard players set @s bp.arb_book 0
-tellraw @s ["",{"text":"------------------------------\nWould you like to be a "},{"text":"Nereid","color":"dark_blue"},{"text":"?\n+ Have night vision\n+ Can breath, move, and mine much quicker underwater\n+ Conduit Power will regenerate you \n- You are slow outside of water\n\n"},{"text":"Click here to change species.","bold":true,"underlined":true,"color":"white","clickEvent":{"action":"run_command","value":"/trigger nereid_"}},{"text":"\n------------------------------"}]
+tellraw @s ["",{"text":"------------------------------\nWould you like to be a "},{"text":"Nereid","color":"dark_blue"},{"text":"?\n+ Have night vision\n+ Can breath, move, and mine much quicker underwater\n+ Conduit Power will regenerate you \n- You are slow outside of water\n\n"},{"text":"Click here to change species.","bold":true,"underlined":true,"color":"white","clickEvent":{"action":"run_command","value":"/trigger bp.nereid_"}},{"text":"\n------------------------------"}]

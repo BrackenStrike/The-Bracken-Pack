@@ -5,4 +5,4 @@ execute at @p run playsound minecraft:entity.evoker.prepare_attack hostile @a ~ 
 
 fill ~1 ~6 ~1 ~-1 ~-2 ~-1 air replace minecraft:ice
 data merge entity @s {Invulnerable:0b,NoAI:0b}
-tag @s add active
+tag @s add bp.active

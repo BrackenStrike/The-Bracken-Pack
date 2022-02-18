@@ -4,7 +4,7 @@
 ##########################################################
 
 #travel omnidrome
-execute as @s[predicate=bracken:sprint] if entity @e[type=minecraft:end_crystal,distance=..2] run function bracken:dimension_crossing/nether_to_omnidrome
+execute as @s[predicate=bracken:sprint] if entity @e[type=minecraft:end_crystal,distance=..2,predicate=bracken:the_nether] run function bracken:dimension_crossing/nether_to_omnidrome
 
 execute as @s[scores={bp.wither_skull=1..8}] run function bracken:player/set_rotation 
 execute as @s[scores={bp.wither_skull=0}] run function bracken:player/get_rotation
