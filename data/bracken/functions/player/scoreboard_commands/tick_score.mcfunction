@@ -17,8 +17,6 @@ scoreboard players set @s[scores={bp.sneakcharge=31..}] bp.sneakcharge 30
 scoreboard players remove @s[scores={bp.sneakcharge=1..},predicate=!bracken:sneak] bp.sneakcharge 1
 
 scoreboard players set @s[scores={bp.armor=..10}] bp.gold 0
-scoreboard players set @s[scores={bp.deaths=1..}] bp.mark 0
-execute at @s[scores={bp.mark=1..}] run scoreboard players set @a[distance=4..100] bp.mark 0
 
 # panacea
 scoreboard players set @s[nbt={Inventory:[{Slot:103b,id:"minecraft:creeper_head",Count:1b}]}] bp.creeper 10

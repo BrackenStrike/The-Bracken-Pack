@@ -27,8 +27,6 @@ scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death
 
 # Hunters
 scoreboard objectives add bp.hunter_morph dummy
-scoreboard objectives add bp.mark dummy
-scoreboard objectives add bp.deaths deathCount
 
 #Enderlings
 scoreboard objectives add bp.enderling_teleport dummy
@@ -152,9 +150,7 @@ scoreboard players set @a bp.tick 0
 scoreboard players set @a bp.longtick 0
 scoreboard players set @a bp.verylongtick 0
 scoreboard players set @a bp.hurting 0
-scoreboard players set @a bp.deaths 0
 scoreboard players set @a bp.creeper 0
-scoreboard players set @a bp.mark 0
 scoreboard players set @a bp.gold 0
 scoreboard players set @a bp.portal 0
 
