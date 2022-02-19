@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{bp.portal_key:8b,CustomModelData:444444}"
+              "tag": "{bp.portal_key:8b,CustomModelData:888514}"
             },
             {
               "function": "set_name",
