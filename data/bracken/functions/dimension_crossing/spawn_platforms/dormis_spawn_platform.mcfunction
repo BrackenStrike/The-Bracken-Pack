@@ -4,6 +4,7 @@
 # Creators: Grandmaster
 ##########################################################
 
+tellraw @p[distance=..50] "Dormis travel loading..."
 tag @e[type=marker,tag=bp.pax_scores,sort=nearest,limit=1] add bp.dormis_platform
 execute in bracken:dormis run forceload add ~ ~
 execute in bracken:dormis run kill @e[type=marker,tag=bp.dormis_spawn_platform,distance=..10]

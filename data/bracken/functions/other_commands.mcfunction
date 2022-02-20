@@ -27,7 +27,6 @@ kill @e[type=marker,tag=bp.disruptor_boss]
 #########   DORMIS SPAWN PLATFORM   ##########
 execute as @e[type=marker,tag=bp.dormis_platform_remove] at @s if block ~ ~ ~ air run kill @s 
 execute as @e[type=marker,tag=bp.dormis_spawn_platform] at @s if block ~ ~-1 ~ air run function bracken:dimension_crossing/spawn_platforms/remove_spawn_platform
-execute as @e[type=marker,tag=bp.dormis_spawn_platform] at @s run function bracken:remove_forceload
 
 ##STRUCTURE CREATION
 execute as @e[type=minecraft:armor_stand,name="fae_well"] at @s run function bracken:entities/structure_creation/fae_well
