@@ -8,7 +8,7 @@ tp @e[type=zombie_villager,distance=..200,sort=nearest,limit=1] ~ -512 ~
 
 data merge entity @e[type=pillager,distance=..200,limit=1,name=!"lost_miner",sort=nearest] {CanPickUpLoot:1b,CustomName:'{"text":"lost_miner"}',HandItems:[{id:"minecraft:iron_pickaxe",Count:1b},{id:"minecraft:diamond",Count:1b,tag:{display:{Lore:['{"text":"thx Aza","italic":true}']}}}],HandDropChances:[0.085F,0.100F]}
 
-execute if entity @s[tag=bp.from_mansion] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
+execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 
 # migrated to advancement
 #execute if entity @s[y=243,dy=100] run function bracken:dimension_crossing/underdark_to_overworld

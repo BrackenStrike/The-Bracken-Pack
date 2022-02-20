@@ -19,6 +19,6 @@ effect give @s[scores={bp.sprintcharge=100..}] minecraft:resistance 3 4 true
 execute at @s[scores={bp.sprintcharge=100..}] run execute as @p run execute in minecraft:overworld run tp @s ~ 100 ~
 effect give @s[scores={bp.longtick=7},predicate=!bracken:sprint] minecraft:saturation 1 0 true
 
-execute if entity @s[tag=bp.from_mansion] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
+execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 
 execute at @s[scores={bp.ice=400..}] run function bracken:dimension_crossing/overworld_to_glacium

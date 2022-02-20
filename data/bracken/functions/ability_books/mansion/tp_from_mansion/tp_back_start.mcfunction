@@ -3,7 +3,7 @@ scoreboard players operation @s bp.ymansion2 = @e[type=marker,tag=bp.mm_portal2,
 scoreboard players operation @s bp.zmansion2 = @e[type=marker,tag=bp.mm_portal2,distance=..1,sort=nearest,limit=1] bp.zmansion2
 scoreboard players operation @s bp.dimension = @e[type=marker,tag=bp.mm_portal2,distance=..1,sort=nearest,limit=1] bp.dimension
 
-tag @s add bp.from_mansion
+tag @s add bp.from_mansion_1
 
 execute as @s[scores={bp.dimension=-3}] in bracken:pax run tp @s 8 10000 8
 execute as @s[scores={bp.dimension=-4}] in bracken:the_faewild run tp @s 8 10000 8

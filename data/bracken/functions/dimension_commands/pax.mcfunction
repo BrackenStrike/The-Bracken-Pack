@@ -15,7 +15,7 @@ attribute @s[scores={bp.pax=10}] minecraft:generic.max_health modifier add 35709
 effect clear @s minecraft:bad_omen
 execute in bracken:pax run kill @e[type=arrow,distance=..100]
 
-execute if entity @s[tag=bp.from_mansion] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
+execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 
 # migrated to advancements
 #execute if entity @s[y=-15,dy=-100] run function bracken:dimension_crossing/pax_to_faewild
