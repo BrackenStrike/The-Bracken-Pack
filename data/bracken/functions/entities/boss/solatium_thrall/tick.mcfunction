@@ -6,6 +6,10 @@
 bossbar set bracken:solatium_thrall players @a[distance=..100]
 execute store result bossbar bracken:solatium_thrall value run data get entity @s Health 1
 
+execute store result score @s bp.health run data get entity @s Health 1
+execute if entity @s[scores={bp.health=..20},tag=!bp.set_wtb] run function bracken:ability_books/worm_toothed_burrower/worm_toothed_burrower
+execute if entity @s[scores={bp.health=..20},tag=!bp.set_wtb] run tag @s add bp.set_wtb
+
 execute at @e[type=minecraft:phantom,name=Fireblight,nbt={Silent:1b}] run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:fire"},Time:1}
 
 effect clear @s levitation
@@ -23,11 +27,4 @@ execute at @e[type=fireball,name=Solatium_Heart] run kill @e[type=arrow,distance
 execute at @e[type=fireball,name=Solatium_Heart] run kill @e[type=fireball,name=!Solatium_Heart,distance=..5]
 execute at @e[type=fireball,name=Solatium_Heart] run kill @e[type=evoker_fangs,distance=..5]
 
-
-
-
-execute at @e[type=fireball,name=Solatium_Heart] run data merge entity @e[distance=..60,type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:golden_helmet",Count:1b,tag:{display:{Name:'{"text":"Thrall\'s Crown","color":"gold","bold":true}'}}}}] {Glowing:1,Invulnerable:1b}
-
-execute at @e[type=fireball,name=Solatium_Heart] run data merge entity @e[distance=..60,type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:knowledge_book",Count:1b,tag:{display:{Name:'{"text":"Worm-Toothed Burrower","color":"gray","bold":true}'}}}}] {Glowing:1,Invulnerable:1b}
-
-execute at @e[type=area_effect_cloud,name=Solatium_Field] run tellraw @a[scores={bp.longtick=5},distance=..10] {"text":"Thrall: Fall with your arrogance!\"","color":"gold","bold":true}
+execute if entity @e[type=area_effect_cloud,name=Solatium_Field] run tellraw @a[scores={bp.longtick=5},distance=..10] {"text":"Thrall: Fall with your arrogance!\"","color":"gold","bold":true}

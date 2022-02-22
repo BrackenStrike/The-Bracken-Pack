@@ -10,4 +10,5 @@ tag @s remove bp.target3
 
 scoreboard players set @s bp.mansion_use 2
 tellraw @s ["",{"selector":"@s "},{"text":" generated [Magnificent Mansion]"}]
-execute if entity @s[level=1..] run experience add @s -1 levels
+execute if entity @s[level=2..,tag=bp.set_mansion] run experience add @s -2 levels
+execute if entity @s[level=20..,tag=!bp.set_mansion] run experience add @s -20 levels

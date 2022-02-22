@@ -113,6 +113,7 @@ scoreboard objectives add bp.portal dummy
 
 ##########   SPELL BOOKS   ##########
 scoreboard objectives add bp.giant dummy
+scoreboard objectives add bp.wtb_cooldown dummy
 scoreboard objectives add bp.coas minecraft.used:minecraft.carrot_on_a_stick
 
 ##########   SPECIES BOOKS   ##########
@@ -152,7 +153,6 @@ scoreboard players set @a bp.tick 0
 scoreboard players set @a bp.longtick 0
 scoreboard players set @a bp.verylongtick 0
 scoreboard players set @a bp.hurting 0
-scoreboard players set @a bp.creeper 0
 scoreboard players set @a bp.gold 0
 scoreboard players set @a bp.portal 0
 

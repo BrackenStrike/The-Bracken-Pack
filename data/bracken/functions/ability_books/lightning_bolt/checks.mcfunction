@@ -4,6 +4,7 @@
 ##########################################################
 
 
+execute if score #bp.ability_books_dummy bp.books_con matches 1 if entity @s[level=..24] run tellraw @s "You do not have enough levels to cast this spell."
 execute if score #bp.ability_books_dummy bp.books_con matches 1 if entity @s[level=25..] run function bracken:ability_books/lightning_bolt/lightning_bolt
 execute if score #bp.ability_books_dummy bp.books_con matches 0 run tellraw @s "A spell is attempted but nothing happens..."
 

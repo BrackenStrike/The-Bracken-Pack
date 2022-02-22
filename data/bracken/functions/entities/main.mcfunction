@@ -6,6 +6,9 @@
 ## RECALL HOME DESTROYED
 execute if entity @s[type=marker,tag=bp.recall] unless block ~ ~-0.5 ~ minecraft:enchanting_table run function bracken:ability_books/recall/home_destroyed
 
+## WORM TOOTHED BURROWER
+execute if entity @s[type=minecraft:giant,tag=bp.tooth] run function bracken:ability_books/worm_toothed_burrower/effects
+
 ## STRUCTURE CREATION
 # These entities need to have bp.structure and a bp.entity tag added to them. For now these can be found in other_commands.
 #execute if entity @s[type=marker,tag=bp.structure] run function bracken:entities/structure_creation/structure_list

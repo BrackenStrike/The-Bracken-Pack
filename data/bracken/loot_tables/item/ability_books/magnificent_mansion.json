@@ -19,7 +19,12 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "consumes 5 levels",
+                  "text": "consumes 20 levels to initialize",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "consumes 2 levels after initialization",
                   "color": "gray",
                   "italic": false
                 }
@@ -35,3 +40,4 @@
     }
   ]
 }
+
