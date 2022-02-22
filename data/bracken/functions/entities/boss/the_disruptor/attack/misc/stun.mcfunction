@@ -1,2 +1,2 @@
 #commands
-scoreboard players remove attack.cd bp.the_disruptor 1
+scoreboard players remove @s bp.dis.attack_cd 1

@@ -7,6 +7,12 @@
 execute as @s[scores={bp.tick=2..}] run function bracken:player/scoreboard_commands/tick_score
 scoreboard players add @s bp.tick 1
 
+execute as @s[scores={bp.1_second=20..}] run scoreboard players set @s bp.1_second 0
+scoreboard players add @s bp.1_second 1
+
+execute as @s[scores={bp.3_second=60..}] run scoreboard players set @s bp.3_second 0
+scoreboard players add @s bp.3_second 1
+
 execute as @s[scores={bp.longtick=200..}] run function bracken:player/scoreboard_commands/longtick_score
 scoreboard players add @s bp.longtick 1
 

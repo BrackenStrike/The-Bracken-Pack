@@ -13,16 +13,12 @@ execute at @e[type=marker,tag=bp.thrall] run function bracken:entities/boss/sola
 kill @e[type=marker,tag=bp.thrall]
 execute at @a unless entity @e[type=minecraft:giant,tag=bp.solatium_thrall,distance=..100] run kill @e[type=wither_skeleton,tag=bp.solatium_thrall,distance=..100]
 
-##########   BASE CLEAR DEBRIS   ##########
-execute at @e[type=armor_stand,tag=bp.caveclear] run function bracken:entities/glacium/glacium_viceroy_base_clear_debris
-
-##########   GLACIUM VICEROY BASE SUMMON & THAW   ##########
-execute at @e[type=armor_stand,tag=bp.viceroy] run function bracken:entities/boss/bygone_viceroy/summon
-kill @e[type=armor_stand,tag=bp.viceroy]
-
 ##########   DISRUPTOR BOSS SUMMON   ##########
 execute at @e[type=marker,tag=bp.disruptor_boss] run function bracken:entities/boss/the_disruptor/summon
 kill @e[type=marker,tag=bp.disruptor_boss]
+
+##########   GLACIUM VICEROY THAW AND SUMMON  ##########
+execute as @e[type=marker,tag=bp.viceroy] at @s if entity @a[distance=..6] run function bracken:entities/glacium/glacium_viceroy_base_thaw
 
 #########   DORMIS SPAWN PLATFORM   ##########
 execute as @e[type=marker,tag=bp.dormis_platform_remove] at @s if block ~ ~ ~ air run kill @s 
