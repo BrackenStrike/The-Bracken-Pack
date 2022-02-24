@@ -24,6 +24,7 @@ execute unless entity @s[tag=bp.enderling] run clear @s minecraft:ender_eye{brac
 
 # Player species
 execute if score #bp.species_dummy bp.species_con matches 1 if entity @s[tag=bp.species] run function bracken:player/species/tick
+execute if score #bp.species_dummy bp.species_con matches 0 if entity @s[scores={bp.longtick=2}] run function bracken:player/species/leave
 
 # Poison Sword
 function bracken:player/poison_sword

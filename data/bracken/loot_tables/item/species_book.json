@@ -28,6 +28,10 @@
                 {
                   "text": "Use to change species.",
                   "color": "gold"
+                },
+                {
+                  "text": "Consumes 50 levels.",
+                  "color": "gold"
                 }
               ]
             }

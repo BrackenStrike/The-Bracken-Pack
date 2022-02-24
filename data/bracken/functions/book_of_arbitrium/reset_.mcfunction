@@ -15,6 +15,3 @@ scoreboard players reset @s bp.netherkin_
 scoreboard players reset @s bp.outlander_
 scoreboard players reset @s bp.realmkeeper_
 scoreboard players reset @s bp.villain_
-
-execute if entity @s[tag=bp.book_used] run experience add @s -50 levels
-tag @s add bp.book_used

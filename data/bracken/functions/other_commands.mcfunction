@@ -18,17 +18,18 @@ execute at @e[type=marker,tag=bp.disruptor_boss] run function bracken:entities/b
 kill @e[type=marker,tag=bp.disruptor_boss]
 
 ##########   GLACIUM VICEROY THAW AND SUMMON  ##########
-execute as @e[type=marker,tag=bp.viceroy] at @s if entity @a[distance=..6] run function bracken:entities/glacium/glacium_viceroy_base_thaw
+execute as @e[type=marker,tag=bp.viceroy] at @s if entity @p[distance=..7] run function bracken:entities/glacium/glacium_viceroy_base_thaw
 
-#########   DORMIS SPAWN PLATFORM   ##########
+##########   DORMIS SPAWN PLATFORM   ##########
 execute as @e[type=marker,tag=bp.dormis_platform_remove] at @s if block ~ ~ ~ air run kill @s 
 execute as @e[type=marker,tag=bp.dormis_spawn_platform] at @s if block ~ ~-1 ~ air run function bracken:dimension_crossing/spawn_platforms/remove_spawn_platform
 
-##STRUCTURE CREATION
+##########   STRUCTURE CREATION   ##########
 execute as @e[type=minecraft:armor_stand,name="fae_well"] at @s run function bracken:entities/structure_creation/fae_well
 execute as @e[type=minecraft:armor_stand,name="sanctum_post"] at @s run function bracken:entities/structure_creation/sanctum_post
 execute as @e[type=minecraft:armor_stand,name="omnidrome_spark"] at @s run function bracken:entities/structure_creation/omnidrome_spark
 
+##########   PAX PORTAL SETUP   ##########
 execute at @e[type=marker,tag=bp.pax_portal_redstone_block] run setblock ~ ~ ~ redstone_block
 kill @e[type=marker,tag=bp.pax_portal_redstone_block]
 
