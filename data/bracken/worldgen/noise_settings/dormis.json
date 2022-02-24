@@ -70,7 +70,7 @@
             "above_bottom": 0
           },
           "false_at_and_above": {
-            "above_bottom": 125
+            "above_bottom": 5
           },
           "type": "minecraft:vertical_gradient"
         },
@@ -81,20 +81,16 @@
           "type": "minecraft:block"
         },
         "type": "minecraft:condition"
-      },
-      {
+      },{
         "if_true": {
-          "invert": {
-            "random_name": "minecraft:bedrock_roof",
-            "true_at_and_below": {
-              "below_top": 15
-            },
-            "false_at_and_above": {
-              "below_top": 0
-            },
-            "type": "minecraft:vertical_gradient"
+          "random_name": "minecraft:bedrock_floor",
+          "true_at_and_below": {
+            "above_bottom": 507
           },
-          "type": "minecraft:not"
+          "false_at_and_above": {
+            "above_bottom": 512
+          },
+          "type": "minecraft:vertical_gradient"
         },
         "then_run": {
           "result_state": {
