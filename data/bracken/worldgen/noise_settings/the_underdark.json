@@ -50,18 +50,18 @@
       "size": 4,
       "offset": -1
     },
-    "size_horizontal": 1,
+    "size_horizontal": 2,
     "min_y": 0,
     "height": 256,
     "sampling": {
-      "xz_scale": 0.4,
-      "y_scale": 0.45,
-      "xz_factor": 100,
-      "y_factor": 160
+      "xz_scale": 1.5,
+      "y_scale": 0.15,
+      "xz_factor": 950,
+      "y_factor": 750
     },
     "terrain_shaper": {
-      "offset": 0,
-      "factor": 0,
+      "offset": 0.3,
+      "factor": 0.25,
       "jaggedness": 0
     }
   },
