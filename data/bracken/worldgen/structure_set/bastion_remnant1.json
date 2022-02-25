@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "bracken:bastion_remnant1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 12,
+    "separation": 7,
+    "salt": 975352192
+  }
+}

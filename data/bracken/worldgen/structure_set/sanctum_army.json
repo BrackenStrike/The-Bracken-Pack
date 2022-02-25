@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "bracken:sanctum_army",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 20,
+    "salt": 975352192
+  }
+}
