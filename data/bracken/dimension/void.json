@@ -3,6 +3,7 @@
   "generator": {
     "type": "minecraft:noise",
     "seed": -1464245863,
+    "settings": "bracken:void",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
@@ -10,7 +11,7 @@
           "biome": "bracken:void/void",
           "parameters": {
             "temperature": 0,
-            "humidity": 1,
+            "humidity": 0,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
@@ -19,7 +20,6 @@
           }
         }
       ]
-    },
-    "settings": "bracken:void"
+    }
   }
 }

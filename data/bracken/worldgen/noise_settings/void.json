@@ -1,43 +1,11 @@
 {
-  "noise_caves_enabled": false,
-  "deepslate_enabled": false,
-  "ore_veins_enabled": false,
-  "noodle_caves_enabled": false,
-  "aquifers_enabled": false,
-  "bedrock_roof_position": -2147483648,
-  "bedrock_floor_position": -2147483648,
   "sea_level": 0,
   "disable_mob_generation": false,
-  "structures": {
-    "structures": {}
-  },
-  "noise": {
-    "min_y": 0,
-    "height": 256,
-    "sampling": {
-      "xz_scale": 0.2,
-      "y_scale": 0.2,
-      "xz_factor": 80,
-      "y_factor": 160
-    },
-    "top_slide": {
-      "target": -0.078125,
-      "size": 3,
-      "offset": 0
-    },
-    "bottom_slide": {
-      "target": -0.234375,
-      "size": 0,
-      "offset": 0
-    },
-    "size_horizontal": 4,
-    "size_vertical": 4,
-    "terrain_shaper": {
-      "offset": 0,
-      "factor": 0,
-      "jaggedness": 0
-    }
-  },
+  "noise_caves_enabled": false,
+  "noodle_caves_enabled": false,
+  "aquifers_enabled": false,
+  "ore_veins_enabled": false,
+  "legacy_random_source": false,
   "default_block": {
     "Name": "minecraft:air"
   },
@@ -47,9 +15,38 @@
       "level": "0"
     }
   },
-  "legacy_random_source": false,
+  "noise": {
+    "min_y": 0,
+    "height": 256,
+    "size_horizontal": 4,
+    "size_vertical": 4,
+    "sampling": {
+      "xz_scale": 0.2,
+      "y_scale": 0.2,
+      "xz_factor": 80,
+      "y_factor": 160
+    },
+    "bottom_slide": {
+      "target": -0.234375,
+      "size": 0,
+      "offset": 0
+    },
+    "top_slide": {
+      "target": -0.078125,
+      "size": 3,
+      "offset": 0
+    },
+    "terrain_shaper": {
+      "offset": 0,
+      "factor": 0,
+      "jaggedness": 0
+    }
+  },
   "surface_rule": {
     "type": "minecraft:sequence",
     "sequence": []
+  },
+  "structures": {
+    "structures": {}
   }
 }
