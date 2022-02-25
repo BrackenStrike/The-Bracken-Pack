@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:bastion_remnant",
-  "biomes": "bracken:void/void",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:throne",
-    "size": 6
-  }
-}

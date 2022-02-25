@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:village",
-  "biomes": "bracken:void/void",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:ice",
-    "size": 6
-  }
-}
