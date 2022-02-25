@@ -1,7 +1,9 @@
 {
+  "type": "minecraft:village",
+  "biomes": "bracken:sanctum/city",
+  "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:hand",
     "size": 6
-  },
-  "type": "minecraft:village"
+  }
 }

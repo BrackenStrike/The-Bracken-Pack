@@ -1,7 +1,9 @@
 {
+  "type": "minecraft:bastion_remnant",
+  "biomes": "bracken:void/void",
+  "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:spark",
     "size": 6
-  },
-  "type": "minecraft:bastion_remnant"
+  }
 }

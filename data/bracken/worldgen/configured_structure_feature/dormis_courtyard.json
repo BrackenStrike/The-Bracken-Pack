@@ -1,7 +1,9 @@
 {
+  "type": "minecraft:bastion_remnant",
+  "biomes": "bracken:dormis/solitary",
+  "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:courtyard",
     "size": 6
-  },
-  "type": "minecraft:bastion_remnant"
+  }
 }

@@ -1,7 +1,9 @@
 {
+  "type": "minecraft:bastion_remnant",
+  "biomes": "bracken:glacium/fractured_wastes",
+  "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:orb",
     "size": 6
-  },
-  "type": "minecraft:bastion_remnant"
+  }
 }

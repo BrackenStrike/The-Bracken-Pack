@@ -1,7 +1,9 @@
 {
+  "type": "minecraft:bastion_remnant",
+  "biomes": "bracken:the_underdark/crystal_caves",
+  "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:crystal",
     "size": 6
-  },
-  "type": "minecraft:bastion_remnant"
+  }
 }

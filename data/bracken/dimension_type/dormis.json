@@ -11,7 +11,7 @@
   "ambient_light": -0.005,
   "fixed_time": 8000,
   "logical_height": 256,
-  "infiniburn": "minecraft:infiniburn_end",
+  "infiniburn": "#minecraft:infiniburn_end",
   "min_y": 0,
   "height": 512
 }

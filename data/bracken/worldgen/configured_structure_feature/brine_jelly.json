@@ -1,7 +1,9 @@
 {
+  "type": "minecraft:bastion_remnant",
+  "biomes": "bracken:the_brine/fungus",
+  "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:brine_jelly_start",
     "size": 6
-  },
-  "type": "minecraft:bastion_remnant"
+  }
 }

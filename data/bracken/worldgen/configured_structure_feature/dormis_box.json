@@ -1,7 +1,9 @@
 {
+  "type": "minecraft:bastion_remnant",
+  "biomes": "bracken:dormis/barrens",
+  "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:box",
     "size": 6
-  },
-  "type": "minecraft:bastion_remnant"
+  }
 }
