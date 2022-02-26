@@ -23,3 +23,5 @@ execute at @e[type=villager,nbt={Invulnerable:1b}] unless block ~ ~1 ~ minecraft
 ##########   SPORE DROPS   ##########
 data merge entity @e[distance=1..5,limit=1,type=#bp.panacea_mobs,tag=!bp.spore,sort=nearest] {DeathLootTable:"bracken:panacea/sporedrop",Tags:["bp.spore"]}
 execute at @e[tag=bp.spore] run particle minecraft:dust 0.1 0.7 0 1 ~ ~1 ~ 0.2 0.4 0.2 0.01 1
+
+
