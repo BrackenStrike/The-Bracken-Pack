@@ -1,7 +1,9 @@
 {
+  "type": "minecraft:bastion_remnant",
+  "biomes": "bracken:panacea/sweltering_swamp",
+  "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:flower",
     "size": 6
-  },
-  "type": "minecraft:bastion_remnant"
+  }
 }

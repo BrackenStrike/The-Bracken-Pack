@@ -1,7 +1,9 @@
 {
+  "type": "minecraft:village",
+  "biomes": "bracken:sanctum/land",
+  "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:post",
     "size": 6
-  },
-  "type": "minecraft:village"
+  }
 }
