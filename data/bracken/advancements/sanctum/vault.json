@@ -22,7 +22,7 @@
             "conditions": {
                 "location": {
                     "biome": "bracken:sanctum/dark_soot_dunes",
-                    "feature": "bracken:sanctum_boss",
+                    "feature": "village",
                     "light": {
                         "light": 0
                     }

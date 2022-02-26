@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:tuff"
+    },
+    "under_material": {
+      "Name": "minecraft:andesite"
+    },
+    "underwater_material": {
+      "Name": "minecraft:cobblestone"
+    }
+  },
+  "type": "minecraft:default"
+}

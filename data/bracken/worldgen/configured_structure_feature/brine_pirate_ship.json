@@ -1,9 +1,7 @@
 {
-  "type": "minecraft:village",
-  "biomes": "bracken:the_brine/beach",
-  "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:pirate_ship",
     "size": 6
-  }
+  },
+  "type": "minecraft:village"
 }

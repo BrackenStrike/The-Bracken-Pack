@@ -1,9 +1,7 @@
 {
-  "type": "minecraft:bastion_remnant",
-  "biomes": "bracken:omnidrome/1",
-  "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:library",
     "size": 6
-  }
+  },
+  "type": "minecraft:bastion_remnant"
 }

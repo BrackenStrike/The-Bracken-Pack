@@ -57,7 +57,7 @@
                     },
                     "surface": "ceiling",
                     "depth": 1,
-                    "replaceable": "#minecraft:nope",
+                    "replaceable": "minecraft:nope",
                     "ground_state": {
                       "state": {
                         "Name": "minecraft:cyan_stained_glass"
@@ -120,7 +120,7 @@
                     },
                     "surface": "floor",
                     "depth": 1,
-                    "replaceable": "#minecraft:nope",
+                    "replaceable": "minecraft:nope",
                     "ground_state": {
                       "state": {
                         "Name": "minecraft:cyan_stained_glass"
@@ -210,7 +210,7 @@
                     },
                     "surface": "ceiling",
                     "depth": 1,
-                    "replaceable": "#minecraft:nope",
+                    "replaceable": "minecraft:nope",
                     "ground_state": {
                       "state": {
                         "Name": "minecraft:light_blue_stained_glass"
@@ -273,7 +273,7 @@
                     },
                     "surface": "floor",
                     "depth": 1,
-                    "replaceable": "#minecraft:nope",
+                    "replaceable": "minecraft:nope",
                     "ground_state": {
                       "state": {
                         "Name": "minecraft:light_blue_stained_glass"
@@ -363,7 +363,7 @@
                     },
                     "surface": "ceiling",
                     "depth": 1,
-                    "replaceable": "#minecraft:nope",
+                    "replaceable": "minecraft:nope",
                     "ground_state": {
                       "state": {
                         "Name": "minecraft:blue_stained_glass"
@@ -426,7 +426,7 @@
                     },
                     "surface": "floor",
                     "depth": 1,
-                    "replaceable": "#minecraft:nope",
+                    "replaceable": "minecraft:nope",
                     "ground_state": {
                       "state": {
                         "Name": "minecraft:blue_stained_glass"
@@ -516,7 +516,7 @@
                     },
                     "surface": "ceiling",
                     "depth": 1,
-                    "replaceable": "#minecraft:nope",
+                    "replaceable": "minecraft:nope",
                     "ground_state": {
                       "state": {
                         "Name": "minecraft:white_stained_glass"
@@ -579,7 +579,7 @@
                     },
                     "surface": "floor",
                     "depth": 1,
-                    "replaceable": "#minecraft:nope",
+                    "replaceable": "minecraft:nope",
                     "ground_state": {
                       "state": {
                         "Name": "minecraft:white_stained_glass"

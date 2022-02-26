@@ -1,9 +1,7 @@
 {
-  "type": "minecraft:bastion_remnant",
-  "biomes": "bracken:the_brine/reef",
-  "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:brine_fan_start",
     "size": 6
-  }
+  },
+  "type": "minecraft:bastion_remnant"
 }

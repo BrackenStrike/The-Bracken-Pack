@@ -3,10 +3,10 @@
   "generator": {
     "type": "minecraft:noise",
     "seed": -1464245863,
-    "settings": "bracken:the_underdark",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
+        
         {
           "biome": "bracken:the_underdark/petrified_forest",
           "parameters": {
@@ -68,6 +68,7 @@
           }
         }
       ]
-    }
+    },
+    "settings": "bracken:the_underdark"
   }
 }

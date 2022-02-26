@@ -3,7 +3,6 @@
   "generator": {
     "type": "minecraft:noise",
     "seed": -1464245863,
-    "settings": "bracken:panacea",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
@@ -68,6 +67,7 @@
           }
         }
       ]
-    }
+    },
+    "settings": "bracken:panacea"
   }
 }

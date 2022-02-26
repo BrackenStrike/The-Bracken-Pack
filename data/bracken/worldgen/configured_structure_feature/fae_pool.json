@@ -1,9 +1,7 @@
 {
-  "type": "minecraft:village",
-  "biomes": "bracken:the_faewild/fields",
-  "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:pool",
     "size": 6
-  }
+  },
+  "type": "minecraft:village"
 }

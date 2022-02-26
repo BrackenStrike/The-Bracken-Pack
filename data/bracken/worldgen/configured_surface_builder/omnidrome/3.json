@@ -1,0 +1,20 @@
+{
+  "config": {
+    "top_material": {
+      "Properties": {
+        "snowy": "false"
+      },
+      "Name": "minecraft:nether_bricks"
+    },
+    "under_material": {
+      "Name": "minecraft:smooth_stone"
+    },
+    "underwater_material": {
+      "Properties": {
+        "snowy": "false"
+      },
+      "Name": "minecraft:obsidian"
+    }
+  },
+  "type": "minecraft:default"
+}

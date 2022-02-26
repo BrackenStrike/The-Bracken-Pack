@@ -3,7 +3,6 @@
   "generator": {
     "type": "minecraft:noise",
     "seed": -1464245863,
-    "settings": "bracken:varskspace",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
@@ -11,7 +10,7 @@
           "biome": "bracken:varskspace/expanse",
           "parameters": {
             "temperature": 0,
-            "humidity": 0,
+            "humidity": 1,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
@@ -20,6 +19,7 @@
           }
         }
       ]
-    }
+    },
+    "settings": "bracken:varskspace"
   }
 }

@@ -1,45 +1,45 @@
 {
-  "type": "minecraft:canyon",
   "config": {
-    "probability": 0.2,
-    "y": {
-      "type": "minecraft:biased_to_bottom",
-      "min_inclusive": {
-        "absolute": 20
-      },
-      "max_inclusive": {
-        "absolute": 67
-      },
-      "inner": 8
-    },
-    "yScale": 3,
     "lava_level": {
       "above_bottom": 10
     },
+    "aquifers_enabled": false,
     "debug_settings": {
-      "air_state": {
-        "Name": "minecraft:warped_button",
-        "Properties": {
-          "powered": "false",
-          "facing": "north",
-          "face": "wall"
-        }
-      },
       "water_state": {
-        "Name": "minecraft:candle",
         "Properties": {
           "waterlogged": "false",
           "lit": "false",
           "candles": "1"
-        }
+        },
+        "Name": "minecraft:candle"
       },
       "lava_state": {
         "Name": "minecraft:orange_stained_glass"
       },
       "barrier_state": {
         "Name": "minecraft:glass"
+      },
+      "air_state": {
+        "Properties": {
+          "powered": "false",
+          "facing": "north",
+          "face": "wall"
+        },
+        "Name": "minecraft:warped_button"
       }
     },
+    "probability": 0.2,
+    "y": {
+      "min_inclusive": {
+        "absolute": 20
+      },
+      "max_inclusive": {
+        "absolute": 67
+      },
+      "inner": 8,
+      "type": "minecraft:biased_to_bottom"
+    },
+    "yScale": 3,
     "vertical_rotation": {
       "type": "minecraft:uniform",
       "value": {
@@ -48,6 +48,15 @@
       }
     },
     "shape": {
+      "horizontal_radius_factor": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0.75,
+          "max_exclusive": 1
+        }
+      },
+      "vertical_radius_default_factor": 1,
+      "vertical_radius_center_factor": 0,
       "distance_factor": {
         "type": "minecraft:uniform",
         "value": {
@@ -63,16 +72,8 @@
           "plateau": 2
         }
       },
-      "width_smoothness": 3,
-      "horizontal_radius_factor": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 0.75,
-          "max_exclusive": 1
-        }
-      },
-      "vertical_radius_default_factor": 1,
-      "vertical_radius_center_factor": 0
+      "width_smoothness": 3
     }
-  }
+  },
+  "type": "minecraft:canyon"
 }

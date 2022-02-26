@@ -1,9 +1,7 @@
 {
-  "type": "minecraft:village",
-  "biomes": "bracken:glacium/invasive_forest",
-  "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:hexagon",
     "size": 6
-  }
+  },
+  "type": "minecraft:village"
 }
