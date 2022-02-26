@@ -17,6 +17,6 @@ execute in bracken:pax run kill @e[type=arrow,distance=..100]
 
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 
-# migrated to advancements
-#execute if entity @s[y=-15,dy=-100] run function bracken:dimension_crossing/pax_to_faewild
-#execute if entity @s[y=1550,dy=100] run function bracken:dimension_crossing/pax_to_dormis
+
+execute if entity @s[y=-15,dy=-100] run function bracken:dimension_crossing/pax_to_faewild
+execute if entity @s[y=1550,dy=100] run function bracken:dimension_crossing/pax_to_dormis

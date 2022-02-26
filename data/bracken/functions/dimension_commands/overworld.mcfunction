@@ -11,6 +11,6 @@ execute as @s[nbt={ActiveEffects:[{Id:29b}]}] if block ^ ^ ^ minecraft:conduit r
 
 execute as @s[scores={bp.ice=400..}] if block ~ ~-1 ~ beacon run function bracken:dimension_crossing/overworld_to_glacium
 
-# migrated to advancement
-#execute if entity @s[y=313,dy=100] run function bracken:dimension_crossing/overworld_to_faewild
-#execute if entity @s[y=-62,dy=-100] run function bracken:dimension_crossing/overworld_to_underdark
+
+execute if entity @s[y=313,dy=100] run function bracken:dimension_crossing/overworld_to_faewild
+execute if entity @s[y=-62,dy=-100] run function bracken:dimension_crossing/overworld_to_underdark
