@@ -1,7 +1,9 @@
 {
+  "type": "minecraft:bastion_remnant",
+  "biomes": "bracken:the_brine/beach",
+  "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:root",
     "size": 7
-  },
-  "type": "minecraft:bastion_remnant"
+  }
 }

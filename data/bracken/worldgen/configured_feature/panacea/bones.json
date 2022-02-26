@@ -57,7 +57,7 @@
                     },
                     "surface": "ceiling",
                     "depth": 1,
-                    "replaceable": "minecraft:nope",
+                    "replaceable": "#minecraft:nope",
                     "ground_state": {
                       "state": {
                         "Name": "minecraft:air"
@@ -126,7 +126,7 @@
                     },
                     "surface": "floor",
                     "depth": 1,
-                    "replaceable": "minecraft:nope",
+                    "replaceable": "#minecraft:nope",
                     "ground_state": {
                       "state": {
                         "Name": "minecraft:bone_block",
@@ -219,7 +219,7 @@
                     },
                     "surface": "ceiling",
                     "depth": 1,
-                    "replaceable": "minecraft:nope",
+                    "replaceable": "#minecraft:nope",
                     "ground_state": {
                       "state": {
                         "Name": "minecraft:air"
@@ -288,7 +288,7 @@
                     },
                     "surface": "floor",
                     "depth": 1,
-                    "replaceable": "minecraft:nope",
+                    "replaceable": "#minecraft:nope",
                     "ground_state": {
                       "state": {
                         "Name": "minecraft:bone_block",
@@ -381,7 +381,7 @@
                     },
                     "surface": "ceiling",
                     "depth": 1,
-                    "replaceable": "minecraft:nope",
+                    "replaceable": "#minecraft:nope",
                     "ground_state": {
                       "state": {
                         "Name": "minecraft:air"
@@ -450,7 +450,7 @@
                     },
                     "surface": "floor",
                     "depth": 1,
-                    "replaceable": "minecraft:nope",
+                    "replaceable": "#minecraft:nope",
                     "ground_state": {
                       "state": {
                         "Name": "minecraft:bone_block",
@@ -549,7 +549,7 @@
                     },
                     "surface": "ceiling",
                     "depth": 1,
-                    "replaceable": "minecraft:nope",
+                    "replaceable": "#minecraft:nope",
                     "ground_state": {
                       "state": {
                         "Name": "minecraft:bone_block",
@@ -621,7 +621,7 @@
                     },
                     "surface": "floor",
                     "depth": 1,
-                    "replaceable": "minecraft:nope",
+                    "replaceable": "#minecraft:nope",
                     "ground_state": {
                       "state": {
                         "Name": "minecraft:bone_block",

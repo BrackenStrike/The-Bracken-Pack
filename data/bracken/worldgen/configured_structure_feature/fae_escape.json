@@ -1,7 +1,9 @@
 {
+  "type": "minecraft:village",
+  "biomes": "bracken:the_faewild/woods",
+  "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:escape",
     "size": 6
-  },
-  "type": "minecraft:village"
+  }
 }

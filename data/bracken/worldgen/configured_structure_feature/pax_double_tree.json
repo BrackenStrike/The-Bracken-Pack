@@ -1,7 +1,9 @@
 {
+  "type": "minecraft:village",
+  "biomes": "bracken:pax/petal_grove",
+  "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:double",
     "size": 6
-  },
-  "type": "minecraft:village"
+  }
 }

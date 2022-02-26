@@ -1,7 +1,9 @@
 {
+  "type": "minecraft:village",
+  "biomes": "bracken:omnidrome/1",
+  "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:palace_hall",
     "size": 6
-  },
-  "type": "minecraft:village"
+  }
 }

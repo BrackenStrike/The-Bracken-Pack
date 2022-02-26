@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "bracken:glacium_hexagon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 15,
+    "separation": 11,
+    "salt": 1708395875
+  }
+}
