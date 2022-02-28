@@ -12,7 +12,7 @@
       }
     },
     {
-      "weight": 1,
+      "weight": 12,
       "element": {
         "location": "bracken:varskspace_spire1",
         "processors": "minecraft:empty",
