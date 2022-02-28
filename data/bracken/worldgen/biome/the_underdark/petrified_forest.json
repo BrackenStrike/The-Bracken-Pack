@@ -38,7 +38,7 @@
         "maxCount": 3
       },
       {
-        "type": "minecraft:cave_spider",
+        "type": "bracken:cave_spider",
         "weight": 5,
         "minCount": 2,
         "maxCount": 6
@@ -54,10 +54,8 @@
   "spawn_costs": {},
   "carvers": {
     "air": [
-      "minecraft:cave",
-      "bracken:cave0",
-      "minecraft:canyon",
-      "bracken:canyon0"
+      "bracken:cave",
+      "bracken:canyon"
     ]
   },
   "features": [

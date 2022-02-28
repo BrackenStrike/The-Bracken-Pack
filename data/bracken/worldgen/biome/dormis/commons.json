@@ -30,9 +30,8 @@
   "spawn_costs": {},
   "carvers": {
     "air": [
-      "minecraft:cave",
-      "minecraft:canyon",
-      "bracken:canyon0"
+      "bracken:cave",
+      "bracken:canyon"
     ]
   },
   "features": [
