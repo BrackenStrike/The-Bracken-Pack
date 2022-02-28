@@ -10,7 +10,6 @@ effect give @s[scores={bp.longtick=10}] minecraft:resistance 3 9 false
 
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 
-# migrated to advancements
-#execute if entity @s[y=-20,dy=-100] in bracken:pax run tp @s ~ 1500 ~
+execute if entity @s[y=-20,dy=-100] in bracken:pax run tp @s ~ 1500 ~
 
 

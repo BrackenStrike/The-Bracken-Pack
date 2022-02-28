@@ -12,5 +12,4 @@ execute as @s[y=124,dy=100,scores={bp.wither_skull=0}] unless score @s bp.x_rota
 
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 
-# migrated to advancement
-#execute if entity @s[y=1,dy=-100] run function bracken:dimension_crossing/nether_to_sanctum
+execute if entity @s[y=1,dy=-100] run function bracken:dimension_crossing/nether_to_sanctum

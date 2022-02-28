@@ -17,5 +17,4 @@ execute if entity @s[scores={bp.tick=2}] at @e[type=minecraft:armor_stand,tag=bp
 execute if entity @s[scores={bp.tick=2}] at @e[type=minecraft:drowned,tag=bp.valkyrie] run particle minecraft:poof ^ ^2 ^-.2 0 0 0 0.01 3
 
 
-# migrated to advancements
-#execute if entity @s[y=-32,dy=-100] in bracken:void run tp @s ~ 240 ~
+execute if entity @s[y=-32,dy=-100] in bracken:void run tp @s ~ 240 ~

@@ -14,6 +14,5 @@ execute if entity @s[y=25,dy=-100,scores={bp.overworld=2..}] run fill ~3 11 ~3 ~
 
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 
-# migrated to advancement
-#execute if entity @s[y=250,dy=100] run function bracken:dimension_crossing/faewild_to_pax
-#execute if entity @s[y=-15,dy=-100] run function bracken:dimension_crossing/faewild_to_overworld
+execute if entity @s[y=250,dy=100] run function bracken:dimension_crossing/faewild_to_pax
+execute if entity @s[y=-15,dy=-100] run function bracken:dimension_crossing/faewild_to_overworld

@@ -17,9 +17,11 @@ execute as @s[scores={bp.creeper=0}] unless score @s bp.x_rotation = @s bp.xx_ro
 effect give @s[scores={bp.overworld=2..}] jump_boost 10 255 true
 
 ##########   CHLOROCRAFTING   ##########
-execute at @e[type=minecraft:item_frame,nbt={Facing:1b,Item:{id:"minecraft:bone_meal",Count:1b}}] if block ~ ~-1 ~ minecraft:crafting_table run function bracken:entities/chlorocrafter
-execute at @e[type=villager,nbt={Invulnerable:1b}] unless block ~ ~1 ~ minecraft:flowering_azalea run kill @e[type=minecraft:villager,distance=..1,limit=1,nbt={Invulnerable:1b}]
+execute if entity @s[scores={bp.1_second=3}] at @e[type=minecraft:item_frame,nbt={Facing:1b,Item:{id:"minecraft:bone_meal",Count:1b}}] if block ~ ~-1 ~ minecraft:crafting_table run function bracken:entities/chlorocrafter
+execute if entity @s[scores={bp.1_second=3}] as @e[type=villager,tag=bp.table] at @s unless block ~ ~1 ~ minecraft:flowering_azalea run tp @s ~ -200 ~
 
 ##########   SPORE DROPS   ##########
 data merge entity @e[distance=1..5,limit=1,type=#bp.panacea_mobs,tag=!bp.spore,sort=nearest] {DeathLootTable:"bracken:panacea/sporedrop",Tags:["bp.spore"]}
 execute at @e[tag=bp.spore] run particle minecraft:dust 0.1 0.7 0 1 ~ ~1 ~ 0.2 0.4 0.2 0.01 1
+
+
