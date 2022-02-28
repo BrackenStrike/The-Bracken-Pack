@@ -16,3 +16,4 @@ execute as @s[predicate=bracken:varskspace] run function bracken:dimension_comma
 execute as @s[predicate=bracken:void] run function bracken:dimension_commands/void
 execute as @s[predicate=bracken:overworld] run function bracken:dimension_commands/overworld
 execute as @s[predicate=bracken:the_nether] run function bracken:dimension_commands/the_nether
+execute as @s[predicate=bracken:the_end] run function bracken:dimension_commands/the_end
