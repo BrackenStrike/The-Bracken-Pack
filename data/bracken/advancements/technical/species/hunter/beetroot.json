@@ -16,7 +16,7 @@
       }
     },
     "rewards": {
-      "function": "bracken:race/hunter/beetroot"
+      "function": "bracken:technical/species/hunter/beetroot"
     }
   }
   
