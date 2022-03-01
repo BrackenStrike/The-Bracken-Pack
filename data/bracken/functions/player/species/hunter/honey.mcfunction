@@ -1,4 +1,4 @@
 
-function bracken:race/hunter/demorph
+function bracken:player/species/hunter/demorph
 
 
