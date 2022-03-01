@@ -16,7 +16,7 @@
       }
     },
     "rewards": {
-      "function": "bracken:race/hunter/sweet_berries"
+      "function": "bracken:player/species/hunter/sweet_berries"
     }
   }
   
