@@ -16,7 +16,7 @@
       }
     },
     "rewards": {
-      "function": "bracken:race/hunter/rotten_flesh"
+      "function": "bracken:player/species/hunter/rotten_flesh"
     }
   }
   
