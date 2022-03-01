@@ -16,7 +16,7 @@
       }
     },
     "rewards": {
-      "function": "bracken:race/hunter/melon"
+      "function": "bracken:player/species/hunter/melon"
     }
   }
   
