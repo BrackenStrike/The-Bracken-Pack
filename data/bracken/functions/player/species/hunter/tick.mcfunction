@@ -20,5 +20,5 @@ execute if score @s hmorph matches 19 run effect clear @s minecraft:wither
 
 execute if score @s hmorph matches 1.. run effect give @s hunger 2 1 true
 advancement revoke @a only bracken
-execute if score @s food matches ..3 run function bracken:race/hunter/demorph
-execute as @s[scores={health=0}] run function bracken:race/hunter/demorph
+execute if score @s food matches ..3 run function bracken:player/species/hunter/demorph
+execute as @s[scores={health=0}] run function bracken:players/species/hunter/demorph
