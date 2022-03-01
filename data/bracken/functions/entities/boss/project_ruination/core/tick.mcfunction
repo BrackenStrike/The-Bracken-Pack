@@ -17,21 +17,21 @@ execute if entity @e[distance=..3,type=armor_stand] run scoreboard players add @
 execute if entity @s[scores={bp.doomsday=250..}] run effect give @e[type=vex,distance=..50,tag=bp.construct] weakness 200 20 true
 
 execute if entity @s[scores={bp.doomsday=250}] run tellraw @a[distance=..50] "01101101 01101111 01110010 01100101"
-execute if entity @s[scores={bp.doomsday=250}] run playsound minecraft:entity.ravager.celebrate hostile @a ~ ~ ~ 100 0
-execute if entity @s[scores={bp.doomsday=250}] run playsound minecraft:entity.evoker.prepare_wololo hostile @a ~ ~ ~ 100 0
+execute if entity @s[scores={bp.doomsday=250}] run playsound minecraft:entity.ravager.celebrate hostile @a[distance=..30] ~ ~ ~ 100 0
+execute if entity @s[scores={bp.doomsday=250}] run playsound minecraft:entity.evoker.prepare_wololo hostile @a[distance=..30] ~ ~ ~ 100 0
 execute if entity @s[scores={bp.doomsday=250}] run summon firework_rocket ~ ~1 ~ {CustomNameVisible:0b,LifeTime:1,CustomName:'{"text":"Project\'s Doom Event","color":"green"}',FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;16715061],FadeColors:[I;15087886]}]}}}}
 scoreboard players add @s[scores={bp.doomsday=250}] bp.doomsday 1
 
 execute if entity @s[scores={bp.doomsday=500}] run tellraw @a[distance=..50] "01101000 01100001 01101100 01100110 00101101 01110111 01100001 01111001"
-execute if entity @s[scores={bp.doomsday=500}] run playsound minecraft:entity.ravager.celebrate hostile @a ~ ~ ~ 100 0
-execute if entity @s[scores={bp.doomsday=500}] run playsound minecraft:entity.evoker.prepare_wololo hostile @a ~ ~ ~ 100 0
+execute if entity @s[scores={bp.doomsday=500}] run playsound minecraft:entity.ravager.celebrate hostile @a[distance=..30] ~ ~ ~ 100 0
+execute if entity @s[scores={bp.doomsday=500}] run playsound minecraft:entity.evoker.prepare_wololo hostile @a[distance=..30] ~ ~ ~ 100 0
 execute if entity @s[scores={bp.doomsday=500}] run summon firework_rocket ~ ~1 ~ {CustomNameVisible:0b,LifeTime:1,CustomName:'{"text":"Project\'s Doom Event","color":"green"}',FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;16715061],FadeColors:[I;15087886]}]}}}}
 scoreboard players add @s[scores={bp.doomsday=500}] bp.doomsday 1
 
 execute if entity @s[scores={bp.doomsday=750}] run tellraw @a[distance=..50] "01100001 01101100 01101101 01101111 01110011 01110100"
 execute if entity @s[scores={bp.doomsday=750}] run summon firework_rocket ~ ~1 ~
-execute if entity @s[scores={bp.doomsday=750}] run playsound minecraft:entity.ravager.celebrate hostile @a ~ ~ ~ 100 0
-execute if entity @s[scores={bp.doomsday=750}] run playsound minecraft:entity.evoker.prepare_wololo hostile @a ~ ~ ~ 100 0 
+execute if entity @s[scores={bp.doomsday=750}] run playsound minecraft:entity.ravager.celebrate hostile @a[distance=..30] ~ ~ ~ 100 0
+execute if entity @s[scores={bp.doomsday=750}] run playsound minecraft:entity.evoker.prepare_wololo hostile @a[distance=..30] ~ ~ ~ 100 0 
 
 execute if entity @s[scores={bp.doomsday=750}] run summon firework_rocket ~ ~1 ~ {CustomNameVisible:0b,LifeTime:1,CustomName:'{"text":"Project\'s Doom Event","color":"green"}',FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;16715061],FadeColors:[I;15087886]}]}}}}
 scoreboard players add @s[scores={bp.doomsday=750}] bp.doomsday 1
@@ -43,7 +43,7 @@ execute if entity @s[scores={bp.doomsday=999..}] run fill ~1 ~ ~1 ~-1 ~ ~-1 obsi
 execute if entity @s[scores={bp.doomsday=999..}] run fill ~1 ~1 ~1 ~-1 ~1 ~-1 cake
 
 execute if entity @s[scores={bp.doomsday=999}] run tellraw @a[distance=..50] "01110100 01101000 01100001 01101110 01101011 00100000 01111001 01101111 01110101"
-execute if entity @s[scores={bp.doomsday=999}] run loot give @a[distance=..50] loot bracken:item/lightning_bolt 
+execute if entity @s[scores={bp.doomsday=999}] run loot give @a[distance=..50] loot bracken:item/ability_books/lightning_bolt 
 scoreboard players add @s[scores={bp.doomsday=999}] bp.doomsday 1
 execute if entity @s[scores={bp.doomsday=1000..}] run tp @e[type=giant,distance=..1] ~ ~-5000 ~
 execute if entity @s[scores={bp.doomsday=1000..}] run kill @s
@@ -61,7 +61,7 @@ execute at @a[scores={bp.pull=1..},distance=..50,level=1..] run tp @a[scores={bp
 execute at @a[scores={bp.pull=1..},distance=..50,level=1..] run summon armor_stand ^ ^1.5 ^2 {NoGravity:1b,Silent:1b,Small:1b,Invisible:1b,NoBasePlate:1b,Passengers:[{id:"minecraft:experience_orb",Value:1}]}
 
 execute at @a[scores={bp.pull=1..},distance=..50] run experience add @a[distance=..0] -1 points
-execute at @a[scores={bp.pull=1..},distance=..50,level=1..] run playsound minecraft:block.end_portal_frame.fill ambient @a ~ ~ ~ 100 0
+execute at @a[scores={bp.pull=1..},distance=..50,level=1..] run playsound minecraft:block.end_portal_frame.fill ambient @a[distance=..30] ~ ~ ~ 100 0
 execute if entity @s[scores={bp.doomsday=..249}] at @e[type=vex,distance=..50,tag=bp.construct] run effect give @a[distance=..1] poison 1 1 false
 
 

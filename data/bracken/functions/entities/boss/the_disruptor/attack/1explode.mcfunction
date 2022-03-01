@@ -22,7 +22,7 @@ scoreboard players operation #1 bp.math.in = z.e bp.the_disruptor
 function bracken:entities/boss/the_disruptor/attack/misc/rngpos
 execute store result entity @s Pos[2] double 1 run scoreboard players get #1 bp.math.out
 
-playsound minecraft:entity.enderman.teleport ambient @a ~ ~ ~ 1 1
+playsound minecraft:entity.enderman.teleport ambient @a[distance=..30] ~ ~ ~ 1 1
 
 
 scoreboard players add @s bp.dis.cd 1

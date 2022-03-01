@@ -4,7 +4,7 @@
 ##########################################################
 
 
-playsound bracken:ability_book_tier_1 player @a ~ ~ ~ 10
+playsound bracken:ability_book_tier_1 player @a[distance=..30] ~ ~ ~ 10
 summon boat ^ ^2 ^3 {NoGravity:1b,Glowing:1b,Type:"birch",CustomName:'{"text":"Flying Boat","color":"yellow","bold":true}'}
 tellraw @s ["",{"selector":"@s "},{"text":" generated [FLYING BOAT]"}]
 

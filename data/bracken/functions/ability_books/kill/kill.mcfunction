@@ -4,7 +4,7 @@
 ##########################################################
 
 
-playsound bracken:ability_book_tier_2 player @a ~ ~ ~ 10
+playsound bracken:ability_book_tier_2 player @a[distance=..30] ~ ~ ~ 10
 effect clear @e[distance=..2] minecraft:resistance
 effect give @e[distance=..2] instant_damage 1 6 false
 tellraw @s ["",{"selector":"@s "},{"text":" generated [KILL]"}]

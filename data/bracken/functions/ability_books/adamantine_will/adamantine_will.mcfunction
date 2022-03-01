@@ -3,7 +3,7 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-playsound bracken:ability_book_tier_4 player @a ~ ~ ~ 10 
+playsound bracken:ability_book_tier_4 player @a[distance=..30] ~ ~ ~ 10 
 effect give @s minecraft:instant_damage 2 0 false
 effect give @s minecraft:wither 20 0 false
 effect give @s minecraft:resistance 20 9 false
