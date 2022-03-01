@@ -16,7 +16,7 @@
       }
     },
     "rewards": {
-      "function": "bracken:race/hunter/salmon"
+      "function": "bracken:player/species/hunter/salmon"
     }
   }
   
