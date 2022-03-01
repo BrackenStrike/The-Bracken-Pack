@@ -16,7 +16,7 @@
       }
     },
     "rewards": {
-      "function": "bracken:race/hunter/spider_eye"
+      "function": "bracken:player/species/hunter/spider_eye"
     }
   }
   
