@@ -16,7 +16,7 @@
       }
     },
     "rewards": {
-      "function": "bracken:technical/species/hunter/carrot"
+      "function": "bracken:player/species/hunter/carrot"
     }
   }
   
