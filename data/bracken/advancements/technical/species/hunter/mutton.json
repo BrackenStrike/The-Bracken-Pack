@@ -16,7 +16,7 @@
       }
     },
     "rewards": {
-      "function": "bracken:race/hunter/mutton"
+      "function": "bracken:player/species/hunter/mutton"
     }
   }
   
