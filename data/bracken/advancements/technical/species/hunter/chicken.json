@@ -16,7 +16,7 @@
       }
     },
     "rewards": {
-      "function": "bracken:technical/species/hunter/chicken"
+      "function": "bracken:player/species/hunter/chicken"
     }
   }
   
