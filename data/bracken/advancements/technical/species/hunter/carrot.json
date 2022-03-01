@@ -16,7 +16,7 @@
       }
     },
     "rewards": {
-      "function": "bracken:race/hunter/carrot"
+      "function": "bracken:technical/species/hunter/carrot"
     }
   }
   
