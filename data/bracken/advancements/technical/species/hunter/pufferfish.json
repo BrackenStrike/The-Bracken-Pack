@@ -16,7 +16,7 @@
       }
     },
     "rewards": {
-      "function": "bracken:race/hunter/pufferfish"
+      "function": "bracken:player/species/hunter/pufferfish"
     }
   }
   
