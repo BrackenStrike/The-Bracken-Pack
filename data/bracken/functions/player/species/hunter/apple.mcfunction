@@ -1,5 +1,5 @@
 scoreboard players set @s hmorph 9
-function bracken:techincal/species/hunter/morph
+function bracken:player/species/hunter/morph
 
 advancement revoke @s only bracken:techincal/species/hunter/beef
 advancement revoke @s only bracken:techincal/species/hunter/beetroot
