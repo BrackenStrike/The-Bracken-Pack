@@ -16,6 +16,6 @@
     }
   },
   "rewards": {
-    "function": "bracken:race/hunter/rabbit"
+    "function": "bracken:player/species/hunter/rabbit"
   }
 }
