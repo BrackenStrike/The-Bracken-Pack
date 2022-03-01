@@ -16,7 +16,7 @@
       }
     },
     "rewards": {
-      "function": "bracken:race/hunter/honey"
+      "function": "bracken:player/species/hunter/honey"
     }
   }
   
