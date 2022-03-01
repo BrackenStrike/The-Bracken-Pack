@@ -16,7 +16,7 @@
       }
     },
     "rewards": {
-      "function": "bracken:race/hunter/glow_berries"
+      "function": "bracken:player/species/hunter/glow_berries"
     }
   }
   
