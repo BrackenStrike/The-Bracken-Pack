@@ -16,7 +16,7 @@
       }
     },
     "rewards": {
-      "function": "bracken:race/hunter/tropical_fish"
+      "function": "bracken:player/species/hunter/tropical_fish"
     }
   }
   
