@@ -1,4 +1,4 @@
-scoreboard players set @s hmorph 7
+scoreboard players set @s bp.hunter_morph 7
 function bracken:player/species/hunter/morph
 
 advancement revoke @s only bracken:techincal/species/hunter/apple
