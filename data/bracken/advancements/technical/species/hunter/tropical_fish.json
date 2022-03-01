@@ -9,14 +9,14 @@
           },
           "item": {
             "items": [
-              "minecraft:spider_eye"
+              "minecraft:tropical_fish"
             ]
           }
         }
       }
     },
     "rewards": {
-      "function": "bracken:race/hunter/spider_eye"
+      "function": "bracken:race/hunter/tropical_fish"
     }
   }
   

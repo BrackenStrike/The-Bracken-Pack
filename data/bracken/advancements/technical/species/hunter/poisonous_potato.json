@@ -9,14 +9,14 @@
           },
           "item": {
             "items": [
-              "minecraft:spider_eye"
+              "minecraft:poisonous_potato"
             ]
           }
         }
       }
     },
     "rewards": {
-      "function": "bracken:race/hunter/spider_eye"
+      "function": "bracken:race/hunter/poisonous_potato"
     }
   }
   

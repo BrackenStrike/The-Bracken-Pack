@@ -1,10 +1,11 @@
 {
+    "parent": "bracken:root",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:consume_item",
         "conditions": {
           "player": {
-            "nbt": "{Tags:[\"bp.hunter\"]}"
+            "team": "Hunter"
           },
           "item": {
             "items": [
@@ -15,6 +16,7 @@
       }
     },
     "rewards": {
-      "function": "bracken:player/species/hunter/apple"
+      "function": "bracken:technical/species/hunter/apple"
     }
   }
+  

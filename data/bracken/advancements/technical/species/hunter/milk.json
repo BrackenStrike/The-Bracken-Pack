@@ -9,14 +9,14 @@
           },
           "item": {
             "items": [
-              "minecraft:spider_eye"
+              "minecraft:milk_bucket"
             ]
           }
         }
       }
     },
     "rewards": {
-      "function": "bracken:race/hunter/spider_eye"
+      "function": "bracken:race/hunter/demorph"
     }
   }
   

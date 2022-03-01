@@ -1,20 +1,22 @@
 {
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:consume_item",
-      "conditions": {
-        "player": {
-          "nbt": "{Tags:[\"bp.hunter\"]}"
-        },
-        "item": {
-          "items": [
-            "minecraft:sweet_berries"
-          ]
+    "parent": "bracken:root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "player": {
+            "team": "Hunter"
+          },
+          "item": {
+            "items": [
+              "minecraft:sweet_berries"
+            ]
+          }
         }
       }
+    },
+    "rewards": {
+      "function": "bracken:race/hunter/sweet_berries"
     }
-  },
-  "rewards": {
-    "function": "bracken:player/species/hunter/sweet_berries"
   }
-}
+  

@@ -1,20 +1,22 @@
 {
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:consume_item",
-      "conditions": {
-        "player": {
-          "nbt": "{Tags:[\"bp.hunter\"]}"
-        },
-        "item": {
-          "items": [
-            "minecraft:potato"
-          ]
+    "parent": "bracken:root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "player": {
+            "team": "Hunter"
+          },
+          "item": {
+            "items": [
+              "minecraft:potato"
+            ]
+          }
         }
       }
+    },
+    "rewards": {
+      "function": "bracken:race/hunter/potato"
     }
-  },
-  "rewards": {
-    "function": "bracken:player/species/hunter/potato"
   }
-}
+  

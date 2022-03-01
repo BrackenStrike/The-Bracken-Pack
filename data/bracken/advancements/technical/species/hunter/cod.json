@@ -9,14 +9,13 @@
           },
           "item": {
             "items": [
-              "minecraft:spider_eye"
-            ]
+              "minecraft:cod"]
           }
         }
       }
     },
     "rewards": {
-      "function": "bracken:race/hunter/spider_eye"
+      "function": "bracken:race/hunter/cod"
     }
   }
   

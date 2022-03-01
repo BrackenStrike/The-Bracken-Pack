@@ -9,13 +9,13 @@
         },
         "item": {
           "items": [
-            "minecraft:rabbit"
+            "minecraft:porkchop"
           ]
         }
       }
     }
   },
   "rewards": {
-    "function": "bracken:race/hunter/rabbit"
+    "function": "bracken:race/hunter/porkchop"
   }
 }
