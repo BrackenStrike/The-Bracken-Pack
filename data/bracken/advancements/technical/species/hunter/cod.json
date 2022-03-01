@@ -15,7 +15,7 @@
       }
     },
     "rewards": {
-      "function": "bracken:race/hunter/cod"
+      "function": "bracken:technical/species/hunter/cod"
     }
   }
   
