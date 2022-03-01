@@ -16,7 +16,7 @@
       }
     },
     "rewards": {
-      "function": "bracken:technical/species/hunter/beef"
+      "function": "bracken:player/species/hunter/beef"
     }
   }
   
