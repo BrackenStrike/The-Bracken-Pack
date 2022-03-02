@@ -1,4 +1,4 @@
-execute if score @s bp.hunter_morph matches 0 run effect give @s minecraft:hunger 2 0 true
+effect give @s minecraft:hunger 2 0 true
 execute if score @s[scores={bp.hunter_morph=16}] bp.food matches 20 run effect give @s minecraft:speed 1 1 true
 execute if score @s[scores={bp.hunter_morph=16}] bp.food matches 9.. run effect give @s minecraft:speed 1 0 true
 execute if score @s[scores={bp.hunter_morph=17}] bp.food matches 20 run effect give @s minecraft:speed 1 1 true
