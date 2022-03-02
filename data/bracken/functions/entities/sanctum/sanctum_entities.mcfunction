@@ -3,7 +3,7 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-execute if score @s bp.tick matches 2 run kill @e[type=#bracken:sanctum_entities]
+execute if score @s bp.tick matches 2 run kill @e[type=#bracken:explosives]
 execute if score @s bp.3_second matches 2 run tp @e[type=wither,distance=..200] ~ -400 ~
 
 ##########   SANCTUM NETHERITE GOLEMS   ##########
