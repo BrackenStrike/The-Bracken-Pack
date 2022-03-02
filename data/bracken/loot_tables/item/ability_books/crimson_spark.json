@@ -19,7 +19,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "consumes 1 levels",
+                  "text": "consumes 6 levels",
                   "color": "gray",
                   "italic": false
                 }

@@ -6,8 +6,8 @@
 effect give @s[scores={bp.longtick=5},tag=!bp.outlander] minecraft:invisibility 13 0 true
 effect clear @s[tag=!bp.outlander] minecraft:invisibility
 effect give @s[scores={bp.longtick=5},tag=bp.outlander] minecraft:mining_fatigue 13 0 true
-fill ~20 ~5 ~20 ~-20 ~-5 ~-20 minecraft:air replace minecraft:fire
-fill ~20 ~5 ~20 ~-20 ~-5 ~-20 minecraft:obsidian replace minecraft:lava
+execute if entity @s[scores={bp.tick=2}] run fill ~10 ~5 ~10 ~-10 ~-5 ~-10 minecraft:air replace minecraft:fire
+execute if entity @s[scores={bp.tick=2}] run fill ~10 ~5 ~10 ~-10 ~-5 ~-10 minecraft:obsidian replace minecraft:lava
 
 
 execute if entity @s[y=252,dy=100] run function bracken:dimension_crossing/sanctum_to_nether

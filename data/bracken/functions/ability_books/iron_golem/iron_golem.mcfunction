@@ -5,7 +5,7 @@
 
 
 playsound bracken:ability_book_tier_1 player @a[distance=..30] ~ ~ ~ 10
-summon minecraft:iron_golem ^ ^2 ^5 {PlayerCreated:1}
+execute anchored eyes run function bracken:ability_books/iron_golem/raycast
 tellraw @s ["",{"selector":"@s "},{"text":" generated [IRON GOLEM]"}]
 
 experience add @s -5 levels

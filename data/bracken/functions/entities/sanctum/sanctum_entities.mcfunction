@@ -3,11 +3,8 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-kill @e[type=tnt,distance=..200]
-kill @e[type=tnt_minecart,distance=..200]
-kill @e[type=end_crystal,distance=..200]
-kill @e[type=fireball,distance=..200]
-tp @e[type=wither,distance=..200] ~ -400 ~
+execute if score @s bp.tick matches 2 run kill @e[type=#bracken:sanctum_entities]
+execute if score @s bp.3_second matches 2 run tp @e[type=wither,distance=..200] ~ -400 ~
 
 ##########   SANCTUM NETHERITE GOLEMS   ##########
 data merge entity @e[predicate=!bracken:sneak,type=wither_skeleton,tag=bp.netherite_golem,distance=..4,limit=1,nbt={NoAI:1b,Invulnerable:1b}] {NoAI:0,Invulnerable:0}

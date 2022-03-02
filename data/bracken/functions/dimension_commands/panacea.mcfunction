@@ -21,7 +21,7 @@ execute if entity @s[scores={bp.1_second=3}] at @e[type=minecraft:item_frame,nbt
 execute if entity @s[scores={bp.1_second=3}] as @e[type=villager,tag=bp.table] at @s unless block ~ ~1 ~ minecraft:flowering_azalea run tp @s ~ -200 ~
 
 ##########   SPORE DROPS   ##########
-data merge entity @e[distance=1..5,limit=1,type=#bp.panacea_mobs,tag=!bp.spore,sort=nearest] {DeathLootTable:"bracken:panacea/sporedrop",Tags:["bp.spore"]}
+data merge entity @e[distance=1..5,limit=1,type=#bracken:panacea_mobs,tag=!bp.spore,sort=nearest] {DeathLootTable:"bracken:panacea/sporedrop",Tags:["bp.spore"]}
 execute at @e[tag=bp.spore] run particle minecraft:dust 0.1 0.7 0 1 ~ ~1 ~ 0.2 0.4 0.2 0.01 1
 
 

@@ -13,7 +13,7 @@ effect clear @s minecraft:poison
 attribute @s[scores={bp.pax=10}] minecraft:generic.max_health modifier add 35709842-6f1c-48eb-9683-43bcf0faa33e "bp.pax_health" 20 add
 
 effect clear @s minecraft:bad_omen
-execute in bracken:pax run kill @e[type=arrow,distance=..100]
+execute if score @s bp.tick matches 2 in bracken:pax run kill @e[type=#bracken:pax_entities]
 
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 

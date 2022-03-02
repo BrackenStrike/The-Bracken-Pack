@@ -5,8 +5,8 @@
 
 
 playsound bracken:ability_book_tier_3 player @a[distance=..30] ~ ~ ~ 10
-summon area_effect_cloud ~ ~ ~ {Radius:25f,RadiusPerTick:-0.05f,Duration:1000,Color:9811166,Effects:[{Id:2b,Amplifier:9b,Duration:60,ShowParticles:1b}],CustomName:'{"text":"frostlock","color":"blue","bold":true}'}
+execute anchored eyes run function bracken:ability_books/frostlock/raycast
 tellraw @s ["",{"selector":"@s "},{"text":" generated [FROSTLOCK]"}]
-experience add @s -3 levels
+experience add @s -5 levels
 
 function bracken:ability_books/frostlock/effects
