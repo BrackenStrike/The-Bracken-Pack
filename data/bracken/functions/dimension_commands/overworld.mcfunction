@@ -4,7 +4,7 @@
 ##########################################################
 
 scoreboard players set @s bp.overworld 10
-effect give @s[scores={bp.fae=8..}] slow_falling 2 2 true
+effect give @s[scores={bp.fae=8..}] slow_falling 10 2 true
 
 execute if entity @s[y=313,dy=100] run function bracken:dimension_crossing/overworld_to_faewild
 execute if entity @s[y=-62,dy=-100] run function bracken:dimension_crossing/overworld_to_underdark

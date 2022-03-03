@@ -6,7 +6,7 @@
 execute if score @s bp.1_second matches 10 run function bracken:entities/the_underdark/underdark_entities
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 
-execute if entity @s[y=243,dy=100] run function bracken:dimension_crossing/underdark_to_overworld
+execute if entity @s[y=246,dy=100] run function bracken:dimension_crossing/underdark_to_overworld
 execute if entity @s[y=1,dy=-100] run function bracken:dimension_crossing/underdark_to_nether
 
 ##########   POLYFOLUS MINIBOSS  ##########

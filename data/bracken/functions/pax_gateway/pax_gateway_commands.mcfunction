@@ -5,9 +5,7 @@
 ##########################################################
 
 ##########   PAX GATEWAY   ##########
-effect give @a[scores={bp.portal=1..}] resistance 11 9 false
 execute if entity @p[distance=..10,scores={bp.portal=1..}] as @e[type=marker,tag=bp.pax_scores,distance=..25,limit=1] run function bracken:pax_gateway/teleport_player
-
 
 ##########   PAX GATEWAY PLAYER PARTICLES  ##########
 execute as @e[type=minecraft:marker,tag=bp.pax_scores,distance=..25,limit=1] at @a[distance=..30] run function bracken:pax_gateway/player_particles
