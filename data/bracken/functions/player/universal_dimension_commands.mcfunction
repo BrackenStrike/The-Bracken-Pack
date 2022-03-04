@@ -21,6 +21,7 @@ scoreboard players remove @s[scores={bp.pax=1..}] bp.pax 1
 attribute @s[scores={bp.pax=1}] minecraft:generic.max_health modifier remove 35709842-6f1c-48eb-9683-43bcf0faa33e
 
 scoreboard players remove @s[scores={bp.portal=1..}] bp.portal 1
+tag @s[scores={bp.portal=0}] remove bp.portal_teleport
 
 #the_faewild
 scoreboard players remove @s[scores={bp.fae=1..}] bp.fae 1
