@@ -19,7 +19,3 @@ execute if entity @s[y=275,dy=100] run effect give @s slow_falling 1 1 true
 
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 
-##########   FLYING TURRET   ##########
-execute as @e[type=minecraft:guardian,tag=bp.turret] at @s run function bracken:entities/omnidrome/flying_turrent
-
-
