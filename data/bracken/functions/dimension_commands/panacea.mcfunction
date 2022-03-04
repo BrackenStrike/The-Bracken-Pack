@@ -10,9 +10,9 @@ effect give @s[scores={bp.longtick=3}] minecraft:hunger 13 0 true
 
 attribute @s[scores={bp.panacea=10}] minecraft:generic.max_health modifier add b9615b04-a3a9-45f8-adb1-dc03b37fe2a3 "bp.panacea_health" 4 add
 
-execute as @s[scores={bp.creeper=1..8}] run function bracken:player/set_rotation 
-execute as @s[scores={bp.creeper=0}] run function bracken:player/get_rotation
-execute as @s[scores={bp.creeper=0}] unless score @s bp.x_rotation = @s bp.xx_rotation unless score @s bp.z_rotation = @s bp.zz_rotation run function bracken:dimension_crossing/panacea_to_overworld
+execute if entity @s[scores={bp.creeper=1..8}] run function bracken:player/set_rotation 
+execute if entity @s[scores={bp.creeper=0}] run function bracken:player/get_rotation
+execute if entity @s[scores={bp.creeper=0}] unless score @s bp.x_rotation = @s bp.xx_rotation unless score @s bp.z_rotation = @s bp.zz_rotation run function bracken:dimension_crossing/panacea_to_overworld
 
 ##########   CHLOROCRAFTING   ##########
 execute if entity @s[scores={bp.1_second=3}] at @e[type=minecraft:item_frame,nbt={Facing:1b,Item:{id:"minecraft:bone_meal",Count:1b}}] if block ~ ~-1 ~ minecraft:crafting_table run function bracken:entities/chlorocrafter

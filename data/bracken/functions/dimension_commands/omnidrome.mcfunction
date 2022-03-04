@@ -4,8 +4,8 @@
 ##########################################################
 
 #travel nether
-execute as @s[predicate=bracken:sprint] if entity @e[type=minecraft:end_crystal,distance=..2,predicate=bracken:omnidrome] run function bracken:dimension_crossing/omnidrome_to_nether
-execute as @e[type=marker,tag=bp.dimension_marker] at @s if block ~ ~-1 ~ air in bracken:omnidrome run function bracken:dimension_crossing/spawn_platforms/remove_spawn_platform
+execute if predicate bracken:sprint if entity @e[type=minecraft:end_crystal,distance=..2,predicate=bracken:omnidrome] run function bracken:dimension_crossing/omnidrome_to_nether
+execute if entity @s[scores={bp.1_second=5}] if entity @e[type=marker,tag=bp.dimension_marker] at @s if block ~ ~-1 ~ air in bracken:omnidrome run function bracken:dimension_crossing/spawn_platforms/remove_spawn_platform
 
 #omnidrome movement
 effect give @s[scores={bp.sneakcharge=10..}] minecraft:levitation 1 15 true

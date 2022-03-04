@@ -7,7 +7,7 @@ execute unless predicate bracken:in_boat if block ~ ~ ~ minecraft:water if entit
 execute if score @s bp.1_second matches 2 run function bracken:entities/glacium/glacium_mobs
 execute if score @s bp.1_second matches 15 run function bracken:dimension_commands/other/glacium_fill_commands
 
-execute at @s[scores={bp.ice=400..}] if block ~ ~-1 ~ minecraft:beacon run function bracken:dimension_crossing/glacium_to_overworld
+execute if entity @s[scores={bp.ice=400..}] if block ~ ~-1 ~ minecraft:beacon run function bracken:dimension_crossing/glacium_to_overworld
 
 ##########   GLACIUM TOWER   ##########
 execute if entity @s[scores={bp.tick=2}] at @e[type=minecraft:armor_stand,tag=bp.frozen] run function bracken:entities/glacium/glacium_tower
