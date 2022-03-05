@@ -27,7 +27,7 @@ execute if score #bp.species_dummy bp.species_con matches 1 if entity @s[tag=bp.
 execute if score #bp.species_dummy bp.species_con matches 0 if entity @s[scores={bp.longtick=2}] run function bracken:player/species/leave
 
 # Poison Sword
-function bracken:player/poison_sword
+execute if entity @s[scores={bp.poison=1..}] run function bracken:player/poison_sword
 
 # Dimension Commands
 function bracken:player/dimension_check

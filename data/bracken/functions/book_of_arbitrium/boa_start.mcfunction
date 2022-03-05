@@ -5,10 +5,10 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-execute as @s[scores={bp.arb_book=0}] run function bracken:book_of_arbitrium/reset
+execute if entity @s[scores={bp.arb_book=0}] run function bracken:book_of_arbitrium/reset
 scoreboard players set @s bp.arb_book 0
-execute as @s[nbt={SelectedItem:{id:"minecraft:written_book",tag:{tags:[bp.book_of_arbitrium]}}}] unless entity @s[scores={bp.arb_book=1..}] run function bracken:book_of_arbitrium/enable
-execute as @s[nbt={SelectedItem:{tag:{bp.species_book:10b}}}] unless entity @s[tag=bp.book_used] unless entity @s[scores={bp.arb_book=1..}] run function bracken:book_of_arbitrium/enable
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:written_book",tag:{tags:[bp.book_of_arbitrium]}}}] unless entity @s[scores={bp.arb_book=1..}] run function bracken:book_of_arbitrium/enable
+execute if entity @s[nbt={SelectedItem:{tag:{bp.species_book:10b}}}] unless entity @s[tag=bp.book_used] unless entity @s[scores={bp.arb_book=1..}] run function bracken:book_of_arbitrium/enable
 
 execute if score @s bp.tick matches 2 run function bracken:book_of_arbitrium/triggers
 

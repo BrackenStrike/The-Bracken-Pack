@@ -8,4 +8,4 @@ execute at @s run forceload add ~ ~
 execute at @s[gamemode=!spectator] run setblock ~ -60 ~ minecraft:polished_deepslate keep
 execute at @s[gamemode=!spectator] run fill ~ ~1 ~ ~ ~0 ~ air 
 effect give @s fire_resistance 20 1 false
-execute as @s in minecraft:overworld run function bracken:remove_forceload
+execute in minecraft:overworld run function bracken:remove_forceload
