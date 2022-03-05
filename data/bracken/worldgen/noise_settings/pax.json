@@ -74,13 +74,49 @@
       },
       "type": "minecraft:cache_2d"
     },
-    "lava": 0,
-    "temperature": 0,
-    "vegetation": 0,
-    "continents": 0,
-    "barrier": 0,
-    "fluid_level_floodedness": 0,
-    "fluid_level_spread": 0
+    "lava": {
+      "noise": "minecraft:aquifer_lava",
+      "xz_scale": 1.0,
+      "y_scale": 1.0,
+      "type": "minecraft:noise"
+    },
+    "temperature": {
+      "xz_scale": 0.25,
+      "y_scale": 0.0,
+      "noise": "minecraft:temperature",
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0.0,
+      "shift_z": "minecraft:shift_z",
+      "type": "minecraft:shifted_noise"
+    },
+    "vegetation": {
+      "xz_scale": 0.25,
+      "y_scale": 0.0,
+      "noise": "minecraft:vegetation",
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0.0,
+      "shift_z": "minecraft:shift_z",
+      "type": "minecraft:shifted_noise"
+    },
+    "continents": "minecraft:overworld/continents",
+    "barrier": {
+      "noise": "minecraft:aquifer_barrier",
+      "xz_scale": 1.0,
+      "y_scale": 0.5,
+      "type": "minecraft:noise"
+    },
+    "fluid_level_floodedness": {
+      "noise": "minecraft:aquifer_fluid_level_floodedness",
+      "xz_scale": 1.0,
+      "y_scale": 0.67,
+      "type": "minecraft:noise"
+    },
+    "fluid_level_spread": {
+      "noise": "minecraft:aquifer_fluid_level_spread",
+      "xz_scale": 1.0,
+      "y_scale": 0.7142857142857143,
+      "type": "minecraft:noise"
+    }
   },
   "surface_rule": {
     "type": "minecraft:sequence",
