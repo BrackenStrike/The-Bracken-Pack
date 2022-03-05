@@ -9,3 +9,4 @@ effect give @e[distance=..100] minecraft:glowing 10 0 false
 tellraw @s ["",{"selector":"@s "},{"text":" generated [TRUELIGHT GLOW]"}]
 
 experience add @s -3 levels
+scoreboard players set @s bp.cooldown 10

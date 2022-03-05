@@ -11,3 +11,4 @@ spreadplayers ~ ~ 20 30 under 250 false @s[predicate=bracken:the_underdark,dista
 tellraw @s ["",{"selector":"@s "},{"text":" generated [SCATTERSTORM]"}]
 
 experience add @s -3 levels
+scoreboard players set @s bp.cooldown 50

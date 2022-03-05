@@ -10,4 +10,3 @@ tellraw @s ["",{"selector":"@s "},{"text":" generated [SWORDFALL]"}]
 scoreboard players set @s bp.giant 240
 
 experience add @s -12 levels
-

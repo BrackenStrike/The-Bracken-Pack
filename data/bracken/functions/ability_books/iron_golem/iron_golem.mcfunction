@@ -9,3 +9,4 @@ execute anchored eyes run function bracken:ability_books/iron_golem/raycast
 tellraw @s ["",{"selector":"@s "},{"text":" generated [IRON GOLEM]"}]
 
 experience add @s -5 levels
+scoreboard players set @s bp.cooldown 40

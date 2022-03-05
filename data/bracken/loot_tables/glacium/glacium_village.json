@@ -39,6 +39,26 @@
         },
         {
           "type": "loot_table",
+          "name": "bracken:item/portal_keys/void_key",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.01
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/portal_keys/end_key",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.01
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
           "name": "bracken:item/froscuisses",
           "conditions": [
             {

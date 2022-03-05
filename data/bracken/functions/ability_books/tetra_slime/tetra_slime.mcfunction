@@ -9,3 +9,4 @@ execute anchored eyes run function bracken:ability_books/tetra_slime/raycast
 tellraw @s ["",{"selector":"@s "},{"text":" generated [TETRA SLIME]"}]
 
 experience add @s -12 levels
+scoreboard players set @s bp.cooldown 60

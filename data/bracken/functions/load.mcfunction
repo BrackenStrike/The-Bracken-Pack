@@ -58,6 +58,7 @@ scoreboard players set #1 bp.zchunk 16
 
 ##########   SPELL BOOKS  ##########
 scoreboard objectives add bp.offhand dummy
+scoreboard objectives add bp.cooldown dummy
 
 # Returning Tides
 scoreboard objectives add bp.recall_marker dummy
@@ -155,6 +156,7 @@ scoreboard players set @a bp.verylongtick 0
 scoreboard players set @a bp.hurting 0
 scoreboard players set @a bp.gold 0
 scoreboard players set @a bp.portal 0
+scoreboard players set @a bp.cooldown 0
 
 ##########   DISPLAY HEARTS   ##########
 #scoreboard objectives setdisplay list bp.health

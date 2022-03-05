@@ -9,3 +9,4 @@ summon minecraft:fireball ^ ^1 ^1.5 {Item:{id:"minecraft:ender_eye",Count:1b},mo
 tellraw @s ["",{"selector":"@s "},{"text":" used [FIREBALL]"}]
 
 experience add @s -5 levels
+scoreboard players set @s bp.cooldown 10

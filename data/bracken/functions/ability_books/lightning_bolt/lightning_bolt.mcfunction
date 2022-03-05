@@ -8,3 +8,4 @@ effect give @s minecraft:resistance 2 4 true
 summon minecraft:lightning_bolt ^ ^1 ^0
 tellraw @s ["",{"selector":"@s "},{"text":" vanished with [LIGHTNING BOLT]"}]
 experience add @s -25 levels
+scoreboard players set @s bp.cooldown 40

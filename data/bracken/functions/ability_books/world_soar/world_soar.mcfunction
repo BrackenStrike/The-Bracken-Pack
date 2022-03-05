@@ -10,3 +10,4 @@ effect give @s minecraft:jump_boost 10 255 false
 tellraw @s ["",{"selector":"@s "},{"text":" generated [WORLD SOAR]"}]
 
 experience add @s -2 levels
+scoreboard players set @s bp.cooldown 10

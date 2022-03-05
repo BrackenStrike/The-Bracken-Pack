@@ -12,3 +12,4 @@ particle minecraft:happy_villager ~ ~ ~ 5 5 5 0.01 1000
 tellraw @s ["",{"selector":"@s "},{"text":" generated [MASS HEAL]"}]
 
 experience add @s -2 levels
+scoreboard players set @s bp.cooldown 30

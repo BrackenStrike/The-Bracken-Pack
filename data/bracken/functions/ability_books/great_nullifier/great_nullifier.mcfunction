@@ -12,3 +12,4 @@ particle minecraft:end_rod ~ ~ ~ 5 5 5 0.01 100
 tellraw @s ["",{"selector":"@s "},{"text":" used [GREAT NULLIFIER]"}]
 
 experience add @s -2 levels
+scoreboard players set @s bp.cooldown 5
