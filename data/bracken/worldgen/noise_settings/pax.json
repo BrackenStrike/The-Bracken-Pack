@@ -1,4 +1,13 @@
 {
+  "structures": {
+    "structures": {
+      "minecraft:village": {
+        "spacing": 26,
+        "separation": 16,
+        "salt": 14357921
+      }
+    }
+  },
   "deepslate_enabled": false,
   "ore_veins_enabled": false,
   "aquifers_enabled": false,
