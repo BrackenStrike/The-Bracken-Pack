@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "bracken:bastion_remnant0",
+      "structure": "bracken:glacium_hotsprings",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 7,
-    "separation": 4,
-    "salt": 431221225
+    "spacing": 15,
+    "separation": 11,
+    "salt": 1908413135
   }
 }

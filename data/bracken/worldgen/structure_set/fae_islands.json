@@ -1,7 +1,7 @@
 {
   "structures": [
     {
-      "structure": "bracken:village_taiga",
+      "structure": "bracken:fae_islands",
       "weight": 1
     }
   ],
@@ -9,6 +9,6 @@
     "type": "minecraft:random_spread",
     "spacing": 20,
     "separation": 14,
-    "salt": 2050715151
+    "salt": 625772379
   }
 }

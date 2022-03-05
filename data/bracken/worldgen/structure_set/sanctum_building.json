@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "bracken:root",
+      "structure": "bracken:sanctum_building",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 7,
-    "separation": 4,
-    "salt": 502246545
+    "spacing": 34,
+    "separation": 18,
+    "salt": 747158534
   }
 }

@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "bracken:buried_building",
+      "structure": "bracken:fae_village",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 34,
-    "separation": 18,
-    "salt": 747158534
+    "spacing": 20,
+    "separation": 14,
+    "salt": 2050715151
   }
 }

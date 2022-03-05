@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "bracken:village_plains",
+      "structure": "bracken:brine_fan",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 20,
-    "separation": 14,
-    "salt": 625772379
+    "spacing": 7,
+    "separation": 4,
+    "salt": 431221225
   }
 }

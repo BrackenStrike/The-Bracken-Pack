@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "bracken:village_snowy",
+      "structure": "bracken:brine_sponge_tower",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 15,
-    "separation": 11,
-    "salt": 779771864
+    "spacing": 7,
+    "separation": 4,
+    "salt": 502246545
   }
 }
