@@ -23,9 +23,12 @@ attribute @s[scores={bp.pax=1}] minecraft:generic.max_health modifier remove 357
 scoreboard players remove @s[scores={bp.portal=1..}] bp.portal 1
 tag @s[scores={bp.portal=0}] remove bp.portal_teleport
 
-#the_faewild
+# the_faewild
 scoreboard players remove @s[scores={bp.fae=1..}] bp.fae 1
 attribute @s[scores={bp.fae=1}] minecraft:generic.max_health modifier remove 15c1c42e-9de9-4c7a-a427-776166bc6cac
 
-#the_nether
+# the_nether
 scoreboard players remove @s[scores={bp.wither_skull=1..}] bp.wither_skull 1
+
+# VARSKSPACE TRAVEL
+execute if entity @s[scores={bp.tick=2}] if entity @e[type=lightning_bolt,tag=!bp.no_travel,distance=..1] run function bracken:dimension_crossing/varskspace_travel
