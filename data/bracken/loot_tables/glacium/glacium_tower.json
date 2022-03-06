@@ -94,6 +94,21 @@
           ]
         }
       ]
-    }
+    },
+    {
+    "rolls": 1,
+          "entries": [
+     {
+            "type": "loot_table",
+            "name": "bracken:item/maps/glacium_hotsprings_map",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          }
+  ]
+  }
   ]
 }

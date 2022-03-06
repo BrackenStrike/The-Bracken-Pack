@@ -252,6 +252,21 @@
           ]
         }
       ]
-    }
+    },
+    {
+    "rolls": 1,
+          "entries": [
+     {
+            "type": "loot_table",
+            "name": "bracken:item/maps/omnidrome_palace_map",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          }
+  ]
+  }
   ]
 }

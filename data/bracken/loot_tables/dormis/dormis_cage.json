@@ -48,6 +48,21 @@
           ]
         }
       ]
-    }
+    },
+    {
+    "rolls": 1,
+          "entries": [
+     {
+            "type": "loot_table",
+            "name": "bracken:item/maps/dormis_courtyard_map",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 1
+              }
+            ]
+          }
+  ]
+  }
   ]
 }
