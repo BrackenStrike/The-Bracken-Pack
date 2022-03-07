@@ -10,49 +10,49 @@
         {
           "biome": "bracken:the_faewild/woods",
           "parameters": {
-            "temperature": 1,
-            "humidity": 0,
+            "temperature": -0.5,
+            "humidity": -0.5,
             "continentalness": 0,
             "erosion": 0,
-            "weirdness": 0,
+            "weirdness": 0.6,
             "depth": 0,
-            "offset": 0
+            "offset": 0.7
           }
         },
         {
           "biome": "bracken:the_faewild/fields",
           "parameters": {
-            "temperature": -1,
+            "temperature": 1,
             "humidity": 0,
-            "continentalness": 0,
+            "continentalness": 0.8,
             "erosion": 0,
-            "weirdness": 0,
+            "weirdness": 0.2,
             "depth": 0,
-            "offset": 0
+            "offset": 0.2
           }
         },
         {
           "biome": "bracken:the_faewild/hamlet",
           "parameters": {
-            "temperature": 0,
-            "humidity": 1,
-            "continentalness": 0,
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0.8,
             "erosion": 0,
-            "weirdness": 0,
+            "weirdness": 0.2,
             "depth": 0,
-            "offset": 0
+            "offset": 0.2
           }
         },
         {
           "biome": "bracken:the_faewild/dells",
           "parameters": {
-            "temperature": 0,
+            "temperature": -1,
             "humidity": -1,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
-            "offset": 0.8
+            "offset": 0.5
           }
         }
       ]
