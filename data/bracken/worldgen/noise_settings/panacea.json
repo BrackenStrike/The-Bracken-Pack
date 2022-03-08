@@ -10,9 +10,9 @@
     "min_y": 0,
     "height": 208,
     "sampling": {
-      "xz_scale": 0.5,
+      "xz_scale": 0.7,
       "y_scale": 0.5,
-      "xz_factor": 380,
+      "xz_factor": 360,
       "y_factor": 160
     },
     "top_slide": {
@@ -29,7 +29,7 @@
     "size_vertical": 4,
     "terrain_shaper": {
       "offset": 0,
-      "factor": 0,
+      "factor": 0.05,
       "jaggedness": 0
     }
   },
