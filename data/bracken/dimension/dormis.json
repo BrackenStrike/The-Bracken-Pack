@@ -10,8 +10,20 @@
         {
           "biome": "bracken:dormis/barrens",
           "parameters": {
-            "temperature": 1,
+            "temperature": -0.8,
             "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": -0.5,
+            "depth": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "bracken:dormis/solitary",
+          "parameters": {
+            "temperature": -0.8,
+            "humidity": -1,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
@@ -20,21 +32,9 @@
           }
         },
         {
-          "biome": "bracken:dormis/solitary",
-          "parameters": {
-            "temperature": 0,
-            "humidity": -1,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0.4
-          }
-        },
-        {
           "biome": "bracken:dormis/commons",
           "parameters": {
-            "temperature": -1,
+            "temperature": -0.9,
             "humidity": 0,
             "continentalness": 0,
             "erosion": 0,

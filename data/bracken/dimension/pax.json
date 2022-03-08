@@ -11,22 +11,22 @@
           "biome": "bracken:pax/sky_garden",
           "parameters": {
             "temperature": 0,
-            "humidity": 1,
+            "humidity": 0,
             "continentalness": 0.5,
             "erosion": 0,
             "weirdness": 1,
             "depth": 0,
-            "offset": 0
+            "offset": 0.5
           }
         },
         {
           "biome": "bracken:pax/cloud_canopy",
           "parameters": {
-            "temperature": 0.8,
-            "humidity": 1,
+            "temperature": 0.5,
+            "humidity": 0,
             "continentalness": 0,
             "erosion": 0,
-            "weirdness": 0,
+            "weirdness": 1,
             "depth": 0,
             "offset": 0.8
           }
@@ -34,13 +34,13 @@
         {
           "biome": "bracken:pax/petal_grove",
           "parameters": {
-            "temperature": -0.8,
+            "temperature": 0,
             "humidity": 1,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
-            "offset": 0.8
+            "offset": 1
           }
         }
       ]

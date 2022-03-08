@@ -10,8 +10,8 @@
         {
           "biome": "bracken:the_underdark/petrified_forest",
           "parameters": {
-            "temperature": -1,
-            "humidity": 0,
+            "temperature": 0.5,
+            "humidity": -0.6,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
@@ -22,47 +22,47 @@
         {
           "biome": "bracken:the_underdark/eroded",
           "parameters": {
-            "temperature": 1,
-            "humidity": 0,
+            "temperature": 0.5,
+            "humidity": -0.3,
             "continentalness": 0,
             "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
+            "weirdness": 0.2,
+            "depth": 0.2,
+            "offset": 0.4
           }
         },
         {
           "biome": "bracken:the_underdark/gravel_zone",
           "parameters": {
-            "temperature": 0.5,
-            "humidity": 0,
-            "continentalness": 1,
-            "erosion": 0,
-            "weirdness": 0,
+            "temperature": -0.6,
+            "humidity": -0.6,
+            "continentalness": 0,
+            "erosion": 0.4,
+            "weirdness": 0.5,
             "depth": 0,
-            "offset": 0.2
+            "offset": 0.6
           }
         },
         {
           "biome": "bracken:the_underdark/ruby_fungi_forest",
           "parameters": {
-            "temperature": 0.2,
-            "humidity": 1,
+            "temperature": 0.1,
+            "humidity": 0,
             "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
+            "erosion": 0.2,
+            "weirdness": 0.5,
             "depth": 0,
-            "offset": 0
+            "offset": 0.7
           }
         },
         {
           "biome": "bracken:the_underdark/crystal_caves",
           "parameters": {
-            "temperature": 0,
-            "humidity": -1,
+            "temperature": 0.3,
+            "humidity": 0.1,
             "continentalness": 0,
             "erosion": 0,
-            "weirdness": 0,
+            "weirdness": 0.5,
             "depth": 0,
             "offset": 0.7
           }
