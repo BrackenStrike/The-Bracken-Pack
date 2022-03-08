@@ -22,7 +22,7 @@
     "size_vertical": 1,
     "amplified": true,
     "sampling": {
-      "xz_scale": 2,
+      "xz_scale": 1,
       "y_scale": 5,
       "xz_factor": 280,
       "y_factor": 80
@@ -39,7 +39,7 @@
     },
     "terrain_shaper": {
       "offset": 0,
-      "factor": 0,
+      "factor": 0.1,
       "jaggedness": 0.5
     }
   },
