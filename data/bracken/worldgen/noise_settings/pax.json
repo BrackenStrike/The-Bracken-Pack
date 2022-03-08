@@ -120,18 +120,7 @@
   },
   "surface_rule": {
     "type": "minecraft:sequence",
-    "sequence": [
-      {
-        "type": "minecraft:condition",
-        "if_true": {
-          "type": "minecraft:biome",
-          "biome_is": [
-            "bracken:pax/cloud_canopy"
-          ]
-        },
-        "then_run": {
-          "type": "minecraft:sequence",
-          "sequence": [{
+    "sequence": [{
         "type": "minecraft:condition",
         "if_true": {
           "type": "minecraft:y_above",
@@ -172,6 +161,17 @@
           }
         }
       },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "bracken:pax/cloud_canopy"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
             {
               "type": "minecraft:condition",
               "if_true": {
