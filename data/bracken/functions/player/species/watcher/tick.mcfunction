@@ -1,5 +1,5 @@
 ##########################################################
-# Description: Executed every tick by watchers
+# Description: Executed every tick by watchers. Unless you are on the Bracken Pack team you should not be looking at this.
 # Creators: Bracken
 ##########################################################
 
