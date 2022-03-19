@@ -25,6 +25,9 @@
                 },
                 "type": "minecraft:uniform"
             }
-        }
+        },
+        {
+      "type": "minecraft:biome"
+    }
     ]
 }
