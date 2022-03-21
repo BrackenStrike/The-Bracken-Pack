@@ -3,5 +3,5 @@
 # Creators: Grandmaster
 ##########################################################
 
-execute in bracken:varskspace run tp @s ~ 700 ~
+execute in bracken:varskspace run tp @s ~ 200 ~
 effect give @s resistance 15 9 false
