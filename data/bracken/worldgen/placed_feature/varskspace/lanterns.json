@@ -12,10 +12,10 @@
             "type": "minecraft:height_range",
             "height": {
                 "min_inclusive": {
-                    "above_bottom": 185
+                    "above_bottom": 200
                 },
                 "max_inclusive": {
-                    "below_top": 150
+                    "below_top": 10
                 },
                 "type": "minecraft:uniform"
             }
