@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:air"
+    },
+    "decor_state": {
+      "Name": "minecraft:air"
+    },
+    "stem_state": {
+      "Name": "minecraft:cracked_polished_blackstone_bricks"
+    },
+    "valid_base_block": {
+      "Name": "minecraft:polished_deepslate_bricks"
+    }
+  }
+}
