@@ -9,8 +9,8 @@
             "type": "minecraft:in_square"
         },
         {
-            "type": "heightmap",
-            "heightmap": "WORLD_SURFACE_WG"
+            "type": "minecraft:count_on_every_layer",
+            "count": 1
         }
     ]
 }
