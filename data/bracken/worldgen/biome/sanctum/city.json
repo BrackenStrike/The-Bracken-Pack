@@ -21,14 +21,15 @@
   "features": [
     [],
     [
-      "bracken:sanctum/marauder",
-      "bracken:sanctum/rubble1"
+      
+      "bracken:sanctum/rubble1",
+      "bracken:sanctum/rubble"
     ],
     [
       "minecraft:basalt_pillar"
     ],
-    [],
-    [],
+    ["bracken:sanctum/city_tree1"],
+    ["bracken:sanctum/city_tree2"],
     [],
     [],
     [
