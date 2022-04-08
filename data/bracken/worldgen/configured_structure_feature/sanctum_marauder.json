@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:village",
+  "biomes": "bracken:sanctum/city",
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "bracken:sanctum_marauder",
+    "size": 6
+  }
+}
