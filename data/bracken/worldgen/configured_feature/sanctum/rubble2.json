@@ -8,10 +8,10 @@
       "Name": "minecraft:air"
     },
     "stem_state": {
-      "Name": "minecraft:cracked_polished_blackstone_bricks"
+      "Name": "minecraft:cracked_deepslate_bricks"
     },
     "valid_base_block": {
-      "Name": "minecraft:polished_deepslate_bricks"
+      "Name": "minecraft:cracked_deepslate_bricks"
     }
   }
 }
