@@ -20,7 +20,8 @@
   },
   "features": [
     [],
-    ["bracken:sanctum/rubble1",
+    ["bracken:sanctum/rubble2",
+     "bracken:sanctum/rubble1",
       "bracken:sanctum/rubble"
     ],
     [
@@ -37,6 +38,7 @@
     [
       "minecraft:spring_water",
       "bracken:sanctum/gray_blobs",
+      "bracken:sanctum/deepslate_blobs",
       "bracken:sanctum/blackstone_blobs"
     ],
     [
