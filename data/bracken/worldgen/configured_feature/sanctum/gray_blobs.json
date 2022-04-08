@@ -5,8 +5,8 @@
       "Name": "minecraft:white_concrete_powder"
     },
     "state": {
-      "Name": "minecraft:light_gray_concrete_powder"
+      "Name": "minecraft:cracked_polished_blackstone_bricks"
     },
-    "radius": 0
+    "radius": 10
   }
 }
