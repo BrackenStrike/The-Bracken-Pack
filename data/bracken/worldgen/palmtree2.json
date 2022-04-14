@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:village",
+  "biomes": "divine_dimension:ethera/sapphire_oasis",
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "divine_dimension:palmtree2",
+    "size": 6
+  }
+}
