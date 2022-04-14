@@ -1,0 +1,15 @@
+{
+  "name": "oasis1",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "divine_dimension:oasis1",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}
