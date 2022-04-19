@@ -92,8 +92,10 @@
       "bracken:underdark/crystal_caves/ore_calcite",
       "bracken:underdark/crystal_caves/diamond_ore2"
     ],
-    [],
-    [],
+    ["bracken:underdark/crystal_caves/spikes1",
+    "bracken:underdark/crystal_caves/spikes2",
+    "bracken:underdark/crystal_caves/spikes3"],
+    ["bracken:underdark/crystal_caves/ore_sea_l"],
     [],
     [
       "minecraft:freeze_top_layer"
