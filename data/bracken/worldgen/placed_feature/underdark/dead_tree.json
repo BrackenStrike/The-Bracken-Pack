@@ -1,52 +1,42 @@
 {
-    "feature": "bracken:underdark/dead_tree",
+    "feature": "bracken:underdark/dead_tree1",
     "placement": [
         {
-            "type": "minecraft:count_on_every_layer",
-            "count": 1
+            "type": "count",
+            "count": 2
         },
         {
-            "type": "minecraft:block_predicate_filter",
-            "predicate": {
-              "type": "minecraft:all_of",
-              "predicates": [
-                {
-                  "type": "minecraft:replaceable"
-                },
-                {
-                  "type": "minecraft:matching_blocks",
-                  "offset": [
-                    0,
-                    -1,
-                    0
-                  ],
-                  "blocks": [
-                    "minecraft:coarse_dirt",
-                    "minecraft:gravel",
-                    "minecraft:rooted_dirt",
-                    "minecraft:podzol",
-                    "minecraft:mycelium"
-                  ]
-                },
-                {
-                  "type": "minecraft:not",
-                  "predicate": {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      0,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:mushroom_stem"
-                    ]
-                  }
-                }
-              ]
-            }
-          },
+            "type": "minecraft:in_square"
+        },
         {
-      "type": "minecraft:biome"
-    }
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "above_bottom": 0
+                },
+                "max_inclusive": {
+                    "absolute": 160
+                }
+            }
+        },
+        {
+            "type": "minecraft:environment_scan",
+            "direction_of_search": "down",
+            "target_condition": {
+                "type": "minecraft:solid"
+            },
+            "allowed_search_condition": {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                    "minecraft:air"
+                ]
+            },
+            "max_steps": 32
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "OCEAN_FLOOR_WG"
+          }
     ]
 }
