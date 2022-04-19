@@ -4,15 +4,15 @@
     "targets": [
       {
         "target": {
-          "block": "minecraft:stone",
+          "block": "minecraft:deepslate",
           "predicate_type": "minecraft:block_match"
         },
         "state": {
-          "Name": "minecraft:prismarine"
+          "Name": "minecraft:sea_lantern"
         }
       }
     ],
-    "size": 17,
+    "size": 1,
     "discard_chance_on_air_exposure": 0
   }
 }
