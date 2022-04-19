@@ -24,8 +24,8 @@
                     "minecraft:coarse_dirt",
                     "minecraft:gravel",
                     "minecraft:rooted_dirt",
-                    "podzol",
-                    "mycelium"
+                    "minecraft:podzol",
+                    "minecraft:mycelium"
                   ]
                 },
                 {
