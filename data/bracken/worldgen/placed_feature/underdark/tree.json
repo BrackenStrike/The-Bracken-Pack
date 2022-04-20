@@ -2,8 +2,8 @@
   "feature": "bracken:underdark/tree1",
   "placement": [
     {
-      "type": "minecraft:count",
-      "count": 4
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
     },
     {
       "type": "minecraft:in_square"
@@ -16,6 +16,9 @@
           "Name": "minecraft:dead_bush"
         }
       }
+    },
+    {
+      "type": "minecraft:biome"
     }
   ]
 }
