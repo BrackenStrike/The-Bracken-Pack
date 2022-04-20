@@ -6,14 +6,45 @@
             "count": 1
         },
         {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:would_survive",
-            "state": {
-              "Name": "minecraft:dead_bush"
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:replaceable"
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:coarse_dirt",
+                    "minecraft:gravel",
+                    "minecraft:rooted_dirt",
+                    "podzol",
+                    "mycelium"
+                  ]
+                },
+                {
+                  "type": "minecraft:not",
+                  "predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:mushroom_stem"
+                    ]
+                  }
+                }
+              ]
             }
-          }
-        },
+          },
         {
       "type": "minecraft:biome"
     }
