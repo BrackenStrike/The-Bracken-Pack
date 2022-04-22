@@ -1,6 +1,6 @@
 {
   "type": "minecraft:bastion_remnant",
-  "biomes": "bracken:sanctum/city",
+  "biomes": "bracken:sanctum/rubblework_city",
   "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:army_start",
