@@ -1,6 +1,6 @@
 {
   "type": "minecraft:bastion_remnant",
-  "biomes": "bracken:dormis/commons",
+  "biomes": "bracken:dormis/golan",
   "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:cage",
