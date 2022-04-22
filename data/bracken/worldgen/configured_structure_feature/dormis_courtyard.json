@@ -1,6 +1,6 @@
 {
   "type": "minecraft:bastion_remnant",
-  "biomes": "bracken:dormis/solitary",
+  "biomes": "bracken:dormis/hebron",
   "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:courtyard",
