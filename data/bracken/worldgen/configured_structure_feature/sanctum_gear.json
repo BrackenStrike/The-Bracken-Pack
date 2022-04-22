@@ -1,6 +1,6 @@
 {
   "type": "minecraft:bastion_remnant",
-  "biomes": "bracken:sanctum/no_man's_land",
+  "biomes": "bracken:sanctum/no_mans_land",
   "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:gear",
