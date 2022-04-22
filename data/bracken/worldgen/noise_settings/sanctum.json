@@ -553,7 +553,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:sanctum/no_man's_land"
+            "bracken:sanctum/no_mans_land"
           ]
         },
         "then_run": {
