@@ -1,6 +1,6 @@
 {
   "type": "minecraft:village",
-  "biomes": "bracken:sanctum/city",
+  "biomes": "bracken:sanctum/rubbleworks_city",
   "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:sanctum_marauder",
