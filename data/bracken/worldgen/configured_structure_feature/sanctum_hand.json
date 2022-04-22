@@ -1,6 +1,6 @@
 {
   "type": "minecraft:village",
-  "biomes": "bracken:sanctum/rubbleworks_city",
+  "biomes": "bracken:sanctum/rubblework_city",
   "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:hand",
