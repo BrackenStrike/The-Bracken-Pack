@@ -553,7 +553,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:sanctum/land"
+            "bracken:sanctum/no_man's_land"
           ]
         },
         "then_run": {
@@ -599,7 +599,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:sanctum/city"
+            "bracken:sanctum/rubblework_city"
           ]
         },
         "then_run": {
