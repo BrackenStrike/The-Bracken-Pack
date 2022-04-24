@@ -8,7 +8,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "bracken:the_brine/beach",
+          "biome": "bracken:the_brine/sugar_sand_beach",
           "parameters": {
             "temperature": 0,
             "humidity": 1,
@@ -20,7 +20,7 @@
           }
         },
         {
-          "biome": "bracken:the_brine/fungus",
+          "biome": "bracken:the_brine/incursive_fungus",
           "parameters": {
             "temperature": -1,
             "humidity": -1,
@@ -32,7 +32,7 @@
           }
         },
         {
-          "biome": "bracken:the_brine/reef",
+          "biome": "bracken:the_brine/fringing_reef",
           "parameters": {
             "temperature": 1,
             "humidity": 1,
