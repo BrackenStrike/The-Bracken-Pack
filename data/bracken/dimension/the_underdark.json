@@ -20,7 +20,7 @@
           }
         },
         {
-          "biome": "bracken:the_underdark/eroded",
+          "biome": "bracken:the_underdark/eroded_basin",
           "parameters": {
             "temperature": 0.3,
             "humidity": 0,
@@ -32,7 +32,7 @@
           }
         },
         {
-          "biome": "bracken:the_underdark/gravel_zone",
+          "biome": "bracken:the_underdark/giant_dripstone_zone",
           "parameters": {
             "temperature": 0.3,
             "humidity": 0,
