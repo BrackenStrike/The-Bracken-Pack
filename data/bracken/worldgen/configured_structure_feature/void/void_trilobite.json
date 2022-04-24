@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:bastion_remnant",
+  "biomes": "bracken:void/void",
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "bracken:void/void_trilobite",
+    "size": 6
+  }
+}
