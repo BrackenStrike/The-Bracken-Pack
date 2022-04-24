@@ -1,6 +1,6 @@
 {
   "type": "minecraft:bastion_remnant",
-  "biomes": "bracken:the_brine/beach",
+  "biomes": "bracken:the_brine/sugar_sand_beach",
   "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:root",
