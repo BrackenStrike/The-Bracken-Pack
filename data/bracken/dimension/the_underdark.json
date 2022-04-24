@@ -32,7 +32,7 @@
           }
         },
         {
-          "biome": "bracken:the_underdark/giant_dripstone_zone",
+          "biome": "bracken:the_underdark/titan_dripstone_cavern",
           "parameters": {
             "temperature": 0.3,
             "humidity": 0,
