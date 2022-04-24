@@ -1,6 +1,6 @@
 {
   "type": "minecraft:village",
-  "biomes": "bracken:the_faewild/woods",
+  "biomes": "bracken:the_faewild/wanderlight_woods",
   "spawn_overrides": {},
   "config": {
     "start_pool": "bracken:escape",
