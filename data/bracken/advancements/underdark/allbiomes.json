@@ -15,13 +15,13 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "bracken:underdark/enter_underdark",
+  "parent": "bracken:underdark/enter_underdark_basin",
   "criteria": {
     "bracken:biome1": {
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "biome": "bracken:the_underdark/eroded"
+          "biome": "bracken:the_underdark/eroded_basin"
         }
       }
     },
@@ -29,7 +29,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "biome": "bracken:the_underdark/gravel_zone"
+          "biome": "bracken:the_underdark/titan_dripstone_zone"
         }
       }
     },
