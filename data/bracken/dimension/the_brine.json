@@ -32,7 +32,7 @@
           }
         },
         {
-          "biome": "bracken:the_brine/fringing_reef",
+          "biome": "bracken:the_brine/blossum_reef",
           "parameters": {
             "temperature": 1,
             "humidity": 1,
