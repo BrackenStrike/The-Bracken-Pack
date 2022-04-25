@@ -5,7 +5,7 @@
             "text": "Swept Away"
         },
         "description": {
-            "text": "Enter the eroded biome",
+            "text": "Enter the eroded basin biome",
             "color": "green"
         },
         "icon": {
@@ -26,7 +26,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biome": "bracken:the_underdark/eroded"
+                "biome": "bracken:the_underdark/eroded_basin"
               }
             }
           }
