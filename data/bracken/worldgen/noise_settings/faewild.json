@@ -290,7 +290,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:the_faewild/hamlet"
+            "bracken:the_faewild/hidden_hamlet"
           ]
         },
         "then_run": {
@@ -336,7 +336,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:the_faewild/fields"
+            "bracken:the_faewild/foison_fields"
           ]
         },
         "then_run": {
@@ -382,7 +382,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:the_faewild/woods"
+            "bracken:the_faewild/warderlight_woods"
           ]
         },
         "then_run": {
@@ -428,7 +428,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:the_faewild/dells"
+            "bracken:the_faewild/dreamfall_dells"
           ]
         },
         "then_run": {
