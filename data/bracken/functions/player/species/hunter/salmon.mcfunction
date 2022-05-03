@@ -4,7 +4,7 @@ function bracken:player/species/hunter/morph
 advancement revoke @s only bracken:technical/species/hunter/apple
 advancement revoke @s only bracken:technical/species/hunter/beef
 advancement revoke @s only bracken:technical/species/hunter/beetroot
-advancement revoke @s only bracken:rtechnical/species/hunter/carrot
+advancement revoke @s only bracken:technical/species/hunter/carrot
 advancement revoke @s only bracken:technical/species/hunter/chicken
 advancement revoke @s only bracken:technical/species/hunter/glow_berries
 advancement revoke @s only bracken:technical/species/hunter/melon
