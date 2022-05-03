@@ -26,7 +26,8 @@
     "air": []
   },
   "features": [
-    [],
+    ["minecraft:fossil_upper",
+      "minecraft:fossil_lower"],
     [],
     [
       "minecraft:basalt_pillar"
