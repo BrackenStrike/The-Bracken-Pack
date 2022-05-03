@@ -56,7 +56,7 @@ scoreboard objectives add bp.zchunk dummy
 scoreboard players set #1 bp.xchunk 16
 scoreboard players set #1 bp.zchunk 16
 
-##########   SPELL BOOKS  ##########
+##########   ABILITY BOOKS  ##########
 scoreboard objectives add bp.offhand dummy
 scoreboard objectives add bp.cooldown dummy
 
@@ -112,7 +112,7 @@ scoreboard objectives add bp.portal_B dummy
 scoreboard objectives add bp.portal_W dummy
 scoreboard objectives add bp.portal dummy
 
-##########   SPELL BOOKS   ##########
+##########   ABILITY BOOKS   ##########
 scoreboard objectives add bp.giant dummy
 scoreboard objectives add bp.wtb_cooldown dummy
 scoreboard objectives add bp.coas minecraft.used:minecraft.carrot_on_a_stick
@@ -166,4 +166,7 @@ execute if score #bp.teams_dummy bp.teams_con matches 1 run function bracken:pla
 
 ##########   START TICK FUNCTIONS   ###########
 function bracken:other_commands
+
+##########   ITEMS   ##########
+scoreboard objectives add bp.wither_immunity dummy 0
 
