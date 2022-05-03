@@ -382,7 +382,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:the_faewild/warderlight_woods"
+            "bracken:the_faewild/wanderlight_woods"
           ]
         },
         "then_run": {
