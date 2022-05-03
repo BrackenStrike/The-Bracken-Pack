@@ -368,7 +368,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:underdark/gravel_zone"
+            "bracken:underdark/titan_dripstone_cavern"
           ]
         },
         "then_run": {
