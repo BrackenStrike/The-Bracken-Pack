@@ -386,7 +386,7 @@
               "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "minecraft:sand"
+                  "Name": "minecraft:sugar_sand_beach"
                 }
               }
             },
@@ -414,7 +414,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:the_brine/reef"
+            "bracken:the_brine/blossom_reef"
           ]
         },
         "then_run": {
@@ -460,7 +460,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:the_brine/fungus"
+            "bracken:the_brine/incursive_fungus"
           ]
         },
         "then_run": {
