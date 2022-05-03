@@ -21,7 +21,6 @@
   "features": [
     [],
     ["bracken:sanctum/rubble2",
-     "bracken:sanctum/rubble1",
       "bracken:sanctum/rubble"
     ],
     [
