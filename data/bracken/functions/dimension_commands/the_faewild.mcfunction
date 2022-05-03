@@ -7,7 +7,7 @@ scoreboard players set @s bp.fae 10
 
 effect give @s[scores={bp.longtick=6}] minecraft:jump_boost 13 1 true
 effect give @s[predicate=bracken:sneak] minecraft:slow_falling 1 0 true
-effect clear @s[predicate=!bracken:sneak] minecraft:slow_falling
+
 experience add @s[scores={bp.1_second=1}] 1 points
 attribute @s[scores={bp.fae=10}] minecraft:generic.max_health modifier add 15c1c42e-9de9-4c7a-a427-776166bc6cac "bp.fae_health" -2 add
 
