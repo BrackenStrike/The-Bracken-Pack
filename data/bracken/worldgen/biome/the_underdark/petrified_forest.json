@@ -38,7 +38,7 @@
         "maxCount": 3
       },
       {
-        "type": "bracken:cave_spider",
+        "type": "minecraft:cave_spider",
         "weight": 5,
         "minCount": 2,
         "maxCount": 6
