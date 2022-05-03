@@ -11,7 +11,12 @@
     ],
     "misc": [],
     "water_creature": [],
-    "creature": [],
+    "creature": [{
+        "type": "minecraft:mooshroom",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 8
+      }],
     "monster": [
       {
         "type": "minecraft:zombie_villager",
@@ -38,7 +43,7 @@
         "maxCount": 3
       },
       {
-        "type": "bracken:cave_spider",
+        "type": "minecraft:cave_spider",
         "weight": 5,
         "minCount": 2,
         "maxCount": 6
