@@ -39,3 +39,7 @@ function bracken:book_of_arbitrium/boa_start
 # Ability books
 function bracken:player/ability_books
 
+# Glacium Glider
+execute if entity @s[nbt={Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{CustomModelData:888501}}]}] run function bracken:player/glacium_glider
+execute if entity @s[nbt=!{Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{CustomModelData:888501}}]}] run scoreboard players set @s bp.wither_immunity 0
+
