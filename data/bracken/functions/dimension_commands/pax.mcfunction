@@ -24,3 +24,6 @@ execute if entity @s[y=1550,dy=100] run function bracken:dimension_crossing/pax_
 #PAX LAUNCHPAD
 execute at @e[type=minecraft:marker,tag=bp.launchpad] run particle minecraft:sweep_attack ~ ~10 ~ 0 4 0 0.01 10
 execute at @e[type=minecraft:marker,tag=bp.launchpad] run effect give @e[distance=..1] minecraft:levitation 3 127 false
+
+#PAX CONDITIONAL SLOWFALL
+execute at @s if blocks ~1 ~2 ~1 ~-1 ~-10 ~-1 ~ 500 ~ all run effect give @s minecraft:slow_falling 1 0 true
