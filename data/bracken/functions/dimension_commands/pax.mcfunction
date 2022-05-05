@@ -26,4 +26,4 @@ execute at @e[type=minecraft:marker,tag=bp.launchpad] run particle minecraft:swe
 execute at @e[type=minecraft:marker,tag=bp.launchpad] run effect give @e[distance=..1] minecraft:levitation 3 127 false
 
 #PAX CONDITIONAL SLOWFALL
-execute at @s if blocks ~1 ~2 ~1 ~-1 ~-10 ~-1 ~ 500 ~ all run effect give @p[distance=..1] minecraft:slow_falling 1 0 true
+execute if blocks ~1 ~1 ~1 ~-1 ~-10 ~-1 ~ 500 ~ all run effect give @s minecraft:slow_falling 1 0 true
