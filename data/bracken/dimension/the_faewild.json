@@ -15,7 +15,10 @@
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
-            "depth": 0,
+            "depth": [
+              0,
+              0.2
+            ],
             "offset": 0.2
           }
         },
@@ -27,7 +30,10 @@
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
-            "depth": 0,
+            "depth": [
+              0,
+              0.2
+            ],
             "offset": 0.3
           }
         },
@@ -39,7 +45,10 @@
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0.2,
-            "depth": 0,
+            "depth": [
+              0,
+              0.2
+            ],
             "offset": 0
           }
         },
@@ -51,7 +60,25 @@
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
-            "depth": 0,
+            "depth": [
+              0,
+              0.2
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bracken:the_faewild/mesosphere",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [
+              0.2,
+              1
+            ],
             "offset": 0
           }
         }
