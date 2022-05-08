@@ -3,4 +3,5 @@ scoreboard players operation @s bp.ymansion2 = @p[tag=bp.mansion_back,distance=.
 scoreboard players operation @s bp.zmansion2 = @p[tag=bp.mansion_back,distance=..50] bp.zmansion2
 scoreboard players operation @s bp.dimension = @p[tag=bp.mansion_back,distance=..50] bp.dimension
 
-tag @p[tag=bp.mansion_back] remove bp.mansion_back
+tag @p[tag=bp.mansion_back,distance=..50] remove bp.mansion_back
+effect clear @a[distance=..200] minecraft:blindness
