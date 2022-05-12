@@ -24,6 +24,7 @@ scoreboard objectives add bp.3_second dummy
 scoreboard objectives add bp.longtick dummy
 scoreboard objectives add bp.verylongtick dummy
 
+
 ##########   SPECIES  ##########
 scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death
 
@@ -39,6 +40,7 @@ scoreboard objectives add bp.outlander_charge dummy
 # Realmkeepers
 scoreboard objectives add bp.gold dummy
 scoreboard objectives add bp.armor armor
+scoreboard objectives add bp.absorption dummy
 
 ##########   CONFIG MENU  ##########
 scoreboard objectives add bp.teams_con dummy
