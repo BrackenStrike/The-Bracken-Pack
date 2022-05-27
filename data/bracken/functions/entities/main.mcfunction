@@ -18,3 +18,6 @@ execute if entity @s[tag=bp.glacium] run function bracken:entities/glacium/main
 ## DORMIS SPAWN PLATFORM
 execute if entity @s[type=marker,tag=bp.dormis_platform_remove] run function bracken:entities/dormis_spawn_platform_drill/main
 
+## RAIN EVENT
+execute if entity @s[type=marker,tag=bp.rain_event] run function bracken:entities/panacea/rain_event/tick
+
