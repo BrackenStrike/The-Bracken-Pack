@@ -14,3 +14,6 @@ execute if entity @s[type=minecraft:marker,tag=bp.project_ruination] run functio
 
 #solatium thrall
 execute if entity @s[type=minecraft:giant,tag=bp.solatium_thrall] if entity @p[distance=..100] run function bracken:entities/boss/solatium_thrall/tick
+
+#sporangium
+execute if entity @s[type=minecraft:slime,tag=bp.sporangium] run function bracken:entities/boss/sporangium/tick
