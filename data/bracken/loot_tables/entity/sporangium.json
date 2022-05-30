@@ -29,8 +29,8 @@
     },
     {
       "rolls": {
-        "min": 10,
-        "max": 20
+        "min": 20,
+        "max": 30
       },
       "entries": [
         {
