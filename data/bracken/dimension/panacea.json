@@ -7,7 +7,7 @@
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [{
-          "biome": "bracken:panacea/honeycomb_haven",
+          "biome": "bracken:panacea/honeybee_biome",
           "parameters": {
             "temperature": -0.8,
             "humidity": 1,
