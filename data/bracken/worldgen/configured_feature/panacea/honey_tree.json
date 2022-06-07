@@ -1,0 +1,21 @@
+{
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:honey_block"
+    },
+    "decor_state": {
+      "Name": "minecraft:bee_nest"
+    },
+    "planted": false,
+    "valid_base_block": {
+      "Name": "minecraft:honeycomb_block"
+    },
+    "stem_state": {
+      "Properties": {
+        "axis": "y"
+      },
+      "Name": "minecraft:oak_log"
+    }
+  },
+  "type": "minecraft:huge_fungus"
+}
