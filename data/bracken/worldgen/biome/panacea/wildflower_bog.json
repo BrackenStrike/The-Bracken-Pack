@@ -95,30 +95,32 @@
     "air": []
   },
   "features": [
-    [],
+    [
+      "minecraft:rooted_azalea_tree",
+      "minecraft:spore_blossom",
+      "minecraft:flower_meadow"],
     [
       "bracken:panacea/lake"
     ],
     [
-      "minecraft:forest_rock"
+      "minecraft:flower_forest_flowers"
     ],
-    [],
+    ["bracken:panacea/bogwater"],
     [
       "bracken:panacea/slime_blobs",
-      
-      
-      
-      "minecraft:trees_swamp",
-      "minecraft:trees_old_growth_spruce_taiga",
       "minecraft:patch_tall_grass_2"],
     ["minecraft:flower_swamp",
+      "minecraft:flower_flower_forest",
       
       "minecraft:patch_grass_jungle"
       ],
-    [],
+    ["minecraft:lush_caves_ceiling_vegetation",
+      "minecraft:cave_vines",      
+      "minecraft:lush_caves_vegetation"],
     [],
     [
       "minecraft:patch_large_fern",
+      "minecraft:trees_flower_forest",
       "minecraft:patch_grass_jungle",
       "minecraft:vines"],
     [
@@ -141,11 +143,11 @@
       "offset": 2
     },
     "fog_color": 14280587,
-    "water_color": 11509077,
+    "water_color": 7901768,
     "water_fog_color": 11503445,
-    "grass_color": 7238193,
+    "grass_color": 4351774,
     "sky_color": 11919559,
-    "foliage_color": 9653504,
+    "foliage_color": 4351774,
     "particle": {
       "options": {
         "type": "minecraft:sneeze"

@@ -21,10 +21,10 @@
     "air": []
   },
   "features": [
-    [],
-    [],
-    [],
-    [],
+    ["bracken:panacea/honey_pile"],
+    ["bracken:panacea/honey_tree"],
+    ["bracken:panacea/comb_column"],
+    ["bracken:panacea/honey_pool"],
     [],
     [],
     [],
