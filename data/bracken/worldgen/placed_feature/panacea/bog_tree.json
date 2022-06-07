@@ -1,0 +1,16 @@
+{
+    "feature": "bracken:panacea/bog_tree",
+    "placement": [
+        {
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+            "type": "minecraft:surface_water_depth_filter",
+            "max_water_depth": 2
+        },
+        {
+      "type": "minecraft:biome"
+    }
+    ]
+}
