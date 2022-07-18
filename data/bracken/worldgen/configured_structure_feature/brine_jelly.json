@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:bastion_remnant",
-  "biomes": "bracken:the_brine/incursive_fungus",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:brine_jelly_start",
-    "size": 6
-  }
-}

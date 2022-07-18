@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:village",
-  "biomes": "bracken:the_faewild/foison_fields",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:escape",
-    "size": 6
-  }
-}

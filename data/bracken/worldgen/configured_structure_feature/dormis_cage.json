@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:bastion_remnant",
-  "biomes": "bracken:dormis/golanium",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:cage",
-    "size": 6
-  }
-}

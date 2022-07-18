@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:bastion_remnant",
-  "biomes": "bracken:pax/sky_garden",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:pax_launchpad",
-    "size": 6
-  }
-}

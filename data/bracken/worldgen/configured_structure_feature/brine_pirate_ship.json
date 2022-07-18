@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:village",
-  "biomes": "bracken:the_brine/sugar_sand_beach",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:pirate_ship",
-    "size": 6
-  }
-}

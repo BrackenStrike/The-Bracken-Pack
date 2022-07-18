@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:bastion_remnant",
-  "biomes": "bracken:the_underdark/ruby_fungi_forest",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:underdark_mushroom_boss",
-    "size": 6
-  }
-}

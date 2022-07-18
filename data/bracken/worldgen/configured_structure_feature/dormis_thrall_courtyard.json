@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:bastion_remnant",
-  "biomes": "bracken:dormis/hebronium",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:courtyard",
-    "size": 6
-  }
-}

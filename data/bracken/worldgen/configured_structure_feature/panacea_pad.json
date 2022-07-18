@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:bastion_remnant",
-  "biomes": "bracken:panacea/hungering_jungle",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:pad",
-    "size": 6
-  }
-}

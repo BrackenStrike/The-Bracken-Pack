@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:village",
-  "biomes": "bracken:glacium/glacial_mass",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:glacium_hotsprings3",
-    "size": 6
-  }
-}

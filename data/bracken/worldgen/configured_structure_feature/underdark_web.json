@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:bastion_remnant",
-  "biomes": "bracken:the_underdark/petrified_forest",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:web",
-    "size": 6
-  }
-}

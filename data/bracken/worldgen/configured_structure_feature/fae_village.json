@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:village",
-  "biomes": "bracken:the_faewild/hidden_hamlet",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:village/taiga/town_centers",
-    "size": 6
-  }
-}

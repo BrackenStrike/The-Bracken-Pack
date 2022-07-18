@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:village",
-  "biomes": "bracken:glacium/boreal_frontier",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:tower",
-    "size": 6
-  }
-}

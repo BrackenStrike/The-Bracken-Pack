@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:village",
-  "biomes": "bracken:glacium/fractured_wastes",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:snowflake",
-    "size": 6
-  }
-}

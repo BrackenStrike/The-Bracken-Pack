@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:bastion_remnant",
-  "biomes": "bracken:dormis/ramothium",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:box",
-    "size": 6
-  }
-}

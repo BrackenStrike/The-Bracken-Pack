@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:village",
-  "biomes": "bracken:varskspace/expanse",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:spire",
-    "size": 6
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:village",
-  "biomes": "bracken:sanctum/dark_soot_dunes",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:sanctum_d_boss",
-    "size": 6
-  }
-}

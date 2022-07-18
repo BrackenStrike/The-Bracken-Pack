@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:village",
-  "biomes": "bracken:the_faewild/dreamfall_dells",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:islands",
-    "size": 6
-  }
-}

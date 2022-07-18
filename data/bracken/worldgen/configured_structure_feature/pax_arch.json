@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:village",
-  "biomes": "bracken:pax/cloud_canopy",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:arch",
-    "size": 6
-  }
-}

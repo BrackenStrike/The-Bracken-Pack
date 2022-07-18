@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:bastion_remnant",
-  "biomes": "bracken:sanctum/rubblework_city",
-  "spawn_overrides": {},
-  "config": {
-    "start_pool": "bracken:army_start",
-    "size": 7
-  }
-}
