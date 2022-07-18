@@ -10,7 +10,7 @@
             "max_water_depth": 2
         },
         {
-      "type": "minecraft:biome"
-    }
+            "type": "minecraft:biome"
+        }
     ]
 }

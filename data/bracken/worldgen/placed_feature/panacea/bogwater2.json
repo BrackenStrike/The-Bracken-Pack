@@ -1,8 +1,8 @@
 {
-  "feature": "bracken:panacea/honey_tree",
+  "feature": "bracken:panacea/bogwater2",
   "placement": [
     {
-      "count": 1,
+      "count": 40,
       "type": "minecraft:count_on_every_layer"
     },
     {
