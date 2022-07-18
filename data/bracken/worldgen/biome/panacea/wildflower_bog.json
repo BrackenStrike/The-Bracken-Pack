@@ -98,31 +98,38 @@
     [
       "minecraft:rooted_azalea_tree",
       "minecraft:spore_blossom",
-      "minecraft:flower_meadow"],
+      "minecraft:flower_meadow"
+    ],
     [
       "bracken:panacea/lake"
     ],
     [
       "minecraft:flower_forest_flowers"
     ],
-    ["bracken:panacea/bogwater"],
+    [
+      "bracken:panacea/bogwater"
+    ],
     [
       "bracken:panacea/slime_blobs",
-      "minecraft:patch_tall_grass_2"],
-    ["minecraft:flower_swamp",
+      "minecraft:patch_tall_grass_2"
+    ],
+    [
+      "minecraft:flower_swamp",
       "minecraft:flower_flower_forest",
-      
       "minecraft:patch_grass_jungle"
-      ],
-    ["minecraft:lush_caves_ceiling_vegetation",
-      "minecraft:cave_vines",      
-      "minecraft:lush_caves_vegetation"],
+    ],
+    [
+      "minecraft:lush_caves_ceiling_vegetation",
+      "minecraft:cave_vines",
+      "minecraft:lush_caves_vegetation"
+    ],
     [],
     [
       "minecraft:patch_large_fern",
       "minecraft:trees_flower_forest",
       "minecraft:patch_grass_jungle",
-      "minecraft:vines"],
+      "minecraft:vines"
+    ],
     [
       "minecraft:patch_sugar_cane",
       "minecraft:spring_water",
@@ -166,6 +173,5 @@
     },
     "ambient_sound": "minecraft:block.roots.step"
   },
-  "precipitation": "rain",
-  "category": "jungle"
+  "precipitation": "rain"
 }

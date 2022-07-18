@@ -156,6 +156,5 @@
     },
     "ambient_sound": "minecraft:block.roots.step"
   },
-  "precipitation": "none",
-  "category": "extreme_hills"
+  "precipitation": "none"
 }

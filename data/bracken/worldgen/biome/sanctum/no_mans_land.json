@@ -26,8 +26,10 @@
     "air": []
   },
   "features": [
-    ["minecraft:fossil_upper",
-      "minecraft:fossil_lower"],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower"
+    ],
     [],
     [
       "minecraft:basalt_pillar"
@@ -78,6 +80,5 @@
     },
     "ambient_sound": "minecraft:block.roots.step"
   },
-  "precipitation": "none",
-  "category": "nether"
+  "precipitation": "none"
 }

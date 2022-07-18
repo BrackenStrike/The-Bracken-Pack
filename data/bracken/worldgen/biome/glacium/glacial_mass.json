@@ -88,6 +88,5 @@
     },
     "ambient_sound": "minecraft:ambient.nether_wastes.additions"
   },
-  "precipitation": "snow",
-  "category": "icy"
+  "precipitation": "snow"
 }

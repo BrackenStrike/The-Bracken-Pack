@@ -80,6 +80,5 @@
     },
     "ambient_sound": "minecraft:block.roots.step"
   },
-  "precipitation": "none",
-  "category": "jungle"
+  "precipitation": "none"
 }

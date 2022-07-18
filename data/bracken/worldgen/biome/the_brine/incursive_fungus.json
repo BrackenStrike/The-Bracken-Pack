@@ -16,12 +16,14 @@
     ],
     "ambient": [],
     "misc": [],
-    "water_creature": [{
+    "water_creature": [
+      {
         "type": "minecraft:squid",
         "weight": 4,
         "minCount": 3,
         "maxCount": 5
-      }],
+      }
+    ],
     "creature": [
       {
         "type": "minecraft:hoglin",
@@ -36,9 +38,7 @@
         "maxCount": 1
       }
     ],
-    "monster": [
-      
-    ]
+    "monster": []
   },
   "spawn_costs": {},
   "carvers": {
@@ -111,6 +111,5 @@
     },
     "ambient_sound": "minecraft:ambient.nether_wastes.loop"
   },
-  "precipitation": "rain",
-  "category": "jungle"
+  "precipitation": "rain"
 }

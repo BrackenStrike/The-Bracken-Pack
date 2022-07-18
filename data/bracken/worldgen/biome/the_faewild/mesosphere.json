@@ -30,6 +30,5 @@
     },
     "ambient_sound": "minecraft:block.roots.step"
   },
-  "precipitation": "rain",
-  "category": "mountain"
+  "precipitation": "rain"
 }

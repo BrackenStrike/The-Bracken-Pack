@@ -20,14 +20,19 @@
   },
   "features": [
     [],
-    ["bracken:sanctum/rubble2",
+    [
+      "bracken:sanctum/rubble2",
       "bracken:sanctum/rubble"
     ],
     [
       "minecraft:basalt_pillar"
     ],
-    ["bracken:sanctum/city_tree1"],
-    ["bracken:sanctum/city_tree2"],
+    [
+      "bracken:sanctum/city_tree1"
+    ],
+    [
+      "bracken:sanctum/city_tree2"
+    ],
     [],
     [],
     [
@@ -77,6 +82,5 @@
     },
     "ambient_sound": "minecraft:block.roots.step"
   },
-  "precipitation": "none",
-  "category": "nether"
+  "precipitation": "none"
 }

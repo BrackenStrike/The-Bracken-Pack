@@ -64,9 +64,13 @@
       "minecraft:lake_lava_surface",
       "minecraft:lake_lava_underground"
     ],
-    ["bracken:underdark/petrified_ground",
-      "bracken:underdark/dead_tree"],
-    ["bracken:underdark/tree"],
+    [
+      "bracken:underdark/petrified_ground",
+      "bracken:underdark/dead_tree"
+    ],
+    [
+      "bracken:underdark/tree"
+    ],
     [],
     [],
     [
@@ -144,6 +148,5 @@
     },
     "ambient_sound": "minecraft:block.roots.step"
   },
-  "precipitation": "none",
-  "category": "none"
+  "precipitation": "none"
 }

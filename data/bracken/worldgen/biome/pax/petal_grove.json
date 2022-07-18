@@ -79,7 +79,6 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_melon",
       "minecraft:spring_water",
-
       "minecraft:forest_flowers"
     ],
     [
@@ -114,6 +113,5 @@
       "replace_current_music": false
     }
   },
-  "precipitation": "rain",
-  "category": "forest"
+  "precipitation": "rain"
 }

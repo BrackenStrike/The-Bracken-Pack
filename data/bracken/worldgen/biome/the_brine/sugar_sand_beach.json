@@ -1,12 +1,12 @@
 {
   "spawners": {
-    "water_ambient": [{
+    "water_ambient": [
+      {
         "type": "minecraft:cod",
         "weight": 30,
         "minCount": 1,
         "maxCount": 4
       }
-      
     ],
     "ambient": [],
     "misc": [
@@ -16,8 +16,6 @@
         "minCount": 2,
         "maxCount": 5
       }
-     
-
     ],
     "water_creature": [
       {
@@ -72,7 +70,6 @@
         "minCount": 1,
         "maxCount": 1
       },
-      
       {
         "type": "minecraft:slime",
         "weight": 10,
@@ -156,6 +153,5 @@
     },
     "ambient_sound": "minecraft:ambient.underwater.loop"
   },
-  "precipitation": "rain",
-  "category": "jungle"
+  "precipitation": "rain"
 }

@@ -1,12 +1,9 @@
 {
   "spawners": {
-    "water_ambient": [
-
-    ],
+    "water_ambient": [],
     "ambient": [],
     "misc": [],
-    "water_creature": [
-      ],
+    "water_creature": [],
     "creature": [
       {
         "type": "minecraft:bee",
@@ -21,10 +18,16 @@
     "air": []
   },
   "features": [
-    ["bracken:panacea/honey_pile"],
-    ["bracken:panacea/honey_tree"],
-    ["bracken:panacea/comb_column"],
-    ["bracken:panacea/honey_pool"],
+    [
+      "bracken:panacea/honey_pile"
+    ],
+    [],
+    [
+      "bracken:panacea/comb_column"
+    ],
+    [
+      "bracken:panacea/honey_pool"
+    ],
     [],
     [],
     [],
@@ -68,6 +71,5 @@
     },
     "ambient_sound": "minecraft:block.roots.step"
   },
-  "precipitation": "rain",
-  "category": "jungle"
+  "precipitation": "rain"
 }

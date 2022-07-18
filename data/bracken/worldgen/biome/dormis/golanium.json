@@ -82,6 +82,5 @@
     },
     "ambient_sound": "minecraft:ambient.nether_wastes.loop"
   },
-  "precipitation": "none",
-  "category": "none"
+  "precipitation": "none"
 }

@@ -74,9 +74,11 @@
       "minecraft:lake_lava_underground"
     ],
     [
-      
-      "minecraft:pointed_dripstone"],
-    ["bracken:underdark/large_dripstone"],
+      "minecraft:pointed_dripstone"
+    ],
+    [
+      "bracken:underdark/large_dripstone"
+    ],
     [
       "bracken:underdark/dripstone"
     ],
@@ -112,7 +114,6 @@
       "bracken:underdark/bedrock",
       "bracken:underdark/blackstone_small",
       "bracken:underdark/blackstone_big",
-
       "bracken:underdark/gravel",
       "bracken:underdark/smooth_basalt"
     ],
@@ -160,6 +161,5 @@
     },
     "ambient_sound": "minecraft:block.roots.step"
   },
-  "precipitation": "none",
-  "category": "extreme_hills"
+  "precipitation": "none"
 }
