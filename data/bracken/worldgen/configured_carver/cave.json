@@ -61,10 +61,11 @@
     "floor_level": {
       "type": "minecraft:uniform",
       "value": {
-        "min_inclusive": -1.0,
+        "min_inclusive": -1,
         "max_exclusive": -0.4
       }
-    }
+    },
+    "replaceable": "#minecraft:overworld_carver_replaceables"
   },
   "type": "minecraft:cave"
 }
