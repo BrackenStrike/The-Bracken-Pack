@@ -2,11 +2,11 @@
   "type": "bracken:panacea",
   "generator": {
     "type": "minecraft:noise",
-    "seed": -1464245863,
     "settings": "bracken:panacea",
     "biome_source": {
       "type": "minecraft:multi_noise",
-      "biomes": [{
+      "biomes": [
+        {
           "biome": "bracken:panacea/honeybee_biome",
           "parameters": {
             "temperature": -0.8,
@@ -15,7 +15,7 @@
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
-            "offset": 0.45
+            "offset": 0.4
           }
         },
         {
@@ -27,7 +27,7 @@
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
-            "offset": 0.15
+            "offset": 0.1
           }
         },
         {

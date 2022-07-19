@@ -2,7 +2,6 @@
   "type": "bracken:pax",
   "generator": {
     "type": "minecraft:noise",
-    "seed": -1464245863,
     "settings": "bracken:pax",
     "biome_source": {
       "type": "minecraft:multi_noise",

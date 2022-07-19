@@ -2,7 +2,6 @@
   "type": "bracken:the_brine",
   "generator": {
     "type": "minecraft:noise",
-    "seed": -1464245863,
     "settings": "bracken:the_brine",
     "biome_source": {
       "type": "minecraft:multi_noise",

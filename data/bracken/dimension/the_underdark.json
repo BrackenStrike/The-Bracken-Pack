@@ -2,7 +2,6 @@
   "type": "bracken:the_underdark",
   "generator": {
     "type": "minecraft:noise",
-    "seed": -1464245863,
     "settings": "bracken:the_underdark",
     "biome_source": {
       "type": "minecraft:multi_noise",

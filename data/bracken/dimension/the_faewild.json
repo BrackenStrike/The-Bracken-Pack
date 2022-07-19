@@ -2,7 +2,6 @@
   "type": "bracken:the_faewild",
   "generator": {
     "type": "minecraft:noise",
-    "seed": -1464245863,
     "settings": "bracken:faewild",
     "biome_source": {
       "type": "minecraft:multi_noise",

@@ -2,7 +2,6 @@
   "type": "bracken:varskspace",
   "generator": {
     "type": "minecraft:noise",
-    "seed": -1464245863,
     "settings": "bracken:varskspace",
     "biome_source": {
       "type": "minecraft:multi_noise",

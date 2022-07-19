@@ -2,7 +2,6 @@
   "type": "bracken:omnidrome",
   "generator": {
     "type": "minecraft:noise",
-    "seed": -1464245863,
     "settings": "bracken:omnidrome",
     "biome_source": {
       "type": "minecraft:multi_noise",
