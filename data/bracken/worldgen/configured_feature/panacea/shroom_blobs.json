@@ -7,9 +7,6 @@
     "state": {
       "Name": "minecraft:shroomlight"
     },
-    "radius": {
-      "value": 0,
-      "type": "minecraft:uniform"
-    }
+    "radius": 0
   }
 }
