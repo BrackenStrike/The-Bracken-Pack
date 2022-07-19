@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:glow_lichen",
+  "type": "minecraft:multiface_growth",
   "config": {
     "can_place_on_wall": true,
     "chance_of_spreading": 0.5,
