@@ -21,7 +21,7 @@
     [
       "bracken:panacea/honey_pile"
     ],
-    [],
+    ["bracken:panacea/shroom_blobs"],
     [
       "bracken:panacea/comb_column"
     ],
