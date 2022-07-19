@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "target": {
+      "Name": "minecraft:honeycomb_block"
+    },
+    "state": {
+      "Name": "minecraft:shroomlight"
+    },
+    "radius": {
+      "value": 0,
+      "type": "minecraft:uniform"
+    }
+  }
+}
