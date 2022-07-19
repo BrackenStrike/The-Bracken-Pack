@@ -3,11 +3,15 @@
         "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "the_nether",
-                "position": {
-                    "y": {
-                        "min": -10,
-                        "max": 15
+                "player": {
+                    "location": {
+                        "dimension": "the_nether",
+                        "position": {
+                            "y": {
+                                "min": -10,
+                                "max": 15
+                            }
+                        }
                     }
                 }
             }

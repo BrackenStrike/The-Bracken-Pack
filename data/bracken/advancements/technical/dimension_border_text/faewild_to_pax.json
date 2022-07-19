@@ -3,11 +3,15 @@
         "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "bracken:the_faewild",
-                "position": {
-                    "y": {
-                        "min": 235,
-                        "max": 260
+                "player": {
+                    "location": {
+                        "dimension": "bracken:the_faewild",
+                        "position": {
+                            "y": {
+                                "min": 235,
+                                "max": 260
+                            }
+                        }
                     }
                 }
             }

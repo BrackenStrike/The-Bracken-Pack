@@ -3,11 +3,15 @@
         "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "bracken:pax",
-                "position": {
-                    "y": {
-                        "min": -20,
-                        "max": 25
+                "player": {
+                    "location": {
+                        "dimension": "bracken:pax",
+                        "position": {
+                            "y": {
+                                "min": -20,
+                                "max": 25
+                            }
+                        }
                     }
                 }
             }

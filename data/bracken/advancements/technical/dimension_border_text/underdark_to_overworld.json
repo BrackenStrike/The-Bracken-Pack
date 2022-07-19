@@ -3,11 +3,15 @@
         "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "bracken:the_underdark",
-                "position": {
-                    "y": {
-                        "min": 225,
-                        "max": 250
+                "player": {
+                    "location": {
+                        "dimension": "bracken:the_underdark",
+                        "position": {
+                            "y": {
+                                "min": 225,
+                                "max": 250
+                            }
+                        }
                     }
                 }
             }

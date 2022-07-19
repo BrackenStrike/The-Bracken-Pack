@@ -20,40 +20,50 @@
     "bracken:biome1": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "biome": "bracken:the_underdark/eroded_basin"
+        "player": {
+          "location": {
+            "biome": "bracken:the_underdark/eroded_basin"
+          }
         }
       }
     },
     "bracken:biome2": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "biome": "bracken:the_underdark/titan_dripstone_cavern"
+        "player": {
+          "location": {
+            "biome": "bracken:the_underdark/titan_dripstone_cavern"
+          }
         }
       }
     },
     "bracken:biome3": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "biome": "bracken:the_underdark/petrified_forest"
+        "player": {
+          "location": {
+            "biome": "bracken:the_underdark/petrified_forest"
+          }
         }
       }
     },
     "bracken:biome4": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "biome": "bracken:the_underdark/ruby_fungi_forest"
+        "player": {
+          "location": {
+            "biome": "bracken:the_underdark/ruby_fungi_forest"
+          }
         }
       }
     },
     "bracken:biome5": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "biome": "bracken:the_underdark/crystal_caves"
+        "player": {
+          "location": {
+            "biome": "bracken:the_underdark/crystal_caves"
+          }
         }
       }
     }

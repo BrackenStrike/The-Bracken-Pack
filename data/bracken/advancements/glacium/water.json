@@ -30,16 +30,22 @@
                                 "minecraft:wither": {}
                             }
                         }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:glacium",
+                                "block": {
+                                    "blocks": [
+                                        "minecraft:water"
+                                    ]
+                                }
+                            }
+                        }
                     }
-                ],
-                "location": {
-                    "dimension": "bracken:glacium",
-                    "block": {
-                        "blocks": [
-                            "minecraft:water"
-                        ]
-                    }
-                }
+                ]
             }
         }
     },

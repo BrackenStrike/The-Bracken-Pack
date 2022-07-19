@@ -20,8 +20,10 @@
         "bracken:fae1": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "dimension": "bracken:the_faewild"
+                "player": {
+                    "location": {
+                        "dimension": "bracken:the_faewild"
+                    }
                 }
             }
         }

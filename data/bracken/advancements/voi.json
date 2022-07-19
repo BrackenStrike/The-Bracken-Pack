@@ -20,8 +20,10 @@
         "bracken:voi1": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "dimension": "bracken:void"
+                "player": {
+                    "location": {
+                        "dimension": "bracken:void"
+                    }
                 }
             }
         }

@@ -21,8 +21,10 @@
         "bracken:pax1": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "dimension": "bracken:pax"
+                "player": {
+                    "location": {
+                        "dimension": "bracken:pax"
+                    }
                 }
             }
         }

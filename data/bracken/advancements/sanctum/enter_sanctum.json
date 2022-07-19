@@ -20,8 +20,10 @@
         "bracken:sanctum/san2": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "dimension": "bracken:sanctum"
+                "player": {
+                    "location": {
+                        "dimension": "bracken:sanctum"
+                    }
                 }
             }
         }

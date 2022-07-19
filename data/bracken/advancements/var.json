@@ -20,8 +20,10 @@
         "bracken:fae1": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "dimension": "bracken:varskspace"
+                "player": {
+                    "location": {
+                        "dimension": "bracken:varskspace"
+                    }
                 }
             }
         }

@@ -28,11 +28,17 @@
                             "type": "minecraft:player",
                             "nbt": "{Tags:[\"bp.outlander\"]}"
                         }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:sanctum"
+                            }
+                        }
                     }
-                ],
-                "location": {
-                    "dimension": "bracken:sanctum"
-                }
+                ]
             }
         }
     },

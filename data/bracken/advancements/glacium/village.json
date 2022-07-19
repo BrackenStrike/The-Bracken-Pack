@@ -27,8 +27,8 @@
                         "predicate": {
                             "type": "minecraft:snow_golem",
                             "location": {
-                                "feature": "bracken:village",
-                                "dimension": "bracken:glacium"
+                                "dimension": "bracken:glacium",
+                                "structure": "bracken:village"
                             }
                         }
                     }

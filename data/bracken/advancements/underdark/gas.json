@@ -30,11 +30,17 @@
                                 "minecraft:nausea": {}
                             }
                         }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:the_underdark"
+                            }
+                        }
                     }
-                ],
-                "location": {
-                    "dimension": "bracken:the_underdark"
-                }
+                ]
             }
         }
     },

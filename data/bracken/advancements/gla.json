@@ -20,8 +20,10 @@
         "bracken:gla1": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "dimension": "bracken:glacium"
+                "player": {
+                    "location": {
+                        "dimension": "bracken:glacium"
+                    }
                 }
             }
         }

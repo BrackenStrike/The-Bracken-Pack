@@ -20,8 +20,10 @@
         "bracken:dor1": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "dimension": "bracken:dormis"
+                "player": {
+                    "location": {
+                        "dimension": "bracken:dormis"
+                    }
                 }
             }
         }
