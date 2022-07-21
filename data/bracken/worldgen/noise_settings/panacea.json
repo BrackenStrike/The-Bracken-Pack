@@ -4,7 +4,7 @@
   "aquifers_enabled": false,
   "bedrock_roof_position": -2147483648,
   "bedrock_floor_position": 0,
-  "sea_level": 63,
+  "sea_level": 43,
   "disable_mob_generation": false,
   "noise": {
     "min_y": 0,
