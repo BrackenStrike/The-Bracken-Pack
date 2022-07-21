@@ -2,7 +2,7 @@
   "type": "minecraft:netherrack_replace_blobs",
   "config": {
     "target": {
-      "Name": "minecraft:honeycomb_block"
+      "Name": "minecraft:honey_block"
     },
     "state": {
       "Name": "minecraft:shroomlight"
