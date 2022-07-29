@@ -16,10 +16,7 @@
       "type": "minecraft:two_layers_feature_size"
     },
     "decorators": [
-      {
-        "probability": 0.4,
-        "type": "minecraft:cocoa"
-      },
+      
       {
         "type": "minecraft:trunk_vine"
       },

@@ -1,20 +1,29 @@
 {
+  "type": "minecraft:tree",
   "config": {
-    "decorators": [],
-    "ignore_vines": false,
-    "force_dirt": true,
+    "force_dirt": false,
     "dirt_provider": {
       "state": {
-        "Name": "minecraft:rooted_dirt"
+        "Name": "minecraft:dirt"
       },
       "type": "minecraft:simple_state_provider"
     },
+    "ignore_vines": false,
     "minimum_size": {
-      "limit": 3,
+      "limit": 1,
       "lower_size": 0,
-      "upper_size": 1,
+      "upper_size": 2,
       "type": "minecraft:two_layers_feature_size"
     },
+    "decorators": [
+      {
+        "type": "minecraft:trunk_vine"
+      },
+      {
+        "type": "minecraft:leave_vine",
+        "probability": 0.25
+      }
+    ],
     "trunk_provider": {
       "state": {
         "Properties": {
@@ -24,52 +33,33 @@
       },
       "type": "minecraft:simple_state_provider"
     },
-    "trunk_placer": {
-      "height_rand_b": 0,
-      "min_height_for_leaves": 3,
-      "bend_length": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 1,
-          "max_inclusive": 2
-        }
-      },
-      "base_height": 10,
-      "height_rand_a": 4,
-      "type": "minecraft:bending_trunk_placer"
-    },
     "foliage_provider": {
-      "entries": [
-        {
-          "data": {
-            "Properties": {
-              "persistent": "false",
-              "distance": "7"
-            },
-            "Name": "minecraft:azalea_leaves"
-          },
-          "weight": 1
+      "state": {
+        "Properties": {
+          "persistent": "false",
+          "distance": "7"
         },
-        {
-          "data": {
-            "Properties": {
-              "persistent": "false",
-              "distance": "7"
-            },
-            "Name": "minecraft:flowering_azalea_leaves"
-          },
-          "weight": 1
-        }
-      ],
-      "type": "minecraft:weighted_state_provider"
+        "Name": "minecraft:oak_leaves"
+      },
+      "type": "minecraft:simple_state_provider"
     },
     "foliage_placer": {
-      "radius": 3,
-      "offset": 0,
-      "foliage_height": 3,
-      "leaf_placement_attempts": 50,
-      "type": "minecraft:random_spread_foliage_placer"
+      "radius": 1,
+      "offset": 2,
+      "height": 8,
+      "type": "minecraft:fancy_foliage_placer"
+    },
+    "trunk_placer": {
+      "base_height": 18,
+      "height_rand_a": 12,
+      "height_rand_b": 8,
+      "type": "minecraft:fancy_trunk_placer"
+    },
+    "sapling_provider": {
+      "state": {
+        "Name": "minecraft:dirt"
+      },
+      "type": "minecraft:simple_state_provider"
     }
-  },
-  "type": "minecraft:tree"
+  }
 }
