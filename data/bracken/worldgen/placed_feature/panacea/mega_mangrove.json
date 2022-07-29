@@ -1,5 +1,5 @@
 {
-    "feature": "bracken:panacea/swamp_tree",
+    "feature": "bracken:panacea/mega_mangrove",
     "placement": [
         {
             "type": "minecraft:count_on_every_layer",
@@ -57,7 +57,7 @@
         },
         {
             "type": "minecraft:surface_water_depth_filter",
-            "max_water_depth": 1
+            "max_water_depth": 10
         },
 
         

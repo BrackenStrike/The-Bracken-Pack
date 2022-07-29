@@ -1,5 +1,5 @@
 {
-    "feature": "bracken:panacea/swamp_tree",
+    "feature": "bracken:panacea/megashroom1",
     "placement": [
         {
             "type": "minecraft:count_on_every_layer",
@@ -22,9 +22,6 @@
                   ],
                   "blocks": [
                     "minecraft:grass_block",
-                    "minecraft:moss_block",
-                    "minecraft:podzol",
-                    "minecraft:mud",
                     "minecraft:mycelium"
                   ]
                 },
