@@ -116,7 +116,9 @@
     [
       "minecraft:flower_swamp",
       "minecraft:flower_flower_forest",
-      "minecraft:patch_grass_jungle"
+      "minecraft:patch_grass_jungle",
+      "minecraft:patch_waterlily",
+      "minecraft:sea_pickle"
     ],
     [
       "minecraft:lush_caves_ceiling_vegetation",

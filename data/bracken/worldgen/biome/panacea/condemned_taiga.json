@@ -1,34 +1,42 @@
 {
   "spawners": {
-    "water_ambient": [],
-    "ambient": [],
+    "water_ambient": [
+      
+    ],
+    "ambient": [
+      
+    ],
     "misc": [],
-    "water_creature": [],
+    "water_creature": [
+      
+    ],
     "creature": [
-      {
-        "type": "minecraft:bee",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
-      }
+      
     ]
   },
   "spawn_costs": {},
   "carvers": {
-    "air": []
+    "air": ["bracken:cave",
+    "bracken:canyon"
+  ]
   },
   "features": [
     [
-      "bracken:panacea/honey_pile"
-    ],
-    ["bracken:panacea/honey_tree"],
+      "minecraft:small_basalt_columns"    ],
     [
-      "bracken:panacea/comb_column"
     ],
     [
-      "bracken:panacea/honey_pool"
+      "minecraft:basalt_blobs",
+      "minecraft:blackstone_blobs",
+      "minecraft:spring_delta",
+      "minecraft:patch_fire",
+      "bracken:panacea/crater",
+
+
+      "minecraft:ore_magma"
     ],
-    ["bracken:panacea/shroom_blobs"],
+    ["bracken:panacea/lavalake"],
+    [],
     [],
     [],
     [],
@@ -47,17 +55,17 @@
       "block_search_extent": 8,
       "offset": 2
     },
-    "fog_color": 15132551,
-    "water_color": 11509077,
-    "water_fog_color": 11503445,
-    "grass_color": 7238193,
-    "sky_color": 14147765,
-    "foliage_color": 9653504,
+    "fog_color": 0,
+    "water_color": 0,
+    "water_fog_color": 1179648,
+    "grass_color": 3080192,
+    "sky_color": 7254527,
+    "foliage_color": 4351774,
     "particle": {
       "options": {
-        "type": "minecraft:sneeze"
+        "type": "minecraft:large_smoke"
       },
-      "probability": 0.0001428
+      "probability": 0.004428
     },
     "additions_sound": {
       "sound": "minecraft:entity.parrot.ambient",
@@ -71,5 +79,5 @@
     },
     "ambient_sound": "minecraft:block.roots.step"
   },
-  "precipitation": "rain"
+  "precipitation": "none"
 }

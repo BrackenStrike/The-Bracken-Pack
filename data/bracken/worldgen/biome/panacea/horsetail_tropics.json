@@ -1,6 +1,13 @@
 {
   "spawners": {
-    "water_ambient": [],
+    "water_ambient": [
+      {
+        "type": "minecraft:pufferfish",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
     "ambient": [
       {
         "type": "minecraft:bat",
@@ -9,33 +16,9 @@
         "maxCount": 8
       }
     ],
-    "misc": [
-      {
-        "type": "minecraft:pig",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:hoglin",
-        "weight": 3,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
+    "misc": [],
     "water_creature": [
-      {
-        "type": "minecraft:pufferfish",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:dolphin",
-        "weight": 1,
-        "minCount": 0,
-        "maxCount": 1
-      }
+      
     ],
     "creature": [
       {
@@ -45,20 +28,26 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:hoglin",
-        "weight": 3,
+        "type": "minecraft:bee",
+        "weight": 5,
         "minCount": 4,
         "maxCount": 4
       },
       {
-        "type": "minecraft:cow",
-        "weight": 3,
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:hoglin",
+        "weight": 50,
         "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:parrot",
-        "weight": 1,
+        "weight": 10,
         "minCount": 4,
         "maxCount": 4
       },
@@ -70,12 +59,18 @@
       },
       {
         "type": "minecraft:creeper",
-        "weight": 1,
+        "weight": 10,
         "minCount": 1,
         "maxCount": 3
       }
     ],
     "monster": [
+      {
+        "type": "minecraft:slime",
+        "weight": 1,
+        "minCount": 4,
+        "maxCount": 4
+      },
       {
         "type": "minecraft:enderman",
         "weight": 1,
@@ -92,31 +87,47 @@
   },
   "spawn_costs": {},
   "carvers": {
-    "air": [
-      "bracken:cave",
-      "bracken:canyon"
-    ]
+    "air": []
   },
   "features": [
-    [],
-    ["bracken:panacea/big_tree"],
     [
-      "minecraft:forest_rock"
+      "minecraft:rooted_azalea_tree",
+      "minecraft:spore_blossom",
+      "minecraft:flower_meadow"
     ],
     [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
+      "bracken:panacea/lake"
     ],
     [],
-    [],
-    [],
-    [],
-    [],
     [
-      "minecraft:trees_old_growth_spruce_taiga",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:patch_large_fern",
+      "bracken:panacea/horsetail_tree"
+    ],
+    [
+      "bracken:panacea/slime_blobs",
+      "minecraft:patch_tall_grass_2"
+    ],
+    [
+      
       "minecraft:patch_grass_jungle"
+    ],
+    [
+      "minecraft:lush_caves_ceiling_vegetation",
+      "minecraft:cave_vines",
+      "minecraft:lush_caves_vegetation"
+    ],
+    ["bracken:faewild/large_fern"],
+    [
+      "minecraft:patch_large_fern",
+      "minecraft:trees_flower_forest",
+      "minecraft:patch_grass_jungle",
+      "minecraft:patch_waterlily",
+      "minecraft:vines"
+    ],
+    [
+      "minecraft:patch_sugar_cane",
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "minecraft:kelp_warm"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -131,12 +142,18 @@
       "block_search_extent": 8,
       "offset": 2
     },
-    "fog_color": 13359780,
-    "water_color": 11509077,
+    "fog_color": 14280587,
+    "water_color": 7901768,
     "water_fog_color": 11503445,
-    "grass_color": 6514751,
+    "grass_color": 9296724,
     "sky_color": 11919559,
-    "foliage_color": 4931584,
+    "foliage_color": 9296724,
+    "particle": {
+      "options": {
+        "type": "minecraft:sneeze"
+      },
+      "probability": 0.0001428
+    },
     "additions_sound": {
       "sound": "minecraft:entity.parrot.ambient",
       "tick_chance": 0.0002

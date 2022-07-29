@@ -103,7 +103,7 @@
     [
       "minecraft:mushroom_island_vegetation",
       "bracken:panacea/slime_blobs",
-      "bracken:panacea/swamp_tree",
+      "bracken:panacea/mega_mangrove",
       "minecraft:brown_mushroom_taiga",
       "minecraft:red_mushroom_taiga",
       "minecraft:trees_swamp",
@@ -114,11 +114,16 @@
       "minecraft:flower_swamp",
       "minecraft:bamboo_light",
       "minecraft:patch_grass_jungle",
+      "minecraft:patch_waterlily",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:brown_mushroom_old_growth"
     ],
-    [],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:patch_dead_bush",
+      "minecraft:seagrass_swamp"
+    ],
     [],
     [
       "minecraft:red_mushroom_old_growth",
