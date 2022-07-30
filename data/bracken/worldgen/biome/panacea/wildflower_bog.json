@@ -1,12 +1,7 @@
 {
   "spawners": {
     "water_ambient": [
-      {
-        "type": "minecraft:pufferfish",
-        "weight": 10,
-        "minCount": 8,
-        "maxCount": 8
-      }
+     
     ],
     "ambient": [
       {
@@ -18,6 +13,18 @@
     ],
     "misc": [],
     "water_creature": [
+       {
+        "type": "minecraft:tadpole",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:cod",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      },
       {
         "type": "minecraft:dolphin",
         "weight": 1,
@@ -32,6 +39,12 @@
         "minCount": 4,
         "maxCount": 4
       },
+       {
+        "type": "minecraft:frog",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
       {
         "type": "minecraft:bee",
         "weight": 5,
