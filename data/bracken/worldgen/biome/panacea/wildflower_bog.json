@@ -39,7 +39,7 @@
         "weight": 10,
         "minCount": 8,
         "maxCount": 8
-      }
+      },
       {
         "type": "minecraft:bee",
         "weight": 5,
