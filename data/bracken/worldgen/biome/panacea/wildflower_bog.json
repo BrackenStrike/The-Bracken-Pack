@@ -60,7 +60,7 @@
       },
       {
         "type": "minecraft:hoglin",
-        "weight": 50,
+        "weight": 5,
         "minCount": 4,
         "maxCount": 4
       },
@@ -75,12 +75,6 @@
         "weight": 2,
         "minCount": 4,
         "maxCount": 4
-      },
-      {
-        "type": "minecraft:creeper",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 3
       },
       {
         "type": "minecraft:frog",
@@ -102,12 +96,7 @@
         "minCount": 4,
         "maxCount": 4
       },
-      {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      },
+      
       {
         "type": "minecraft:creeper",
         "weight": 5,
