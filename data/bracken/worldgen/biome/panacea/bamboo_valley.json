@@ -38,6 +38,12 @@
         "maxCount": 4
       },
       {
+        "type": "minecraft:panda",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
         "type": "minecraft:creeper",
         "weight": 1,
         "minCount": 1,
