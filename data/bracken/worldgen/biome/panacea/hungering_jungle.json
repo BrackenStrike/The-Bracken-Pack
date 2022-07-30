@@ -31,8 +31,20 @@
         "maxCount": 4
       },
       {
+        "type": "minecraft:frog",
+        "weight": 5,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
         "type": "minecraft:parrot",
         "weight": 1,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 5,
         "minCount": 4,
         "maxCount": 4
       },
@@ -53,6 +65,12 @@
       {
         "type": "minecraft:slime",
         "weight": 1,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 5,
         "minCount": 4,
         "maxCount": 4
       },
