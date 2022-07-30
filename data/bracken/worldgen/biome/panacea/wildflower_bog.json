@@ -45,6 +45,12 @@
         "maxCount": 4
       },
       {
+        "type": "minecraft:spider",
+        "weight": 1,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
         "type": "minecraft:hoglin",
         "weight": 50,
         "minCount": 4,
@@ -67,12 +73,24 @@
         "weight": 10,
         "minCount": 1,
         "maxCount": 3
+      },
+      {
+        "type": "minecraft:frog",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
       }
     ],
     "monster": [
       {
         "type": "minecraft:slime",
         "weight": 1,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 10,
         "minCount": 4,
         "maxCount": 4
       },
