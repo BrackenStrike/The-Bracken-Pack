@@ -13,12 +13,7 @@
     ],
     "misc": [],
     "water_creature": [
-       {
-        "type": "minecraft:tadpole",
-        "weight": 10,
-        "minCount": 8,
-        "maxCount": 8
-      },
+       
       {
         "type": "minecraft:cod",
         "weight": 10,
