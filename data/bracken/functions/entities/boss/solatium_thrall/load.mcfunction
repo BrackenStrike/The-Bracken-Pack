@@ -6,4 +6,8 @@
 bossbar add bracken:solatium_thrall {"text":"Solatium Thrall","color":"gold","bold":true}
 bossbar set bracken:solatium_thrall color yellow
 bossbar set bracken:solatium_thrall style progress
-bossbar set bracken:solatium_thrall max 100
+bossbar set bracken:solatium_thrall max 300
+
+scoreboard objectives add bp.thrall dummy
+scoreboard players set 4 bp.math.final 4
+
