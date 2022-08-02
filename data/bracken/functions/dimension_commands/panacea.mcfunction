@@ -22,4 +22,8 @@ execute if entity @s[scores={bp.1_second=3}] as @e[type=villager,tag=bp.table] a
 data merge entity @e[distance=1..5,limit=1,type=#bracken:panacea_mobs,tag=!bp.spore,sort=nearest] {DeathLootTable:"bracken:panacea/sporedrop",Tags:["bp.spore"]}
 execute at @e[tag=bp.spore] run particle minecraft:dust 0.1 0.7 0 1 ~ ~1 ~ 0.2 0.4 0.2 0.01 1
 
+##########   QUICKSAND   ##########
+execute at @a[predicate=bracken:quicksand] if block ~ ~0 ~ mud if block ~ ~2 ~ water run tp @p ~0 ~-0.01 ~0
+execute at @a[predicate=bracken:quicksand] if block ~ ~0 ~ mud if block ~ ~1 ~ water run tp @p ~0 ~-0.01 ~0
+
 
