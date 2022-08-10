@@ -9,20 +9,8 @@
         {
           "biome": "bracken:the_brine/sugar_sand_beach",
           "parameters": {
-            "temperature": 0,
-            "humidity": 1,
-            "continentalness": 0.5,
-            "erosion": 0,
-            "weirdness": 0.8,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:the_brine/incursive_fungus",
-          "parameters": {
-            "temperature": -1,
-            "humidity": -1,
+            "temperature": -0.9,
+            "humidity": 0.5,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
@@ -31,15 +19,40 @@
           }
         },
         {
+          "biome": "bracken:the_brine/incursive_fungus",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": -0.5,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.5,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bracken:the_brine/keeper_district",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0.5,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.5,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+
+        {
           "biome": "bracken:the_brine/blossom_reef",
           "parameters": {
-            "temperature": 1,
-            "humidity": 1,
+            "temperature": -0.9,
+            "humidity": -0.5,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0.2,
             "depth": 0,
-            "offset": 0.4
+            "offset": 0
           }
         }
       ]
