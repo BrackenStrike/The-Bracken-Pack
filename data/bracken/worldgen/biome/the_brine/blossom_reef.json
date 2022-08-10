@@ -38,14 +38,7 @@
         "maxCount": 1
       }
     ],
-    "monster": [
-      {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ]
+    "monster": []
   },
   "spawn_costs": {},
   "carvers": {
@@ -76,7 +69,6 @@
       "minecraft:patch_dead_bush_2",
       "minecraft:patch_grass_jungle",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_melon",
       "minecraft:seagrass_warm",
       "minecraft:seagrass_simple",
       "bracken:brine/prismarine_blobs",

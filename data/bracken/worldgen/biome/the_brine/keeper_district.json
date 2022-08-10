@@ -5,7 +5,7 @@
         "type": "minecraft:cod",
         "weight": 30,
         "minCount": 1,
-        "maxCount": 4
+        "maxCount": 1
       }
     ],
     "ambient": [],
@@ -55,15 +55,21 @@
         "weight": 5,
         "minCount": 2,
         "maxCount": 5
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:sheep",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 5
       }
     ],
     "monster": [
-      {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      },
       {
         "type": "minecraft:slime",
         "weight": 10,
@@ -73,12 +79,6 @@
       {
         "type": "minecraft:turtle",
         "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:guardian",
-        "weight": 1,
         "minCount": 1,
         "maxCount": 1
       }
@@ -97,13 +97,16 @@
       "minecraft:lake_lava_surface",
       "minecraft:lake_lava_underground"
     ],
-    [],
-    [],
+    ["bracken:pax/wheat2"],
+    ["bracken:brine/wall_blobs",
+    "bracken:dormis/coral_blob"],
     [
       "minecraft:desert_well"
     ],
-    [],
-    [],
+    ["bracken:brine/wall","bracken:brine/wall2"],
+    ["minecraft:trees_meadow",
+    "minecraft:trees_swamp",
+    "minecraft:patch_pumpkin"],
     [
       "minecraft:patch_sugar_cane_desert",
       "minecraft:patch_dead_bush_2",
@@ -111,8 +114,7 @@
       "bracken:brine/redstone_blobs",
       "minecraft:patch_sugar_cane",
       "minecraft:seagrass_warm",
-      "minecraft:seagrass_simple",
-      "minecraft:warm_ocean_vegetation"
+      "minecraft:seagrass_simple"
     ],
     [],
     [],
@@ -126,9 +128,9 @@
     "fog_color": 14745599,
     "water_color": 5095618,
     "water_fog_color": 3093076,
-    "grass_color": 2320701,
+    "grass_color": 12951373,
     "sky_color": 9633746,
-    "foliage_colour": 2320701,
+    "foliage_color": 16622604,
     "particle": {
       "options": {
         "type": "minecraft:warped_spore"

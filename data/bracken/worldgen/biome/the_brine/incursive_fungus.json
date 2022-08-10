@@ -101,7 +101,7 @@
     },
     "additions_sound": {
       "sound": "minecraft:block.beacon.ambient",
-      "tick_chance": 0.002
+      "tick_chance": 0.0002
     },
     "music": {
       "sound": "minecraft:music.under_water",
