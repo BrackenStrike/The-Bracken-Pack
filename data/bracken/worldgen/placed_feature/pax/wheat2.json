@@ -1,15 +1,17 @@
 {
 	"feature": "bracken:pax/wheat2",
 	"placement": [
-		
+		{
+			"type": "minecraft:count",
+			"count": 1
+		},
 		{
 			"type": "minecraft:in_square"
 		},
-		
 		{
-      "type": "minecraft:count_on_every_layer",
-      "count": 1
-    },
+			"type": "heightmap",
+			"heightmap": "MOTION_BLOCKING_NO_LEAVES"
+		},
 		{
 			"type": "minecraft:biome"
 		}
