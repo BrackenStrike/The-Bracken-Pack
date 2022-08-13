@@ -98,8 +98,7 @@
       "minecraft:lake_lava_underground"
     ],
     ["bracken:pax/wheat2"],
-    ["bracken:brine/wall_blobs",
-    "bracken:dormis/coral_blob"],
+    ["bracken:dormis/coral_blob"],
     [
       "minecraft:desert_well"
     ],
