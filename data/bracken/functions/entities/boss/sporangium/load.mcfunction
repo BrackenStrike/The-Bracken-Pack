@@ -14,5 +14,7 @@ bossbar set bracken:sporangium max 1000
 
 scoreboard objectives add bp.sporangium dummy
 scoreboard objectives add bp.slime dummy
+scoreboard objectives add bp.slimedeath dummy
+scoreboard objectives add bp.deathtimer dummy
 
 scoreboard players set 4 bp.math.final 4

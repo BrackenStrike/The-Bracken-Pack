@@ -3,4 +3,4 @@
 
 
 
-scoreboard players set @s bp.slime 60
+scoreboard players set @s bp.slime 30
