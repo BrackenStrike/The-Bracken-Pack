@@ -4,12 +4,13 @@ execute store result score @s bp.health run data get entity @s Health 1
 
 
 
-execute if score @s bp.sporangium matches ..0 run scoreboard players set #1 bp.math.in 3
+execute if score @s bp.sporangium matches ..0 run scoreboard players set #1 bp.math.in 4
 execute if score @s bp.sporangium matches ..0 run function bracken:math/random
 
-execute if score @s bp.sporangium matches ..0 if score #1 bp.math.out matches 0 run function bracken:entities/boss/sporangium/attacks/grow
-execute if score @s bp.sporangium matches ..0 if score #1 bp.math.out matches 1 run function bracken:entities/boss/sporangium/attacks/multiply
-execute if score @s bp.sporangium matches ..0 if score #1 bp.math.out matches 2 run function bracken:entities/boss/sporangium/attacks/block
+execute if score @s[tag=!bp.death] bp.sporangium matches ..0 if score #1 bp.math.out matches 0 run function bracken:entities/boss/sporangium/attacks/grow
+execute if score @s[tag=!bp.death] bp.sporangium matches ..0 if score #1 bp.math.out matches 1 run function bracken:entities/boss/sporangium/attacks/multiply
+execute if score @s[tag=!bp.death] bp.sporangium matches ..0 if score #1 bp.math.out matches 2 run function bracken:entities/boss/sporangium/attacks/nema
+execute if score @s[tag=!bp.death] bp.sporangium matches ..0 if score #1 bp.math.out matches 3 run function bracken:entities/boss/sporangium/attacks/block
 
 execute if score @s bp.sporangium matches ..0 run scoreboard players set @s bp.sporangium 160
 
@@ -19,11 +20,40 @@ scoreboard players remove @s bp.sporangium 1
 
 #slime rain
 
-execute if score @s bp.slime matches 1.. run summon slime ^ ^7 ^ {Tags:[bp.spore],Motion:[0.0,100.0,0.0],Size:1,DeathLootTable:"bracken:nothing",ActiveEffects:[{Id:28b,Amplifier:1b,Duration:240,ShowParticles:0b},{Id:25b,Amplifier:10b,Duration:20,ShowParticles:0b}]}
+execute if score @s bp.slime matches 1.. run summon slime ^ ^7 ^ {ActiveEffects:[{Id:1,Amplifier:7b,Duration:20000000,ShowParticles:0b}],Tags:[bp.spore],Motion:[0.0,100.0,0.0],Size:1,DeathLootTable:"bracken:nothing",ActiveEffects:[{Id:28b,Amplifier:1b,Duration:240,ShowParticles:0b},{Id:25b,Amplifier:10b,Duration:20,ShowParticles:0b}]}
 scoreboard players remove @s bp.slime 1
 
 execute if score @s bp.slime matches 1.. run playsound minecraft:block.bubble_column.bubble_pop hostile @a[distance=..50] ~ ~ ~ 100 0
 
+
+
+#poison arrows
+
+
+
+
+effect give @s[scores={bp.nema=1..}] levitation 1 2 true
+
+execute if score @s bp.nema matches 1.. run summon arrow ~1 ~2 ~ {damage:5d,Color:2796298,Motion:[10.0,0.0,0.0],CustomName:'{"text":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
+
+execute if score @s bp.nema matches 1.. run summon arrow ~-1 ~2 ~ {Color:2796298,Motion:[-10.0,0.0,0.0],CustomName:'{"text":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
+
+execute if score @s bp.nema matches 1.. run summon arrow ~ ~2 ~1 {Color:2796298,Motion:[0.0,0.0,10.0],CustomName:'{"text":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
+
+execute if score @s bp.nema matches 1.. run summon arrow ~ ~2 ~-1 {Color:2796298,Motion:[10.0,0.0,-10.0],CustomName:'{"text":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
+
+
+execute if score @s bp.nema matches 1.. run summon arrow ~1 ~2 ~1 {Color:2796298,Motion:[7.0,0.0,7.0],CustomName:'{"text":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
+
+execute if score @s bp.nema matches 1.. run summon arrow ~-1 ~2 ~1 {Color:2796298,Motion:[-7.0,0.0,7.0],CustomName:'{"text":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
+
+execute if score @s bp.nema matches 1.. run summon arrow ~-1 ~2 ~1 {Color:2796298,Motion:[-7.0,0.0,7.0],CustomName:'{"text":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
+
+execute if score @s bp.nema matches 1.. run summon arrow ~-1 ~2 ~-1 {Color:2796298,Motion:[-7.0,0.0,-7.0],CustomName:'{"text":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
+
+execute if score @s bp.nema matches 1.. run playsound minecraft:block.bamboo.hit hostile @a[distance=..50] ~ ~ ~ 10 2
+
+scoreboard players remove @s bp.nema 1
 
 
 #death
@@ -39,9 +69,9 @@ kill @e[type=slime,scores={bp.slimedeath=1..},tag=bp.spore,distance=..2]
 
 
 #truedeath
-execute if entity @s[scores={bp.deathtimer=200..}] run function bracken:entities/boss/sporangium/misc/truedeath
+execute if entity @s[scores={bp.deathtimer=140..}] run function bracken:entities/boss/sporangium/misc/truedeath
 execute if entity @s[scores={bp.deathtimer=11..}] run particle minecraft:happy_villager ~ ~1 ~ 1 10 3 0.01 150
 execute if entity @s[scores={bp.deathtimer=11..}] run particle minecraft:dust 1 0.2 0 1 ~ ~ ~ 0.5 10 0.5 0.01 100
 scoreboard players add @s[scores={bp.deathtimer=2..}] bp.deathtimer 1
 
-effect give @s[scores={bp.deathtimer=11..}] instant_health 1 0 true
+effect give @s[scores={bp.deathtimer=11..}] instant_health 1 1 true
