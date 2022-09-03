@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/portal_keys/mortal_cull"
+          "name": "bracken:item/mortal_cull"
         }
       ]
     },
