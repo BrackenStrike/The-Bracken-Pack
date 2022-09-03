@@ -3,7 +3,7 @@ execute if entity @s run tag @s add bp.death
 playsound minecraft:entity.cat.hiss hostile @a[distance=..50] ~ ~ ~ 10 0
 playsound minecraft:entity.zombie_villager.converted hostile @a[distance=..50] ~ ~ ~ 10 0
 
-
+tellraw @a[distance=..100] "The sporangium is metamorphosing into something..."
 
 effect give @s levitation 100 1 true
 effect give @s slowness 100 10 true

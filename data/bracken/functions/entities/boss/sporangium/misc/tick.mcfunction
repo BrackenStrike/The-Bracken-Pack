@@ -75,3 +75,8 @@ execute if entity @s[scores={bp.deathtimer=11..}] run particle minecraft:dust 1 
 scoreboard players add @s[scores={bp.deathtimer=2..}] bp.deathtimer 1
 
 effect give @s[scores={bp.deathtimer=11..}] instant_health 1 1 true
+
+
+#tree jump
+execute if entity @e[type=marker,tag=bp.slimezone,distance=40..] run tellraw @a[distance=..100] "The prey flees! The hunt begins..."
+execute if entity @e[type=marker,tag=bp.slimezone,distance=40..] run kill @e[type=marker,tag=bp.slimezone,sort=nearest,distance=..50]
