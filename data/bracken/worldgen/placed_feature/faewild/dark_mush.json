@@ -1,5 +1,5 @@
 {
-    "feature": "bracken:faewild/birch_tree",
+    "feature": "bracken:faewild/dark_mush",
     "placement": [
         {
             "type": "count",
@@ -15,9 +15,6 @@
         {
             "type": "minecraft:surface_water_depth_filter",
             "max_water_depth": 0
-        },
-        {
-            "type": "minecraft:biome"
-          }
+        }
     ]
 }
