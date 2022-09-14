@@ -1,6 +1,6 @@
 ##########################################################
 # Description: All entity related commands with the "bp.entity" tag.
-# Creators: Grandmaster and Bracken
+# Creators: Sulfenir, Grandmaster and Bracken
 ##########################################################
 
 ## ABILITY BOOKS
@@ -20,4 +20,7 @@ execute if entity @s[type=marker,tag=bp.dormis_platform_remove] run function bra
 
 ## RAIN EVENT
 execute if entity @s[type=marker,tag=bp.rain_event] run function bracken:entities/panacea/rain_event/tick
+
+## JUKEBOX
+execute if entity @s[type=marker,tag=bp.jukebox_manager] run function bracken:entities/jukebox/tick
 
