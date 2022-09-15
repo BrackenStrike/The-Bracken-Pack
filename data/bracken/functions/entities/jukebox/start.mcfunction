@@ -8,3 +8,4 @@ execute if data entity @s {data:{bracken:{custom_music:"faewild"}}} run playsoun
 execute if data entity @s {data:{bracken:{custom_music:"glacium"}}} run playsound bracken:glacium record @a ~ ~ ~ 4
 execute if data entity @s {data:{bracken:{custom_music:"pax"}}} run playsound bracken:pax record @a ~ ~ ~ 4
 execute if data entity @s {data:{bracken:{custom_music:"underdark"}}} run playsound bracken:underdark record @a ~ ~ ~ 4
+execute if data entity @s {data:{bracken:{custom_music:"viceroy"}}} run playsound bracken:viceroy record @a ~ ~ ~ 4

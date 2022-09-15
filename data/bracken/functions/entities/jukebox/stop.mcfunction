@@ -8,3 +8,4 @@ execute if data entity @s {data:{bracken:{custom_music:"faewild"}}} run stopsoun
 execute if data entity @s {data:{bracken:{custom_music:"glacium"}}} run stopsound @a[distance=..128] record bracken:glacium
 execute if data entity @s {data:{bracken:{custom_music:"pax"}}} run stopsound @a[distance=..128] record bracken:pax
 execute if data entity @s {data:{bracken:{custom_music:"underdark"}}} run stopsound @a[distance=..128] record bracken:underdark
+execute if data entity @s {data:{bracken:{custom_music:"viceroy"}}} run stopsound @a[distance=..128] record bracken:viceroy
