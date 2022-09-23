@@ -19,7 +19,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:32,bracken:{custom_music_disc:1b,custom_music:\"viceroy\"}}"
+              "tag": "{CustomModelData:888506,HideFlags:32,bracken:{custom_music_disc:1b,custom_music:\"viceroy\"}}"
             }
           ]
         }
