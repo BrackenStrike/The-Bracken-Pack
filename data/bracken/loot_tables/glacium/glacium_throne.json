@@ -39,7 +39,17 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/portal_keys/dormis_key",
+          "name": "bracken:item/music_discs/viceroy",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/portal_keys/glacium_key",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
