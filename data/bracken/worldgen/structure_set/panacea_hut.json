@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "bracken:panacea_pad",
+      "structure": "bracken:panacea_hut",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 10,
-    "separation": 8,
-    "salt": 193851336
+    "spacing": 20,
+    "separation": 14,
+    "salt": 98946386
   }
 }
