@@ -4,15 +4,12 @@
         {"rolls":1,"entries":
             [
                 {
-                    "type":"item","name":"minecraft:leather_boots","weight":1,"functions":
-                    [
-                        {
-                            "function":"set_nbt","tag":"{display:{Name:'{\"text\":\"Vitality Boots\",\"color\":\"dark_green\",\"bold\":true}',Lore:['{\"text\":\"three of three\",\"color\":\"gold\"}'],color:5478714},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;-463558602,-666549291,-1735985630,-67791349],Slot:\"feet\"}]}"
-                        }
-                    ]
-                },
+                    "type": "minecraft:loot_table",
+                    "name": "bracken:item/panaspore",
+                    "weight":10
+                  },
                 {
-                    "type":"item","name":"minecraft:rotten_flesh","weight":10
+                    "type":"item","name":"minecraft:glistering_melon_slice","weight":1
                 }
             ]
         }
