@@ -1,12 +1,12 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "bracken:panacea/sweltering_swamp",
+  "biomes": "bracken:panacea/hungering_jungle",
   "spawn_overrides": {},
-  "start_pool": "bracken:flower",
+  "start_pool": "bracken:panacea_hut",
   "size": 6,
   "step": "surface_structures",
   "start_height": {
-    "absolute": -25
+    "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "max_distance_from_center": 80,
