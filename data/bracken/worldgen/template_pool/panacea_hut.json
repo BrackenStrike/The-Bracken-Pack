@@ -1,13 +1,13 @@
 {
-  "name": "pad",
+  "name": "panacea_hut",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "bracken:panacea_pad",
+        "location": "bracken:panacea_hut",
         "processors": "minecraft:empty",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
       }
     }
