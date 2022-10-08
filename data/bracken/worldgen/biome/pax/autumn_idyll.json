@@ -4,13 +4,6 @@
     "ambient": [],
     "misc": [],
     "water_creature": [
-      
-      {
-        "type": "minecraft:cod",
-        "weight": 7,
-        "minCount": 2,
-        "maxCount": 2
-      }
     ],
     "creature": [
       {
