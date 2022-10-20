@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "bracken:twice_abandoned_mineshaft",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 24,
+    "separation": 18,
+    "salt": 1013009019
+  }
+}
