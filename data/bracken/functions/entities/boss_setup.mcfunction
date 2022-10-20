@@ -17,3 +17,6 @@ execute if entity @s[type=minecraft:giant,tag=bp.solatium_thrall] if entity @p[d
 
 #sporangium
 execute if entity @s[type=minecraft:slime,tag=bp.sporangium] run function bracken:entities/boss/sporangium/tick
+
+#unsung
+execute if entity @s[type=minecraft:zombie,tag=bp.unsung] run function bracken:entities/boss/unsung/tick
