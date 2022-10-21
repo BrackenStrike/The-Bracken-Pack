@@ -12,7 +12,10 @@ tellraw @a[distance=..25] "Tua destructio ab architectis iudicata est..."
 playsound minecraft:entity.allay.hurt hostile @a[distance=..25] ~ ~ ~ 10 0
 playsound minecraft:entity.ravager.attack hostile @a[distance=..25] ~ ~ ~ 100 0
 
-bossbar add bracken:unsung {"text":"Unsung","color":"purple","bold":true}
+bossbar add bracken:unsung {"text":"Unsung","color":"gray","bold":true}
+bossbar set bracken:unsung color purple
+bossbar set bracken:unsung style notched_6
+bossbar set bracken:unsung max 400
 
 fill ~10 ~10 ~10 ~-10 ~0 ~-10 air replace obsidian
 
