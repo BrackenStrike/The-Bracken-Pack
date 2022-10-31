@@ -2,6 +2,10 @@
 # Description: Config menu for operators.
 # Creators: Grandmaster
 #
+# - Nether Height: Nether Height: \nIncendium is a popular datapack by Starmute that revamps the Nether. Crucially, it increases the 
+#       height of the nether. Setting this option to \"Incendium\" will change the height when players teleport to and from the Underdark 
+#       to match the nether height with Incendium.
+#
 # - Enable/Disable Teams: This will not affect gameplay. Use of teams may make the Bracken Pack incompatible with other datapacks. 
 #
 # - Enable/Disable Species: This will not force players to leave their current species. If disabled all commands for player species 
@@ -23,6 +27,10 @@ scoreboard players set @s bp.verylongtick 2
 tag @s add bp.config_gamrule
 
 tellraw @s ["\n\n\n\n",{"text":"Bracken Pack Config:\n","bold":true,"underlined":true,"color":"yellow"}]
+
+tellraw @s ["",{"text":"* Nether Height","hoverEvent":{"action":"show_text", "contents":[{"text":"Nether Height: \nIncendium is a popular datapack by Starmute that revamps the Nether. Crucially, it increases the height of the nether. Setting this option to \"Incendium\" will change the height when players teleport to and from the Underdark to match the nether height with Incendium."}]}}]
+tellraw @s ["",{"text":"[Normal]","color":"yellow","clickEvent":{"action":"run_command","value":"/function bracken:player/config_menu/normal_nether_height"}},{"text":" "},{"text":"[Incendium]","color":"yellow","clickEvent":{"action":"run_command","value":"/function bracken:player/config_menu/incendium_nether_height"}}]
+
 
 tellraw @s ["",{"text":"* Use of teams in datapack","hoverEvent":{"action":"show_text", "contents":[{"text":"Enable/Disable Teams: \nThis will not affect gameplay. Use of teams may make the Bracken Pack incompatible with other datapacks."}]}}]
 tellraw @s ["",{"text":"[Enable]","color":"green","clickEvent":{"action":"run_command","value":"/function bracken:player/config_menu/enable_teams"}},{"text":" "},{"text":"[Disable]","color":"red","clickEvent":{"action":"run_command","value":"/function bracken:player/config_menu/disable_teams"}}]
