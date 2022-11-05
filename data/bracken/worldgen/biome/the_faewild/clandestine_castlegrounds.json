@@ -48,23 +48,13 @@
   "features": [
     [],
     [],
-    [
-      "minecraft:forest_rock"
-    ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
     [],
     [],
     [],
-    [
-      "minecraft:vines"
-    ],
-    [
-      "bracken:faewild/rock"
-      
-    ],
+    [],
+    [],
+    [],
+    [],
     [
 
       "minecraft:patch_grass_normal",
