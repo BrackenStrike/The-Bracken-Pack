@@ -5,3 +5,4 @@ scoreboard players operation @s bp.dimension = @p[tag=bp.mansion_back,distance=.
 
 tag @p[tag=bp.mansion_back,distance=..50] remove bp.mansion_back
 effect clear @a[distance=..200] minecraft:blindness
+effect clear @a[distance=..200] minecraft:slow_falling

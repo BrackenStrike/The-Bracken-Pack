@@ -10,3 +10,5 @@ scoreboard players set @s bp.giant 0
 scoreboard players set @s bp.wtb_cooldown 0
 scoreboard players set @s bp.cooldown 0
 execute if score #bp.species_dummy bp.species_con matches 1 run loot give @s loot bracken:item/species_beginner_book
+
+#tellraw @s [{"text":"Use \"/function bracken:config\" to configure settings for the Bracken Pack","color":"yellow"}]

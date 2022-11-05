@@ -9,16 +9,16 @@
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "bracken:sanctum_dungeon",
+              "destination": "bracken:sanctum_embassy",
               "decoration": "red_x",
               "search_radius":100,
               "zoom": 3,
               "skip_existing_chunks": false
             },
-           {
+            {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Sanctum Dungeon Map",
+                "text": "Sanctum Embassy Map",
                 "color": "yellow"
               }
             }

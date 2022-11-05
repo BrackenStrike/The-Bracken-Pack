@@ -26,4 +26,4 @@ execute at @e[type=minecraft:marker,tag=bp.launchpad] run particle minecraft:swe
 execute at @e[type=minecraft:marker,tag=bp.launchpad] run effect give @e[distance=..1] minecraft:levitation 3 127 false
 
 #PAX CONDITIONAL SLOWFALL
-execute if blocks ~1 ~1 ~1 ~-1 ~-10 ~-1 ~ 500 ~ all run effect give @s minecraft:slow_falling 1 0 true
+execute if score @s bp.tick matches 2 if blocks ~1 ~1 ~1 ~-1 ~-10 ~-1 ~ 500 ~ all unless entity @s[nbt={Inventory:[{id:"minecraft:elytra",Slot:102b}]}] run effect give @s minecraft:slow_falling 1 0 true

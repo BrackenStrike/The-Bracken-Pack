@@ -13,7 +13,17 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.1
+              "chance": 0.008
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.14
             }
           ]
         },
@@ -43,7 +53,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.08
+              "chance": 0.01
             }
           ]
         },
@@ -128,16 +138,6 @@
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_wait",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.1
-            }
-          ]
-        },
-        {
           "type": "loot_table",
           "name": "bracken:item/ability_books/fang_attack",
           "conditions": [
@@ -162,13 +162,13 @@
     {
     "rolls": 1,
           "entries": [
-     {
+      {
             "type": "loot_table",
-            "name": "bracken:item/maps/sanctum_dungeon_map",
+            "name": "bracken:item/maps/sanctum_embassy_map",
             "conditions": [
               {
                 "condition": "minecraft:random_chance",
-                "chance": 0.15
+                "chance": 0.25
               }
             ]
           }

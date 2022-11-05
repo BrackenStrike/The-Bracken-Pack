@@ -15,7 +15,7 @@
               "zoom": 3,
               "skip_existing_chunks": false
             },
-           {
+            {
               "function": "minecraft:set_name",
               "name": {
                 "text": "Omnidrome Palace Map",

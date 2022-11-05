@@ -13,7 +13,17 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.08
+              "chance": 0.003
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
             }
           ]
         },
@@ -53,7 +63,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.1
+              "chance": 0.05
             }
           ]
         },
