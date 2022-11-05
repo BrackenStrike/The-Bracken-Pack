@@ -8,6 +8,7 @@ function bracken:entities/boss/the_disruptor/load
 function bracken:entities/boss/project_ruination/load
 function bracken:entities/boss/sporangium/load
 function bracken:entities/boss/unsung/load
+function bracken:entities/panacea/rain_event/load
 
 ##########   ADD SCOREBOARD OBJECTIVES   ##########
 scoreboard objectives add bp.food food
