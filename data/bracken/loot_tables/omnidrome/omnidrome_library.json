@@ -29,6 +29,46 @@
         },
         {
           "type": "loot_table",
+          "name": "bracken:item/ability_books/fireball",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.04
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/ability_books/world_soar",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.035
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/ability_books/swordfall",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/ability_books/returning_tides",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.035
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
           "name": "bracken:item/portal_keys/nether_key",
           "conditions": [
             {
@@ -256,7 +296,7 @@
     {
     "rolls": 1,
           "entries": [
-     {
+      {
             "type": "loot_table",
             "name": "bracken:item/maps/omnidrome_palace_map",
             "conditions": [

@@ -25,7 +25,12 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "A protector, usque in diem, cum omnes gladiis sunt comminutae.",
+                  "text": "A protector, usque in diem, ",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "cum omnes gladiis sunt comminutae.",
                   "color": "white",
                   "italic": false
                 }

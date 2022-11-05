@@ -23,7 +23,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.01
+              "chance": 0.03
             }
           ]
         },
@@ -139,6 +139,16 @@
             {
               "condition": "minecraft:random_chance",
               "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/maps/twice_abandoned_mineshaft",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.008
             }
           ]
         }
