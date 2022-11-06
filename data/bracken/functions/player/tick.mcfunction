@@ -43,3 +43,5 @@ function bracken:player/ability_books
 execute if entity @s[nbt={Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{CustomModelData:888501}}]}] run function bracken:player/glacium_glider
 execute if entity @s[nbt=!{Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{CustomModelData:888501}}]}] run scoreboard players set @s bp.wither_immunity 0
 
+# BOSSBARS
+execute if entity @s[scores={bp.3_second=12..}] run function bracken:player/reset_bossbars 

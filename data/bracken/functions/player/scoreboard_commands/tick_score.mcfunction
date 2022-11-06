@@ -31,9 +31,3 @@ scoreboard players set @s[nbt={Inventory:[{Slot:103b,id:"minecraft:wither_skelet
 scoreboard players remove @s[scores={bp.hurting=1..}] bp.hurting 1
 scoreboard players set @s[nbt={SelectedItem:{id:"minecraft:iron_sword",tag:{display:{Name:'{"text":"Skogabogg Scimitar","color":"dark_green","bold":true}',Lore:['{"text":"A sword by any other name would sting as sharp","color":"dark_gray"}']},CustomModelData:888502}}}] bp.poison 4
 
-## BOSSBARS
-bossbar set bracken:solatium_thrall players
-bossbar set bracken:bygone_viceroy.top players
-bossbar set bracken:bygone_viceroy.bottom players
-bossbar set bracken:the_disruptor players
-bossbar set bracken:project_ruination players
