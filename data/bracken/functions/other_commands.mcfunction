@@ -7,7 +7,7 @@
 ##########   SPECIAL THANKS TO ALPHIE   ##########
 #name a dog _Alphie_ to activate
 execute at @a run data merge entity @e[limit=1,type=wolf,name="_Alphie_",distance=..10] {CollarColor:10b,CustomName:'{"text":"Alphie","color":"dark_purple","bold":true}',ArmorItems:[{},{},{id:"minecraft:wolf_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Respawn Alphie","color":"dark_purple","bold":true}',Lore:['{"text":"not gone yet","color":"light_purple","italic":true}']},Enchantments:[{}],EntityTag:{Age:-1000,CollarColor:10b,CustomName:'{"text":"_Alphie_"}'}}},{}],ArmorDropChances:[0.085F,0.085F,1.000F,0.085F],Attributes:[{Name:generic.max_health,Base:16},{Name:generic.attack_damage,Base:10}]}
- 
+
 ##########   DORMIS THRALL BASE CLEAR DEBRIS   ##########
 execute at @e[type=marker,tag=bp.thrall] run function bracken:entities/boss/solatium_thrall/summon
 kill @e[type=marker,tag=bp.thrall]
