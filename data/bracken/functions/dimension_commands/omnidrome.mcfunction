@@ -4,7 +4,7 @@
 ##########################################################
 
 #travel nether
-execute if predicate bracken:sprint if entity @e[type=minecraft:end_crystal,distance=..2,predicate=bracken:omnidrome] run function bracken:dimension_crossing/omnidrome_to_nether
+execute if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if predicate bracken:sprint if entity @e[type=minecraft:end_crystal,distance=..2,predicate=bracken:omnidrome] run function bracken:dimension_crossing/omnidrome_to_nether
 execute if entity @s[scores={bp.1_second=5}] as @e[type=marker,tag=bp.dimension_marker] at @s if block ~ ~-1 ~ air in bracken:omnidrome run function bracken:dimension_crossing/spawn_platforms/remove_spawn_platform
 
 #omnidrome movement

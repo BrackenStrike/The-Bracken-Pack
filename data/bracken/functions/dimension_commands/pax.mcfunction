@@ -18,8 +18,8 @@ execute if score @s bp.tick matches 2 in bracken:pax run kill @e[type=#bracken:p
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 
 
-execute if entity @s[y=-15,dy=-100] run function bracken:dimension_crossing/pax_to_faewild
-execute if entity @s[y=1550,dy=100] run function bracken:dimension_crossing/pax_to_dormis
+execute if score @s bp.1_second matches 8 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=-15,dy=-300] run function bracken:dimension_crossing/pax_to_faewild
+execute if score @s bp.1_second matches 6 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=1550,dy=300] run function bracken:dimension_crossing/pax_to_dormis
 
 #PAX LAUNCHPAD
 execute at @e[type=minecraft:marker,tag=bp.launchpad] run particle minecraft:sweep_attack ~ ~10 ~ 0 4 0 0.01 10

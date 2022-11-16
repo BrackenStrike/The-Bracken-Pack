@@ -47,12 +47,18 @@ scoreboard objectives add bp.absorption dummy
 
 ##########   CONFIG MENU  ##########
 scoreboard objectives add bp.nether_height_con dummy
+scoreboard objectives add bp.end_height_con dummy
+
+scoreboard objectives add bp.dimension_travel_con dummy
 scoreboard objectives add bp.teams_con dummy
 scoreboard objectives add bp.species_con dummy
 scoreboard objectives add bp.books_con dummy
 scoreboard objectives add bp.portal_keys_con dummy
 
 execute unless score #bp.nether_height_dummy bp.nether_height_con matches 0 run scoreboard players set #bp.nether_height_dummy bp.nether_height_con 1
+execute unless score #bp.end_height_dummy bp.end_height_con matches 0 run scoreboard players set #bp.end_height_dummy bp.end_height_con 1
+
+execute unless score #bp.dimension_travel_dummy bp.dimension_travel_con matches 0 run scoreboard players set #bp.dimension_travel_dummy bp.dimension_travel_con 1
 execute unless score #bp.teams_dummy bp.teams_con matches 0 run scoreboard players set #bp.teams_dummy bp.teams_con 1
 execute unless score #bp.species_dummy bp.species_con matches 0 run scoreboard players set #bp.species_dummy bp.species_con 1
 execute unless score #bp.ability_books_dummy bp.books_con matches 0 run scoreboard players set #bp.ability_books_dummy bp.books_con 1

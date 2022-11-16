@@ -16,5 +16,5 @@ data merge entity @e[predicate=!bracken:sneak,type=wither_skeleton,tag=bp.nether
 execute at @e[tag=bp.netherite_golem,type=minecraft:wither_skeleton] run function bracken:entities/sanctum/netherite_golem
 
 
-execute if entity @s[y=252,dy=100] run function bracken:dimension_crossing/void_to_sanctum
-execute if entity @s[y=-2,dy=-100] run function bracken:dimension_crossing/void_to_end
+execute if score @s bp.1_second matches 2 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=252,dy=100] run function bracken:dimension_crossing/void_to_sanctum
+execute if score @s bp.1_second matches 19 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=-2,dy=-200] run function bracken:dimension_crossing/void_to_end

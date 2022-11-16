@@ -23,6 +23,7 @@ scoreboard players add @s bp.verylongtick 1
 execute unless entity @s[tag=bp.enderling] run clear @s minecraft:ender_eye{bracken:{id:"enderling_controlled_teleport"}}
 
 # Player species
+#execute if score #bp.species_dummy bp.species_con matches 2 if entity @s[tag=bp.species] run function arb:player/species/species_tick
 execute if score #bp.species_dummy bp.species_con matches 1 if entity @s[tag=bp.species] run function bracken:player/species/tick
 execute if score #bp.species_dummy bp.species_con matches 0 if entity @s[scores={bp.longtick=2}] run function bracken:player/species/leave
 
@@ -37,11 +38,12 @@ function bracken:player/universal_dimension_commands
 function bracken:book_of_arbitrium/boa_start
 
 # Ability books
+#execute if score #bp.species_dummy bp.species_con matches 2 run function arb...
 function bracken:player/ability_books
 
 # Glacium Glider
+scoreboard players set @s bp.wither_immunity 0
 execute if entity @s[nbt={Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{CustomModelData:888501}}]}] run function bracken:player/glacium_glider
-execute if entity @s[nbt=!{Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{CustomModelData:888501}}]}] run scoreboard players set @s bp.wither_immunity 0
 
 # BOSSBARS
 execute if entity @s[scores={bp.3_second=12..}] run function bracken:player/reset_bossbars 

@@ -21,4 +21,4 @@ effect give @s[scores={bp.longtick=7},predicate=!bracken:sprint] minecraft:satur
 
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 
-execute if entity @s[scores={bp.ice=400..}] run function bracken:dimension_crossing/overworld_to_glacium
+execute if score @s bp.1_second matches 14 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[scores={bp.ice=7..}] run function bracken:dimension_crossing/overworld_to_glacium
