@@ -23,7 +23,7 @@ scoreboard players add @s bp.verylongtick 1
 execute unless entity @s[tag=bp.enderling] run clear @s minecraft:ender_eye{bracken:{id:"enderling_controlled_teleport"}}
 
 # Player species
-#execute if score #bp.species_dummy bp.species_con matches 2 if entity @s[tag=bp.species] run function arb:player/species/species_tick
+execute if score #bp.species_dummy bp.species_con matches 2 if entity @s[tag=bp.species] run function #bracken:player/species/tick
 execute if score #bp.species_dummy bp.species_con matches 1 if entity @s[tag=bp.species] run function bracken:player/species/tick
 execute if score #bp.species_dummy bp.species_con matches 0 if entity @s[scores={bp.longtick=2}] run function bracken:player/species/leave
 
