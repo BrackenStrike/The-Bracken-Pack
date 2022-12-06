@@ -9,14 +9,14 @@
         {
           "biome": "bracken:the_brine/sugar_sand_beach",
           "parameters": {
-            "temperature": -0.9,
+            "temperature": 0,
             "humidity": 0.5,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
             "depth": [
               0,
-              1.7
+              0.4
             ],
             "offset": 0
           }
@@ -24,14 +24,14 @@
         {
           "biome": "bracken:the_brine/incursive_fungus",
           "parameters": {
-            "temperature": -0.5,
-            "humidity": -0.5,
+            "temperature": 0.5,
+            "humidity": 0.5,
             "continentalness": 0,
             "erosion": 0,
-            "weirdness": 0.5,
+            "weirdness": 0.2,
             "depth": [
               0,
-              1.7
+              0.4
             ],
             "offset": 0
           }
@@ -39,14 +39,74 @@
         {
           "biome": "bracken:the_brine/keeper_district",
           "parameters": {
-            "temperature": -0.5,
-            "humidity": 0.5,
+            "temperature": -0.7,
+            "humidity": -0.6,
             "continentalness": 0,
             "erosion": 0,
-            "weirdness": 0.5,
+            "weirdness": 0.4,
             "depth": [
               0,
-              1.7
+              0.4
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bracken:the_brine/kelp_cove",
+          "parameters": {
+            "temperature": 0.4,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.2,
+            "depth": [
+              0,
+              0.4
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bracken:the_brine/revered_waters",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.2,
+            "depth": [
+              0,
+              0.4
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bracken:the_brine/dead_reef",
+          "parameters": {
+            "temperature": -0.6,
+            "humidity": -0.6,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.4,
+            "depth": [
+              0,
+              0.4
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bracken:the_brine/sponge_ranch",
+          "parameters": {
+            "temperature": 0.6,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.1,
+            "depth": [
+              0,
+              0.4
             ],
             "offset": 0
           }
@@ -55,14 +115,29 @@
         {
           "biome": "bracken:the_brine/blossom_reef",
           "parameters": {
-            "temperature": -0.9,
-            "humidity": -0.5,
+            "temperature": -0.3,
+            "humidity": -0.6,
             "continentalness": 0,
             "erosion": 0,
-            "weirdness": 0.2,
+            "weirdness": 0.4,
             "depth": [
               0,
-              1.6
+              0.4
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bracken:the_brine/indigo_median",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [
+              0.41,
+              0.7
             ],
             "offset": 0
           }
@@ -76,8 +151,8 @@
             "erosion": 0,
             "weirdness": 0,
             "depth": [
-              1.7,
-              2
+              0.8,
+              1
             ],
             "offset": 0
           }
