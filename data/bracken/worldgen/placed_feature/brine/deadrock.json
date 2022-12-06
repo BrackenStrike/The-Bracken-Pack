@@ -1,9 +1,9 @@
 {
-    "feature": "bracken:brine/rock",
+    "feature": "bracken:brine/deadrock",
     "placement": [
       {
         "type": "minecraft:count_on_every_layer",
-        "count": 1
+        "count": 16
       },
       {
         "type": "minecraft:block_predicate_filter",
@@ -21,7 +21,7 @@
                 0
               ],
               "blocks": [
-                "minecraft:rooted_dirt"
+                "minecraft:sand"
               ]
             },
             {
