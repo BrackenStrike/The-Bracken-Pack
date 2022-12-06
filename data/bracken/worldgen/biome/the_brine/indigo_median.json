@@ -1,26 +1,20 @@
 {
   "spawners": {
-    "water_ambient": [],
+    "water_ambient": [
+    ],
     "ambient": [],
     "misc": [],
-    "water_creature": [
-    {
+    "water_creature": [{
       "type": "minecraft:glow_squid",
-      "weight": 300,
+      "weight": 10,
       "minCount": 4,
       "maxCount": 4
     },
     {
       "type": "minecraft:squid",
-      "weight": 100,
+      "weight": 30,
       "minCount": 4,
       "maxCount": 4
-    },
-    {
-      "type": "minecraft:guardian",
-      "weight": 1,
-      "minCount": 1,
-      "maxCount": 1
     }
       
       
@@ -35,8 +29,14 @@
         "maxCount": 1
       },
       {
-        "type": "minecraft:drowned",
+        "type": "minecraft:phantom",
         "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:drowned",
+        "weight": 2,
         "minCount": 1,
         "maxCount": 1
       }
@@ -64,11 +64,11 @@
   "temperature": 0.95,
   "downfall": 0.1,
   "effects": {
-    "fog_color": 1781291,
-    "water_color": 2070,
-    "water_fog_color": 1245198,
+    "fog_color": 10799560,
+    "water_color": 3149898,
+    "water_fog_color": 3084864,
     "grass_color": 668950,
-    "sky_color": 4005221,
+    "sky_color": 4030565,
     "foliage_colour": 0,
     "particle": {
       "options": {

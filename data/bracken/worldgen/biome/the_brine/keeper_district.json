@@ -63,6 +63,12 @@
         "maxCount": 5
       },
       {
+        "type": "minecraft:pig",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
         "type": "minecraft:sheep",
         "weight": 5,
         "minCount": 2,
@@ -115,7 +121,7 @@
       "minecraft:seagrass_warm",
       "minecraft:seagrass_simple"
     ],
-    [],
+    ["bracken:brine/root_blobs"],
     [],
     [
       "minecraft:freeze_top_layer"
