@@ -13,7 +13,17 @@ effect clear @s minecraft:poison
 attribute @s[scores={bp.pax=10}] minecraft:generic.max_health modifier add 35709842-6f1c-48eb-9683-43bcf0faa33e "bp.pax_health" 20 add
 
 effect clear @s minecraft:bad_omen
-execute if score @s bp.tick matches 2 in bracken:pax run kill @e[type=#bracken:pax_entities]
+
+#DAMAGE NULLIFY
+
+execute as @e[type=#minecraft:arrows,predicate=bracken:pax] run data modify entity @s damage set value 0
+execute as @e[type=#minecraft:arrows,predicate=bracken:pax] run data modify entity @s crit set value 0
+execute as @e[type=minecraft:trident,predicate=bracken:pax] run data modify entity @s DealtDamage set value 1
+kill @e[type=fireball,predicate=bracken:pax]
+kill @e[type=small_fireball,predicate=bracken:pax]
+kill @e[type=dragon_fireball,predicate=bracken:pax]
+kill @e[type=wither_skull,predicate=bracken:pax]
+
 
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 
