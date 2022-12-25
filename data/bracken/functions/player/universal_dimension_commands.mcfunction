@@ -30,7 +30,7 @@ scoreboard players remove @s[scores={bp.fae=1..}] bp.fae 1
 scoreboard players remove @s[scores={bp.wither_skull=1..}] bp.wither_skull 1
 
 # VARSKSPACE TRAVEL
-execute if score @s bp.tick matches 2 if entity @e[type=lightning_bolt,tag=!bp.no_travel,distance=..1] run function bracken:dimension_crossing/varskspace_travel
+execute if score @s bp.tick matches 2 if entity @e[type=lightning_bolt,tag=!bp.no_travel,distance=..2] run function bracken:dimension_crossing/varskspace_travel
 
 # Reset dimension attributes
 execute if score @s bp.3_second matches 5 run function bracken:player/reset_dimension_attributes
