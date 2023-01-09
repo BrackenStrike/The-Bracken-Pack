@@ -1,8 +1,8 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "bracken:the_brine/dead_reef",
+  "biomes": "bracken:the_brine/kelp_cove",
   "spawn_overrides": {},
-  "start_pool": "bracken:reef/brine_dead_coral",
+  "start_pool": "bracken:reef/urchin",
   "size": 6,
   "step": "surface_structures",
   "start_height": {
