@@ -4,7 +4,7 @@
 ##########################################################
 
 effect give @s[scores={bp.longtick=5},tag=!bp.outlander] minecraft:invisibility 13 0 true
-effect clear @s[tag=!bp.outlander] minecraft:invisibility
+effect clear @s[tag=bp.outlander] minecraft:invisibility
 
 
 execute if entity @s[scores={bp.tick=2}] run function bracken:entities/sanctum/sanctum_entities
