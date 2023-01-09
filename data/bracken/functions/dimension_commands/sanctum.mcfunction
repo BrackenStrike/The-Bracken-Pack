@@ -7,7 +7,9 @@ effect give @s[scores={bp.longtick=5},tag=!bp.outlander] minecraft:invisibility 
 effect clear @s[tag=bp.outlander] minecraft:invisibility
 
 
-execute if entity @s[scores={bp.tick=2}] run function bracken:entities/sanctum/sanctum_entities
+execute if entity @s[scores={bp.tick=2,bp.sneakcharge=..1}] run function bracken:entities/sanctum/sanctum_entities
+execute at @e[tag=bp.netherite_golem,type=minecraft:wither_skeleton,distance=..30] run function bracken:entities/sanctum/netherite_golem
+
 execute if score @s bp.1_second matches 4 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=252,dy=100] run function bracken:dimension_crossing/sanctum_to_nether
 execute if score @s bp.1_second matches 11 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=-32,dy=-200] run execute in bracken:void run tp @s ~ 240 ~
 
