@@ -48,5 +48,3 @@ execute if entity @s[nbt={Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{Custo
 # BOSSBARS
 execute if entity @s[scores={bp.3_second=12..}] run function bracken:player/reset_bossbars
 
-#VOID TP
-execute if score @s bp.1_second matches 12 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=-66,dy=-300] in bracken:void run tp @s ~ 240 ~
