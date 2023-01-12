@@ -12,4 +12,3 @@ execute if entity @s[scores={bp.tick=2}] run fill ~10 ~5 ~10 ~-10 ~-5 ~-10 minec
 execute if entity @s[scores={bp.tick=2}] run fill ~10 ~5 ~10 ~-10 ~-5 ~-10 minecraft:campfire[lit=false] replace minecraft:campfire[lit=true]
 
 
-execute if score @s bp.1_second matches 13 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=-2,dy=-200] in bracken:void run tp @s ~ 242 ~
