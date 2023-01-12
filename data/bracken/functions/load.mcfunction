@@ -26,6 +26,7 @@ scoreboard objectives add bp.1_second dummy
 scoreboard objectives add bp.3_second dummy
 scoreboard objectives add bp.longtick dummy
 scoreboard objectives add bp.verylongtick dummy
+scoreboard objectives add bp.obsidian dummy
 
 
 ##########   SPECIES  ##########
