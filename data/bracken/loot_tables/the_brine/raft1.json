@@ -30,7 +30,7 @@
         
         {
           "type": "minecraft:item",
-          "name": "minecraft:water_bottle",
+          "name": "minecraft:glass_bottle",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
