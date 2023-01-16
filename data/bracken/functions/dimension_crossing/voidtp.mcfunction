@@ -3,6 +3,7 @@
 #   by Bracken
 ##########################################################
 
+scoreboard players set @s[predicate=bracken:void] bp.obsidian 4
 
 execute if entity @s[scores={bp.1_second=1..2}] run execute in minecraft:the_end run tp @s ~ 60 ~
 
@@ -40,7 +41,6 @@ execute if entity @s[scores={bp.1_second=18}] run execute in minecraft:overworld
 
 execute if entity @s[scores={bp.1_second=19}] run execute in minecraft:the_nether run tp @s ~ 70 ~
 
-scoreboard players set @s bp.obsidian 4
 
 
 
