@@ -75,9 +75,9 @@
     "fog_color": 16773336,
     "water_color": 11851209,
     "water_fog_color": 2173534,
-    "grass_color": 15588232,
-    "sky_color": 16777190,
-    "foliage_colour": 15588232,
+    "grass_color": 13949813,
+    "sky_color": 16775412,
+    "foliage_color": 16749744,
     "particle": {
       "options": {
         "type": "minecraft:falling_nectar"
