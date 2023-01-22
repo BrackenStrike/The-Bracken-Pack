@@ -108,12 +108,12 @@
   "temperature": 0.95,
   "downfall": 0.1,
   "effects": {
-    "fog_color": 8554394,
+    "fog_color": 6113113,
     "water_color": 4996043,
     "water_fog_color": 4995962,
-    "grass_color": 2046517,
-    "sky_color": 3103080,
-    "foliage_color": 4221784,
+    "sky_color": 2502751,
+    "grass_color": 662040,
+    "foliage_color": 1520683,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
