@@ -64,11 +64,11 @@
   "temperature": 0.95,
   "downfall": 0.1,
   "effects": {
-    "fog_color": 16773336,
+"fog_color": 14146776,
     "water_color": 11851209,
     "water_fog_color": 2173534,
+    "sky_color": 13361126,
     "grass_color": 12951373,
-    "sky_color": 16777190,
     "foliage_color": 16622604,
     "particle": {
       "options": {
