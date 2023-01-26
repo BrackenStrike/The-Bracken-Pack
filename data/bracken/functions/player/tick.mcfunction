@@ -7,10 +7,10 @@
 execute if entity @s[scores={bp.tick=2..}] run function bracken:player/scoreboard_commands/tick_score
 scoreboard players add @s bp.tick 1
 
-execute if entity @s[scores={bp.1_second=20..}] run scoreboard players set @s bp.1_second 0
+execute if entity @s[scores={bp.1_second=20..}] run function bracken:player/scoreboard_commands/1_second_score
 scoreboard players add @s bp.1_second 1
 
-execute if entity @s[scores={bp.3_second=60..}] run scoreboard players set @s bp.3_second 0
+execute if entity @s[scores={bp.3_second=60..}] run function bracken:player/scoreboard_commands/3_second_score
 scoreboard players add @s bp.3_second 1
 
 execute if entity @s[scores={bp.longtick=200..}] run function bracken:player/scoreboard_commands/longtick_score
@@ -31,11 +31,8 @@ execute if score #bp.species_dummy bp.species_con matches 0 if entity @s[scores=
 execute if entity @s[scores={bp.poison=1..}] run function bracken:player/poison_sword
 
 # Dimension Commands
-function bracken:player/dimension_check
+function bracken:player/overworld_check
 function bracken:player/universal_dimension_commands
-
-# Book Of Arbitrium
-function bracken:book_of_arbitrium/boa_start
 
 # Ability books
 #execute if score #bp.species_dummy bp.species_con matches 2 run function arb...
@@ -45,9 +42,6 @@ function bracken:player/ability_books
 scoreboard players set @s bp.wither_immunity 0
 execute if entity @s[nbt={Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{CustomModelData:888501}}]}] run function bracken:player/glacium_glider
 
-# BOSSBARS
-execute if entity @s[scores={bp.3_second=12..}] run function bracken:player/reset_bossbars
-
 #Obsidian cube
-execute if entity @p[scores={bp.obsidian=1..2}] unless predicate bracken:void run fill ~2 ~3 ~2 ~-2 ~-1 ~-2 minecraft:obsidian hollow
+execute if entity @s[scores={bp.obsidian=1..2}] unless predicate bracken:dimensions/void run fill ~2 ~3 ~2 ~-2 ~-1 ~-2 minecraft:obsidian hollow
 

@@ -71,8 +71,7 @@
             "config": {
               "to_place": {
                 "type": "minecraft:simple_state_provider",
-                "state": {
-                 
+                "state": {                
                   "Name": "minecraft:moss_carpet"
                 }
               }

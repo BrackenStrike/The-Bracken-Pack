@@ -16,10 +16,10 @@ effect clear @s minecraft:bad_omen
 
 #DAMAGE NULLIFY
 
-execute as @e[type=#minecraft:arrows,predicate=bracken:pax] run data modify entity @s damage set value 0
-execute as @e[type=#minecraft:arrows,predicate=bracken:pax] run data modify entity @s crit set value 0
-execute as @e[type=minecraft:trident,predicate=bracken:pax] run data modify entity @s DealtDamage set value 1
-kill @e[type=#bracken:pax_entities,predicate=bracken:pax]
+execute as @e[type=#minecraft:arrows,predicate=bracken:dimensions/pax] run data modify entity @s damage set value 0
+execute as @e[type=#minecraft:arrows,predicate=bracken:dimensions/pax] run data modify entity @s crit set value 0
+execute as @e[type=minecraft:trident,predicate=bracken:dimensions/pax] run data modify entity @s DealtDamage set value 1
+kill @e[type=#bracken:pax_entities,predicate=bracken:dimensions/pax]
 
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 
