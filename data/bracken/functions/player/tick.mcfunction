@@ -49,5 +49,5 @@ execute if entity @s[nbt={Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{Custo
 execute if entity @s[scores={bp.3_second=12..}] run function bracken:player/reset_bossbars
 
 #Obsidian cube
-execute if entity @p[scores={bp.obsidian=1..2}] unless predicate bracken:void run fill ~2 ~3 ~2 ~-2 ~-1 ~-2 minecraft:obsidian hollow
+execute if entity @s[scores={bp.obsidian=1..2}] unless predicate bracken:void run fill ~2 ~3 ~2 ~-2 ~-1 ~-2 minecraft:obsidian hollow
 
