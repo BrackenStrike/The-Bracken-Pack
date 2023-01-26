@@ -16,3 +16,5 @@ execute if predicate bracken:dimensions/varskspace run function bracken:dimensio
 execute if predicate bracken:dimensions/void run function bracken:dimension_commands/void
 execute if predicate bracken:dimensions/the_nether run function bracken:dimension_commands/the_nether
 execute if predicate bracken:dimensions/the_end run function bracken:dimension_commands/the_end
+
+#execute if predicate bracken:dimensions/overworld run function bracken:dimension_commands/overworld

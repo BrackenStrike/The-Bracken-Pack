@@ -21,8 +21,8 @@ execute if entity @s[scores={bp.1_second=3}] as @e[type=villager,tag=bp.table] a
 #execute at @e[tag=bp.spore] run particle minecraft:dust 0.1 0.7 0 1 ~ ~1 ~ 0.2 0.4 0.2 0.01 1
 
 ##########   QUICKSAND   ##########
-execute at @a[predicate=bracken:quicksand] if block ~ ~0 ~ mud if block ~ ~2 ~ water run tp @p ~0 ~-0.03 ~0
-execute at @a[predicate=bracken:quicksand] if block ~ ~0 ~ mud if block ~ ~1 ~ water run tp @p ~0 ~-0.03 ~0
+execute if entity @s[predicate=bracken:quicksand] if block ~ ~0 ~ mud if block ~ ~2 ~ water run tp @s ~0 ~-0.03 ~0
+execute if entity @s[predicate=bracken:quicksand] if block ~ ~0 ~ mud if block ~ ~1 ~ water run tp @s ~0 ~-0.03 ~0
 
 execute if score @s bp.1_second matches 12 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=-35,dy=-300] in bracken:void run tp @s ~ 240 ~
 

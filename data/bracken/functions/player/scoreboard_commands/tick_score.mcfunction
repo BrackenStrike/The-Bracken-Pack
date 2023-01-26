@@ -19,10 +19,10 @@ scoreboard players remove @s[scores={bp.sneakcharge=1..},predicate=!bracken:snea
 
 scoreboard players set @s[scores={bp.armor=..10}] bp.gold 0
 
-# glacium
+# glacium glider
 effect clear @s[nbt={Inventory:[{id:"minecraft:elytra",Slot:102b,tag:{CustomModelData:888501}}]}] wither
 
 # poison sword
 scoreboard players remove @s[scores={bp.hurting=1..}] bp.hurting 1
-scoreboard players set @s[nbt={SelectedItem:{id:"minecraft:iron_sword",tag:{display:{Name:'{"text":"Skogabogg Scimitar","color":"dark_green","bold":true}',Lore:['{"text":"A sword by any other name would sting as sharp","color":"dark_gray"}']},CustomModelData:888502}}}] bp.poison 4
+scoreboard players set @s[nbt={SelectedItem:{id:"minecraft:iron_sword",tag:{CustomModelData:888502}}}] bp.poison 4
 
