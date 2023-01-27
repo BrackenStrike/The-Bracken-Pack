@@ -7,7 +7,7 @@
         "items": [
           "minecraft:written_book"
         ],
-        "nbt": "{tag:{bp.species_book:10b}}"
+        "nbt": "{bp.species_book:10b}"
       }
     }
   }
