@@ -1,8 +1,7 @@
 ##########################################################
-# Description: Identifies which ability book the player used in the offhand before activating spell commands.
-# Creators: Bracken and Grandmaster
+# Description: Activates abilities of coas items in mainhand
+# Creators: Sulfenir
 ##########################################################
-
 
 execute if predicate bracken:ability_books/adamantine_will_offhand run function bracken:ability_books/adamantine_will/checks
 execute if predicate bracken:ability_books/crimson_spark_offhand run function bracken:ability_books/crimson_spark/checks
@@ -23,3 +22,4 @@ execute if predicate bracken:ability_books/tetra_slime_offhand run function brac
 execute if predicate bracken:ability_books/truelight_glow_offhand run function bracken:ability_books/truelight_glow/checks
 execute if predicate bracken:ability_books/world_soar_offhand run function bracken:ability_books/world_soar/checks
 execute if predicate bracken:ability_books/worm_toothed_burrower_offhand run function bracken:ability_books/worm_toothed_burrower/checks
+execute if predicate bracken:item/perrterror_gastor_offhand run function bracken:item/perrterror_gastor
