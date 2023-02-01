@@ -175,6 +175,7 @@ scoreboard players set @a bp.hurting 0
 scoreboard players set @a bp.gold 0
 scoreboard players set @a bp.portal 0
 scoreboard players set @a bp.cooldown 0
+scoreboard players set #2 bp.var 2
 
 ##########   DISPLAY HEARTS   ##########
 #scoreboard objectives setdisplay list bp.health
