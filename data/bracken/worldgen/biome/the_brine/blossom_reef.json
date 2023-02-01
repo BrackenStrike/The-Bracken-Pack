@@ -14,6 +14,14 @@
         "maxCount": 5
       }
     ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:tropical_fish",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 25
+      }
+    ],
     "ambient": [],
     "misc": [],
     "water_creature": [
