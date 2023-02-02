@@ -27,14 +27,12 @@ execute if entity @s[scores={bp.health=..20},tag=!bp.set_wtb] run function brack
 #anti float
 effect clear @s levitation
 
- 
+
 #autoblast
 execute if entity @a[distance=..5,scores={bp.longtick=20}] run summon fireball ~ ~ ~ {HasVisualFire:1b,Glowing:0b,ExplosionPower:5b,power:[0.0,-1.1,0.0],CustomName:'{"text":"Thrall blast","color":"gold"}',Item:{id:"minecraft:magma_cream",Count:1b}}
 
 #passive buffs
-execute at @a[distance=..100,scores={bp.longtick=20}] run effect give @s resistance 1 10 true
-execute at @a[distance=..100,scores={bp.longtick=20}] run effect give @s glowing 1 10 true
-execute at @a[distance=..100,scores={bp.longtick=20}] run effect give @s instant_health 1 2 true
+execute at @a[distance=..100,scores={bp.longtick=20}] run function bracken:entities/boss/solatium_thrall/misc/passive_buffs
 
 playsound minecraft:entity.blaze.shoot hostile @a[distance=..5,scores={bp.longtick=1}] ~ ~ ~ 10 0
 

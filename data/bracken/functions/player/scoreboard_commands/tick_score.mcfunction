@@ -28,3 +28,8 @@ scoreboard players set @s[nbt={SelectedItem:{id:"minecraft:iron_sword",tag:{Cust
 
 # VARSKSPACE TRAVEL
 execute if entity @e[type=lightning_bolt,tag=!bp.no_travel,distance=..2] run function bracken:dimension_crossing/varskspace_travel
+
+# Ability Books
+execute if entity @s[scores={bp.wtb_cooldown=1..}] run scoreboard players remove @s bp.wtb_cooldown 2
+execute if entity @s[tag=bp.recall_wait] run function bracken:ability_books/recall/wait
+execute if entity @s[scores={bp.giant=1..}] run function bracken:ability_books/swordfall/effects

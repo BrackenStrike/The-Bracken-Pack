@@ -17,6 +17,4 @@ execute as @s[tag=bp.unsung,tag=bp.active] run function bracken:entities/boss/un
 
 
 #closing comment
-execute at @e[type=marker,tag=bp.unsung,distance=..10] run execute if entity @p[distance=..25] run tellraw @a[distance=..50] "Pertinax creatura? Prope es?"
-execute at @e[type=marker,tag=bp.unsung,distance=..10] run execute if entity @p[distance=..25] run playsound bracken:crystal_caves_ambient_04 hostile @a[distance=..50] ~ ~ ~ 10 1
-execute at @e[type=marker,tag=bp.unsung,distance=..10] run execute if entity @p[distance=..25] run kill @e[type=marker,tag=bp.unsung,distance=..50]
+execute at @e[type=marker,tag=bp.unsung,distance=..10] run execute if entity @p[distance=..25] run function bracken:entities/boss/unsung/misc/closing_comment
