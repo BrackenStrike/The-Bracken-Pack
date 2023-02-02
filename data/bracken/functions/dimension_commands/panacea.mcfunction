@@ -3,6 +3,8 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
+execute if score @s bp.1_second matches 2 if predicate bracken:rain run function bracken:entities/panacea/panacea_mobs
+
 scoreboard players set @s bp.panacea 10
 
 effect give @s[scores={bp.longtick=3}] minecraft:regeneration 2 0 true

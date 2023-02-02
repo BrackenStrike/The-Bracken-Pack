@@ -1,11 +1,7 @@
 ##########################################################
-# Description: Identifies which ability book the player used before activating spell commands.
-# Creators: Bracken and Grandmaster
+# Description: Activates abilities of coas items in mainhand
+# Creators: Sulfenir
 ##########################################################
-
-
-##########   BOOK BASED COMMANDS   ##########
-scoreboard players set @s bp.offhand 1
 
 execute if predicate bracken:ability_books/adamantine_will run function bracken:ability_books/adamantine_will/checks
 execute if predicate bracken:ability_books/crimson_spark run function bracken:ability_books/crimson_spark/checks
@@ -36,4 +32,4 @@ execute if predicate bracken:ability_books/void_pull run function bracken:abilit
 #execute if predicate bracken:ability_books/firebolt run function bracken:ability_books/firebolt/checks
 #execute if predicate bracken:ability_books/cone_of_fire run function bracken:ability_books/cone_of_fire/checks
 
-execute if score @s bp.offhand matches 1 run function bracken:ability_books/offhand
+execute if predicate bracken:item/perrterror_gastor_mainhand run function bracken:item/perrterror_gastor
