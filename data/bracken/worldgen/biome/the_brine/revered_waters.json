@@ -1,6 +1,11 @@
 {
   "spawners": {
-    "water_ambient": [
+    "water_ambient": [{
+      "type": "minecraft:guardian",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    },
       
       {
         "type": "minecraft:turtle",
@@ -14,15 +19,26 @@
     "water_creature": [
       
     ],
-    "creature": [
-      {
-        "type": "minecraft:turtle",
-        "weight": 5,
-        "minCount": 2,
-        "maxCount": 5
-      }
+    "creature": [{
+      "type": "minecraft:magma_cube",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 10
+    }
+      
     ],
-    "monster": []
+    "monster": [{
+      "type": "minecraft:magma_cube",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "minecraft:wither_skeleton",
+      "weight": 10,
+      "minCount": 1,
+      "maxCount": 1
+    }]
   },
   "spawn_costs": {},
   "carvers": {
