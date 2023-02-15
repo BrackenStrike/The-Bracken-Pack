@@ -2,10 +2,10 @@
     "parent": "bracken:underdark/enter_underdark",
     "display": {
         "title": {
-            "text": "Sunken Landmass"
+            "translate": "Sunken Landmass"
         },
         "description": {
-            "text": "Enter the petrified forest biome",
+            "translate": "Enter the petrified forest biome",
             "color": "green"
         },
         "icon": {

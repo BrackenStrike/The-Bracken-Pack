@@ -2,10 +2,10 @@
     "parent": "bracken:glacium/wake",
     "display": {
         "title": {
-            "text": "Aim High"
+            "translate": "Aim High"
         },
         "description": {
-            "text": "Slay the upper half of the Viceroy with a bow",
+            "translate": "Slay the upper half of the Viceroy with a bow",
             "color": "green"
         },
         "icon": {

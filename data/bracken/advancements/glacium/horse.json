@@ -2,10 +2,10 @@
     "parent": "bracken:glacium/enter_glacium",
     "display": {
         "title": {
-            "text": "Yee Haw!"
+            "translate": "Yee Haw!"
         },
         "description": {
-            "text": "Ride a stray steed",
+            "translate": "Ride a stray steed",
             "color": "green"
         },
         "icon": {

@@ -5,7 +5,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "player": {
-          "nbt": "{Tags:[\"bp.realmkeeper\"]}"
+          "team": "Realmkeeper"
         },
         "item": {
           "items": [

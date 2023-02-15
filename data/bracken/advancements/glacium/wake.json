@@ -2,10 +2,10 @@
     "parent": "bracken:glacium/enter_glacium",
     "display": {
         "title": {
-            "text": "Meltdown!"
+            "translate": "Meltdown!"
         },
         "description": {
-            "text": "Approach the frozen throne to awaken the Viceroy from their slumber",
+            "translate": "Approach the frozen throne to awaken the Viceroy from their slumber",
             "color": "green"
         },
         "icon": {

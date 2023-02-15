@@ -2,10 +2,10 @@
     "parent": "bracken:glacium/enter_glacium",
     "display": {
         "title": {
-            "text": "Fight of the Valkyries"
+            "translate": "Fight of the Valkyries"
         },
         "description": {
-            "text": "Get on the giant snowflake and defeat Gvenhildir",
+            "translate": "Get on the giant snowflake and defeat Gvenhildir",
             "color": "green"
         },
         "icon": {

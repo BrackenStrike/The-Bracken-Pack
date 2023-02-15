@@ -2,10 +2,10 @@
     "parent": "bracken:sanctum/enter_sanctum",
     "display": {
         "title": {
-            "text": "Don't Blink"
+            "translate": "Don't Blink"
         },
         "description": {
-            "text": "Slay a proto-Golem",
+            "translate": "Slay a proto-Golem",
             "color": "green"
         },
         "icon": {

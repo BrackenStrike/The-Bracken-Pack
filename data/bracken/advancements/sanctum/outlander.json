@@ -2,10 +2,10 @@
     "parent": "bracken:sanctum/enter_sanctum",
     "display": {
         "title": {
-            "text": "You Shouldn't Be Here "
+            "translate": "You Shouldn't Be Here "
         },
         "description": {
-            "text": "Enter the Sanctum as an Outlander",
+            "translate": "Enter the Sanctum as an Outlander",
             "color": "green"
         },
         "icon": {

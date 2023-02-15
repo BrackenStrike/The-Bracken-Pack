@@ -2,10 +2,10 @@
     "parent": "bracken:glacium/enter_glacium",
     "display": {
         "title": {
-            "text": "Off Duty"
+            "translate": "Off Duty"
         },
         "description": {
-            "text": "Find a snowman in Glacium and remove their mask",
+            "translate": "Find a snowman in Glacium and remove their mask",
             "color": "green"
         },
         "icon": {

@@ -2,10 +2,10 @@
     "parent": "bracken:underdark/enter_underdark",
     "display": {
         "title": {
-            "text": "Crystal Clear"
+            "translate": "Crystal Clear"
         },
         "description": {
-            "text": "Enter the crystal caves biome",
+            "translate": "Enter the crystal caves biome",
             "color": "green"
         },
         "icon": {

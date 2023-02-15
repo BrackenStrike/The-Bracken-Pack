@@ -4,10 +4,10 @@
       "item": "minecraft:compass"
     },
     "title": {
-      "text": "Wrong Way Wagon"
+      "translate": "Wrong Way Wagon"
     },
     "description": {
-      "text": "Loot an ensnared wagon deep within a spider's nest"
+      "translate": "Loot an ensnared wagon deep within a spider's nest"
     },
     "frame": "task",
     "show_toast": true,

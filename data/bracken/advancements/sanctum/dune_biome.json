@@ -2,10 +2,10 @@
     "parent": "bracken:sanctum/enter_sanctum",
     "display": {
         "title": {
-            "text": "Vitrified Lands"
+            "translate": "Vitrified Lands"
         },
         "description": {
-            "text": "Enter the dark soot dunes biome",
+            "translate": "Enter the dark soot dunes biome",
             "color": "green"
         },
         "icon": {

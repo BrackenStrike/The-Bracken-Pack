@@ -2,10 +2,10 @@
   "parent": "bracken:glacium/enter_glacium",
   "display": {
     "title": {
-      "text": "Netherbane Warrior"
+      "translate": "Netherbane Warrior"
     },
     "description": {
-      "text": "Collect and wear all pieces of Glacium armor",
+      "translate": "Collect and wear all pieces of Glacium armor",
       "color": "green"
     },
     "icon": {

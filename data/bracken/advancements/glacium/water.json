@@ -2,10 +2,10 @@
     "parent": "bracken:glacium/enter_glacium",
     "display": {
         "title": {
-            "text": "Wither Water"
+            "translate": "Wither Water"
         },
         "description": {
-            "text": "Submerge yourself into the chilly Glacium waters",
+            "translate": "Submerge yourself into the chilly Glacium waters",
             "color": "green"
         },
         "icon": {

@@ -2,10 +2,10 @@
     "parent": "minecraft:nether/create_full_beacon",
     "display": {
         "title": {
-            "text": "Snowfall"
+            "translate": "Snowfall"
         },
         "description": {
-            "text": "Survive standing on an activated beacon. Crash through to Glacium.",
+            "translate": "Survive standing on an activated beacon. Crash through to Glacium.",
             "color": "green"
         },
         "icon": {

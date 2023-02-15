@@ -5,10 +5,10 @@
       "nbt": "{Damage:0}"
     },
     "title": {
-      "text": "Expert Spelunker"
+      "translate": "Expert Spelunker"
     },
     "description": {
-      "text": "Visit every Underdark biome"
+      "translate": "Visit every Underdark biome"
     },
     "frame": "challenge",
     "show_toast": true,

@@ -2,10 +2,10 @@
     "parent": "bracken:sanctum/enter_sanctum",
     "display": {
         "title": {
-            "text": "Nothing here."
+            "translate": "Nothing here."
         },
         "description": {
-            "text": "Slip beneath worlds. Forget what you see there.",
+            "translate": "Slip beneath worlds. Forget what you see there.",
             "color": "green"
         },
         "icon": {

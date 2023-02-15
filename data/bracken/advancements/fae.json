@@ -2,10 +2,10 @@
     "parent": "minecraft:adventure/root",
     "display": {
         "title": {
-            "text": "Castles in the Sky"
+            "translate": "Castles in the Sky"
         },
         "description": {
-            "text": "Climb up to the Faewild",
+            "translate": "Climb up to the Faewild",
             "color": "green"
         },
         "icon": {

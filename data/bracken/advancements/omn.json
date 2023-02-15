@@ -2,10 +2,10 @@
     "parent": "minecraft:nether/return_to_sender",
     "display": {
         "title": {
-            "text": "Synthwave Symphony"
+            "translate": "Synthwave Symphony"
         },
         "description": {
-            "text": "Place an end crystal in the nether and sprint nearby to enter the Omnidrome",
+            "translate": "Place an end crystal in the nether and sprint nearby to enter the Omnidrome",
             "color": "green"
         },
         "icon": {

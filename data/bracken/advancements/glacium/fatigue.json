@@ -2,10 +2,10 @@
     "parent": "bracken:glacium/enter_glacium",
     "display": {
         "title": {
-            "text": "Middle-Era Watchtower"
+            "translate": "Middle-Era Watchtower"
         },
         "description": {
-            "text": "Get mining fatigue from a frozen watchtower",
+            "translate": "Get mining fatigue from a frozen watchtower",
             "color": "green"
         },
         "icon": {

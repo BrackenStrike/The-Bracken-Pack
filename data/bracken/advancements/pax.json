@@ -2,10 +2,10 @@
     "parent": "bracken:fae",
     "display": {
         "title": {
-            "text": "Pax Aeterna"
+            "translate": "Pax Aeterna"
         },
         "description": {
-            "text": "Ascend further to the Pax dimesion",
+            "translate": "Ascend further to the Pax dimesion",
             "color": "green"
         },
         "icon": {
