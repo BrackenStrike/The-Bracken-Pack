@@ -4,7 +4,7 @@
 ##########################################################
 
 
-execute if score #bp.ability_books_dummy bp.books_con matches 1 if score @s bp.cooldown matches 0 if entity @s[level=3..] run function bracken:ability_books/scatterstorm/scatterstorm
-execute if score #bp.ability_books_dummy bp.books_con matches 0 if score @s bp.cooldown matches 0 run tellraw @s "A spell is attempted but nothing happens..."
+execute if score #bp.ability_books_dummy bp.books_con matches 1 if entity @s[level=3..] run function bracken:ability_books/scatterstorm/scatterstorm
+execute if score #bp.ability_books_dummy bp.books_con matches 0 run tellraw @s {"translate":"A spell is attempted but nothing happens..."}
 
-scoreboard players set #offhand bp.var 0
+scoreboard players set @s bp.offhand 0
