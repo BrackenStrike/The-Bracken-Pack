@@ -23,13 +23,8 @@ execute if predicate bracken:ability_books/truelight_glow run function bracken:a
 execute if predicate bracken:ability_books/world_soar run function bracken:ability_books/world_soar/checks
 execute if predicate bracken:ability_books/worm_toothed_burrower run function bracken:ability_books/worm_toothed_burrower/checks
 
-execute if predicate bracken:ability_books/prismatic_laser run function bracken:ability_books/prismatic_laser/checks
-execute if predicate bracken:ability_books/magic_missile run function bracken:ability_books/magic_missile/checks
-execute if predicate bracken:ability_books/moonbeam run function bracken:ability_books/moonbeam/checks
-execute if predicate bracken:ability_books/void_pull run function bracken:ability_books/void_pull/checks
-
-#execute if predicate bracken:ability_books/force_of_thunder run function bracken:ability_books/force_of_thunder/checks
-#execute if predicate bracken:ability_books/firebolt run function bracken:ability_books/firebolt/checks
-#execute if predicate bracken:ability_books/cone_of_fire run function bracken:ability_books/cone_of_fire/checks
+#execute if predicate bracken:ability_books/prismatic_laser run function bracken:ability_books/prismatic_laser/checks
+#execute if predicate bracken:ability_books/magic_missile run function bracken:ability_books/magic_missile/checks
+#execute if predicate bracken:ability_books/void_pull run function bracken:ability_books/void_pull/checks
 
 execute if predicate bracken:item/perrterror_gastor_mainhand run function bracken:item/perrterror_gastor
