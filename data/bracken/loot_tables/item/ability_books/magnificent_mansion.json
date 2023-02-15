@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Magnificent Mansion",
+                "translate": "Magnificent Mansion",
                 "color": "light_purple",
                 "italic": false
               }
@@ -19,12 +19,12 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "consumes 20 levels to initialize",
+                  "translate": "consumes 20 levels to initialize",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "consumes 2 levels after initialization",
+                  "translate": "consumes 2 levels after initialization",
                   "color": "gray",
                   "italic": false
                 }

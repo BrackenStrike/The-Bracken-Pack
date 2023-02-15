@@ -15,7 +15,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Frossabattn",
+                  "translate": "Frossabattn",
                   "color": "white",
                   "italic": false
                 }
@@ -25,7 +25,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "jeg løper!",
+                  "translate": "jeg løper!",
                   "color": "gray",
                   "italic": false
                 }

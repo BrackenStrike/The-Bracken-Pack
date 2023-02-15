@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Tetra Slime",
+                "translate": "Tetra Slime",
                 "color": "white",
                 "italic": false
               }
@@ -19,7 +19,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "consumes 12 levels",
+                  "translate": "consumes 12 levels",
                   "color": "gray",
                   "italic": false
                 }

@@ -15,7 +15,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Vitality Boots",
+                  "translate": "Vitality Boots",
                   "color": "white",
                   "italic": false
                 }

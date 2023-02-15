@@ -18,7 +18,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Pax Portal Map",
+                "translate": "Pax Portal Map",
                 "color": "gold"
               }
             }

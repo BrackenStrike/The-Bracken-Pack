@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Scatterstorm",
+                "translate": "Scatterstorm",
                 "color": "white",
                 "italic": false
               }
@@ -19,7 +19,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "consumes 3 levels",
+                  "translate": "consumes 3 levels",
                   "color": "gray",
                   "italic": false
                 }

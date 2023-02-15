@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "World Soar",
+                "translate": "World Soar",
                 "color": "white",
                 "italic": false
               }
@@ -19,7 +19,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "consumes 2 levels",
+                  "translate": "consumes 2 levels",
                   "color": "gray",
                   "italic": false
                 }

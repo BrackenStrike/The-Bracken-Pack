@@ -15,7 +15,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Varskspace Portal Key",
+                  "translate": "Varskspace Portal Key",
                   "color": "dark_purple",
                   "italic": true,
                   "bold": true
@@ -26,7 +26,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "Unlocks a door to somewhere...",
+                  "translate": "Unlocks a door to somewhere...",
                   "italic": false
                 }
               ]

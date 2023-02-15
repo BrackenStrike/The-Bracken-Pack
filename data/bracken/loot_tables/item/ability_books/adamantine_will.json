@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Adamantine Will",
+                "translate": "Adamantine Will",
                 "color": "yellow",
                 "italic": false
               }
@@ -19,7 +19,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "consumes 7 levels",
+                  "translate": "consumes 7 levels",
                   "color": "gray",
                   "italic": false
                 }

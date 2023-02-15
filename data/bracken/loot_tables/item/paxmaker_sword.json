@@ -15,7 +15,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Paxmaker Sword",
+                  "translate": "Paxmaker Sword",
                   "color": "white",
                   "italic": false
                 }
@@ -25,15 +25,10 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "A protector, usque in diem, ",
+                  "text": "A protector, usque in diem, cum omnes gladiis sunt comminutae.",
                   "color": "white",
                   "italic": false
-                },
-                {
-                  "text": "cum omnes gladiis sunt comminutae.",
-                  "color": "white",
-                  "italic": false
-                }
+                }  
               ]
             },
             {

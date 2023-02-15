@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Kill",
+                "translate": "Kill",
                 "color": "light_purple",
                 "italic": false
               }
@@ -19,7 +19,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "consumes 10 levels",
+                  "translate": "consumes 10 levels",
                   "color": "gray",
                   "italic": false
                 }
