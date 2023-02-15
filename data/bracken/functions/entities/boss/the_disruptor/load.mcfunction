@@ -15,7 +15,7 @@ scoreboard objectives add bp.dis.range dummy
 scoreboard objectives add bp.dis.-1 dummy
 scoreboard objectives add bp.dis.health dummy
 
-bossbar add bracken:the_disruptor "The Disruptor"
+bossbar add bracken:the_disruptor {"translate":"The Disruptor"}
 bossbar set bracken:the_disruptor color green
 bossbar set bracken:the_disruptor max 250
 scoreboard players set 5 bp.math.final 5

@@ -3,7 +3,7 @@
 # Creators: Bracken
 ##########################################################
 
-bossbar add bracken:project_ruination {"text":"Project Ruination","color":"green","bold":true}
+bossbar add bracken:project_ruination {"translate":"Project Ruination","color":"green","bold":true}
 bossbar set bracken:project_ruination color green
 bossbar set bracken:project_ruination style notched_12
 bossbar set bracken:project_ruination max 400

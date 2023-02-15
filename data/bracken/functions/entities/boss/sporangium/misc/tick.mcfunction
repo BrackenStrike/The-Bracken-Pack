@@ -34,22 +34,22 @@ execute if score @s bp.slime matches 1.. run playsound minecraft:block.bubble_co
 
 effect give @s[scores={bp.nema=1..}] levitation 1 2 true
 
-execute if score @s bp.nema matches 1.. run summon arrow ~1 ~2 ~ {damage:5d,Color:2796298,Motion:[10.0,0.0,0.0],CustomName:'{"text":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
+execute if score @s bp.nema matches 1.. run summon arrow ~1 ~2 ~ {damage:5d,Color:2796298,Motion:[10.0,0.0,0.0],CustomName:'{"translate":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
 
-execute if score @s bp.nema matches 1.. run summon arrow ~-1 ~2 ~ {Color:2796298,Motion:[-10.0,0.0,0.0],CustomName:'{"text":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
+execute if score @s bp.nema matches 1.. run summon arrow ~-1 ~2 ~ {Color:2796298,Motion:[-10.0,0.0,0.0],CustomName:'{"translate":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
 
-execute if score @s bp.nema matches 1.. run summon arrow ~ ~2 ~1 {Color:2796298,Motion:[0.0,0.0,10.0],CustomName:'{"text":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
+execute if score @s bp.nema matches 1.. run summon arrow ~ ~2 ~1 {Color:2796298,Motion:[0.0,0.0,10.0],CustomName:'{"translate":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
 
-execute if score @s bp.nema matches 1.. run summon arrow ~ ~2 ~-1 {Color:2796298,Motion:[10.0,0.0,-10.0],CustomName:'{"text":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
+execute if score @s bp.nema matches 1.. run summon arrow ~ ~2 ~-1 {Color:2796298,Motion:[10.0,0.0,-10.0],CustomName:'{"translate":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
 
 
-execute if score @s bp.nema matches 1.. run summon arrow ~1 ~2 ~1 {Color:2796298,Motion:[7.0,0.0,7.0],CustomName:'{"text":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
+execute if score @s bp.nema matches 1.. run summon arrow ~1 ~2 ~1 {Color:2796298,Motion:[7.0,0.0,7.0],CustomName:'{"translate":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
 
-execute if score @s bp.nema matches 1.. run summon arrow ~-1 ~2 ~1 {Color:2796298,Motion:[-7.0,0.0,7.0],CustomName:'{"text":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
+execute if score @s bp.nema matches 1.. run summon arrow ~-1 ~2 ~1 {Color:2796298,Motion:[-7.0,0.0,7.0],CustomName:'{"translate":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
 
-execute if score @s bp.nema matches 1.. run summon arrow ~-1 ~2 ~1 {Color:2796298,Motion:[-7.0,0.0,7.0],CustomName:'{"text":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
+execute if score @s bp.nema matches 1.. run summon arrow ~-1 ~2 ~1 {Color:2796298,Motion:[-7.0,0.0,7.0],CustomName:'{"translate":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
 
-execute if score @s bp.nema matches 1.. run summon arrow ~-1 ~2 ~-1 {Color:2796298,Motion:[-7.0,0.0,-7.0],CustomName:'{"text":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
+execute if score @s bp.nema matches 1.. run summon arrow ~-1 ~2 ~-1 {Color:2796298,Motion:[-7.0,0.0,-7.0],CustomName:'{"translate":"nematocyst","color":"green"}',Potion:"minecraft:strong_poison"}
 
 execute if score @s bp.nema matches 1.. run playsound minecraft:block.bamboo.hit hostile @a[distance=..50] ~ ~ ~ 10 2
 
@@ -78,5 +78,5 @@ effect give @s[scores={bp.deathtimer=11..}] instant_health 1 1 true
 
 
 #tree jump
-execute if entity @e[type=marker,tag=bp.slimezone,distance=40..] run tellraw @a[distance=..100] "The prey flees! The hunt begins..."
+execute if entity @e[type=marker,tag=bp.slimezone,distance=40..] run tellraw @a[distance=..100] {"translate":"The prey flees! The hunt begins..."}
 execute if entity @e[type=marker,tag=bp.slimezone,distance=40..] run kill @e[type=marker,tag=bp.slimezone,sort=nearest,distance=..50]
