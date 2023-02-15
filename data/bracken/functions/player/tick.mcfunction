@@ -41,8 +41,11 @@ function bracken:player/universal_dimension_commands
 execute if score @s bp.coas matches 1.. run function bracken:player/coas/used
 
 # Ability books
+scoreboard players remove @s[scores={bp.cooldown=1..}] bp.cooldown 1
+
+# UNUSED
 #execute if score #bp.species_dummy bp.species_con matches 2 run function arb...
-function bracken:player/ability_books
+#function bracken:player/ability_books
 
 # Glacium Glider
 scoreboard players set @s bp.wither_immunity 0

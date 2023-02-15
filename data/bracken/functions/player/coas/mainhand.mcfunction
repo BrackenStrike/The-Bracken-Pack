@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Activates abilities of coas items in mainhand
-# Creators: Sulfenir
+# Creators: Sulfenir and Grandmaster
 ##########################################################
 
 execute if predicate bracken:ability_books/adamantine_will run function bracken:ability_books/adamantine_will/checks

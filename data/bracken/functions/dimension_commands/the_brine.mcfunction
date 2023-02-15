@@ -5,7 +5,7 @@
 
 execute if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if score @s bp.tick matches 1 if entity @s[nbt={ActiveEffects:[{Id:29}]}] if block ^ ^ ^ minecraft:conduit run function bracken:dimension_crossing/brine_to_overworld
 
-execute if block ^ ^1.5 ^ minecraft:brewing_stand run function bracken:dimension_commands/other/brine_brewing/brewing_main
+execute if score @s bp.1_second matches 8 anchored eyes run function bracken:dimension_commands/other/brine_brewing/raycast
 
 execute if score @s bp.3_second matches 2 run fill ~10 ~5 ~10 ~-10 ~-5 ~-10 minecraft:air replace minecraft:fire
 execute if score @s bp.3_second matches 18 run fill ~10 ~5 ~10 ~-10 ~-5 ~-10 minecraft:campfire[lit=false] replace minecraft:campfire[lit=true]

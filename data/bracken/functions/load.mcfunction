@@ -110,6 +110,9 @@ scoreboard objectives add bp.fae dummy
 scoreboard objectives add bp.panacea dummy
 scoreboard objectives add bp.pax dummy
 
+scoreboard objectives add bp.brine_potion dummy
+scoreboard objectives add bp.potion_count dummy
+
 scoreboard objectives add bp.ice dummy
 
 scoreboard objectives add bp.creeper dummy
