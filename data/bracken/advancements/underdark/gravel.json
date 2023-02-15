@@ -2,10 +2,10 @@
     "parent": "bracken:underdark/enter_underdark",
     "display": {
         "title": {
-            "text": "Sedimentary My Dear Watson"
+            "translate": "Sedimentary My Dear Watson"
         },
         "description": {
-            "text": "Enter the titan dripstone cavern biome",
+            "translate": "Enter the titan dripstone cavern biome",
             "color": "green"
         },
         "icon": {

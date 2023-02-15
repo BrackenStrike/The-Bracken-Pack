@@ -2,10 +2,10 @@
     "parent": "bracken:underdark/fungus",
     "display": {
         "title": {
-            "text": "Mitosis Madness"
+            "translate": "Mitosis Madness"
         },
         "description": {
-            "text": "Slay a creature infected with polyfolus. Watch out for if it duplicates! ",
+            "translate": "Slay a creature infected with polyfolus. Watch out for if it duplicates! ",
             "color": "green"
         },
         "icon": {

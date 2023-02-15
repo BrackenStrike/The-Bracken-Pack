@@ -2,10 +2,10 @@
   "parent": "bracken:glacium/wake",
   "display": {
     "title": {
-      "text": "Strike Low"
+      "translate": "Strike Low"
     },
     "description": {
-      "text": "Slay the lower half of the Viceroy with a sword",
+      "translate": "Slay the lower half of the Viceroy with a sword",
       "color": "green"
     },
     "icon": {

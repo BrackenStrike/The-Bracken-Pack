@@ -2,10 +2,10 @@
     "parent": "minecraft:nether/root",
     "display": {
         "title": {
-            "text": "An Antique Land"
+            "translate": "An Antique Land"
         },
         "description": {
-            "text": "Dig below the Nether",
+            "translate": "Dig below the Nether",
             "color": "green"
         },
         "icon": {

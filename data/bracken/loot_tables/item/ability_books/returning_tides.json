@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Returning Tides",
+                "translate": "Returning Tides",
                 "color": "yellow",
                 "italic": false
               }
@@ -19,7 +19,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "consumes 1 level",
+                  "translate": "consumes 1 level",
                   "color": "gray",
                   "italic": false
                 }

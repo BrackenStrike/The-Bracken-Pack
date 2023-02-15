@@ -2,10 +2,10 @@
     "parent": "bracken:underdark/enter_underdark",
     "display": {
         "title": {
-            "text": "What? Why?"
+            "translate": "What? Why?"
         },
         "description": {
-            "text": "Find a lost miner. Then punch them for some reason",
+            "translate": "Find a lost miner. Then punch them for some reason",
             "color": "green"
         },
         "icon": {

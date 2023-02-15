@@ -2,10 +2,10 @@
     "parent": "bracken:pax",
     "display": {
         "title": {
-            "text": "Interdimensional Criminal"
+            "translate": "Interdimensional Criminal"
         },
         "description": {
-            "text": "Get stuck in Dormis. Not really the wisest thing to do. ",
+            "translate": "Get stuck in Dormis. Not really the wisest thing to do. ",
             "color": "green"
         },
         "icon": {

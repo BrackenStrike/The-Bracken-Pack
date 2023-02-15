@@ -1,7 +1,6 @@
 {
   "type": "minecraft:jigsaw",
   "biomes": [
-    "bracken:omnidrome/2",
     "bracken:omnidrome/3"
   ],
   "spawn_overrides": {},

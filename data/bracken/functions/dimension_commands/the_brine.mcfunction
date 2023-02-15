@@ -7,6 +7,8 @@ execute if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if
 
 execute if score @s bp.1_second matches 8 anchored eyes run function bracken:dimension_commands/other/brine_brewing/raycast
 
+execute if score @s bp.1_second matches 2 run function bracken:entities/the_brine/the_brine_mobs
+
 execute if score @s bp.3_second matches 2 run fill ~10 ~5 ~10 ~-10 ~-5 ~-10 minecraft:air replace minecraft:fire
 execute if score @s bp.3_second matches 18 run fill ~10 ~5 ~10 ~-10 ~-5 ~-10 minecraft:campfire[lit=false] replace minecraft:campfire[lit=true]
 

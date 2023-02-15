@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "bracken:omnidrome/1",
+  "biomes": "bracken:omnidrome/2",
   "spawn_overrides": {},
   "start_pool": "bracken:library",
   "size": 6,

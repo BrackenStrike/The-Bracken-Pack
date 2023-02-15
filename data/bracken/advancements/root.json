@@ -2,10 +2,10 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "A Sincere Thanks."
+            "translate": "A Sincere Thanks."
         },
         "description": {
-            "text": "Thanks for downloading the BrackenPack. Have fun!"
+            "translate": "Thanks for downloading the BrackenPack. Have fun!"
         },
         "icon": {
             "item": "minecraft:grass_block"

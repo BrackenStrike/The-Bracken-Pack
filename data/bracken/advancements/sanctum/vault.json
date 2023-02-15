@@ -2,10 +2,10 @@
     "parent": "bracken:sanctum/dune_biome",
     "display": {
         "title": {
-            "text": "This is Not a Place of Honor"
+            "translate": "This is Not a Place of Honor"
         },
         "description": {
-            "text": "Enter the tunnels beneath the dark dunes vault and walk into complete darkness",
+            "translate": "Enter the tunnels beneath the dark dunes vault and walk into complete darkness",
             "color": "green"
         },
         "icon": {

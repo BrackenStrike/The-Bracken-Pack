@@ -18,7 +18,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Omnidrome Palace Map",
+                "translate": "Omnidrome Palace Map",
                 "color": "green"
               }
             }

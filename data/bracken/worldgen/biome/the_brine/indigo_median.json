@@ -1,25 +1,22 @@
 {
   "spawners": {
     "water_ambient": [
+      {
+      "type": "minecraft:squid",
+      "weight": 30,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "minecraft:drowned",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 1
+    }
     ],
     "ambient": [],
     "misc": [],
-    "water_creature": [{
-      "type": "minecraft:glow_squid",
-      "weight": 10,
-      "minCount": 4,
-      "maxCount": 4
-    },
-    {
-      "type": "minecraft:squid",
-      "weight": 30,
-      "minCount": 4,
-      "maxCount": 4
-    }
-      
-      
-
-      ],
+    "water_creature": [],
     "creature": [],
     "monster": [
       {
@@ -31,12 +28,6 @@
       {
         "type": "minecraft:phantom",
         "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:drowned",
-        "weight": 2,
         "minCount": 1,
         "maxCount": 1
       }

@@ -6,7 +6,7 @@
 
 playsound bracken:ability_book_tier_5 player @a[distance=..30] ~ ~ ~ 10 
 summon giant ~ ~20 ~ {Tags:["bp.tooth","bp.entity","bp.ability_books"],Silent:1b,Invulnerable:1b,CustomNameVisible:0b,CustomName:'{"text":"Dinnerbone"}',HandItems:[{id:"minecraft:netherite_pickaxe",Count:1b,tag:{CustomModelData:888501}},{}],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:200000000,ShowParticles:0b}]}
-tellraw @a[distance=..100] ["",{"selector":"@s "},{"text":" generated [WORM-TOOTHED BURROWER]"}]
+tellraw @a[distance=..100] ["",{"selector":"@s "},{"translate":" generated [WORM-TOOTHED BURROWER]"}]
 scoreboard players set @s bp.wtb_cooldown 600
 
 experience add @s -25 levels

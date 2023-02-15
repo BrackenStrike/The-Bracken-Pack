@@ -2,10 +2,10 @@
     "parent": "bracken:glacium/fatigue",
     "display": {
         "title": {
-            "text": "Vestige of Vanity"
+            "translate": "Vestige of Vanity"
         },
         "description": {
-            "text": "Destroy the frozen heart at the top of the watchtower. Collect the fragment as a souvenir",
+            "translate": "Destroy the frozen heart at the top of the watchtower. Collect the fragment as a souvenir",
             "color": "green"
         },
         "icon": {

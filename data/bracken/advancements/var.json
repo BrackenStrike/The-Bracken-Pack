@@ -2,10 +2,10 @@
     "parent": "minecraft:adventure/throw_trident",
     "display": {
         "title": {
-            "text": "Cherenkovicious"
+            "translate": "Cherenkovicious"
         },
         "description": {
-            "text": "Get struck by lightning. Arrive somewhere else???",
+            "translate": "Get struck by lightning. Arrive somewhere else???",
             "color": "green"
         },
         "icon": {

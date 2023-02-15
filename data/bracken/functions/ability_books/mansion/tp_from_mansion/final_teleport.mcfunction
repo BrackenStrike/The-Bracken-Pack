@@ -10,4 +10,4 @@ tag @s remove bp.execute
 tag @s remove bp.from_mansion_1
 tag @s remove bp.from_mansion_2
 
-tellraw @s "§6You have transported away from Magnificent Mansion!"
+tellraw @s {"translate":"§6You have transported away from Magnificent Mansion!"}

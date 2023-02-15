@@ -2,10 +2,10 @@
     "parent": "bracken:sanctum/boss",
     "display": {
         "title": {
-            "text": "Ruination Termination"
+            "translate": "Ruination Termination"
         },
         "description": {
-            "text": "Defeat the program before it's too late",
+            "translate": "Defeat the program before it's too late",
             "color": "green"
         },
         "icon": {

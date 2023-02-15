@@ -2,10 +2,10 @@
     "parent": "minecraft:adventure/root",
     "display": {
         "title": {
-            "text": "Diggy Diggy Hole"
+            "translate": "Diggy Diggy Hole"
         },
         "description": {
-            "text": "Dig down to the Underdark",
+            "translate": "Dig down to the Underdark",
             "color": "green"
         },
         "icon": {

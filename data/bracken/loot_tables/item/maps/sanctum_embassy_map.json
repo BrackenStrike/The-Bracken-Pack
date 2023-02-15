@@ -18,7 +18,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Sanctum Embassy Map",
+                "translate": "Sanctum Embassy Map",
                 "color": "yellow"
               }
             }

@@ -2,10 +2,10 @@
     "parent": "bracken:underdark/enter_underdark",
     "display": {
         "title": {
-            "text": "Humongous Fungus Among Us"
+            "translate": "Humongous Fungus Among Us"
         },
         "description": {
-            "text": "Enter the ruby fungi forest biome",
+            "translate": "Enter the ruby fungi forest biome",
             "color": "green"
         },
         "icon": {

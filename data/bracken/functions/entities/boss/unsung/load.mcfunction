@@ -5,7 +5,7 @@
 
 
 
-bossbar add bracken:unsung {"text":"Unsung","color":"gray","bold":true}
+bossbar add bracken:unsung {"translate":"Unsung","color":"gray","bold":true}
 bossbar set bracken:unsung color purple
 bossbar set bracken:unsung style notched_6
 bossbar set bracken:unsung max 400

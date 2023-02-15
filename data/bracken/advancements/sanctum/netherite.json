@@ -2,10 +2,10 @@
     "parent": "bracken:sanctum/enter_sanctum",
     "display": {
         "title": {
-            "text": "Heavy Metal"
+            "translate": "Heavy Metal"
         },
         "description": {
-            "text": "Find netherite loot in Sanctum",
+            "translate": "Find netherite loot in Sanctum",
             "color": "green"
         },
         "icon": {

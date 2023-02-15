@@ -2,10 +2,10 @@
     "parent": "bracken:sanctum/vault",
     "display": {
         "title": {
-            "text": "Ruination Initiation"
+            "translate": "Ruination Initiation"
         },
         "description": {
-            "text": "Awaken the program with an eye of ender ",
+            "translate": "Awaken the program with an eye of ender ",
             "color": "green"
         },
         "icon": {

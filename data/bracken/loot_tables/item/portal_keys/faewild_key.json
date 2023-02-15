@@ -15,7 +15,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Faewild Portal Key",
+                  "translate": "Faewild Portal Key",
                   "color": "dark_aqua",
                   "italic": true,
                   "bold": true
@@ -26,7 +26,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "Unlocks a door to somewhere...",
+                  "translate": "Unlocks a door to somewhere...",
                   "italic": false
                 }
               ]

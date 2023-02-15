@@ -15,7 +15,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Ruination Capsule",
+                  "translate": "Ruination Capsule",
                   "color": "white",
                   "italic": false
                 }
@@ -25,7 +25,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "A part still lives.",
+                  "translate": "A part still lives.",
                   "color": "gray",
                   "italic": false
                 }

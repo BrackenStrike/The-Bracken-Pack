@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Crimson Spark",
+                "translate": "Crimson Spark",
                 "color": "white",
                 "italic": false
               }
@@ -19,7 +19,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "consumes 4 levels",
+                  "translate": "consumes 4 levels",
                   "color": "gray",
                   "italic": false
                 }

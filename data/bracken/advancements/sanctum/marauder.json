@@ -2,10 +2,10 @@
     "parent": "bracken:sanctum/enter_sanctum",
     "display": {
         "title": {
-            "text": "Unseen Threat"
+            "translate": "Unseen Threat"
         },
         "description": {
-            "text": "Get ambushed by an invisible marauder",
+            "translate": "Get ambushed by an invisible marauder",
             "color": "green"
         },
         "icon": {

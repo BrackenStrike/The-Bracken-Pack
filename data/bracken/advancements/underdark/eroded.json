@@ -2,10 +2,10 @@
     "parent": "bracken:underdark/enter_underdark",
     "display": {
         "title": {
-            "text": "Swept Away"
+            "translate": "Swept Away"
         },
         "description": {
-            "text": "Enter the eroded basin biome",
+            "translate": "Enter the eroded basin biome",
             "color": "green"
         },
         "icon": {

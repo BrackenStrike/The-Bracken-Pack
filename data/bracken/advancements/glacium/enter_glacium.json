@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "text": "Glacium"
+            "translate": "Glacium"
         },
         "description": {
-            "text": "Bring winter clothes",
+            "translate": "Bring winter clothes",
             "color": "green"
         },
         "icon": {

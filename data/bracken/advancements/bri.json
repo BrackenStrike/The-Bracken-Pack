@@ -2,10 +2,10 @@
     "parent": "minecraft:adventure/root",
     "display": {
         "title": {
-            "text": "Out of the Blue, Into the Black"
+            "translate": "Out of the Blue, Into the Black"
         },
         "description": {
-            "text": "Stare at the top of an activated conduit and enter the Brine",
+            "translate": "Stare at the top of an activated conduit and enter the Brine",
             "color": "green"
         },
         "icon": {

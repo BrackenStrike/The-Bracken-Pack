@@ -2,10 +2,10 @@
     "parent": "bracken:underdark/gravel",
     "display": {
         "title": {
-            "text": "Crunch!"
+            "translate": "Crunch!"
         },
         "description": {
-            "text": "Get bit by a shellbreaker spider",
+            "translate": "Get bit by a shellbreaker spider",
             "color": "green"
         },
         "icon": {

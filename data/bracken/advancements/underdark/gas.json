@@ -2,10 +2,10 @@
     "parent": "bracken:underdark/eroded",
     "display": {
         "title": {
-            "text": "Heavier Than Air"
+            "translate": "Heavier Than Air"
         },
         "description": {
-            "text": "Walk into a toxic gas cloud",
+            "translate": "Walk into a toxic gas cloud",
             "color": "green"
         },
         "icon": {

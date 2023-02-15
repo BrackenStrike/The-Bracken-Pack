@@ -18,7 +18,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Dormis Courtyard Map",
+                "translate": "Dormis Courtyard Map",
                 "color": "dark_red"
               }
             }

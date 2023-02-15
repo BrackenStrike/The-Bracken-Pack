@@ -6,4 +6,4 @@ tag @s add bp.mansion_back
 tag @s remove bp.execute
 tag @s remove bp.mansion_1
 tag @s remove bp.mansion_2
-tellraw @s "§6Magnificent Mansion has been forged into existance."
+tellraw @s {"translate":"§6Magnificent Mansion has been forged into existance."}

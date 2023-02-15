@@ -2,10 +2,10 @@
     "parent": "bracken:glacium/heart",
     "display": {
         "title": {
-            "text": "Glass Cannon"
+            "translate": "Glass Cannon"
         },
         "description": {
-            "text": "Find a frost weapon",
+            "translate": "Find a frost weapon",
             "color": "green"
         },
         "icon": {
