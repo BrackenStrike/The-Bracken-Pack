@@ -12,7 +12,6 @@ scoreboard players remove @s[scores={bp.panacea=1..}] bp.panacea 1
 scoreboard players remove @s[scores={bp.creeper=1..}] bp.creeper 1
 
 #glacium
-execute if score @s bp.1_second matches 2 run scoreboard players remove @s[scores={bp.ice=1..}] bp.ice 1
 execute if entity @s[scores={bp.ice=1..}] run particle minecraft:item_snowball ~ ~ ~ 0.2 0.2 0.2 0.01 1
 execute if entity @s[scores={bp.ice=5..}] run particle minecraft:cloud ~ ~ ~ 2 2 2 0.01 10
 
