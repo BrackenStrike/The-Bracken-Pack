@@ -8,6 +8,10 @@
           "name": "minecraft:apple",
           "functions": [
             {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:888502}"
+            },
+            {
               "function": "minecraft:set_name",
               "name": {
                 "text": "Yakitubba Hide",
