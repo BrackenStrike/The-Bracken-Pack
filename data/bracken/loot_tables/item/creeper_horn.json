@@ -8,6 +8,10 @@
           "name": "minecraft:goat_horn",
           "functions": [
             {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:888501}"
+            },
+            {
               "function": "minecraft:set_name",
               "name": {
                 "text": "Creeper Horn",
