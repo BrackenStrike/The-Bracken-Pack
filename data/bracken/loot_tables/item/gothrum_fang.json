@@ -5,8 +5,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_sword",
+          "name": "minecraft:iron_sword",
           "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:888501}"
+            },
             {
               "function": "minecraft:set_name",
               "name": {
