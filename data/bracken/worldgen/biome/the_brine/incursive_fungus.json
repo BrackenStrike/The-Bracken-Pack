@@ -4,12 +4,7 @@
       
       
     ],
-    "ambient": [{
-      "type": "minecraft:squid",
-      "weight": 3,
-      "minCount": 1,
-      "maxCount": 4
-    }],
+    "ambient": [],
     "misc": [],
     "water_creature": [
       
