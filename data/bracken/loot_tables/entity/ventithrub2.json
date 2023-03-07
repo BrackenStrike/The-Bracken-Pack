@@ -1,7 +1,7 @@
 {
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:loot_table",
@@ -13,6 +13,21 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_rose"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.15
+        }
+      ]
+    }
+    {
+      "rolls": 1,
+      "entries": [
+        {
           "type": "minecraft:loot_table",
           "name": "bracken:item/lembas_breadfruit"
         }
@@ -20,7 +35,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.5
+          "chance": 0.95
         }
       ]
     }
