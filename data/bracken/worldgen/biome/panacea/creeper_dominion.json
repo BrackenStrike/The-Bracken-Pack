@@ -15,13 +15,8 @@
         "weight": 5,
         "minCount": 4,
         "maxCount": 4
-      },
-      {
-        "type": "minecraft:creeper",
-        "weight": 3,
-        "minCount": 4,
-        "maxCount": 4
       }
+      
     ],
     "water_creature": [
       {
@@ -30,12 +25,7 @@
         "minCount": 1,
         "maxCount": 1
       },
-      {
-        "type": "minecraft:creeper",
-        "weight": 10,
-        "minCount": 8,
-        "maxCount": 8
-      },
+      
       {
         "type": "minecraft:dolphin",
         "weight": 1,
@@ -44,12 +34,7 @@
       }
     ],
     "creature": [
-      {
-        "type": "minecraft:creeper",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 3
-      }
+      
     ],
     "monster": [
       
@@ -58,6 +43,12 @@
         "weight": 5,
         "minCount": 1,
         "maxCount": 1
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 4,
+        "minCount": 4,
+        "maxCount": 4
       }
     ]
   },

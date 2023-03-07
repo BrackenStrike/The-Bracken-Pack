@@ -85,9 +85,21 @@
       },
       {
         "type": "minecraft:creeper",
-        "weight": 5,
+        "weight": 3,
         "minCount": 1,
         "maxCount": 1
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 5,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 5,
+        "minCount": 3,
+        "maxCount": 6
       }
     ]
   },
