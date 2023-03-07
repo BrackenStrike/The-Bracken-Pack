@@ -3,7 +3,8 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-execute if score @s bp.1_second matches 2 if predicate bracken:rain run function bracken:entities/panacea/panacea_mobs
+execute if score @s bp.1_second matches 2 run function bracken:entities/panacea/panacea_mobs
+execute if score @s bp.1_second matches 2 if predicate bracken:rain run function bracken:entities/panacea/rain_event
 
 scoreboard players set @s bp.panacea 10
 
