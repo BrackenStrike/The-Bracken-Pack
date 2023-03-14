@@ -8,7 +8,7 @@ scoreboard players set @s bp.dimension 50
 #execute if entity @s[predicate="bracken:overworld"] run scoreboard players set @s bp.dimension 1
 #execute if entity @s[predicate="bracken:the_nether"] run scoreboard players set @s bp.dimension -2
 #execute if entity @s[predicate="bracken:the_end"] run scoreboard players set @s bp.dimension -5
-execute if entity @s[predicate=bracken:dormis] run scoreboard players set @s bp.dimension 0
+execute if entity @s[predicate=bracken:dimensions/dormis] run scoreboard players set @s bp.dimension 0
 #execute if entity @s[predicate="bracken:pax"] run scoreboard players set @s bp.dimension 6
 #execute if entity @s[predicate="bracken:the_faewild"] run scoreboard players set @s bp.dimension 2
 #execute if entity @s[predicate="bracken:the_underdark"] run scoreboard players set @s bp.dimension -1
