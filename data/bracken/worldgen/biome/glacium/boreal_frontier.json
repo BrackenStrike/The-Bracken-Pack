@@ -113,5 +113,5 @@
     },
     "ambient_sound": "minecraft:item.elytra.flying"
   },
-  "precipitation": "snow"
+  "has_precipitation": true
 }

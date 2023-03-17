@@ -90,5 +90,5 @@
     },
     "ambient_sound": "minecraft:ambient.nether_wastes.loop"
   },
-  "precipitation": "rain"
+  "has_precipitation": true
 }

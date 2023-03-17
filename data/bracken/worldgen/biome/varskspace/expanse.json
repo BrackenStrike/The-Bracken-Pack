@@ -68,5 +68,5 @@
     },
     "ambient_sound": "minecraft:ambient.soul_sand_valley.loop"
   },
-  "precipitation": "none"
+  "has_precipitation": false
 }

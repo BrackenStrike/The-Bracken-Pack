@@ -61,5 +61,5 @@
       "replace_current_music": true
     }
   },
-  "precipitation": "none"
+  "has_precipitation": false
 }

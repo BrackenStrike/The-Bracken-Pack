@@ -68,5 +68,5 @@
     },
     "ambient_sound": "minecraft:block.roots.step"
   },
-  "precipitation": "none"
+  "has_precipitation": false
 }

@@ -6,11 +6,11 @@
   "temperature": 0.95,
   "downfall": 0.1,
   "effects": {
-    "fog_color": 6113113,
+    "fog_color": 8554450,
     "water_color": 4996043,
     "water_fog_color": 4995962,
     "grass_color": 2065734,
-    "sky_color": 2502751,
+    "sky_color": 3132319,
     "foliage_color": 4241526,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -29,5 +29,5 @@
       "replace_current_music": false
     }
   },
-  "precipitation": "rain"
+  "has_precipitation": true
 }

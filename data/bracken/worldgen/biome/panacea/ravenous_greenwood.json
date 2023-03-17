@@ -161,5 +161,5 @@
       "replace_current_music": false
     }
   },
-  "precipitation": "rain"
+  "has_precipitation": true
 }

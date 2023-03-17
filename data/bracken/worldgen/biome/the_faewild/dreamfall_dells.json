@@ -4,12 +4,7 @@
     "ambient": [],
     "misc": [],
     "water_creature": [],
-    "creature": [{
-      "type": "minecraft:allay",
-      "weight": 5,
-      "minCount": 2,
-      "maxCount": 6
-    }],
+    "creature": [],
     "monster": []
   },
   "spawn_costs": {},
@@ -50,9 +45,9 @@
     "fog_color": 6113113,
     "water_color": 4996043,
     "water_fog_color": 4995962,
-    "grass_color": 2065734,
+    "grass_color": 866079,
     "sky_color": 2502751,
-    "foliage_color": 2065734,
+    "foliage_color": 671519,
     "mood_sound": {
       "sound": "minecraft:ambient.underwater.loop.additions",
       "tick_delay": 60,
@@ -70,5 +65,5 @@
       "replace_current_music": false
     }
   },
-  "precipitation": "rain"
+  "has_precipitation": true
 }

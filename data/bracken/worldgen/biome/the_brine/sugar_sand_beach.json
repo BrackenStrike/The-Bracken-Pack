@@ -117,5 +117,5 @@
     },
     "ambient_sound": "minecraft:ambient.underwater.loop"
   },
-  "precipitation": "rain"
+  "has_precipitation": true
 }

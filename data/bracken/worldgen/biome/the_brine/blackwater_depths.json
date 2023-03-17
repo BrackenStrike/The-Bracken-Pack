@@ -88,5 +88,5 @@
     },
     "ambient_sound": "minecraft:ambient.underwater.loop"
   },
-  "precipitation": "none"
+  "has_precipitation": true
 }

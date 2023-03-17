@@ -74,5 +74,5 @@
       "replace_current_music": false
     }
   },
-  "precipitation": "none"
+  "has_precipitation": false
 }

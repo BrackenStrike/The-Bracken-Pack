@@ -87,5 +87,5 @@
     },
     "ambient_sound": "minecraft:ambient.soul_sand_valley.loop"
   },
-  "precipitation": "snow"
+  "has_precipitation": true
 }

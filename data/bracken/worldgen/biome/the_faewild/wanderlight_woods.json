@@ -133,9 +133,9 @@
     "fog_color": 6113113,
     "water_color": 4996043,
     "water_fog_color": 4995962,
-    "grass_color": 2065734,
+    "grass_color": 866079,
     "sky_color": 2502751,
-    "foliage_color": 4241526,
+    "foliage_color": 671519,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
@@ -153,5 +153,5 @@
       "replace_current_music": false
     }
   },
-  "precipitation": "rain"
+  "has_precipitation": true
 }
