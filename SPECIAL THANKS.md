@@ -5,6 +5,7 @@ This pack is made awesome by the following awesome people...
 
 
 TEAM CONTRIBUTORS
+Accelerator
 AileeNyx
 Arnold_Rynux
 Cardboard_Box
