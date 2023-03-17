@@ -33,5 +33,5 @@ execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Sl
 scoreboard players operation @s bp.brine_potion *= #2 bp.var
 execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:0b}].tag.CustomPotionEffects[5].Duration short 1 run scoreboard players get @s bp.brine_potion
 
-
+execute if data block ~ ~ ~ Items[{Slot:0b}].tag.CustomPotionEffects[{Id:14}] run data modify block ~ ~ ~ Items[{Slot:0b}].tag.CustomPotionEffects[{Id:14}].ShowParticles set value 0b
 data modify block ~ ~ ~ Items[{Slot:0b}] merge value {tag:{bp:[{id:"potion_modified2"},{id:"potion_modified1"}]}}
