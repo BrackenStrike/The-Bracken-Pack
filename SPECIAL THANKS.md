@@ -3,31 +3,35 @@
 Hey! I'm Bracken. 
 This pack is made awesome by the following awesome people...
 
-
-TEAM CONTRIBUTORS
-Accelerator
+DEVELOPMENT TEAM
 AileeNyx
 Arnold_Rynux
 Cardboard_Box
 Dr. C
 Freddy64merpro
 Grandmaster
-Jerry_From_Squidward
 Jorick_Sephis
-NecromancerT-Rav
 Sulfenir
-The_Happy_Protogen
-Trog
 Tuxxic
 TytoninaeArt
 YoannBB2
 
-PATRONS
-BubblePopPony
-MikeX
+CONTRIBUTORS
+Accelerator
+Hawaiian_flower
+Jerry_From_Squidward
+NecromancerT-Rav
+The_Happy_Protogen
+Trog
+
+PRIMORDIAL PATRONS
 Yokaiza
 
-VIEWERS LIKE YOU
+DEMIMOD PATRONS
+BubblePopPony
+MikeX
+
+AND BY USERS LIKE YOU
 Thank you.
 
 
