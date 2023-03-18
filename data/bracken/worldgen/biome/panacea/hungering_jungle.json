@@ -122,10 +122,7 @@
     [
       "minecraft:forest_rock"
     ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    [],
     [
       "minecraft:trees_old_growth_spruce_taiga",
       "minecraft:dark_forest_vegetation"
