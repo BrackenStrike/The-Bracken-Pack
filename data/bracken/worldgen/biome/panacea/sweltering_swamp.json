@@ -126,13 +126,11 @@
     [
       "minecraft:forest_rock"
     ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    [],
     [
       "minecraft:mushroom_island_vegetation",
       "bracken:panacea/slime_blobs",
+      "bracken:panacea/coal_blobs",
       "bracken:panacea/mega_mangrove",
       "minecraft:brown_mushroom_taiga",
       "minecraft:red_mushroom_taiga",
