@@ -29,6 +29,101 @@
       {
         "type": "minecraft:condition",
         "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer30",
+          "true_at_and_below": {
+            "absolute": 0
+          },
+          "false_at_and_above": {
+            "absolute": 5
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:bedrock"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer1",
+          "true_at_and_below": {
+            "absolute": 4
+          },
+          "false_at_and_above": {
+            "absolute": 11
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:obsidian"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer29",
+          "true_at_and_below": {
+            "absolute": 10
+          },
+          "false_at_and_above": {
+            "absolute": 20
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:obsidian"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer28",
+          "true_at_and_below": {
+            "absolute": 19
+          },
+          "false_at_and_above": {
+            "absolute": 41
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:mossy_cobblestone"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer27",
+          "true_at_and_below": {
+            "absolute": 40
+          },
+          "false_at_and_above": {
+            "absolute": 45
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:mossy_cobblestone"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
             "bracken:panacea/bamboo_valley"
