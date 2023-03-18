@@ -70,7 +70,7 @@
     [],
     [],
     [],
-    [],
+    ["bracken:panacea/coal_blobs"],
     [
       "minecraft:patch_tall_grass_2",
       "minecraft:patch_large_fern",
