@@ -12,9 +12,12 @@
     "water_creature": [
       
     ],
-    "creature": [
-      
-    ],
+    "creature": [{
+      "type": "minecraft:chicken",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    }],
     "monster": [{
       "type": "minecraft:drowned",
       "weight": 1,
