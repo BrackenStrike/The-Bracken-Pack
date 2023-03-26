@@ -17,7 +17,7 @@
   },
   "noise": {
     "min_y": 0,
-    "height": 320,
+    "height": 128,
     "size_horizontal": 4,
     "size_vertical": 1,
     "amplified": true
@@ -449,10 +449,10 @@
             "type": "minecraft:vertical_gradient",
             "random_name": "a5",
             "true_at_and_below": {
-              "absolute": 112
+              "absolute": 128
             },
             "false_at_and_above": {
-              "absolute": 112
+              "absolute": 128
             }
           },
           "then_run": {
