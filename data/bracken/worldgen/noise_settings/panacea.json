@@ -87,9 +87,47 @@
         "type": "minecraft:condition",
         "if_true": {
           "type": "minecraft:vertical_gradient",
-          "random_name": "layer28",
+          "random_name": "layer1",
           "true_at_and_below": {
             "absolute": 19
+          },
+          "false_at_and_above": {
+            "absolute": 21
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:cobblestone"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer29",
+          "true_at_and_below": {
+            "absolute": 20
+          },
+          "false_at_and_above": {
+            "absolute": 25
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:cobblestone"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "layer28",
+          "true_at_and_below": {
+            "absolute": 24
           },
           "false_at_and_above": {
             "absolute": 41
