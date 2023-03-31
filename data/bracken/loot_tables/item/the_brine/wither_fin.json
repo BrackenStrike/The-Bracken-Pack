@@ -21,7 +21,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp.potion:8b,bp:{id:\"potion_recipe\"}}"
+              "tag": "{bp.potion:9b,bp:{id:\"potion_recipe\"}}"
             }
           ]
         }
