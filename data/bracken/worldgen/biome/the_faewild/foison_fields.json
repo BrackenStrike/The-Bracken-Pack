@@ -9,14 +9,7 @@
         "maxCount": 8
       }
     ],
-    "misc": [
-      {
-        "type": "minecraft:giant",
-        "weight": 1,
-        "minCount": 2,
-        "maxCount": 2
-      }
-    ],
+    "misc": [],
     "water_creature": [],
     "creature": [
       {
@@ -42,12 +35,6 @@
         "weight": 10,
         "minCount": 1,
         "maxCount": 3
-      },
-      {
-        "type": "minecraft:giant",
-        "weight": 1,
-        "minCount": 2,
-        "maxCount": 2
       }
     ],
     "monster": [
@@ -62,25 +49,7 @@
         "weight": 1,
         "minCount": 4,
         "maxCount": 4
-      },
-      {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:creeper",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:giant",
-        "weight": 1,
-        "minCount": 2,
-        "maxCount": 2
-      }
+      }      
     ]
   },
   "spawn_costs": {},
