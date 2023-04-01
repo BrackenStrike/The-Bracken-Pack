@@ -11,7 +11,7 @@ data merge entity @e[type=zombie,distance=..100,limit=1,sort=nearest,tag=!bp.got
 
 data merge entity @e[type=skeleton,distance=..100,limit=1,sort=nearest,tag=!bp.ventithrub1] {CustomName:'{"text":"Dehydrated Ventithrub","color":"dark_green"}',CustomNameVisible:0b,HandItems:[{id:"minecraft:wooden_axe",Count:1b}],ArmorItems:[{},{},{},{id:"minecraft:bamboo",Count:1b,tag:{CustomModelData:888509}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],Tags:["bp.ventithrub1"],DeathLootTable:"bracken:entity/ventithrub1"}
 
-
+data merge entity @e[type=piglin,distance=..100,limit=1,sort=nearest,tag=!bp.piglin1] {CustomName:'{"text":"Autochthonous Piglin","color":"dark_green"}',CustomNameVisible:0b,HandItems:[{id:"minecraft:wooden_axe",Count:1b}],ArmorItems:[{id:"minecraft:leather_boots",Count:1b},{id:"minecraft:leather_leggings",Count:1b},{id:"minecraft:leather_chestplate",Count:1b},{id:"minecraft:leather_helmet",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.085F,0.085F],Tags:["bp.piglin1"],DeathLootTable:"bracken:entity/piglin1"}
 
 
 
