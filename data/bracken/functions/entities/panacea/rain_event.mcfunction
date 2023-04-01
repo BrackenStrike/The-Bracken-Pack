@@ -13,6 +13,10 @@ execute at @e[type=skeleton,distance=..100,limit=1,sort=nearest] run summon with
 
 tp @e[type=skeleton,distance=..100,sort=nearest,limit=1] ~ -512 ~
 
+execute at @e[type=piglin,distance=..100,limit=1,sort=nearest] run summon piglin_brute ~ ~ ~ {CustomName:'{"text":"Autochthonous Piglin Brute","color":"dark_green"}',CustomNameVisible:0b,Silent:1,HandItems:[{id:"minecraft:stone_axe",Count:1b}],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:16701501}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:16701501}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:16701501}}},{id:"minecraft:leather_helmet",Count:1b,tag:{display:{color:16701501}}}],Tags:["bp.piglin2","bp.rain_event","bp.entity"],ArmorDropChances:[0.085F,0.085F,0.085F,0.085F],DeathLootTable:"bracken:entity/piglin2"}
+
+tp @e[type=piglin,distance=..100,sort=nearest,limit=1] ~ -512 ~
+
 
 
 data merge entity @e[type=creeper,distance=..100,limit=1,sort=nearest,tag=!bp.perrterror] {ActiveEffects:[{Id:27,Amplifier:10b,Duration:20000000,ShowParticles:0b}],powered:1b,Tags:["bp.entity","bp.perrterror","bp.rain_event"],CustomName:'{"text":"Perrterror","color":"dark_green"}',CustomNameVisible:0b,DeathLootTable:"bracken:entity/perrterror",Attributes:[{Name:generic.follow_range,Base:64}]}
