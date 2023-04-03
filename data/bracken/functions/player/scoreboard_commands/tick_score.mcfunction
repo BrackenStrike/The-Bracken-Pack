@@ -4,11 +4,13 @@
 ##########################################################
 
 scoreboard players set @s bp.tick 0
-scoreboard players set @s[scores={bp.sneakcharge=..10}] bp.jump 0
+
 scoreboard players set @s bp.hurting 0
 scoreboard players set @s bp.walk 0
-scoreboard players set @s bp.fly 0
-scoreboard players remove @s bp.jump 1
+scoreboard players set @s[scores={bp.fly=1..}] bp.fly 0
+scoreboard players set @s[scores={bp.jump=2..}] bp.jump 1
+
+
 scoreboard players set @s[scores={bp.sprint=1..}] bp.sprint 0
 scoreboard players remove @s bp.obsidian 1
 
