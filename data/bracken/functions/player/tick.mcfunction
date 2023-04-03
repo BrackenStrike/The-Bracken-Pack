@@ -51,6 +51,9 @@ scoreboard players remove @s[scores={bp.cooldown=1..}] bp.cooldown 1
 scoreboard players set @s bp.wither_immunity 0
 execute if entity @s[nbt={Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{CustomModelData:888501}}]}] run function bracken:player/glacium_glider
 
+# Nightfall Glider
+execute if entity @s[nbt={Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{CustomModelData:888502}}]}] run function bracken:player/nightfall
+
 #Tinted cube
 execute if entity @s[scores={bp.obsidian=1..2}] unless predicate bracken:dimensions/void run fill ~2 ~3 ~2 ~-2 ~-1 ~-2 minecraft:tinted_glass hollow
 

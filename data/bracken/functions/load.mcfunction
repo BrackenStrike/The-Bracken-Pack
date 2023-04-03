@@ -17,6 +17,7 @@ scoreboard objectives add bp.sprint minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add bp.hurting minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add bp.jump minecraft.custom:minecraft.jump
 scoreboard objectives add bp.health health
+scoreboard objectives add bp.fly health
 scoreboard objectives add bp.poison dummy
 scoreboard objectives add bp.sprintcharge dummy
 scoreboard objectives add bp.sneakcharge dummy
