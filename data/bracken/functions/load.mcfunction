@@ -31,7 +31,7 @@ scoreboard objectives add bp.3_second dummy
 scoreboard objectives add bp.longtick dummy
 scoreboard objectives add bp.verylongtick dummy
 scoreboard objectives add bp.obsidian dummy
-
+scoreboard objectives add bp.spite dummy
 
 ##########   SPECIES  ##########
 scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death

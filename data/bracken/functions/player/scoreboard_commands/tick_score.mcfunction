@@ -36,3 +36,9 @@ execute if entity @e[type=lightning_bolt,tag=!bp.no_travel,distance=..2] run fun
 execute if entity @s[scores={bp.wtb_cooldown=1..}] run scoreboard players remove @s bp.wtb_cooldown 2
 execute if entity @s[tag=bp.recall_wait] run function bracken:ability_books/recall/wait
 execute if entity @s[scores={bp.giant=1..}] run function bracken:ability_books/swordfall/effects
+
+# frost spite
+scoreboard players set @s[predicate=bracken:item/spite_mainhand] bp.spite 3
+scoreboard players set @s[predicate=bracken:item/spite_offhand] bp.spite 3
+scoreboard players remove @s[scores={bp.spite=1..}] bp.spite 1
+execute if entity @s[scores={bp.death=0,bp.spite=1..}] run function bracken:item/frost_spite
