@@ -6,10 +6,10 @@
 summon area_effect_cloud ~ ~ ~ {Particle:"snowflake",Radius:0f,RadiusPerTick:2f,Duration:10,Effects:[{Id:2,Amplifier:10b,Duration:20}]}
 summon tnt
 playsound minecraft:block.glass.break player @a[distance=..10] ~ ~ ~ 10 0
-playsound minecraft:entity.hoglin.death player @a[distance=..10] ~ ~ ~ 1 0
+playsound minecraft:entity.dolphin.deathe player @a[distance=..10] ~ ~ ~ 1 0
 
-damage @a[distance=0.5..5,sort=nearest,limit=1] 100 minecraft:freeze
-execute if entity @a[distance=0.5..5] run say @a[distance=0.5..5,sort=nearest,limit=1] was slain by @s out of spite.
+execute at @s run damage @a[distance=0.5..6,sort=nearest,limit=1] 100 minecraft:fireworks
+execute if entity @a[distance=0.5..6] run tellraw @a {"text":"","color":"white","extra":[{"selector":"@s"},{"text":" had the last laugh"}]}
 
 item replace entity @s[predicate=bracken:item/spite_mainhand,predicate=!bracken:item/spite_offhand] weapon.mainhand with air
 item replace entity @s[predicate=bracken:item/spite_offhand,predicate=!bracken:item/spite_mainhand] weapon.offhand with air
