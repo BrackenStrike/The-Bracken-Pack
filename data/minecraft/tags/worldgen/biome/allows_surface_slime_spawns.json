@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "bracken:panacea/horsetail_tropics",
+    "bracken:panacea/hungering_jungle",
+    "bracken:panacea/quicksand_springs",
+    "bracken:panacea/ravenous_greenwood",
+    "bracken:panacea/sweltering_swamp",
+    "bracken:panacea/wildflower_bog"
+
+  ]
+}
