@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "bracken:dormis/golanium",
+    "bracken:dormis/hebronium",
+    "bracken:dormis/ramothium",
+
+    "bracken:sanctum/dark_soot_dunes",
+    "bracken:sanctum/no_mans_land",
+    "bracken:sanctum/rubblework_city",
+    "bracken:sanctum/voidship_harbor",
+
+    "bracken:panacea/horsetail_tropics",
+    "bracken:panacea/bamboo_valley",
+    "bracken:panacea/creeper_dominion",
+    "bracken:panacea/honeybee_biome",
+    "bracken:panacea/polypore_plains",
+    "bracken:panacea/quicksand_springs",
+    "bracken:panacea/hungering_jungle",
+    "bracken:panacea/quicksand_springs",
+    "bracken:panacea/ravenous_greenwood",
+    "bracken:panacea/sweltering_swamp",
+    "bracken:panacea/wildflower_bog"
+
+  ]
+}
