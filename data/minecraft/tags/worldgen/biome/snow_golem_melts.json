@@ -20,7 +20,13 @@
     "bracken:panacea/quicksand_springs",
     "bracken:panacea/ravenous_greenwood",
     "bracken:panacea/sweltering_swamp",
-    "bracken:panacea/wildflower_bog"
+    "bracken:panacea/wildflower_bog",
+
+    "bracken:the_underdark/crystal_caves",
+    "bracken:the_underdark/eroded_basin",
+    "bracken:sanctum/petrified_forest",
+    "bracken:sanctum/titan_dripstone_cavern",
+    "bracken:sanctum/rubi_fungi_forest"
 
   ]
 }
