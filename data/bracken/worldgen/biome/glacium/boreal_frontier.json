@@ -65,7 +65,8 @@
     ]
   },
   "features": [
-    [],
+    ["minecraft:spring_lava_frozen",
+    "bracken:glacium/powdersnow"],
     [
       "bracken:glacium/rock"
     ],

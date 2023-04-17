@@ -48,7 +48,7 @@
   },
   "features": [
     [],
-    [
+    ["minecraft:spring_lava_frozen",
       "bracken:glacium/snow_pile",
       "bracken:glacium/snow_tree"
     ],
@@ -56,10 +56,7 @@
       "minecraft:iceberg_packed",
       "minecraft:iceberg_blue"
     ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    [],
     [
       "minecraft:ice_spike",
       "minecraft:ice_patch",

@@ -19,6 +19,16 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:cobweb",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:soul_campfire",
           "conditions": [
             {
