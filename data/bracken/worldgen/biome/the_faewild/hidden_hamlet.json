@@ -40,12 +40,6 @@
         "weight": 1,
         "minCount": 4,
         "maxCount": 4
-      },
-      {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
       }
     ]
   },
@@ -60,10 +54,7 @@
     [],
     [],
     [],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    [],
     [],
     [],
     [],
