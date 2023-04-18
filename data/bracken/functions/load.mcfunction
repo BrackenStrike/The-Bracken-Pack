@@ -31,6 +31,7 @@ scoreboard objectives add bp.longtick dummy
 scoreboard objectives add bp.verylongtick dummy
 scoreboard objectives add bp.obsidian dummy
 
+scoreboard objectives add bp.world_player_id dummy
 
 ##########   SPECIES  ##########
 scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death
@@ -112,6 +113,18 @@ scoreboard objectives add bp.pax dummy
 
 scoreboard objectives add bp.brine_potion dummy
 scoreboard objectives add bp.potion_count dummy
+
+#astral potion
+scoreboard objectives add bp.astral_time dummy
+scoreboard objectives add bp.pre_astral_gamemode dummy
+scoreboard objectives add bp.astral_death deathCount
+
+#greed potion
+scoreboard objectives add bp.greed_duration dummy
+scoreboard objectives add bp.greed_amplifier dummy
+scoreboard objectives add bp.greed_kills totalKillCount
+scoreboard objectives add bp.greed_milk minecraft.used:minecraft.milk_bucket
+scoreboard objectives add bp.greed_death deathCount
 
 scoreboard objectives add bp.ice dummy
 

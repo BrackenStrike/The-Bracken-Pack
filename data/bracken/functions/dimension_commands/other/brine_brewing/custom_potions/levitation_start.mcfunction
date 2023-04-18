@@ -4,7 +4,7 @@
 ##########################################################
 
 #give @p minecraft:potion{bp.potion:106b,CustomPotionEffects:[{Id:25,Duration:200}],CustomPotionColor:13758447,display:{Name:"\"Potion of Levitation\""}}
-tellraw @a "Levitation Potion (6)"
+#tellraw @a "Levitation Potion (6)"
 playsound minecraft:block.brewing_stand.brew block @s
 
 execute store result score @s bp.potion_count run data get block ~ ~ ~ Items[{Slot:3b}].Count

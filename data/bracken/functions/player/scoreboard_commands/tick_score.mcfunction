@@ -33,3 +33,7 @@ execute if entity @e[type=lightning_bolt,tag=!bp.no_travel,distance=..2] run fun
 execute if entity @s[scores={bp.wtb_cooldown=1..}] run scoreboard players remove @s bp.wtb_cooldown 2
 execute if entity @s[tag=bp.recall_wait] run function bracken:ability_books/recall/wait
 execute if entity @s[scores={bp.giant=1..}] run function bracken:ability_books/swordfall/effects
+
+# Potions
+execute if entity @s[scores={bp.astral_time=1..}] run function bracken:player/potion/astral_projection/tick
+execute if entity @s[scores={bp.greed_duration=1..}] run function bracken:player/potion/greed/tick

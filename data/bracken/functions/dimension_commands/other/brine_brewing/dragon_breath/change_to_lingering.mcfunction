@@ -3,7 +3,7 @@
 # Creators: Grandmaster
 ##########################################################
 
-tellraw @p "Change to lingering potion"
+#tellraw @p "Change to lingering potion"
 playsound minecraft:block.brewing_stand.brew block @s
 
 execute store result score @s bp.potion_count run data get block ~ ~ ~ Items[{Slot:3b}].Count
