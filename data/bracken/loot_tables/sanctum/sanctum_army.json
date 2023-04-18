@@ -18,6 +18,16 @@
           ]
         },
         {
+          "type": "loot_table",
+          "name": "bracken:item/saturation_potion",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:netherite_pickaxe",
           "conditions": [

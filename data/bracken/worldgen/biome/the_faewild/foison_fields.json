@@ -19,6 +19,12 @@
         "maxCount": 4
       },
       {
+        "type": "minecraft:chicken",
+        "weight": 52,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
         "type": "minecraft:fox",
         "weight": 2,
         "minCount": 4,
@@ -29,12 +35,6 @@
         "weight": 50,
         "minCount": 4,
         "maxCount": 4
-      },
-      {
-        "type": "minecraft:creeper",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 3
       }
     ],
     "monster": [
@@ -65,10 +65,7 @@
     [
       "minecraft:forest_rock"
     ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    [],
     [],
     [],
     [],

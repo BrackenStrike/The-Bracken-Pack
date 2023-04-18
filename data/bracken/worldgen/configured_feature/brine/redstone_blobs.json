@@ -2,7 +2,7 @@
   "type": "minecraft:netherrack_replace_blobs",
   "config": {
     "target": {
-      "Name": "minecraft:prismarine"
+      "Name": "minecraft:obsidian"
     },
     "state": {
       "Name": "minecraft:redstone_block"

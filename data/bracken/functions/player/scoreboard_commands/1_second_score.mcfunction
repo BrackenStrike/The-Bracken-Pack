@@ -5,6 +5,9 @@
 
 scoreboard players set @s bp.1_second 0
 
+#jump score reset here
+scoreboard players remove @s[scores={bp.jump=1..}] bp.jump 1
+
 # Glacium beacon
 scoreboard players remove @s[scores={bp.ice=1..}] bp.ice 1
 

@@ -10,12 +10,7 @@
       }
     ],
     "misc": [
-      {
-        "type": "minecraft:giant",
-        "weight": 1,
-        "minCount": 2,
-        "maxCount": 2
-      }
+      
     ],
     "water_creature": [],
     "creature": [
@@ -36,50 +31,15 @@
         "weight": 50,
         "minCount": 4,
         "maxCount": 4
-      },
-      {
-        "type": "minecraft:creeper",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 3
-      },
-      {
-        "type": "minecraft:giant",
-        "weight": 1,
-        "minCount": 2,
-        "maxCount": 2
       }
     ],
     "monster": [
-      {
-        "type": "minecraft:spider",
-        "weight": 2,
-        "minCount": 3,
-        "maxCount": 3
-      },
+      
       {
         "type": "minecraft:slime",
         "weight": 1,
         "minCount": 4,
         "maxCount": 4
-      },
-      {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:creeper",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:giant",
-        "weight": 1,
-        "minCount": 2,
-        "maxCount": 2
       }
     ]
   },
@@ -94,10 +54,7 @@
     [],
     [],
     [],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    [],
     [],
     [],
     [],

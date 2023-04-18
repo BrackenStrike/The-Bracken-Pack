@@ -17,6 +17,7 @@ scoreboard objectives add bp.sprint minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add bp.hurting minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add bp.jump minecraft.custom:minecraft.jump
 scoreboard objectives add bp.health health
+scoreboard objectives add bp.fly minecraft.custom:minecraft.aviate_one_cm
 scoreboard objectives add bp.poison dummy
 scoreboard objectives add bp.sprintcharge dummy
 scoreboard objectives add bp.sneakcharge dummy
@@ -32,6 +33,8 @@ scoreboard objectives add bp.verylongtick dummy
 scoreboard objectives add bp.obsidian dummy
 
 scoreboard objectives add bp.world_player_id dummy
+
+scoreboard objectives add bp.spite dummy
 
 ##########   SPECIES  ##########
 scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death

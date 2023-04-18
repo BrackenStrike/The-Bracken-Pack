@@ -29,12 +29,6 @@
         "weight": 50,
         "minCount": 4,
         "maxCount": 4
-      },
-      {
-        "type": "minecraft:pillager",
-        "weight": 1,
-        "minCount": 4,
-        "maxCount": 4
       }
     ],
     "monster": [

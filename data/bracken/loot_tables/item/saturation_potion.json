@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Saturation Potion",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:23,Amplifier:5b,Duration:200,ShowParticles:1b}],CustomPotionColor:16711705}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
