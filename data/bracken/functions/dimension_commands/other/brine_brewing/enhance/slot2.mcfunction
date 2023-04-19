@@ -11,4 +11,8 @@ data modify block ~ ~ ~ Items[{Slot:2b}].tag.CustomPotionEffects[{Amplifier:2}].
 data modify block ~ ~ ~ Items[{Slot:2b}].tag.CustomPotionEffects[{Amplifier:1}].Amplifier set value 2
 data modify block ~ ~ ~ Items[{Slot:2b}].tag.CustomPotionEffects[{Amplifier:0}].Amplifier set value 1
 
-data modify block ~ ~ ~ Items[{Slot:2b}] merge value {tag:{bp:[{id:"potion_modified2"},{id:"potion_modified1"}]}}
+data modify block ~ ~ ~ Items[{Slot:2b}].tag.bp append value {id:"potion_modified2"}
+data modify block ~ ~ ~ Items[{Slot:2b}].tag.bp append value {id:"potion_modified1"}
+
+# Unique Potions
+execute if data block ~ ~ ~ Items[{Slot:2b,tag:{bp.potion:104b}}] store result block ~ ~ ~ Items[{Slot:2b}].tag.bp[2].greed_amplifier byte 1 run data get block ~ ~ ~ Items[{Slot:2b}].tag.CustomPotionEffects[{Id:26}].Amplifier

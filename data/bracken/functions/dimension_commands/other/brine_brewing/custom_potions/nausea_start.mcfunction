@@ -4,7 +4,7 @@
 ##########################################################
 
 #give @p minecraft:potion{bp.potion:107b,CustomPotionEffects:[{Id:9,Duration:200}],CustomPotionColor:6758078,display:{Name:"\"Potion of Nausea\""}}
-tellraw @a "Nausea Potion (7)"
+#tellraw @a "Nausea Potion (7)"
 playsound minecraft:block.brewing_stand.brew block @s
 
 execute store result score @s bp.potion_count run data get block ~ ~ ~ Items[{Slot:3b}].Count

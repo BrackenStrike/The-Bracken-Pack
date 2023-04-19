@@ -4,7 +4,7 @@
 ##########################################################
 
 #give @p minecraft:potion{bp.potion:101b,CustomPotionEffects:[{Id:29,Duration:3600},{Id:30,Duration:3600}],CustomPotionColor:16122102,display:{Name:"\"Potion of Aquatic Enhancement\""}}
-tellraw @a "Aquatic Potion (1)"
+#tellraw @a "Aquatic Potion (1)"
 playsound minecraft:block.brewing_stand.brew block @s
 
 execute store result score @s bp.potion_count run data get block ~ ~ ~ Items[{Slot:3b}].Count

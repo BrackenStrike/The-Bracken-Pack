@@ -19,11 +19,21 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.08
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:cake",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "chance": 0.05
             }
           ]
         },

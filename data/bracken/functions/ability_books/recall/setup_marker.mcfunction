@@ -1,5 +1,5 @@
 ##########################################################
-# Description: Further setup for creating a home specifically for the placed marker at the players enchantment table.
+# Description: Setup for returning tides markers to later remove forceloaded chunks
 # Creators: Grandmaster
 ##########################################################
 

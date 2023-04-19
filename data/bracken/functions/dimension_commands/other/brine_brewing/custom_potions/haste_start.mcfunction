@@ -4,7 +4,7 @@
 ##########################################################
 
 #give @p minecraft:potion{bp.potion:105b,CustomPotionEffects:[{Id:3,Duration:1800}],CustomPotionColor:13421582,display:{Name:"\"Potion of Haste\""}}
-tellraw @a "Haste Potion (5)"
+#tellraw @a "Haste Potion (5)"
 playsound minecraft:block.brewing_stand.brew block @s
 
 execute store result score @s bp.potion_count run data get block ~ ~ ~ Items[{Slot:3b}].Count

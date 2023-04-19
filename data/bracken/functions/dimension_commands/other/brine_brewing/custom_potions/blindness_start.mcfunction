@@ -4,7 +4,7 @@
 ##########################################################
 
 #give @p minecraft:potion{bp.potion:103b,CustomPotionEffects:[{Id:15,Duration:200}],CustomPotionColor:0,display:{Name:"\"Potion of Blindness\""}}
-tellraw @a "Blindness Potion (3)"
+#tellraw @a "Blindness Potion (3)"
 playsound minecraft:block.brewing_stand.brew block @s
 
 execute store result score @s bp.potion_count run data get block ~ ~ ~ Items[{Slot:3b}].Count

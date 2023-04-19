@@ -4,7 +4,7 @@
 ##########################################################
 
 #give @p minecraft:potion{bp.potion:108b,CustomPotionEffects:[{Id:2,Duration:60},{Id:9,Duration:200},{Id:15,Duration:200},{Id:19,Duration:400},{Id:20,Duration:200}],CustomPotionColor:0,display:{Name:"\"Abyssal Toxin\""}}
-tellraw @a "Abyssal Toxin Potion (8)"
+#tellraw @a "Abyssal Toxin Potion (8)"
 playsound minecraft:block.brewing_stand.brew block @s
 
 execute store result score @s bp.potion_count run data get block ~ ~ ~ Items[{Slot:3b}].Count

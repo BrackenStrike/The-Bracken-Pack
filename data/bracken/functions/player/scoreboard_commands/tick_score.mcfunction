@@ -37,8 +37,13 @@ execute if entity @s[scores={bp.wtb_cooldown=1..}] run scoreboard players remove
 execute if entity @s[tag=bp.recall_wait] run function bracken:ability_books/recall/wait
 execute if entity @s[scores={bp.giant=1..}] run function bracken:ability_books/swordfall/effects
 
+# Potions
+execute if entity @s[scores={bp.astral_time=1..}] run function bracken:player/potion/astral_projection/tick
+execute if entity @s[scores={bp.greed_duration=1..}] run function bracken:player/potion/greed/tick
+
 # frost spite
 scoreboard players set @s[predicate=bracken:item/spite_mainhand] bp.spite 3
 scoreboard players set @s[predicate=bracken:item/spite_offhand] bp.spite 3
 scoreboard players remove @s[scores={bp.spite=1..}] bp.spite 1
 execute if entity @s[scores={bp.death=0,bp.spite=1..}] run function bracken:item/frost_spite
+

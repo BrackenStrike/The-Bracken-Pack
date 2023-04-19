@@ -3,7 +3,7 @@
 # Creators: Grandmaster
 ##########################################################
 
-tellraw @p "Enhance Potion"
+#tellraw @p "Enhance Potion"
 playsound minecraft:block.brewing_stand.brew block @s
 
 execute store result score @s bp.potion_count run data get block ~ ~ ~ Items[{Slot:3b}].Count

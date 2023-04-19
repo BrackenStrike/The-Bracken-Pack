@@ -4,7 +4,7 @@
 ##########################################################
 
 #give @p minecraft:potion{bp.potion:109b,CustomPotionEffects:[{Id:20,Duration:400}],CustomPotionColor:4990730,display:{Name:"\"Potion of Withering\""}}
-tellraw @a "Withering Potion (9)"
+#tellraw @a "Withering Potion (9)"
 playsound minecraft:block.brewing_stand.brew block @s
 
 execute store result score @s bp.potion_count run data get block ~ ~ ~ Items[{Slot:3b}].Count

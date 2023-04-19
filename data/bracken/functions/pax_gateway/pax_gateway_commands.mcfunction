@@ -4,8 +4,6 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-
-effect give @a[distance=..20,scores={bp.portal=1..}] resistance 11 9 false
 tag @p[distance=..15,scores={bp.portal=1..}] add bp.portal_teleport
 execute as @e[type=minecraft:marker,tag=bp.pax_scores,distance=..25,limit=1] run function bracken:pax_gateway/portal_combination
 
