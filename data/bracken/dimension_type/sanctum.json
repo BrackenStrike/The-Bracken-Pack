@@ -11,7 +11,7 @@
   "ambient_light": -0.05,
   "fixed_time": 11300,
   "logical_height": 100,
-  "infiniburn": "#minecraft:infiniburn_overworld",
+  "infiniburn": "#minecraft:infiniburn_sanctum",
   "min_y": 0,
   "height": 304,
   "monster_spawn_block_light_limit": 0,

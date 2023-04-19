@@ -1,11 +1,6 @@
 {
   "spawners": {
-    "water_ambient": [{
-      "type": "minecraft:elder_guardian",
-      "weight": 1,
-      "minCount": 1,
-      "maxCount": 1
-    }],
+    "water_ambient": [],
     "ambient": [
       {
         "type": "minecraft:bat",
@@ -16,15 +11,16 @@
     ],
     "misc": [],
     "water_creature": [],
-    "creature": [
+    "creature": [],
+    "monster": [
+      
       {
-        "type": "minecraft:enderman",
+        "type": "minecraft:piglin_brute",
         "weight": 1,
         "minCount": 1,
         "maxCount": 1
       }
-    ],
-    "monster": []
+    ]
   },
   "spawn_costs": {},
   "carvers": {
@@ -37,8 +33,8 @@
     [],
     [
       "minecraft:lake_lava_surface",
-      "minecraft:lake_lava_underground",
-      "bracken:dormis/rock"
+      "minecraft:lake_lava_underground"
+      
     ],
     [],
     [],
@@ -61,17 +57,22 @@
     "water_fog_color": 0,
     "grass_color": 16777215,
     "foliage_colour": 16777215,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 1000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
     "additions_sound": {
-      "sound": "minecraft:block.roots.step",
-      "tick_chance": 0.02
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_chance": 0.001
     },
     "music": {
       "sound": "minecraft:music.nether.basalt_deltas",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false
-    },
-    "ambient_sound": "minecraft:block.roots.step"
+    }
   },
   "has_precipitation": false
 }
