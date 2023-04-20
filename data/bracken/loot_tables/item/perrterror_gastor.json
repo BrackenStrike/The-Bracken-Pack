@@ -23,7 +23,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "lore",
+                  "text": "Single-use leaf shield.",
                   "color": "gray",
                   "italic": false
                 }

@@ -23,7 +23,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "lore",
+                  "text": "Flesh of madness.",
                   "color": "gray",
                   "italic": false
                 }

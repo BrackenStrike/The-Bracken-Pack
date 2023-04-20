@@ -23,7 +23,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "lore",
+                  "text": "A make-do weapon.",
                   "color": "gray",
                   "italic": false
                 }

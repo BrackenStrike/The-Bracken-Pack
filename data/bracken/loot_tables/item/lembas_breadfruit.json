@@ -23,7 +23,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "lore",
+                  "text": "How many did you eat?",
                   "color": "gray",
                   "italic": false
                 }

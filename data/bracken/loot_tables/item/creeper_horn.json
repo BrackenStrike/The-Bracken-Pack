@@ -23,7 +23,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "lore",
+                  "text": "Calls all nearby creepers.",
                   "color": "gray",
                   "italic": false
                 }
