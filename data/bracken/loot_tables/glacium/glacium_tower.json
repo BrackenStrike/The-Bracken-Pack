@@ -75,7 +75,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/frosbeak",
+          "name": "bracken:item/glacium/frosbeak",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -85,7 +85,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/frosfang",
+          "name": "bracken:item/glacium/frosfang",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -98,7 +98,7 @@
     {
     "rolls": 1,
           "entries": [
-     {
+    {
             "type": "loot_table",
             "name": "bracken:item/maps/glacium_hotsprings_map",
             "conditions": [

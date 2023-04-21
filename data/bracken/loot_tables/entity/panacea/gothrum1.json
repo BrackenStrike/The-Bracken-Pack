@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/panaspore"
+          "name": "bracken:item/panacea/panaspore"
         }
       ]
     },
@@ -14,13 +14,13 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/lembas_breadfruit"
+          "name": "bracken:item/panacea/gothrum_fang"
         }
       ],
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.35
+          "chance": 0.15
         }
       ]
     }

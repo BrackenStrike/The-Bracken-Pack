@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/panaspore"
+          "name": "bracken:item/panacea/panaspore"
         }
       ],
       "conditions": [
@@ -44,7 +44,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/map/tetra_tree_map"
+          "name": "bracken:item/maps/tetra_tree_map"
         }
       ],
       "conditions": [

@@ -79,7 +79,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/viceroys_visor",
+          "name": "bracken:item/glacium/viceroys_visor",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -89,7 +89,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/frosplakkrt",
+          "name": "bracken:item/glacium/frosplakkrt",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

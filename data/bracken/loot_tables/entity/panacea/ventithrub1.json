@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/paxmaker_sword"
+          "name": "bracken:item/panacea/panaspore"
         }
       ]
     },
@@ -14,7 +14,13 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/portal_keys/underdark_key"
+          "name": "bracken:item/panacea/lembas_breadfruit"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.35
         }
       ]
     }

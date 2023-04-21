@@ -69,7 +69,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/froscuisses",
+          "name": "bracken:item/glacium/froscuisses",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -79,7 +79,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/frossabattn",
+          "name": "bracken:item/glacium/frossabattn",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

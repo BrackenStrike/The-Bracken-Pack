@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/ability_books/tetra_slime"
+          "name": "bracken:item/ability_books/great_nullifier"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/mortal_cull"
+          "name": "bracken:item/portal_keys/omnidrome_key"
         }
       ]
     },
@@ -23,19 +23,16 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/portal_keys/panacea_key"
+          "name": "bracken:item/omnidrome/void_bomb"
         }
       ]
     },
     {
-      "rolls": {
-        "min": 20,
-        "max": 30
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/panaspore"
+          "name": "bracken:item/sanctum/null"
         }
       ]
     }

@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/ruination_capsule"
+          "name": "bracken:item/sanctum/ruination_capsule"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/shepherdess_cloak"
+          "name": "bracken:item/sanctum/shepherdess_cloak"
         }
       ]
     }

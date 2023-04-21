@@ -1,11 +1,11 @@
 {
   "pools": [
     {
-      "rolls": 2,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/panaspore"
+          "name": "bracken:item/panacea/panaspore"
         }
       ]
     },
@@ -13,29 +13,32 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:wither_rose"
+          "type": "minecraft:loot_table",
+          "name": "bracken:item/panacea/yakitubba_hide"
         }
       ],
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.15
+          "chance": 0.45
         }
       ]
     },
     {
-      "rolls": 2,
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "name": "bracken:item/lembas_breadfruit"
+          "type": "minecraft:item",
+          "name": "minecraft:leather"
         }
       ],
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.95
+          "chance": 0.75
         }
       ]
     }

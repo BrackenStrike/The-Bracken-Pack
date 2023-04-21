@@ -11,7 +11,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.1
+          "chance": 0.12
         }
       ]
     },
@@ -20,13 +20,13 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/stolen_sword"
+          "name": "bracken:item/sanctum/stolen_sword"
         }
       ],
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.02
+          "chance": 0.06
         }
       ]
     },

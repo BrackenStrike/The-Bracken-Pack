@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/panaspore"
+          "name": "bracken:item/panacea/panaspore"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/yakitubba_hide"
+          "name": "bracken:item/panacea/yakitubba_hide"
         }
       ]
     }
