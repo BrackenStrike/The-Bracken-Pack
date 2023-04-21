@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "bracken:omnidrome_palace",
+              "destination": "bracken:omnidrome_living_palace6",
               "decoration": "red_x",
               "search_radius":100,
               "zoom": 3,

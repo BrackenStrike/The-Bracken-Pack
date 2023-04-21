@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "bracken:dormis_courtyard",
+              "destination": "bracken:dormis_thrall_courtyard",
               "decoration": "red_x",
               "search_radius":100,
               "zoom": 3,
