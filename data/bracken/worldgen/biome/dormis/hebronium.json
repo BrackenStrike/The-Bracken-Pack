@@ -62,7 +62,7 @@
     "grass_color": 16777215,
     "foliage_colour": 16777215,
     "additions_sound": {
-      "sound": "minecraft:block.roots.step",
+      "sound": "minecraft:ambient.basalt_deltas.mood",
       "tick_chance": 0.02
     },
     "music": {
