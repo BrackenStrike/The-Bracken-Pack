@@ -29,7 +29,7 @@
     ["minecraft:warm_ocean_vegetation",
     "minecraft:sea_pickle","bracken:brine/supercoral"],
     ["bracken:sanctum/city_tree2"],
-    [],
+    ["minecraft:glow_lichen"],
     [],
     [],
     [],
@@ -42,11 +42,11 @@
   "temperature": 0.95,
   "downfall": 0.1,
   "effects": {
-    "fog_color": 0,
-    "water_color": 0,
-    "water_fog_color": 0,
+    "fog_color": 15227970,
+    "water_color": 7351357,
+    "water_fog_color": 5902125,
     "grass_color": 0,
-    "sky_color": 0,
+    "sky_color": 7943472,
     "foliage_colour": 0,
    
     "mood_sound": {
