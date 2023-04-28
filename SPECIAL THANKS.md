@@ -30,7 +30,6 @@ Yokaiza
 DEMIMOD PATRONS
 BubblePopPony
 J8ck
-MikeX
 Natebat9
 
 AND BY USERS LIKE YOU
