@@ -9,7 +9,7 @@ tp @e[type=zombie,distance=..100,limit=1,sort=nearest] ~ -512 ~
 
 
 
-execute at @e[type=skeleton,distance=..100,limit=1,sort=nearest] run summon wither_skeleton ~ ~ ~ {CustomName:'{"text":"Ventithrub","color":"dark_green"}',CustomNameVisible:0b,Silent:1,ArmorItems:[{},{},{},{id:"minecraft:bamboo",Count:1b,tag:{display:{Name:'{"text":"Ventithrub Flower"}'}CustomModelData:888509}}],Tags:["bp.ventithrub2","bp.rain_event","bp.entity"],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],DeathLootTable:"bracken:entity/panacea/ventithrub2",Attributes:[{Name:generic.follow_range,Base:64}]}
+execute at @e[type=skeleton,distance=..100,limit=1,sort=nearest] run summon wither_skeleton ~ ~ ~ {CustomName:'{"text":"Ventithrub","color":"dark_green"}',CustomNameVisible:0b,Silent:1,ArmorItems:[{},{},{},{id:"minecraft:bamboo",Count:1b,tag:{display:{Name:'{"text":"Ventithrub Flower"}'},CustomModelData:888509}}],Tags:["bp.ventithrub2","bp.rain_event","bp.entity"],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],DeathLootTable:"bracken:entity/panacea/ventithrub2",Attributes:[{Name:generic.follow_range,Base:64}]}
 
 tp @e[type=skeleton,distance=..100,sort=nearest,limit=1] ~ -512 ~
 
