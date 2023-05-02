@@ -23,7 +23,7 @@
             "blocks": [
               "minecraft:sand",
               "minecraft:mycelium",
-              "minecraft:quartz_block",
+              "minecraft:stone",
               "minecraft:warped_wart_block"
             ]
           },

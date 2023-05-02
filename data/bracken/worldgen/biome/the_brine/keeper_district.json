@@ -65,7 +65,7 @@
     [
       "minecraft:desert_well"
     ],
-    ["bracken:brine/wall","bracken:brine/wall2"],
+    [],
     ["minecraft:trees_meadow",
     "minecraft:trees_swamp",
     "minecraft:patch_pumpkin"],
