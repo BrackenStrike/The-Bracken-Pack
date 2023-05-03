@@ -1,6 +1,17 @@
 {
   "spawners": {
-    "water_ambient": [
+    "water_ambient": [{
+      "type": "minecraft:drowned",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "minecraft:pufferfish",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 1
+    }
     
       
       
@@ -18,12 +29,7 @@
       "minCount": 1,
       "maxCount": 1
     }],
-    "monster": [{
-      "type": "minecraft:drowned",
-      "weight": 1,
-      "minCount": 1,
-      "maxCount": 1
-    },
+    "monster": [
     {
       "type": "minecraft:pufferfish",
       "weight": 5,
