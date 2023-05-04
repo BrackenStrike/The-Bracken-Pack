@@ -12,3 +12,4 @@ execute at @s[gamemode=!spectator] run fill ~ ~1 ~ ~ ~0 ~ air
 execute in bracken:sanctum positioned 42 125 38 unless entity @e[type=minecraft:marker,distance=..20,tag=bp.pillar] run function bracken:dimension_crossing/spawn_platforms/sanctum_pillar
 
 execute in bracken:sanctum run function bracken:remove_forceload
+
