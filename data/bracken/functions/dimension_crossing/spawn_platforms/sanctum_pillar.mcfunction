@@ -4,7 +4,7 @@
 ##########################################################
 
 
-execute in bracken:sanctum run forceload add -6 -6
+
 
 execute in bracken:sanctum run setblock -3 120 -3 minecraft:structure_block{posY:-2,posX:-4,posZ:-4,powered:0b,mode:"LOAD",name:"bracken:pillar/sanctum_pillar111"}
 execute in bracken:sanctum run setblock -4 120 -3 minecraft:redstone_block
@@ -41,3 +41,5 @@ execute in bracken:sanctum run setblock 42 210 42 minecraft:structure_block{posY
 execute in bracken:sanctum run setblock 42 210 43 minecraft:redstone_block
 execute in bracken:sanctum run setblock 42 255 42 minecraft:structure_block{posY:-2,posX:-4,posZ:-4,powered:0b,mode:"LOAD",name:"bracken:pillar/sanctum_pillar242"}
 execute in bracken:sanctum run setblock 42 255 43 minecraft:redstone_block
+
+
