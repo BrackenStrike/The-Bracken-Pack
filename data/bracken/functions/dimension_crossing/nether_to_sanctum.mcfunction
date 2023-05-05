@@ -6,7 +6,9 @@
 execute in bracken:sanctum align xz run tp @s ~0.5 250 ~0.5
 execute at @s run forceload add ~ ~
 execute at @s[gamemode=!spectator] run setblock ~ 249 ~ minecraft:yellow_concrete_powder keep
-execute at @s[gamemode=!spectator] run fill ~ ~1 ~ ~ ~0 ~ air 
+execute at @s[gamemode=!spectator] run fill ~ ~1 ~ ~ ~0 ~ air
+effect give @s slow_falling 2 1 true 
+
 
 #sanctum pillar
 execute in bracken:sanctum positioned 42 125 38 unless entity @e[type=minecraft:marker,distance=..20,tag=bp.pillar] run function bracken:dimension_crossing/spawn_platforms/sanctum_pillar
