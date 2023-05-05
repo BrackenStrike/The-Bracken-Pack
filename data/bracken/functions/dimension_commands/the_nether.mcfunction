@@ -16,4 +16,5 @@ execute if score @s bp.1_second matches 19 if score #bp.dimension_travel_dummy b
 
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 
-execute if score @s bp.1_second matches 3 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @e[type=item_display,tag=bp.pillar_portal,distance=..4] run function bracken:dimension_crossing/nether_to_sanctum
+execute if score @s bp.1_second matches 3 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @e[type=item_display,tag=bp.pillar_egress,distance=..4] run function bracken:dimension_crossing/nether_to_sanctum
+execute if score @s bp.1_second matches 3 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @e[type=item_display,tag=bp.pillar_egress,distance=..50] run function bracken:dimension_crossing/first_time_text/nether_to_sanctum
