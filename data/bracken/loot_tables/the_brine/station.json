@@ -4,7 +4,7 @@
     {
       "rolls": {
         "min": 12,
-        "max": 15
+        "max": 18
       },
       "entries": [
         {
@@ -33,7 +33,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "chance": 0.3
             }
           ]
         },

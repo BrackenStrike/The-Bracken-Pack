@@ -1,0 +1,47 @@
+{
+  "parent": "bracken:the_brine/enter_the_brine",
+  "display": {
+    "title": {
+      "translate": "Tell No Tales"
+    },
+    "description": {
+      "translate": "Slay the pirate captain",
+      "color": "green"
+    },
+    "icon": {
+      "item": "minecraft:black_banner",
+      "nbt": "{BlockEntityTag:{Base:15,Patterns:[{Pattern:sku,Color:0}]}}"
+  },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bracken:the_brine/pirate1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:vindicator",
+              "nbt": "{PersistenceRequired:1b}"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "type": "minecraft:player"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bracken:the_brine/pirate1"
+    ]
+  ]
+}

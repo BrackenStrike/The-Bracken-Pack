@@ -15,6 +15,8 @@ data merge entity @e[type=fox,distance=..100,limit=1,sort=nearest,tag=!bp.trilob
 
 #worm sign
 execute at @e[type=drowned,distance=..3,limit=1,sort=nearest,tag=!bp.worm_attack,nbt={NoAI:1b}] run damage @s 10 minecraft:mob_attack by @e[type=minecraft:drowned,tag=bp.worm,limit=1,sort=nearest]
+execute at @e[type=drowned,distance=..3,limit=1,sort=nearest,tag=!bp.worm_attack,nbt={NoAI:1b}] run advancement grant @s only bracken:the_brine/worm
+
 execute at @e[type=drowned,distance=..3,limit=1,sort=nearest,tag=!bp.worm_attack,nbt={NoAI:1b}] run kill @e[type=block_display,distance=..5] 
 tp @e[type=drowned,distance=..3,limit=1,sort=nearest,tag=!bp.worm_attack,nbt={NoAI:1b}] @s
 data merge entity @e[type=drowned,distance=..3,limit=1,sort=nearest,tag=!bp.worm_attack,nbt={NoAI:1b}] {NoAI:0,Tags:[bp.aquatic,bp.worm,bp.worm_attack],IsBaby:0,Attributes:[{Name:generic.movement_speed,Base:0.4}]}

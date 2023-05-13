@@ -1,15 +1,15 @@
 {
-    "parent": "bracken:underdark/enter_underdark",
+    "parent": "bracken:panacea/enter_panacea",
     "display": {
         "title": {
-            "translate": "Sedimentary My Dear Watson"
+            "translate": "Ashes and Dust"
         },
         "description": {
-            "translate": "Enter the titan dripstone cavern biome",
+            "translate": "Enter the condemned taiga biome",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:dripstone_block"
+            "item": "minecraft:basalt"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,7 +17,7 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:underdark/gravel1": {
+        "bracken:panacea/condemned1": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": [
@@ -26,7 +26,7 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "biome": "bracken:the_underdark/titan_dripstone_cavern"
+                                "biome": "bracken:panacea/condemned_taiga"
                             }
                         }
                     }
@@ -36,7 +36,7 @@
     },
     "requirements": [
         [
-            "bracken:underdark/gravel1"
+            "bracken:panacea/condemned1"
         ]
     ]
 }

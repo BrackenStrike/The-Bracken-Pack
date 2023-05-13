@@ -8,7 +8,8 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:cracked_deepslate_bricks"
+            "item": "minecraft:leather_chestplate",
+            "nbt": "{CustomModelData:888503,Enchantments:[{}]}"
         },
         "frame": "task",
         "show_toast": false,

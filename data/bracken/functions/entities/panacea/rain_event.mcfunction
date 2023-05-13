@@ -27,3 +27,6 @@ execute at @e[type=zombie_villager,distance=..100,limit=1,sort=nearest] run summ
 
 tp @e[type=zombie_villager,distance=..100,sort=nearest,limit=1] ~ -512 ~
 
+
+
+advancement grant @s only bracken:panacea/rain

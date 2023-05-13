@@ -1,15 +1,15 @@
 {
-    "parent": "bracken:underdark/enter_underdark",
+    "parent": "bracken:the_brine/enter_the_brine",
     "display": {
         "title": {
-            "translate": "Sedimentary My Dear Watson"
+            "translate": "Keeping the Peace"
         },
         "description": {
-            "translate": "Enter the titan dripstone cavern biome",
+            "translate": "Get weakened by a Realmkeeper station",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:dripstone_block"
+            "item": "minecraft:gold_block"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,7 +17,7 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:underdark/gravel1": {
+        "bracken:the_brine/weakness1": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": [
@@ -25,8 +25,18 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
+                            "type": "minecraft:player",
+                            "effects": {
+                                "minecraft:weakness": {}
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
                             "location": {
-                                "biome": "bracken:the_underdark/titan_dripstone_cavern"
+                                "dimension": "bracken:the_brine"
                             }
                         }
                     }
@@ -36,7 +46,7 @@
     },
     "requirements": [
         [
-            "bracken:underdark/gravel1"
+            "bracken:the_brine/weakness1"
         ]
     ]
 }

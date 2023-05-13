@@ -16,7 +16,7 @@ attribute @s[scores={bp.panacea=10}] minecraft:generic.max_health modifier add b
 execute if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if score @s bp.creeper matches 2.. if entity @e[type=minecraft:creeper,distance=..1] run function bracken:dimension_crossing/panacea_to_overworld
 
 ##########   CHLOROCRAFTING   ##########
-execute if entity @s[scores={bp.1_second=3}] at @e[type=minecraft:item_frame,nbt={Facing:1b,Item:{id:"minecraft:bone_meal",Count:1b}}] if block ~ ~-1 ~ minecraft:crafting_table run function bracken:entities/chlorocrafter
+execute if entity @s[scores={bp.1_second=3}] at @e[type=minecraft:item_frame,nbt={Facing:1b,Item:{id:"minecraft:melon_seeds",Count:1b}}] if block ~ ~-1 ~ minecraft:crafting_table run function bracken:entities/chlorocrafter
 execute if entity @s[scores={bp.1_second=3}] as @e[type=villager,tag=bp.table] at @s unless block ~ ~1 ~ minecraft:flowering_azalea run tp @s ~ -200 ~
 
 ##########   SPORE DROPS   ##########

@@ -1,0 +1,46 @@
+{
+  "parent": "bracken:panacea/enter_panacea",
+  "display": {
+    "title": {
+      "translate": "Hunt a Legend"
+    },
+    "description": {
+      "translate": "Pursue and slay the Sporangium in its first form",
+      "color": "green"
+    },
+    "icon": {
+      "item": "minecraft:slime_block"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bracken:panacea/sporangium1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:slime",
+              "nbt": "{Tags:[\"bp.sporangium\"]}"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "type": "minecraft:player"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bracken:panacea/sporangium1"
+    ]
+  ]
+}

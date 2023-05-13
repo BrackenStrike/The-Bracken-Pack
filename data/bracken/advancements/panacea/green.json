@@ -1,16 +1,16 @@
 {
-  "parent": "bracken:glacium/enter_glacium",
+  "parent": "bracken:panacea/crafter",
   "display": {
     "title": {
-      "translate": "Netherbane Warrior"
+      "translate": "Symbiosis"
     },
     "description": {
-      "translate": "Collect and wear all pieces of Glacium armor",
+      "translate": "Collect and wear all pieces of vitality armor",
       "color": "green"
     },
     "icon": {
-      "item": "minecraft:diamond_chestplate",
-      "nbt": "{CustomModelData:888502,Enchantments:[{}]}"
+      "item": "minecraft:leather_chestplate",
+      "nbt": "{CustomModelData:888502}"
     },
     "frame": "challenge",
     "show_toast": true,
@@ -18,7 +18,7 @@
     "hidden": false
   },
   "criteria": {
-    "bracken:glacium/armor1": {
+    "bracken:panacea/green1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [
@@ -29,7 +29,7 @@
               "equipment": {
                 "head": {
                   "items": [
-                    "minecraft:diamond_helmet"
+                    "minecraft:leather_helmet"
                   ],
                   "nbt": "{CustomModelData:888502}"
                 }
@@ -43,7 +43,7 @@
               "equipment": {
                 "legs": {
                   "items": [
-                    "minecraft:diamond_leggings"
+                    "minecraft:leather_leggings"
                   ],
                   "nbt": "{CustomModelData:888502}"
                 }
@@ -57,7 +57,7 @@
               "equipment": {
                 "feet": {
                   "items": [
-                    "minecraft:diamond_boots"
+                    "minecraft:leather_boots"
                   ],
                   "nbt": "{CustomModelData:888502}"
                 }
@@ -71,7 +71,7 @@
               "equipment": {
                 "chest": {
                   "items": [
-                    "minecraft:diamond_chestplate"
+                    "minecraft:leather_chestplate"
                   ],
                   "nbt": "{CustomModelData:888502}"
                 }
@@ -84,7 +84,7 @@
   },
   "requirements": [
     [
-      "bracken:glacium/armor1"
+      "bracken:panacea/green1"
     ]
   ]
 }

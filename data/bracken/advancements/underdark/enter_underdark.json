@@ -8,7 +8,8 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:deepslate"
+            "item": "minecraft:netherite_pickaxe",
+            "nbt": "{CustomModelData:888501,Enchantments:[{}]}"
         },
         "frame": "task",
         "show_toast": false,

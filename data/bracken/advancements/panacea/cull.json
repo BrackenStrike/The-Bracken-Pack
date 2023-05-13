@@ -1,15 +1,16 @@
 {
-    "parent": "bracken:underdark/enter_underdark",
+    "parent": "bracken:panacea/sporangium",
     "display": {
         "title": {
-            "translate": "Sedimentary My Dear Watson"
+            "translate": "All Mortal Greatness..."
         },
         "description": {
-            "translate": "Enter the titan dripstone cavern biome",
+            "translate": "Find the mortal cull",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:dripstone_block"
+            "item": "minecraft:netherite_axe",
+            "nbt": "{CustomModelData:888501}"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,8 +18,8 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:underdark/gravel1": {
-            "trigger": "minecraft:location",
+        "bracken:panacea/cull1": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": [
                     {
@@ -26,9 +27,17 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "biome": "bracken:the_underdark/titan_dripstone_cavern"
+                                "dimension": "bracken:panacea"
                             }
                         }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_axe"
+                        ],
+                        "nbt": "{CustomModelData:888501}"
                     }
                 ]
             }
@@ -36,7 +45,7 @@
     },
     "requirements": [
         [
-            "bracken:underdark/gravel1"
+            "bracken:panacea/cull1"
         ]
     ]
 }

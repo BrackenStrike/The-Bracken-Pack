@@ -1,29 +1,29 @@
 {
     "display": {
         "title": {
-            "translate": "Glacium"
+            "translate": "Panacea"
         },
         "description": {
-            "translate": "Bring winter clothes",
+            "translate": "The old world",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:diamond_sword",
-            "nbt": "{CustomModelData:888502,Enchantments:[{}]}"
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:888520}"
         },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": true,
-        "background": "bracken:textures/gui/advancements/backgrounds/glacium.png"
+        "background": "bracken:textures/gui/advancements/backgrounds/panacea.png"
     },
     "criteria": {
-        "bracken:glacium/gla1": {
+        "bracken:panacea/pan1": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "dimension": "bracken:glacium"
+                        "dimension": "bracken:panacea"
                     }
                 }
             }
@@ -31,7 +31,7 @@
     },
     "requirements": [
         [
-            "bracken:glacium/gla1"
+            "bracken:panacea/pan1"
         ]
     ]
 }

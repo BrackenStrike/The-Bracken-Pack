@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:diamond_pickaxe"
+            "item": "minecraft:deepslate"
         },
         "frame": "task",
         "show_toast": true,

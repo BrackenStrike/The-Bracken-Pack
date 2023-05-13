@@ -1,16 +1,16 @@
 {
-    "parent": "bracken:glacium/heart",
+    "parent": "bracken:the_brine/weakness",
     "display": {
         "title": {
-            "translate": "Glass Cannon"
+            "translate": "Burning Dispassion"
         },
         "description": {
-            "translate": "Find a frost weapon",
+            "translate": "Destroy the burning heart at the center of the station. Collect the fragment as a souvenir",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:diamond_axe",
-            "nbt": "{CustomModelData:888502,Enchantments:[{}]}"
+            "item": "minecraft:gold_block",
+            "nbt": "{Enchantments:[{}]}"
         },
         "frame": "task",
         "show_toast": true,
@@ -18,7 +18,7 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:glacium/weapon1": {
+        "bracken:the_brine/station1": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": [
@@ -27,7 +27,7 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "dimension": "bracken:glacium"
+                                "dimension": "bracken:the_brine"
                             }
                         }
                     }
@@ -35,10 +35,9 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:diamond_sword",
-                            "minecraft:diamond_axe"
+                            "minecraft:gold_block"
                         ],
-                        "nbt": "{CustomModelData:888502}"
+                        "nbt": "{Enchantments:[{}]}"
                     }
                 ]
             }
@@ -46,7 +45,7 @@
     },
     "requirements": [
         [
-            "bracken:glacium/weapon1"
+            "bracken:the_brine/station1"
         ]
     ]
 }

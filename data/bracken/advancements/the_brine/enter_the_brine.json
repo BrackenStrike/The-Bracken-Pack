@@ -1,29 +1,29 @@
 {
     "display": {
         "title": {
-            "translate": "Glacium"
+            "translate": "The Brine"
         },
         "description": {
-            "translate": "Bring winter clothes",
+            "translate": "The outermost realm",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:diamond_sword",
-            "nbt": "{CustomModelData:888502,Enchantments:[{}]}"
+            "item": "minecraft:nether_wart",
+            "nbt": "{CustomModelData:888506}"
         },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": true,
-        "background": "bracken:textures/gui/advancements/backgrounds/glacium.png"
+        "background": "bracken:textures/gui/advancements/backgrounds/the_brine.png"
     },
     "criteria": {
-        "bracken:glacium/gla1": {
+        "bracken:the_brine/bri1": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "dimension": "bracken:glacium"
+                        "dimension": "bracken:the_brine"
                     }
                 }
             }
@@ -31,7 +31,7 @@
     },
     "requirements": [
         [
-            "bracken:glacium/gla1"
+            "bracken:the_brine/bri1"
         ]
     ]
 }
