@@ -1,5 +1,5 @@
-tellraw @s {"translate":"You have found the Sanctum egress."}
-tellraw @s {"translate":"Venture inside and you will arrive in Sanctum!"}
+tellraw @s {"translate":"You are approaching a border between dimensions for the first time."}
+tellraw @s {"translate":"Venture deper and you will arrive in Sanctum!"}
 playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 10
 
 
