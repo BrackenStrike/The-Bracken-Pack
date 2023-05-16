@@ -5,7 +5,7 @@
             "translate": "Keeping the Peace"
         },
         "description": {
-            "translate": "Get weakened by a Realmkeeper station",
+            "translate": "Approach a Realmkeeper station",
             "color": "green"
         },
         "icon": {
@@ -36,7 +36,8 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "dimension": "bracken:the_brine"
+                                "dimension": "bracken:the_brine",
+                                "structure": "bracken:brine_station"
                             }
                         }
                     }

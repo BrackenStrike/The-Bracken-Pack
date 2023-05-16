@@ -18,6 +18,16 @@
           ]
         },
         {
+          "type": "minecraft:item",
+          "name": "minecraft:moss_block",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },        
+        {
           "type": "loot_table",
           "name": "bracken:item/portal_keys/void_key",
           "conditions": [

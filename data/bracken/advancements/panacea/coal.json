@@ -2,23 +2,22 @@
     "parent": "bracken:panacea/enter_panacea",
     "display": {
         "title": {
-            "translate": "Agents of Bedlam"
+            "translate": "Carboniferous!"
         },
         "description": {
-            "translate": "Explore the creeper dominion biome",
+            "translate": "Obtain coal in Panacea",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:creeper_spawn_egg"
-        },
+            "item": "minecraft:coal"},
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     "criteria": {
-        "bracken:panacea/creeper1": {
-            "trigger": "minecraft:location",
+        "bracken:panacea/coal1": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": [
                     {
@@ -26,9 +25,16 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "biome": "bracken:panacea/creeper_dominion"
+                                "dimension": "bracken:panacea"
                             }
                         }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:coal"
+                        ]
                     }
                 ]
             }
@@ -36,7 +42,7 @@
     },
     "requirements": [
         [
-            "bracken:panacea/creeper1"
+            "bracken:panacea/coal1"
         ]
     ]
 }

@@ -18,12 +18,22 @@
           ]
         },
         {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_pickaxe",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
           "type": "loot_table",
           "name": "bracken:item/potions/saturation_potion",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.04
+              "chance": 0.1
             }
           ]
         },

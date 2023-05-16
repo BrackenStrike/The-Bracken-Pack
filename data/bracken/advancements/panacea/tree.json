@@ -2,14 +2,14 @@
     "parent": "bracken:panacea/enter_panacea",
     "display": {
         "title": {
-            "translate": "Agents of Bedlam"
+            "translate": "A Giving Tree"
         },
         "description": {
-            "translate": "Explore the creeper dominion biome",
+            "translate": "Investigate the tetra tree",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:creeper_spawn_egg"
+            "item": "minecraft:oak_log"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,7 +17,7 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:panacea/creeper1": {
+        "bracken:panacea/tree1": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": [
@@ -26,7 +26,8 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "biome": "bracken:panacea/creeper_dominion"
+                                "dimension": "bracken:panacea",
+                                "structure": "bracken:panacea_tetra_tree"
                             }
                         }
                     }
@@ -36,7 +37,7 @@
     },
     "requirements": [
         [
-            "bracken:panacea/creeper1"
+            "bracken:panacea/tree1"
         ]
     ]
 }

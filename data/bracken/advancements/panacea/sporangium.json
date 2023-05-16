@@ -1,5 +1,5 @@
 {
-  "parent": "bracken:panacea/enter_panacea",
+  "parent": "bracken:panacea/tree",
   "display": {
     "title": {
       "translate": "Hunt a Legend"

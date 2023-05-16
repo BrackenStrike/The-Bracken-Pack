@@ -1,15 +1,15 @@
 {
-    "parent": "bracken:panacea/enter_panacea",
+    "parent": "bracken:panacea/creeper",
     "display": {
         "title": {
-            "translate": "Agents of Bedlam"
+            "translate": "Another Anomaly"
         },
         "description": {
-            "translate": "Explore the creeper dominion biome",
+            "translate": "Enter the creeper pyramid",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:creeper_spawn_egg"
+            "item": "minecraft:mossy_cobblestone"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,7 +17,7 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:panacea/creeper1": {
+        "bracken:panacea/pyramid1": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": [
@@ -26,7 +26,8 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "biome": "bracken:panacea/creeper_dominion"
+                                "dimension": "bracken:panacea",
+                                "structure": "bracken:panacea_creeper_pyramid"
                             }
                         }
                     }
@@ -36,7 +37,7 @@
     },
     "requirements": [
         [
-            "bracken:panacea/creeper1"
+            "bracken:panacea/pyramid1"
         ]
     ]
 }

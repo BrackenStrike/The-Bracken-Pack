@@ -19,6 +19,16 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:moss_block",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:netherite_scrap",
           "conditions": [
             {
