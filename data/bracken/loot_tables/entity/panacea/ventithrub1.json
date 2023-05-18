@@ -8,21 +8,7 @@
           "name": "bracken:item/panacea/panaspore"
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "bracken:item/panacea/lembas_breadfruit"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.35
-        }
-      ]
     }
+    
   ]
 }

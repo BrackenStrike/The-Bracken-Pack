@@ -9,21 +9,7 @@
         }
       ]
     },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "bracken:item/panacea/yakitubba_hide"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.45
-        }
-      ]
-    },
+    
     {
       "rolls": {
         "min": 0,
