@@ -10,7 +10,7 @@ effect give @s slowness 100 10 true
 effect give @s regeneration 100 4 true
 effect give @s invisibility 100 4 true
 
-
+advancement grant @a[distance=..100] only bracken:panacea/finalform
 scoreboard players set @e[type=slime,tag=!bp.boss] bp.slimedeath 30
 
 scoreboard players set @s bp.slime 100

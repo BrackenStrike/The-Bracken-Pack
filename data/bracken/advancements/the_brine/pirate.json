@@ -5,7 +5,7 @@
       "translate": "Tell No Tales"
     },
     "description": {
-      "translate": "Slay the pirate captain",
+      "translate": "Board a pirate ship and Defeat the pirate captain!",
       "color": "green"
     },
     "icon": {
@@ -21,24 +21,16 @@
     "bracken:the_brine/pirate1": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:vindicator",
-              "nbt": "{PersistenceRequired:1b}"
-            }
-          }
-        ],
-        "killing_blow": {
-          "source_entity": {
-            "type": "minecraft:player"
+        "entity": {
+          "type": "minecraft:vindicator",
+          "nbt": "{DeathLootTable:\"bracken:the_brine/pirate3\"}",
+          "location": {
+            "dimension": "bracken:the_brine"
           }
         }
       }
     }
-  },
+},
   "requirements": [
     [
       "bracken:the_brine/pirate1"

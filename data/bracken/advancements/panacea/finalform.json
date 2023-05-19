@@ -1,29 +1,29 @@
 {
-  "parent": "bracken:panacea/tree",
+  "parent": "bracken:panacea/sporangium",
   "display": {
     "title": {
-      "translate": "Sleeping Giant"
+      "translate": "Hunt a Legend"
     },
     "description": {
-      "translate": "Awaken the Sporangium from its dormant state",
+      "translate": "Damage the Sporangium until it enters its final form",
       "color": "green"
     },
     "icon": {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:slime_block"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "bracken:panacea/sporangium1": {
+    "bracken:panacea/finalform1": {
         "trigger": "minecraft:impossible"
     }
 },
   "requirements": [
     [
-      "bracken:panacea/sporangium1"
+      "bracken:panacea/finalform1"
     ]
   ]
 }

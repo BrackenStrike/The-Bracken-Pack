@@ -29,6 +29,16 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:crafting_table",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:netherite_scrap",
           "conditions": [
             {

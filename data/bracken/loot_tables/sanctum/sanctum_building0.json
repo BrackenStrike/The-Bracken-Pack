@@ -28,6 +28,16 @@
           ]
         },
         {
+          "type": "minecraft:item",
+          "name": "minecraft:crafting_table",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
           "type": "loot_table",
           "name": "bracken:item/portal_keys/nether_key",
           "conditions": [
