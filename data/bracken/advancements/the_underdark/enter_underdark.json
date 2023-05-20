@@ -18,7 +18,7 @@
         "background": "bracken:textures/gui/advancements/backgrounds/underdark.png"
     },
     "criteria": {
-        "bracken:underdark/und2": {
+        "bracken:the_underdark/und2": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -31,7 +31,7 @@
     },
     "requirements": [
         [
-            "bracken:underdark/und2"
+            "bracken:the_underdark/und2"
         ]
     ]
 }

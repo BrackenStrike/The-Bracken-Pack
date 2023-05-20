@@ -1,5 +1,5 @@
 {
-    "parent": "bracken:underdark/gravel",
+    "parent": "bracken:the_underdark/petrified",
     "display": {
         "title": {
             "translate": "Crunch!"
@@ -17,7 +17,7 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:underdark/shellbreaker1": {
+        "bracken:the_underdark/shellbreaker1": {
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
                 "damage": {
@@ -34,7 +34,7 @@
     },
     "requirements": [
         [
-            "bracken:underdark/shellbreaker1"
+            "bracken:the_underdark/shellbreaker1"
         ]
     ]
 }

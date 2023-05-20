@@ -1,25 +1,24 @@
 {
-    "parent": "bracken:the_brine/station",
+    "parent": "bracken:the_underdark/enter_underdark",
     "display": {
         "title": {
-            "translate": "Time in a Bottle"
+            "translate": "What? Why?"
         },
         "description": {
-            "translate": "Obtain essence of eternity",
+            "translate": "Find a lost miner. Then punch them for some reason",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:nether_wart",
-            "nbt": "{CustomModelData:888510}"
+            "item": "minecraft:filled_map"
         },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
-        "hidden": false
+        "hidden": true
     },
     "criteria": {
-        "bracken:the_brine/eternity1": {
-            "trigger": "minecraft:inventory_changed",
+        "bracken:the_underdark/lost1": {
+            "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "player": [
                     {
@@ -27,17 +26,18 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "dimension": "bracken:the_brine"
+                                "dimension": "bracken:the_underdark"
                             }
                         }
                     }
                 ],
-                "items": [
+                "entity": [
                     {
-                        "items": [
-                            "minecraft:nether_wart"
-                        ],
-                        "nbt": "{CustomModelData:888510}"
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:pillager"
+                        }
                     }
                 ]
             }
@@ -45,7 +45,7 @@
     },
     "requirements": [
         [
-            "bracken:the_brine/eternity1"
+            "bracken:the_underdark/lost1"
         ]
     ]
 }

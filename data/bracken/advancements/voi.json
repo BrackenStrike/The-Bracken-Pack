@@ -1,5 +1,5 @@
 {
-    "parent": "bracken:sanctum/enter_sanctum",
+    "parent": "bracken:sanctum/voidship",
     "display": {
         "title": {
             "translate": "Nothing here."

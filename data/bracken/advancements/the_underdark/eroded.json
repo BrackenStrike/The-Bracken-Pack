@@ -1,15 +1,15 @@
 {
-    "parent": "bracken:underdark/enter_underdark",
+    "parent": "bracken:the_underdark/enter_underdark",
     "display": {
         "title": {
-            "translate": "Crystal Clear"
+            "translate": "Swept Away"
         },
         "description": {
-            "translate": "Enter the crystal caves biome",
+            "translate": "Enter the eroded basin biome",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:blue_stained_glass"
+            "item": "minecraft:magma_block"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,7 +17,7 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:underdark/crystal1": {
+        "bracken:the_underdark/eroded1": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": [
@@ -26,7 +26,7 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "biome": "bracken:the_underdark/crystal_caves"
+                                "biome": "bracken:the_underdark/eroded_basin"
                             }
                         }
                     }
@@ -36,7 +36,7 @@
     },
     "requirements": [
         [
-            "bracken:underdark/crystal1"
+            "bracken:the_underdark/eroded1"
         ]
     ]
 }

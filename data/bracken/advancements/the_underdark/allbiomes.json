@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_shovel",
-      "nbt": "{Damage:0}"
+      "item": "minecraft:iron_shovel"
     },
     "title": {
       "translate": "Expert Spelunker"
@@ -15,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "bracken:underdark/enter_underdark_basin",
+  "parent": "bracken:the_underdark/enter_underdark_basin",
   "criteria": {
     "bracken:biome1": {
       "trigger": "minecraft:location",

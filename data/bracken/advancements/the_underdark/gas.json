@@ -1,26 +1,36 @@
 {
-    "parent": "bracken:underdark/enter_underdark",
+    "parent": "bracken:the_underdark/eroded",
     "display": {
         "title": {
-            "translate": "What? Why?"
+            "translate": "Heavier Than Air"
         },
         "description": {
-            "translate": "Find a lost miner. Then punch them for some reason",
+            "translate": "Walk into a toxic gas cloud",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:filled_map"
+            "item": "minecraft:skeleton_skull"
         },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
-        "hidden": true
+        "hidden": false
     },
     "criteria": {
-        "bracken:underdark/lost1": {
-            "trigger": "minecraft:player_hurt_entity",
+        "bracken:the_underdark/gas1": {
+            "trigger": "minecraft:location",
             "conditions": {
                 "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "effects": {
+                                "minecraft:nausea": {}
+                            }
+                        }
+                    },
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
@@ -30,22 +40,13 @@
                             }
                         }
                     }
-                ],
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecraft:pillager"
-                        }
-                    }
                 ]
             }
         }
     },
     "requirements": [
         [
-            "bracken:underdark/lost1"
+            "bracken:the_underdark/gas1"
         ]
     ]
 }

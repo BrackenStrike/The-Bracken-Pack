@@ -1,5 +1,5 @@
 {
-    "parent": "bracken:underdark/enter_underdark",
+    "parent": "bracken:the_underdark/enter_underdark",
     "display": {
         "title": {
             "translate": "Sunken Landmass"
@@ -17,7 +17,7 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:underdark/petrified_forest1": {
+        "bracken:the_underdark/petrified_forest1": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": [
@@ -36,7 +36,7 @@
     },
     "requirements": [
         [
-            "bracken:underdark/petrified_forest1"
+            "bracken:the_underdark/petrified_forest1"
         ]
     ]
 }

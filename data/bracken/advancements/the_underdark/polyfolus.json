@@ -1,5 +1,5 @@
 {
-    "parent": "bracken:underdark/fungus",
+    "parent": "bracken:the_underdark/fungus",
     "display": {
         "title": {
             "translate": "Mitosis Madness"
@@ -17,7 +17,7 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:underdark/fungus1": {
+        "bracken:the_underdark/fungus1": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": [
@@ -38,7 +38,7 @@
     },
     "requirements": [
         [
-            "bracken:underdark/fungus1"
+            "bracken:the_underdark/fungus1"
         ]
     ]
 }

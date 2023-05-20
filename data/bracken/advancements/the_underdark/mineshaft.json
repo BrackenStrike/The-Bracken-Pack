@@ -1,15 +1,15 @@
 {
-    "parent": "bracken:underdark/eroded",
+    "parent": "bracken:the_underdark/gravel",
     "display": {
         "title": {
-            "translate": "Heavier Than Air"
+            "translate": "Why Twice?"
         },
         "description": {
-            "translate": "Walk into a toxic gas cloud",
+            "translate": "Discover the twice abandoned mineshaft",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:skeleton_skull"
+            "item": "minecraft:dark_oak_log"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,7 +17,7 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:underdark/gas1": {
+        "bracken:the_underdark/mineshaft1": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": [
@@ -25,18 +25,9 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:player",
-                            "effects": {
-                                "minecraft:nausea": {}
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
                             "location": {
-                                "dimension": "bracken:the_underdark"
+                                "dimension": "bracken:the_underdark",
+                                "structure": "bracken:twice_abandoned_mineshaft"
                             }
                         }
                     }
@@ -46,7 +37,7 @@
     },
     "requirements": [
         [
-            "bracken:underdark/gas1"
+            "bracken:the_underdark/mineshaft1"
         ]
     ]
 }
