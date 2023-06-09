@@ -16,6 +16,7 @@ scoreboard players remove @s bp.obsidian 1
 
 scoreboard players remove @s[scores={bp.pull=1..}] bp.pull 1
 
+
 scoreboard players add @s[predicate=bracken:sneak] bp.sneakcharge 4
 scoreboard players set @s[scores={bp.sneakcharge=31..}] bp.sneakcharge 30
 scoreboard players remove @s[scores={bp.sneakcharge=1..},predicate=!bracken:sneak] bp.sneakcharge 1
