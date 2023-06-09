@@ -3,4 +3,4 @@
 # Creators: Bracken
 ##########################################################
 
-execute in bracken:the_brine run tp @s @e[type=marker,sort=nearest,limit=1,tag=bp.brine_death,distance=..1000]
+execute in bracken:the_brine run tp @s @e[type=marker,sort=nearest,limit=1,tag=bp.brine_use,distance=..1000]

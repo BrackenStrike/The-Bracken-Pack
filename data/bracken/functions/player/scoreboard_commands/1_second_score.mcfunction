@@ -20,7 +20,7 @@ scoreboard players set @s[nbt={Inventory:[{Slot:103b,id:"minecraft:wither_skelet
 # panacea
 scoreboard players set @s[nbt={Inventory:[{Slot:103b,id:"minecraft:creeper_head",Count:1b}]}] bp.creeper 22
 
-#brine nausea
 
-execute if entity @e[distance=..4,type=minecraft:item_display,tag=bp.brine_entrance] run effect give @s minecraft:nausea 7 0 true
-execute if block ~ ~ ~ water if entity @e[distance=..10,type=minecraft:item_display,tag=bp.brine_portal_exit] run effect give @s minecraft:nausea 7 0 true
+
+
+
