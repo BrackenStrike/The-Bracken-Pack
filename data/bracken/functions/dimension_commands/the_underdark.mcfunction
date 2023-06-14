@@ -9,5 +9,3 @@ execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/m
 execute if score @s bp.1_second matches 16 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=246,dy=100] run function bracken:dimension_crossing/underdark_to_overworld
 execute if score @s bp.1_second matches 6 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=1,dy=-200] run function bracken:dimension_crossing/underdark_to_nether
 
-##########   POLYFOLUS MINIBOSS  ##########
-execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:red_mushroom_block",tag:{CustomModelData:888501}}}] at @s run function bracken:entities/the_underdark/polyfolus
