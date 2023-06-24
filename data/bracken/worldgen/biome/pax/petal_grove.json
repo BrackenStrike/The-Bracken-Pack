@@ -35,7 +35,9 @@
     [],
     [],
     [],
-    [],
+    ["minecraft:flower_cherry",
+    "minecraft:trees_cherry"
+  ],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
@@ -57,10 +59,7 @@
     [],
     [],
     [
-      "bracken:pax/pink_tree1",
-      "bracken:pax/pink_tree2",
       "bracken:pax/rock",
-      "minecraft:flower_flower_forest",
       "minecraft:flower_swamp",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
@@ -80,8 +79,8 @@
     "sky_color": 13361126,
     "water_color": 11851209,
     "water_fog_color": 2173534,
-    "grass_color": 15588232,
-    "foliage_colour": 15588232,
+    "grass_color": 13949813,
+    "foliage_colour": 16749744,
     "particle": {
       "options": {
         "type": "minecraft:falling_nectar"

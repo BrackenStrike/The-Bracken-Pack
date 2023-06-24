@@ -21,7 +21,7 @@
         "Properties": {
           "axis": "y"
         },
-        "Name": "minecraft:stripped_birch_log"
+        "Name": "minecraft:stripped_cherry_log"
       },
       "type": "minecraft:simple_state_provider"
     },
@@ -31,7 +31,7 @@
           "persistent": "false",
           "distance": "7"
         },
-        "Name": "minecraft:jungle_leaves"
+        "Name": "minecraft:cherry_leaves"
       },
       "type": "minecraft:simple_state_provider"
     },
