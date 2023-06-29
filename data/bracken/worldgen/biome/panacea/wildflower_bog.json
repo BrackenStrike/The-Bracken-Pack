@@ -34,6 +34,12 @@
         "minCount": 4,
         "maxCount": 4
       },
+      {
+        "type": "minecraft:sniffer",
+        "weight": 5,
+        "minCount": 4,
+        "maxCount": 4
+      },
        {
         "type": "minecraft:frog",
         "weight": 10,
