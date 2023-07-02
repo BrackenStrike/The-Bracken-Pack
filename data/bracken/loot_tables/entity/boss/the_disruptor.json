@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/sanctum/null"
+          "name": "bracken:item/omnidrome/null"
         }
       ]
     }

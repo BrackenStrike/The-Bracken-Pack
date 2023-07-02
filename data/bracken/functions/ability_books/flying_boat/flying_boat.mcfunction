@@ -5,8 +5,8 @@
 
 
 playsound bracken:ability_book_tier_1 player @a[distance=..30] ~ ~ ~ 10
-execute anchored eyes run function bracken:ability_books/flying_boat/raycast
-tellraw @s ["",{"selector":"@s "},{"translate":" generated [FLYING BOAT]"}]
+execute if predicate bracken:sneak unless entity @e[type=boat,distance=..5] run tellraw @s [{"translate":"No boat found to destroy."}]
+execute if predicate bracken:sneak if entity @e[type=boat,distance=..5] run function bracken:ability_books/flying_boat/destroy
+execute unless predicate bracken:sneak anchored eyes run function bracken:ability_books/flying_boat/raycast_summon
 
-experience add @s -2 levels
 scoreboard players set @s bp.cooldown 20
