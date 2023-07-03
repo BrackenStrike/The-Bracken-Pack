@@ -17,6 +17,8 @@
 #       will no longer be activated. The Species Beginner Book will no longer be handed out to new players but both the Beginner
 #       Species Book and the Book of Arbitrium will still allow players to change species.
 #
+# - Enable/Disable Beginner Species Book: If disabled the Beginner Species Book will no longer function and won't be handed out to new players.
+#
 # - Enable/Disable Ability Books: If disabled all Ability Books will no longer activate their effects and a unique message will be
 #       displayed if an attempt is made to use them. This does not affect the Beginner Species Book nor the Book of Arbitrium. It will
 #       still be possible to obtain Ability Books from loot tables.
@@ -48,6 +50,9 @@ tellraw @s ["",{"text":"[Enable]","color":"green","clickEvent":{"action":"run_co
 
 tellraw @s ["",{"text":"* Species of the Planes","hoverEvent":{"action":"show_text", "contents":[{"text":"Enable/Disable Species: \nThis will not force players to leave their current species. If disabled all commands for player species will no longer be activated. The Species Beginner Book will no longer be handed out to new players but both the Beginner Species Book and the Book of Arbitrium will still allow players to change species."}]}}]
 tellraw @s ["",{"text":"[Enable]","color":"green","clickEvent":{"action":"run_command","value":"/function bracken:player/config_menu/enable_species"}},{"text":" "},{"text":"[Disable]","color":"red","clickEvent":{"action":"run_command","value":"/function bracken:player/config_menu/disable_species"}}]
+
+tellraw @s ["",{"text":"* Beginner Species Book","hoverEvent":{"action":"show_text", "contents":[{"text":"Enable/Disable Beginner Species Book: \nIf disabled the Beginner Species Book will no longer function and won't be handed out to new players."}]}}]
+tellraw @s ["",{"text":"[Enable]","color":"green","clickEvent":{"action":"run_command","value":"/function bracken:player/config_menu/enable_bsb"}},{"text":" "},{"text":"[Disable]","color":"red","clickEvent":{"action":"run_command","value":"/function bracken:player/config_menu/disable_bsb"}}]
 
 tellraw @s ["",{"text":"* Ability Books","hoverEvent":{"action":"show_text", "contents":[{"text":"Enable/Disable Ability Books: \nIf disabled all Ability Books will no longer activate their effects and a unique message will be displayed if an attempt is made to use them. This does not affect the Beginner Species Book nor the Book of Arbitrium. It will still be possible to obtain Ability Books from loot tables."}]}}]
 tellraw @s ["",{"text":"[Enable]","color":"green","clickEvent":{"action":"run_command","value":"/function bracken:player/config_menu/enable_ability_books"}},{"text":" "},{"text":"[Disable]","color":"red","clickEvent":{"action":"run_command","value":"/function bracken:player/config_menu/disable_ability_books"}}]
