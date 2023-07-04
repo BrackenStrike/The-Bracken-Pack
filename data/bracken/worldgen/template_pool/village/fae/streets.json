@@ -1,6 +1,6 @@
 {
   "name": "bracken:village/fae/streets",
-  "fallback": "minecraft:village/taiga/terminators",
+  "fallback": "bracken:village/fae/terminators",
   "elements": [
     {
       "weight": 2,

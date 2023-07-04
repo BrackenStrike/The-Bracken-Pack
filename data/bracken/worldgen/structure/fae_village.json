@@ -2,7 +2,7 @@
   "type": "minecraft:jigsaw",
   "biomes": "bracken:the_faewild/hidden_hamlet",
   "spawn_overrides": {},
-  "start_pool": "bracken:village/taiga/town_centers",
+  "start_pool": "bracken:village/fae/town_centers",
   "size": 6,
   "step": "surface_structures",
   "start_height": {

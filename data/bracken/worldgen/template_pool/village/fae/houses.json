@@ -1,6 +1,6 @@
 {
   "name": "bracken:village/fae/houses",
-  "fallback": "bracken:village/taiga/terminators",
+  "fallback": "bracken:village/fae/terminators",
   "elements": [
     {
       "weight": 4,
