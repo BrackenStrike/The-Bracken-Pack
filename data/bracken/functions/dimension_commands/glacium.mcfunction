@@ -10,3 +10,5 @@ execute if score @s bp.1_second matches 15 run function bracken:dimension_comman
 execute if entity @s[scores={bp.ice=7..}] if block ~ ~-1 ~ minecraft:beacon run function bracken:dimension_crossing/glacium_to_overworld
 
 execute if score @s bp.1_second matches 12 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=-35,dy=-300] in bracken:void run tp @s ~ 240 ~
+
+execute unless entity @s[predicate=bracken:lesslightlevel] run execute at @s positioned over ocean_floor if entity @s[distance=..0.1] run effect give @s[predicate=bracken:rain,team=!Frostkin] minecraft:wither 1 1 false
