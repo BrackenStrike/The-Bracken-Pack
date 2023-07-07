@@ -13,7 +13,7 @@ effect give @s[predicate=bracken:netherlike] weakness 1 0 false
 execute at @s positioned over ocean_floor if entity @s[distance=..0.1] run effect give @s[predicate=bracken:lightlevel,predicate=bracken:desert] weakness 1 0 false
 execute at @s positioned over ocean_floor if entity @s[distance=..0.1] run effect give @s[predicate=bracken:lightlevel,predicate=bracken:desert] hunger 1 0 false
 
-execute if entity @s[scores={bp.food=..15}] run say i
+execute if score @s bp.food matches ..15 run effect give @s minecraft:saturation 1 0 true
 
 execute at @s if block ~ ~ ~ minecraft:powder_snow run effect give @s minecraft:speed 1 3
 execute at @s if block ~ ~ ~ minecraft:powder_snow run effect give @s minecraft:resistance 1 3
