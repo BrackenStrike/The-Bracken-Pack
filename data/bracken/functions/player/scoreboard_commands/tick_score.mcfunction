@@ -7,6 +7,7 @@ scoreboard players set @s bp.tick 0
 
 scoreboard players set @s bp.hurting 0
 scoreboard players set @s bp.walk 0
+scoreboard players set @s bp.swim 0
 scoreboard players set @s[scores={bp.fly=1..}] bp.fly 0
 scoreboard players set @s[scores={bp.jump=2..}] bp.jump 1
 

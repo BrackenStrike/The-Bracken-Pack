@@ -16,4 +16,3 @@ execute at @s positioned over ocean_floor if entity @s[distance=..0.1] run effec
 
 effect give @s[predicate=bracken:netherlike] hunger 1 0 false
 effect give @s[predicate=bracken:netherlike] weakness 1 0 false
-effect give @s[predicate=bracken:netherlike] poison 2 1 false
