@@ -9,41 +9,31 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:sweet_berries",
+          "name": "minecraft:bookshelf",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.7
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
               "chance": 0.8
-            }
-          ]
-        },
-        {
-          "type": "loot_table",
-          "name": "bracken:item/ability_books/flying_boat",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ]
-        },
-        {
-          "type": "loot_table",
-          "name": "bracken:item/music_discs/faewild",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.04
-            }
-          ]
-        },
-        {
-          "type": "loot_table",
-          "name": "bracken:item/ability_books/world_soar",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.01
             }
           ]
         },
@@ -53,13 +43,13 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.1
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:cobweb",
+          "name": "minecraft:writable_book",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -69,11 +59,41 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_carrot",
+          "name": "minecraft:rose_bush",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.3
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:globe_banner_pattern",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ink_sac",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chiseled_bookshelf",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
             }
           ]
         }
