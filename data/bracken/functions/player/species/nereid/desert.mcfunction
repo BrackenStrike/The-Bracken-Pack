@@ -5,4 +5,4 @@
 
 effect give @s weakness 4 0 false
 effect give @s hunger 4 0 false
-particle minecraft:campfire_cosy_smoke ~ ~1 ~ 0.2 1 0.2 0.05 2
+particle minecraft:splash ~ ~1.5 ~ 0.2 1 0.2 0.05 2
