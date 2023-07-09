@@ -9,4 +9,4 @@ execute if score @s bp.enderling_teleport matches 1.. run scoreboard players rem
 execute if score @s bp.enderling_teleport matches 0 if predicate bracken:sneak if predicate bracken:air_offhand run item replace entity @s weapon.offhand with minecraft:ender_eye{bracken:{id:"enderling_controlled_teleport"},CustomModelData:888501}
 execute if entity @s[scores={bp.tick=2}] if entity @e[type=minecraft:eye_of_ender,distance=..4,nbt={Item:{tag:{bracken:{id:"enderling_controlled_teleport"}}}}] run function bracken:player/species/enderling/controlled_teleport
 
-execute unless entity @s[predicate=bracken:desert] run execute at @s positioned over ocean_floor if entity @s[distance=..0.1] run effect give @s[predicate=bracken:rain] minecraft:wither 1 1 false
+execute positioned over ocean_floor if entity @s[predicate=bracken:rain,distance=..0.1] run function bracken:player/species/enderling/rain

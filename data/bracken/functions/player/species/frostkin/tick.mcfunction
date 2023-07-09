@@ -8,12 +8,9 @@ execute if score @s bp.tick matches 1 if block ~ ~-1 ~ magma_block unless predic
 execute if block ~ ~ ~ lava run effect give @s minecraft:instant_damage 1 1 true
 effect clear @s minecraft:slowness
 
-effect give @s[predicate=bracken:netherlike] hunger 1 0 false
-effect give @s[predicate=bracken:netherlike] weakness 1 0 false
-execute at @s positioned over ocean_floor if entity @s[distance=..0.1] run effect give @s[predicate=bracken:lightlevel,predicate=bracken:desert] weakness 1 0 false
-execute at @s positioned over ocean_floor if entity @s[distance=..0.1] run effect give @s[predicate=bracken:lightlevel,predicate=bracken:desert] hunger 1 0 false
+execute if entity @s[predicate=bracken:netherlike] run function bracken:player/species/frostkin/hot_dimension
+execute positioned over ocean_floor if entity @s[distance=..0.1,predicate=bracken:lightlevel,predicate=bracken:desert] run function bracken:player/species/frostkin/desert
 
 execute if score @s bp.food matches ..15 run effect give @s minecraft:saturation 1 0 true
 
-execute at @s if block ~ ~ ~ minecraft:powder_snow run effect give @s minecraft:speed 1 3
-execute at @s if block ~ ~ ~ minecraft:powder_snow run effect give @s minecraft:resistance 1 3
+execute if block ~ ~ ~ minecraft:powder_snow run function bracken:player/species/frostkin/powder_snow

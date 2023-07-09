@@ -13,4 +13,4 @@ effect give @s minecraft:night_vision 33 0 true
 
 execute if predicate bracken:on_fire run function bracken:player/species/netherkin/on_fire
 
-execute unless entity @s[predicate=bracken:desert] run execute at @s positioned over ocean_floor if entity @s[distance=..0.1] run effect give @s[predicate=bracken:rain] minecraft:wither 1 1 false
+execute positioned over ocean_floor if entity @s[predicate=bracken:rain,distance=..0.1] run function bracken:player/species/netherkin/rain
