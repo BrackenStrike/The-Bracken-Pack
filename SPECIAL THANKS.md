@@ -11,6 +11,7 @@ Dr. C
 Freddy64merpro
 Grandmaster
 Jorick_Sephis
+Natebat9
 Sulfenir
 Tuxxic
 TytoninaeArt
@@ -21,6 +22,7 @@ Accelerator
 Hawaiian_flower
 Jerry_From_Squidward
 NecromancerT-Rav
+SixLuckyBlocks
 The_Happy_Protogen
 Trog
 
