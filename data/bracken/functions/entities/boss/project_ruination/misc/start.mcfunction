@@ -7,5 +7,4 @@ tellraw @a[distance=..100] {"translate":"SYSTEM RESTART: STAND BY FOR EXTRACTION
 playsound minecraft:block.portal.trigger ambient @a[distance=..50] ~ ~ ~ 100 2
 playsound minecraft:block.amethyst_cluster.break ambient @a[distance=..50] ~ ~ ~ 100 0
 
-
-
+advancement grant @a[distance=..24] only bracken:sanctum/boss
