@@ -3,17 +3,18 @@
     "requirement": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "item": {
-          "tag": "minecraft:music_discs",
-          "nbt": "{bracken:{custom_music_disc:1b}}"
-        },
-        "location": {
-          "block": {
-            "blocks": [
-              "minecraft:jukebox"
-            ]
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jukebox"
+                ]
+              }
+            }
           }
-        }
+        ]
       }
     }
   },
