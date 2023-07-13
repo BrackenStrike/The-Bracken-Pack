@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "bracken:the_underdark/enter_underdark_basin",
+  "parent": "bracken:the_underdark/enter_underdark",
   "criteria": {
     "bracken:biome1": {
       "trigger": "minecraft:location",
