@@ -19,7 +19,7 @@
     "axolotls": [{
         "type": "minecraft:axolotl",
         "weight": 1,
-        "minCount": 0,
+        "minCount": 1,
         "maxCount": 1
       }],
     "misc": [],
@@ -27,7 +27,7 @@
       {
         "type": "minecraft:dolphin",
         "weight": 1,
-        "minCount": 0,
+        "minCount": 1,
         "maxCount": 1
       }
     ],

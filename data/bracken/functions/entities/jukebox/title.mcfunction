@@ -9,3 +9,4 @@ execute if data entity @s {data:{bracken:{custom_music:"glacium"}}} run title @a
 execute if data entity @s {data:{bracken:{custom_music:"pax"}}} run title @a[distance=..16] actionbar {"translate":"Now Playing: Arnold Rynux - Pax"}
 execute if data entity @s {data:{bracken:{custom_music:"underdark"}}} run title @a[distance=..16] actionbar {"translate":"Now Playing: Arnold Rynux - Underdark"}
 execute if data entity @s {data:{bracken:{custom_music:"viceroy"}}} run title @a[distance=..16] actionbar {"translate":"Now Playing: Arnold Rynux - Viceroy"}
+execute if data entity @s {data:{bracken:{custom_music:"varskspace"}}} run title @a[distance=..16] actionbar {"translate":"Now Playing: Arnold Rynux - Varskspace"}

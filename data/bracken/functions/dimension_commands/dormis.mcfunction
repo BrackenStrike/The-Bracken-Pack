@@ -8,6 +8,8 @@ effect give @s[scores={bp.longtick=2}] minecraft:bad_omen 100000 10 true
 
 effect give @s[scores={bp.longtick=10}] minecraft:resistance 3 9 false
 
+execute if score @s bp.1_second matches 13 run function bracken:entities/dormis/dormis_mobs
+
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 
 #VOID TP
