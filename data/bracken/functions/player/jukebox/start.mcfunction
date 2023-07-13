@@ -6,3 +6,4 @@
 advancement revoke @s only bracken:technical/jukebox
 
 execute at @s anchored eyes run function bracken:player/jukebox/raycast
+
