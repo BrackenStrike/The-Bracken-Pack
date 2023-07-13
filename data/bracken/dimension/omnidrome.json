@@ -7,6 +7,18 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
+          "biome": "bracken:omnidrome/0",
+          "parameters": {
+            "temperature": -0.8,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
           "biome": "bracken:omnidrome/1",
           "parameters": {
             "temperature": 0.1,
@@ -22,7 +34,7 @@
           "biome": "bracken:omnidrome/2",
           "parameters": {
             "temperature": 0.3,
-            "humidity": 0.5,
+            "humidity": 0,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
@@ -34,12 +46,12 @@
           "biome": "bracken:omnidrome/3",
           "parameters": {
             "temperature": 0.5,
-            "humidity": 0.7,
+            "humidity": 0,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
-            "offset": 0.2
+            "offset": 0
           }
         }
       ]
