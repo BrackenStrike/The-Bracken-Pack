@@ -20,7 +20,8 @@ scoreboard players set @s[nbt={Inventory:[{Slot:103b,id:"minecraft:wither_skelet
 # panacea
 scoreboard players set @s[nbt={Inventory:[{Slot:103b,id:"minecraft:creeper_head",Count:1b}]}] bp.creeper 22
 
-
+##########   POLYFOLUS MINIBOSS  ##########
+execute as @e[distance=..50,limit=5,type=minecraft:item,nbt={Item:{id:"minecraft:red_mushroom_block",tag:{CustomModelData:888501}}}] at @s run function bracken:entities/the_underdark/polyfolus
 
 
 
