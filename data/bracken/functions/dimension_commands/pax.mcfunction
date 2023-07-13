@@ -20,3 +20,7 @@ execute if score @s bp.1_second matches 8 if score #bp.dimension_travel_dummy bp
 
 #PAX CONDITIONAL SLOWFALL
 execute if score @s bp.tick matches 2 if blocks ~1 ~1 ~1 ~-1 ~-10 ~-1 ~ 500 ~ all unless entity @s[nbt={Inventory:[{id:"minecraft:elytra",Slot:102b}]}] run effect give @s minecraft:slow_falling 1 0 true
+
+## Pax
+execute if score @s bp.tick matches 1 as @e[type=#bracken:pax_entities,distance=..40] at @s run function bracken:entities/pax/pax_entities
+

@@ -21,9 +21,9 @@ execute if entity @s[type=marker,tag=bp.dormis_platform_remove] run function bra
 ## RAIN EVENT
 execute if entity @s[tag=bp.rain_event] run function bracken:entities/panacea/mob/tick
 
-
 ## JUKEBOX
 execute if entity @s[type=marker,tag=bp.jukebox_manager] run function bracken:entities/jukebox/tick
 
-
+## EFFECT STANDS
+execute if entity @s[type=minecraft:armor_stand,tag=bp.stand] run function bracken:entities/stands/base
 
