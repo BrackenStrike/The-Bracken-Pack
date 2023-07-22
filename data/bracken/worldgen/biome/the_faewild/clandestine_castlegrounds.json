@@ -48,7 +48,7 @@
     [],
     [],
     [],
-    [],
+    ["bracken:faewild/amethyst"],
     [
 
       "minecraft:patch_grass_normal",
