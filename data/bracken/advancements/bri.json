@@ -5,7 +5,7 @@
             "translate": "Out of the Blue, Into the Black"
         },
         "description": {
-            "translate": "Stare at the top of an activated conduit and enter the Brine",
+            "translate": "Swim to the bottom of a whilrpool and enter the Brine",
             "color": "green"
         },
         "icon": {
@@ -34,3 +34,4 @@
         ]
     ]
 }
+

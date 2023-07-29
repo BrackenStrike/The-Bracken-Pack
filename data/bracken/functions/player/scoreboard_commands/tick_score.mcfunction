@@ -32,7 +32,7 @@ scoreboard players remove @s[scores={bp.hurting=1..}] bp.hurting 1
 scoreboard players set @s[nbt={SelectedItem:{id:"minecraft:iron_sword",tag:{CustomModelData:888502}}}] bp.poison 4
 
 # VARSKSPACE TRAVEL
-execute if entity @e[type=lightning_bolt,tag=!bp.no_travel,distance=..2] run function bracken:dimension_crossing/varskspace_travel
+execute if entity @e[type=lightning_bolt,tag=bp.varsk_lightning,distance=..2] run function bracken:dimension_crossing/varskspace_travel
 
 # Ability Books
 execute if entity @s[scores={bp.wtb_cooldown=1..}] run scoreboard players remove @s bp.wtb_cooldown 2
