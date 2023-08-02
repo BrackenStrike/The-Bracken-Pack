@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "Lightning Bolt",
+                "translate": "Travel Call",
                 "color": "yellow",
                 "italic": false
               }
