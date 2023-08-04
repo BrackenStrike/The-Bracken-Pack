@@ -13,7 +13,7 @@ scoreboard players set @s[scores={bp.jump=2..}] bp.jump 1
 
 
 scoreboard players set @s[scores={bp.sprint=1..}] bp.sprint 0
-scoreboard players remove @s bp.obsidian 1
+scoreboard players remove @s[scores={bp.obsidian=1..}] bp.obsidian 1
 
 scoreboard players remove @s[scores={bp.pull=1..}] bp.pull 1
 
