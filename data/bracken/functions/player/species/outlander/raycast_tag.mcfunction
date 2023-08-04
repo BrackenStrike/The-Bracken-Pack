@@ -3,7 +3,7 @@
 # Creators : reNemesic
 ############################################
 
-particle crit ~ ~ ~ 0 0 0 0 1 force
+# particle crit ~ ~ ~ 0 0 0 0 1 force
 
 execute positioned ~ ~-1 ~ run tag @e[dy=4,tag=!bp.outlander] add bp.outlander_backstab
 
