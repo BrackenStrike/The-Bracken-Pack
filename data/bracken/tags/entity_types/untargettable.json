@@ -33,6 +33,8 @@
         "minecraft:spawner_minecart",
         "minecraft:spectral_arrow",
         "minecraft:text_display",
-        "minecraft:tnt"
+        "minecraft:tnt",
+        "minecraft:experience_orb",
+        "minecraft:experience_bottle"
     ]
 }
