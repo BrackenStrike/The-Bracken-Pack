@@ -6,6 +6,7 @@
     "water_creature": [
     ],
     "creature": [
+      
       {
         "type": "minecraft:sheep",
         "weight": 120,
