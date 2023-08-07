@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomModelData:888502,AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-10,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"head\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:aqua_affinity\",lvl:5s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+              "tag": "{CustomModelData:888502,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:aqua_affinity\",lvl:5s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
             },
             {
               "function": "set_name",
@@ -37,6 +37,10 @@
                 "min": 0.78,
                 "max": 0.83
               }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{bp:{id:\"fragile\"}}"
             }
           ]
         }
