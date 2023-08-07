@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "bracken:pax_arch",
+      "structure": "bracken:pax_crofter",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 28,
-    "separation": 20,
-    "salt": 1918908482
+    "spacing": 12,
+    "separation": 8,
+    "salt": 90129427
   }
 }
