@@ -16,8 +16,8 @@
               "name": [
                 {
                   "translate": "Frosbeak",
-                  "color": "white",
-                  "italic": false
+                  "color": "blue",
+                  "bold": true
                 }
               ]
             },
