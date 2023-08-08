@@ -16,8 +16,8 @@
               "name": [
                 {
                   "translate": "Frosfang",
-                  "color": "white",
-                  "italic": false
+                  "color": "blue",
+                  "bold": true
                 }
               ]
             },
