@@ -138,7 +138,12 @@
     "minecraft:ore_ancient_debris_large",
     "minecraft:ore_debris_small"
   ],
-    ["bracken:omnidrome/stone_blobs"],
+    [
+      "bracken:omnidrome/coarse_blobs",
+      "bracken:omnidrome/moss_blobs",
+      "bracken:omnidrome/pris_blobs",
+      "bracken:omnidrome/quartz_blobs",
+      "bracken:omnidrome/snow_blobs"],
     [
       "minecraft:freeze_top_layer"
     ]
