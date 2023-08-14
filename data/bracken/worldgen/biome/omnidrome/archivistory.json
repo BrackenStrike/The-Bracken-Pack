@@ -1,0 +1,176 @@
+{
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [],
+    "creature": [],
+    "monster": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": []
+  },
+  "features": [
+    [
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground",
+      "bracken:dormis/rock",
+      "bracken:dormis/fire",
+      "bracken:dormis/tree"
+    ],
+    ["minecraft:spring_lava_frozen",
+    "bracken:glacium/snow_pile",
+    "bracken:glacium/snow_tree",
+    "minecraft:iceberg_packed",
+    "minecraft:iceberg_blue",
+    "minecraft:ice_spike",
+    "minecraft:ice_patch",
+    "minecraft:blue_ice"],
+    [
+      "minecraft:rooted_azalea_tree",
+      "minecraft:spore_blossom",
+      "minecraft:flower_meadow",
+      "bracken:panacea/lake",
+      "bracken:panacea/horsetail_tree",
+      "bracken:panacea/coal_blobs",
+      "minecraft:patch_tall_grass_2",
+      "minecraft:patch_grass_jungle",
+      "minecraft:lush_caves_ceiling_vegetation",
+      "minecraft:cave_vines",
+      "minecraft:lush_caves_vegetation",
+      "bracken:faewild/large_fern",
+      "minecraft:patch_large_fern",
+      "minecraft:trees_flower_forest",
+      "minecraft:patch_grass_jungle",
+      "minecraft:patch_waterlily",
+      "minecraft:vines",
+      "minecraft:patch_sugar_cane",
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "minecraft:kelp_warm"
+    ],
+    [
+      "minecraft:flower_swamp",
+      "bracken:pax/peace_tree1",
+      "bracken:pax/peace_tree2",
+      "bracken:pax/cloud_tree1",
+      "bracken:pax/cloud_tree2",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_melon",
+      "minecraft:spring_water"
+    ],
+    [
+      "bracken:sanctum/rubble",
+      "bracken:sanctum/gray_blobs1",
+      "bracken:sanctum/gray_blobs2",
+      "bracken:sanctum/gray_blobs3",
+      "bracken:sanctum/gray_blobs4",
+      "bracken:sanctum/calcite_spikes",
+      "bracken:sanctum/rubble1"],
+      
+    ["bracken:brine/pickle",
+    "minecraft:patch_tall_grass_2",
+    "minecraft:flower_swamp",
+    "minecraft:patch_sugar_cane_desert",
+    "minecraft:patch_dead_bush_2",
+    "minecraft:patch_grass_jungle",
+    "minecraft:patch_sugar_cane",
+    "minecraft:seagrass_warm",
+    "minecraft:seagrass_simple",
+    "bracken:brine/prismarine_blobs",
+    "bracken:brine/sponge",
+    "minecraft:sea_pickle"],
+    [
+      "bracken:faewild/lapis_ore",
+      "minecraft:seagrass_swamp",
+      "minecraft:sea_pickle",
+      "bracken:faewild/stone_tree",
+      "minecraft:twisting_vines",
+      "minecraft:nether_sprouts",
+      "bracken:faewild/lake"
+    ],
+    [
+      "minecraft:pointed_dripstone",
+      "bracken:underdark/large_dripstone",
+      "bracken:underdark/dripstone",
+      "minecraft:patch_tall_grass_2",
+      "minecraft:trees_plains",
+      "bracken:underdark/lichen",
+      "bracken:underdark/lichen2",
+      "minecraft:patch_grass_plain",
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:disk_sand",
+      "minecraft:ore_gold_extra",
+      "bracken:underdark/emerald_ore",
+      "bracken:underdark/diamond_ore",
+      "bracken:underdark/magma_lower",
+      "bracken:underdark/bedrock",
+      "bracken:underdark/blackstone_small",
+      "bracken:underdark/blackstone_big",
+      "bracken:underdark/gravel",
+      "bracken:underdark/smooth_basalt"
+    ],
+    [
+      "bracken:varskspace/glass",
+      "bracken:varskspace/bfire",
+      "bracken:varskspace/spikes",
+      "bracken:varskspace/lanterns",
+      "bracken:varskspace/glass_ground"
+    ],
+    [],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "temperature": 0.95,
+  "downfall": 0.1,
+  "effects": {
+    "fog_color": 65280,
+    "water_color": 65280,
+    "water_fog_color": 65280,
+    "grass_color": 65280,
+    "sky_color": 16777192,
+    "foliage_colour": 65280,
+    "particle": {
+      "options": {
+        "type": "minecraft:enchant"
+      },
+      "probability": 0.00051809334
+    },
+    "mood_sound": {
+      "sound": "minecraft:entity.elder_guardian.death",
+      "tick_delay": 60000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:block.bell.resonate",
+      "tick_chance": 0.00001
+    },
+    "music": {
+      "sound": "minecraft:music.dragon",
+      "min_delay": 120000,
+      "max_delay": 240000,
+      "replace_current_music": true
+    }
+  },
+  "has_precipitation": false
+}
