@@ -1,9 +1,9 @@
 {
-    "feature": "bracken:omnidrome/stone_blobs",
+    "feature": "bracken:omnidrome/bed_blobs",
     "placement": [
         {
             "type": "count",
-            "count": 1
+            "count": 10
         },
         {
             "type": "minecraft:in_square"

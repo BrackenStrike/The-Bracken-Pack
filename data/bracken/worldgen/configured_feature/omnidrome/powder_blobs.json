@@ -2,10 +2,10 @@
   "type": "minecraft:netherrack_replace_blobs",
   "config": {
     "target": {
-      "Name": "minecraft:stone"
+      "Name": "minecraft:netherrack"
     },
     "state": {
-      "Name": "minecraft:moss_block"
+      "Name": "minecraft:white_concrete_powder"
     },
     "radius": {
       "value": {

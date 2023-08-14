@@ -931,7 +931,7 @@
             "then_run": {
               "type": "minecraft:block",
               "result_state": {
-                "Name": "minecraft:clay"
+                "Name": "minecraft:stone"
               }
             }
           }
@@ -970,7 +970,7 @@
             "then_run": {
               "type": "minecraft:block",
               "result_state": {
-                "Name": "minecraft:deepslate"
+                "Name": "minecraft:netherrack"
               }
             }
           }
@@ -981,7 +981,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:omnidrome/0"
+            "bracken:omnidrome/archivistory"
           ]
         },
         "then_run": {
@@ -1009,7 +1009,7 @@
             "then_run": {
               "type": "minecraft:block",
               "result_state": {
-                "Name": "minecraft:prismarine"
+                "Name": "minecraft:end_stone"
               }
             }
           }

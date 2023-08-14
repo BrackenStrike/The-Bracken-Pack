@@ -2,10 +2,10 @@
   "type": "minecraft:netherrack_replace_blobs",
   "config": {
     "target": {
-      "Name": "minecraft:nether_bricks"
+      "Name": "minecraft:end_stone"
     },
     "state": {
-      "Name": "minecraft:moss_block"
+      "Name": "minecraft:smooth_quartz"
     },
     "radius": {
       "value": {
