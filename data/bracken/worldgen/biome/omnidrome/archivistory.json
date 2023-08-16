@@ -19,43 +19,31 @@
       "bracken:dormis/fire",
       "bracken:dormis/tree"
     ],
-    ["minecraft:spring_lava_frozen",
-    "bracken:glacium/snow_pile",
-    "bracken:glacium/snow_tree",
+    ["bracken:glacium/snow_tree",
     "minecraft:iceberg_packed",
     "minecraft:iceberg_blue",
-    "minecraft:ice_spike",
-    "minecraft:ice_patch",
-    "minecraft:blue_ice",
-    "bracken:glacium/powdersnow",
-    "minecraft:iceberg_packed",
-    "minecraft:iceberg_blue"],
+    "minecraft:ice_spike"],
     [
       "minecraft:rooted_azalea_tree",
-      "minecraft:spore_blossom",
       "minecraft:flower_meadow",
       "bracken:panacea/lake",
       "bracken:panacea/horsetail_tree",
       "bracken:panacea/bones",
-      "bracken:panacea/coal_blobs",
-      "bracken:panacea/creeper_dec",
+
       "bracken:panacea/meat",
       "minecraft:patch_grass_jungle",
-      "minecraft:lush_caves_ceiling_vegetation",
       "minecraft:cave_vines",
-      "minecraft:lush_caves_vegetation",
       "bracken:faewild/large_fern",
       "minecraft:patch_sugar_cane",
-      "minecraft:spring_water",
       "minecraft:spring_lava",
-      "minecraft:kelp_warm"
+      "minecraft:kelp_warm",
+      "minecraft:bamboo",
+      "bracken:panacea/honey_pool",
+      "bracken:panacea/puffball"
     ],
     [
-      "bracken:varskspace/glass",
       "bracken:varskspace/bfire",
-      "bracken:varskspace/spikes",
-      "bracken:varskspace/lanterns",
-      "bracken:varskspace/glass_ground"
+      "bracken:varskspace/spikes"
     ],
     [
       "minecraft:flower_swamp",
@@ -63,28 +51,23 @@
       "bracken:pax/peace_tree2",
       "bracken:pax/cloud_tree1",
       "bracken:pax/cloud_tree2",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
       "minecraft:patch_melon",
+      "bracken:pax/rock",
       "minecraft:spring_water"
     ],
     [
 
       "bracken:sanctum/gray_blobs1",
-      "bracken:sanctum/gray_blobs2",
-      "bracken:sanctum/gray_blobs3",
-      "bracken:sanctum/gray_blobs4",
       "bracken:sanctum/calcite_spikes",
       "bracken:sanctum/rubble1",
-      "bracken:sanctum/rubble"],
+      "bracken:sanctum/rubble",
+      "bracken:sanctum/city_tree2"],
       
     ["bracken:brine/pickle",
     "minecraft:patch_tall_grass_2",
     "minecraft:flower_swamp",
     "minecraft:patch_sugar_cane_desert",
     "minecraft:patch_dead_bush_2",
-    "minecraft:patch_grass_jungle",
     "minecraft:patch_sugar_cane",
     "minecraft:seagrass_warm",
     "minecraft:seagrass_simple",
@@ -95,17 +78,15 @@
     [
       "bracken:faewild/lapis_ore",
       "minecraft:seagrass_swamp",
-      "minecraft:sea_pickle",
       "bracken:faewild/stone_tree",
       "minecraft:twisting_vines",
       "minecraft:nether_sprouts",
       "bracken:faewild/lake",
+      "bracken:faewild/dark_tree",
       "bracken:faewild/thin_tree"
     ],
     ["bracken:underdark/dripstone",
-    "bracken:underdark/large_dripstone",
       "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
       "minecraft:ore_diorite_upper",
       "minecraft:ore_diorite_lower",
       "minecraft:ore_coal_upper",
@@ -122,7 +103,6 @@
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
-      "minecraft:disk_sand",
       "minecraft:ore_gold_extra",
       "bracken:underdark/emerald_ore",
       "bracken:underdark/diamond_ore",
@@ -133,14 +113,18 @@
       "bracken:underdark/lichen",
       "bracken:underdark/blackstone_small",
       "bracken:underdark/blackstone_big",
-      "minecraft:patch_tall_grass_2",
       "bracken:underdark/smooth_basalt",
       "bracken:underdark/tree",
       "bracken:underdark/petrified_ground",
+      "bracken:underdark/crystal_caves/crystal",
+      "bracken:underdark/crystal_caves/spikes1",
+      "bracken:underdark/basalt_pillar",
       "bracken:underdark/dead_tree"],
     [
-      "minecraft:chorus_plant"
-    ,
+      "minecraft:chorus_plant",
+      "minecraft:weeping_vines",
+      "minecraft:crimson_fungi"]
+    ,[
     "minecraft:spring_open",
     "minecraft:patch_fire",
     "minecraft:patch_soul_fire",
@@ -157,7 +141,8 @@
     "minecraft:ore_ancient_debris_large",
     "minecraft:ore_debris_small"
   ],
-    [
+    ["bracken:omnidrome/bed_blobs",
+    "bracken:omnidrome/powder_blobs",
       "bracken:omnidrome/coarse_blobs",
       "bracken:omnidrome/moss_blobs",
       "bracken:omnidrome/pris_blobs",
@@ -201,4 +186,3 @@
   },
   "has_precipitation": false
 }
-
