@@ -26,13 +26,20 @@
     "minecraft:iceberg_blue",
     "minecraft:ice_spike",
     "minecraft:ice_patch",
-    "minecraft:blue_ice"],
+    "minecraft:blue_ice",
+    "bracken:glacium/powdersnow",
+    "minecraft:iceberg_packed",
+    "minecraft:iceberg_blue"],
     [
       "minecraft:rooted_azalea_tree",
       "minecraft:spore_blossom",
       "minecraft:flower_meadow",
       "bracken:panacea/lake",
       "bracken:panacea/horsetail_tree",
+      "bracken:panacea/bones",
+      "bracken:panacea/coal_blobs",
+      "bracken:panacea/creeper_dec",
+      "bracken:panacea/meat",
       "minecraft:patch_grass_jungle",
       "minecraft:lush_caves_ceiling_vegetation",
       "minecraft:cave_vines",
@@ -42,6 +49,13 @@
       "minecraft:spring_water",
       "minecraft:spring_lava",
       "minecraft:kelp_warm"
+    ],
+    [
+      "bracken:varskspace/glass",
+      "bracken:varskspace/bfire",
+      "bracken:varskspace/spikes",
+      "bracken:varskspace/lanterns",
+      "bracken:varskspace/glass_ground"
     ],
     [
       "minecraft:flower_swamp",
@@ -61,7 +75,9 @@
       "bracken:sanctum/gray_blobs2",
       "bracken:sanctum/gray_blobs3",
       "bracken:sanctum/gray_blobs4",
-      "bracken:sanctum/calcite_spikes"],
+      "bracken:sanctum/calcite_spikes",
+      "bracken:sanctum/rubble1",
+      "bracken:sanctum/rubble"],
       
     ["bracken:brine/pickle",
     "minecraft:patch_tall_grass_2",
@@ -74,7 +90,8 @@
     "minecraft:seagrass_simple",
     "bracken:brine/prismarine_blobs",
     "bracken:brine/sponge",
-    "minecraft:sea_pickle"],
+    "minecraft:sea_pickle",
+    "bracken:brine/sea_tree"],
     [
       "bracken:faewild/lapis_ore",
       "minecraft:seagrass_swamp",
@@ -82,9 +99,11 @@
       "bracken:faewild/stone_tree",
       "minecraft:twisting_vines",
       "minecraft:nether_sprouts",
-      "bracken:faewild/lake"
+      "bracken:faewild/lake",
+      "bracken:faewild/thin_tree"
     ],
-    [
+    ["bracken:underdark/dripstone",
+    "bracken:underdark/large_dripstone",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_diorite_upper",

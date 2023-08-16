@@ -922,16 +922,16 @@
               "type": "minecraft:vertical_gradient",
               "random_name": "b1",
               "true_at_and_below": {
-                "absolute": 30
+                "absolute": 31
               },
               "false_at_and_above": {
-                "absolute": 30
+                "absolute": 31
               }
             },
             "then_run": {
               "type": "minecraft:block",
               "result_state": {
-                "Name": "minecraft:stone"
+                "Name": "minecraft:end_stone"
               }
             }
           }
@@ -961,10 +961,10 @@
               "type": "minecraft:vertical_gradient",
               "random_name": "b2",
               "true_at_and_below": {
-                "absolute": 62
+                "absolute": 63
               },
               "false_at_and_above": {
-                "absolute": 62
+                "absolute": 63
               }
             },
             "then_run": {
@@ -1000,16 +1000,16 @@
               "type": "minecraft:vertical_gradient",
               "random_name": "b3",
               "true_at_and_below": {
-                "absolute": 94
+                "absolute": 95
               },
               "false_at_and_above": {
-                "absolute": 94
+                "absolute": 95
               }
             },
             "then_run": {
               "type": "minecraft:block",
               "result_state": {
-                "Name": "minecraft:end_stone"
+                "Name": "minecraft:stone"
               }
             }
           }
