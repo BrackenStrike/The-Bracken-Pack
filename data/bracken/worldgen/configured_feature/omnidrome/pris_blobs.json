@@ -10,7 +10,7 @@
     "radius": {
       "value": {
         "min_inclusive": 3,
-        "max_inclusive": 13
+        "max_inclusive": 10
       },
       "type": "minecraft:uniform"
     }
