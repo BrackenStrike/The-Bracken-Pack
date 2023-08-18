@@ -38,16 +38,6 @@
           ]
         },
         {
-          "type": "loot_table",
-          "name": "bracken:item/portal_keys/underdark_key",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.01
-            }
-          ]
-        },
-        {
           "type": "minecraft:item",
           "name": "minecraft:redstone_torch",
           "conditions": [
@@ -57,7 +47,7 @@
             }
           ]
         },
-         {
+        {
           "type": "minecraft:item",
           "name": "minecraft:oak_planks",
           "conditions": [

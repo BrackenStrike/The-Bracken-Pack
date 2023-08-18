@@ -146,6 +146,8 @@ scoreboard objectives add bp.z_rotation dummy
 scoreboard objectives add bp.xx_rotation dummy
 scoreboard objectives add bp.zz_rotation dummy
 
+scoreboard objectives add bp.ender_dragon_killed minecraft.killed:ender_dragon
+
 ##########   PAX PORTAL   ##########
 scoreboard objectives add bp.portal_R dummy
 scoreboard objectives add bp.portal_G dummy

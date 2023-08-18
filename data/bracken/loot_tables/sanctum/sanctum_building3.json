@@ -28,26 +28,6 @@
           ]
         },
         {
-          "type": "loot_table",
-          "name": "bracken:item/portal_keys/nether_key",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.002
-            }
-          ]
-        },
-        {
-          "type": "loot_table",
-          "name": "bracken:item/portal_keys/void_key",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.005
-            }
-          ]
-        },
-        {
           "type": "minecraft:item",
           "name": "minecraft:netherite_helmet",
           "conditions": [
