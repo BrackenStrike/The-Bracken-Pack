@@ -25,4 +25,4 @@ execute if score @s bp.tick matches 2 if blocks ~1 ~1 ~1 ~-1 ~-10 ~-1 ~ 500 ~ al
 execute if score @s bp.tick matches 1 as @e[type=#bracken:pax_entities,distance=..40] at @s run function bracken:entities/pax/pax_entities
 
 #CROFTER
-execute execute if score @s bp.5_min_score matches 1 at @e[type=giant,tag=bp.crofter,distance=..90] run bracken:entities/pax/crofter
+execute if score @s bp.5_min_tick matches 1 at @e[type=giant,tag=bp.crofter,distance=..90] run function bracken:entities/pax/crofter
