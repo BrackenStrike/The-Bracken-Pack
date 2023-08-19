@@ -1,10 +1,10 @@
 {
   "type": "minecraft:chest",
   "pools": [
-	{
-	"rolls": 1,
-        "entries": [
-	 {
+    {
+      "rolls": 1,
+      "entries": [
+        {
           "type": "loot_table",
           "name": "bracken:item/portal_keys/overworld_key",
           "conditions": [
@@ -14,12 +14,12 @@
             }
           ]
         }
-]
-},
-{
-	"rolls": 1,
-        "entries": [
-	 {
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
           "type": "loot_table",
           "name": "bracken:item/portal_keys/nether_key",
           "conditions": [
@@ -29,12 +29,12 @@
             }
           ]
         }
-]
-},
-{
-	"rolls": 1,
-        "entries": [
-	 {
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
           "type": "loot_table",
           "name": "bracken:item/portal_keys/faewild_key",
           "conditions": [
@@ -44,27 +44,12 @@
             }
           ]
         }
-]
-},
-{
-	"rolls": 1,
-        "entries": [
-	 {
-          "type": "loot_table",
-          "name": "bracken:item/portal_keys/underdark_key",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.15
-            }
-          ]
-        }
-]
-},
-{
-	"rolls": 1,
-        "entries": [
-	 {
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
           "type": "loot_table",
           "name": "bracken:item/portal_keys/dormis_key",
           "conditions": [
@@ -74,7 +59,7 @@
             }
           ]
         }
-]
-}
+      ]
+    }
   ]
 }
