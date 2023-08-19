@@ -3,4 +3,4 @@
 # Creators: Bracken
 ##########################################################
 
-playsound bracken:crofter_hum neutral @a[distance=100] ~ ~ ~ 100 1
+playsound bracken:crofter_hum neutral @a[distance=..100] ~ ~ ~ 100 1
