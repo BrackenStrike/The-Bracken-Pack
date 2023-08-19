@@ -19,6 +19,9 @@ scoreboard players add @s bp.longtick 1
 execute if entity @s[scores={bp.verylongtick=600..}] run function bracken:player/scoreboard_commands/verylongtick_score
 scoreboard players add @s bp.verylongtick 1
 
+execute if entity @s[scores={bp.5_min_tick=6000..}] run function bracken:player/scoreboard_commands/5_min_tick_score
+scoreboard players add @s bp.5_min_tick 1
+
 # Clear Enderling Tp Item
 execute unless entity @s[tag=bp.enderling] run clear @s minecraft:ender_eye{bracken:{id:"enderling_controlled_teleport"}}
 

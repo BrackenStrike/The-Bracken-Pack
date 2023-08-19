@@ -33,6 +33,7 @@ scoreboard objectives add bp.3_second dummy
 scoreboard objectives add bp.longtick dummy
 scoreboard objectives add bp.verylongtick dummy
 scoreboard objectives add bp.obsidian dummy
+scoreboard objectives add bp.5_min_tick dummy
 
 scoreboard objectives add bp.world_player_id dummy
 
