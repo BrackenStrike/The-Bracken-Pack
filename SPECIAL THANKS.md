@@ -7,6 +7,7 @@ DEVELOPMENT TEAM
 AileeNyx
 Arnold_Rynux
 Cardboard_Box
+Catcocomics
 Dr. C
 Freddy64merpro
 Grandmaster
