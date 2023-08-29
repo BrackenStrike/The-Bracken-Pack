@@ -20,8 +20,13 @@ scoreboard players set @s[nbt={Inventory:[{Slot:103b,id:"minecraft:wither_skelet
 # panacea
 scoreboard players set @s[nbt={Inventory:[{Slot:103b,id:"minecraft:creeper_head",Count:1b}]}] bp.creeper 22
 
-##########   POLYFOLUS MINIBOSS  ##########
-execute as @e[distance=..50,limit=5,type=minecraft:item,nbt={Item:{id:"minecraft:red_mushroom_block",tag:{CustomModelData:888501}}}] at @s run function bracken:entities/the_underdark/polyfolus
+# Glacium Glider
+scoreboard players set @s[nbt={Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{CustomModelData:888501}}]}] bp.glacium_glider 22
 
+# Nightfall Glider
+scoreboard players set @s[nbt={Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{CustomModelData:888502}}]}] bp.nightfall 22
+
+# poison sword
+scoreboard players set @s[nbt={SelectedItem:{id:"minecraft:iron_sword",tag:{CustomModelData:888502}}}] bp.poison 22
 
 

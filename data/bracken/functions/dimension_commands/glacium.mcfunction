@@ -3,7 +3,7 @@
 # Creators: Bracken
 ##########################################################
 
-execute unless predicate bracken:in_boat if block ~ ~ ~ minecraft:water if entity @s[tag=!bp.frostkin] run effect give @s minecraft:wither 2 0 true
+execute unless predicate bracken:in_boat if block ~ ~ ~ minecraft:water if entity @s[tag=!bp.frostkin,scores={bp.wither_immunity=0}] run effect give @s minecraft:wither 2 0 true
 execute if score @s bp.1_second matches 2 run function bracken:entities/glacium/glacium_mobs
 execute if score @s bp.1_second matches 15 run function bracken:dimension_commands/other/glacium_fill_commands
 
