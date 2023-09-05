@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "bracken:omnidrome/0",
+  "biomes": "bracken:omnidrome/infrapolis",
   "spawn_overrides": {},
   "start_pool": "bracken:omnidrome_fan",
   "size": 6,
