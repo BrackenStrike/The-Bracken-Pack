@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "bracken:omnidrome/2",
+  "biomes": "bracken:omnidrome/fabricylum",
   "spawn_overrides": {},
   "start_pool": "bracken:omnidrome_dna",
   "size": 6,
