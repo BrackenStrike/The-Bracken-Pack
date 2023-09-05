@@ -19,41 +19,20 @@ scoreboard players add @s bp.longtick 1
 execute if entity @s[scores={bp.verylongtick=600..}] run function bracken:player/scoreboard_commands/verylongtick_score
 scoreboard players add @s bp.verylongtick 1
 
-# Clear Enderling Tp Item
-execute unless entity @s[tag=bp.enderling] run clear @s minecraft:ender_eye{bracken:{id:"enderling_controlled_teleport"}}
-
-# Count up creeper horn cd
-execute unless score @s bp.creeper_horn matches 600.. run scoreboard players add @s bp.creeper_horn 1
+#execute if entity @s[scores={bp.5_min_tick=6000..}] run function bracken:player/scoreboard_commands/5_min_tick_score
+#scoreboard players add @s bp.5_min_tick 1
 
 # Player species
-execute if score #bp.species_dummy bp.species_con matches 2 if entity @s[tag=bp.species] run function #bracken:player/species/tick
+#execute if score #bp.species_dummy bp.species_con matches 2 if entity @s[tag=bp.species] run function #bracken:player/species/tick
 execute if score #bp.species_dummy bp.species_con matches 1 if entity @s[tag=bp.species] run function bracken:player/species/tick
 execute if score #bp.species_dummy bp.species_con matches 0 if entity @s[scores={bp.longtick=2}] run function bracken:player/species/leave
-
-# Poison Sword
-execute if entity @s[scores={bp.poison=1..}] run function bracken:player/poison_sword
 
 # Dimension Commands
 function bracken:player/overworld_check
 function bracken:player/universal_dimension_commands
 
-# coas
-execute if score @s bp.coas matches 1.. run function bracken:player/coas/used
+# Items
+function bracken:player/items/main
 
-# Ability books
-scoreboard players remove @s[scores={bp.cooldown=1..}] bp.cooldown 1
 
-# UNUSED
-#execute if score #bp.species_dummy bp.species_con matches 2 run function arb...
-#function bracken:player/ability_books
-
-# Glacium Glider
-scoreboard players set @s bp.wither_immunity 0
-execute if entity @s[nbt={Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{CustomModelData:888501}}]}] run function bracken:player/glacium_glider
-
-# Nightfall Glider
-execute if entity @s[nbt={Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{CustomModelData:888502}}]}] run function bracken:player/nightfall
-
-#Tinted cube
-execute if entity @s[scores={bp.obsidian=1..2}] unless predicate bracken:dimensions/void run fill ~2 ~3 ~2 ~-2 ~-1 ~-2 minecraft:tinted_glass hollow
 

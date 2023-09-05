@@ -1,5 +1,5 @@
 ##########################################################
-# Description: List of miscelaneous marker entities from the other_commands file
+# Description: List of miscelaneous marker entities from the 3_seconds file
 # Creators: Grandmaster and Bracken
 ##########################################################
 

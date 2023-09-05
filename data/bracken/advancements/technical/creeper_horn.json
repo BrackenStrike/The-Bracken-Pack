@@ -10,6 +10,6 @@
     }
   },
   "rewards": {
-    "function": "bracken:player/creeper_horn"
+    "function": "bracken:player/items/creeper_horn"
   }
 }

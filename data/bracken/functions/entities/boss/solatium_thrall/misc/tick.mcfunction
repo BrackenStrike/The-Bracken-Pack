@@ -1,8 +1,4 @@
 
-
-execute store result bossbar bracken:solatium_thrall value run data get entity @s Health 1
-
-
 execute if score @s bp.thrall matches ..0 run scoreboard players set #1 bp.math.in 3
 execute if score @s bp.thrall matches ..0 run function bracken:math/random
 
@@ -16,7 +12,7 @@ scoreboard players remove @s bp.thrall 1
 
 
 #death
-execute if entity @s[scores={bp.health=..20},tag=!bp.set_wtb] run function bracken:entities/boss/solatium_thrall/death/death
+execute if entity @s[scores={bp.thrall.health=..20},tag=!bp.set_wtb] run function bracken:entities/boss/solatium_thrall/death/death
 
 
 
@@ -40,9 +36,9 @@ playsound minecraft:entity.blaze.shoot hostile @a[distance=..5,scores={bp.longti
 
 #bossbar
 bossbar set bracken:solatium_thrall players @a[distance=..100]
-execute store result score @s bp.health run data get entity @s Health 1
-
-
+execute store result score @s bp.thrall.health run data get entity @s Health
+scoreboard players remove @s bp.thrall.health 700 
+execute store result bossbar bracken:solatium_thrall value run scoreboard players get @s bp.thrall.health
 
 
 #true name

@@ -19,24 +19,43 @@ scoreboard objectives add bp.hurting minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add bp.jump minecraft.custom:minecraft.jump
 scoreboard objectives add bp.health health
 scoreboard objectives add bp.fly minecraft.custom:minecraft.aviate_one_cm
-scoreboard objectives add bp.poison dummy
 scoreboard objectives add bp.sprintcharge dummy
 scoreboard objectives add bp.sneakcharge dummy
-scoreboard objectives add bp.creeper_horn dummy
 scoreboard objectives add bp.var dummy
-scoreboard objectives add bp.gothrum_fang dummy
 scoreboard objectives add bp.brinetravel dummy
+scoreboard objectives add bp.obsidian dummy
+scoreboard objectives add bp.spite dummy
+scoreboard objectives add bp.world_player_id dummy
 
+# time
 scoreboard objectives add bp.tick dummy
 scoreboard objectives add bp.1_second dummy
 scoreboard objectives add bp.3_second dummy
 scoreboard objectives add bp.longtick dummy
 scoreboard objectives add bp.verylongtick dummy
-scoreboard objectives add bp.obsidian dummy
+scoreboard objectives add bp.5_min_tick dummy
 
-scoreboard objectives add bp.world_player_id dummy
 
-scoreboard objectives add bp.spite dummy
+##########   ITEMS AND EQUIPMENT   ##########
+scoreboard objectives add bp.creeper dummy
+scoreboard objectives add bp.wither_skull dummy
+scoreboard objectives add bp.gothrum_fang dummy
+scoreboard objectives add bp.creeper_horn dummy
+scoreboard objectives add bp.poison dummy
+scoreboard objectives add bp.glacium_glider dummy
+scoreboard objectives add bp.nightfall dummy
+
+#astral potion
+scoreboard objectives add bp.astral_time dummy
+scoreboard objectives add bp.pre_astral_gamemode dummy
+scoreboard objectives add bp.astral_death deathCount
+
+#greed potion
+scoreboard objectives add bp.greed_duration dummy
+scoreboard objectives add bp.greed_amplifier dummy
+scoreboard objectives add bp.greed_kills totalKillCount
+scoreboard objectives add bp.greed_milk minecraft.used:minecraft.milk_bucket
+scoreboard objectives add bp.greed_death deathCount
 
 ##########   SPECIES  ##########
 scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death
@@ -113,38 +132,37 @@ scoreboard objectives add bp.dimension dummy
 scoreboard players set #70 bp.ymansion 70
 
 ##########   DIMENSIONS  ##########
-scoreboard objectives add bp.overworld dummy
-scoreboard objectives add bp.fae dummy
-scoreboard objectives add bp.panacea dummy
-scoreboard objectives add bp.pax dummy
-
-scoreboard objectives add bp.brine_potion dummy
-scoreboard objectives add bp.potion_count dummy
-
-#astral potion
-scoreboard objectives add bp.astral_time dummy
-scoreboard objectives add bp.pre_astral_gamemode dummy
-scoreboard objectives add bp.astral_death deathCount
-
-#greed potion
-scoreboard objectives add bp.greed_duration dummy
-scoreboard objectives add bp.greed_amplifier dummy
-scoreboard objectives add bp.greed_kills totalKillCount
-scoreboard objectives add bp.greed_milk minecraft.used:minecraft.milk_bucket
-scoreboard objectives add bp.greed_death deathCount
-
-scoreboard objectives add bp.ice dummy
-
-scoreboard objectives add bp.creeper dummy
-scoreboard objectives add bp.wither_skull dummy
-
-scoreboard objectives add bp.omni_platform dummy
-scoreboard players set #1 bp.omni_platform 1
 
 scoreboard objectives add bp.x_rotation dummy
 scoreboard objectives add bp.z_rotation dummy
 scoreboard objectives add bp.xx_rotation dummy
 scoreboard objectives add bp.zz_rotation dummy
+
+# Overworld
+scoreboard objectives add bp.overworld dummy
+
+# Faewild
+scoreboard objectives add bp.fae dummy
+
+# Panacea
+scoreboard objectives add bp.panacea dummy
+
+# Pax
+scoreboard objectives add bp.pax dummy
+
+# The Brine
+scoreboard objectives add bp.brine_potion dummy
+scoreboard objectives add bp.potion_count dummy
+
+# The End
+scoreboard objectives add bp.ender_dragon_killed minecraft.killed:ender_dragon
+
+# Glacium
+scoreboard objectives add bp.ice dummy
+
+# Omnidrome
+scoreboard objectives add bp.spawn_loading dummy
+scoreboard players set #1 bp.spawn_loading 1
 
 ##########   PAX PORTAL   ##########
 scoreboard objectives add bp.portal_R dummy
@@ -207,7 +225,8 @@ scoreboard players set #2 bp.var 2
 execute if score #bp.teams_dummy bp.teams_con matches 1 run function bracken:player/add_teams
 
 ##########   START TICK FUNCTIONS   ###########
-function bracken:other_commands
+function bracken:3_seconds
+function bracken:10_seconds
 
 ##########   ITEMS   ##########
 scoreboard objectives add bp.wither_immunity dummy 0

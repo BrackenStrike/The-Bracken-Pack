@@ -3,7 +3,7 @@
 # Creators: Grandmaster
 ##########################################################
 
-execute in minecraft:overworld run tp @s ~-6 120 ~-6
+execute in minecraft:overworld run tp @s ~ 120 ~
 effect give @s levitation 2 20 false
 execute at @s run forceload add ~ ~
 execute at @s[gamemode=!spectator] run fill ~ ~1 ~ ~ ~0 ~ air
