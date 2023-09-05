@@ -7,7 +7,7 @@
         "items": [
           "minecraft:elytra"
         ],
-        "nbt": "{tag:{CustomModelData:888501}}"
+        "nbt": "{CustomModelData:888501}"
       }
     }
   }

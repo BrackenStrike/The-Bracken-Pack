@@ -1,5 +1,5 @@
 ##########################################################
-# Description: Effects from the overworld brine portal.
+# Description: Effects from the overworld --> brine portal.
 # Creators: Bracken and Grandmaster
 ##########################################################
 

@@ -28,7 +28,7 @@ scoreboard players set @s[predicate=bracken:item/nightfall] bp.nightfall 22
 
 # poison sword
 scoreboard players set @s[predicate=bracken:item/poison_sword_mainhand] bp.poison 22
-scoreboard players set @s[predicate=bracken:item/poison_sword_offhand] bp.poison 22
+#scoreboard players set @s[predicate=bracken:item/poison_sword_offhand] bp.poison 22
 
 # frost spite
 scoreboard players set @s[predicate=bracken:item/spite_mainhand] bp.spite 3

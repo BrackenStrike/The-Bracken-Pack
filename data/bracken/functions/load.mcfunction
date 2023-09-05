@@ -161,8 +161,8 @@ scoreboard objectives add bp.ender_dragon_killed minecraft.killed:ender_dragon
 scoreboard objectives add bp.ice dummy
 
 # Omnidrome
-scoreboard objectives add bp.omni_platform dummy
-scoreboard players set #1 bp.omni_platform 1
+scoreboard objectives add bp.spawn_loading dummy
+scoreboard players set #1 bp.spawn_loading 1
 
 ##########   PAX PORTAL   ##########
 scoreboard objectives add bp.portal_R dummy
@@ -225,7 +225,8 @@ scoreboard players set #2 bp.var 2
 execute if score #bp.teams_dummy bp.teams_con matches 1 run function bracken:player/add_teams
 
 ##########   START TICK FUNCTIONS   ###########
-function bracken:other_commands
+function bracken:3_seconds
+function bracken:10_seconds
 
 ##########   ITEMS   ##########
 scoreboard objectives add bp.wither_immunity dummy 0
