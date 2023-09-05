@@ -19,8 +19,8 @@ scoreboard players add @s bp.longtick 1
 execute if entity @s[scores={bp.verylongtick=600..}] run function bracken:player/scoreboard_commands/verylongtick_score
 scoreboard players add @s bp.verylongtick 1
 
-execute if entity @s[scores={bp.5_min_tick=6000..}] run function bracken:player/scoreboard_commands/5_min_tick_score
-scoreboard players add @s bp.5_min_tick 1
+#execute if entity @s[scores={bp.5_min_tick=6000..}] run function bracken:player/scoreboard_commands/5_min_tick_score
+#scoreboard players add @s bp.5_min_tick 1
 
 # Player species
 #execute if score #bp.species_dummy bp.species_con matches 2 if entity @s[tag=bp.species] run function #bracken:player/species/tick

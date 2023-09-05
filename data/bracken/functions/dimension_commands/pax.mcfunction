@@ -19,10 +19,8 @@ execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/m
 execute if score @s bp.1_second matches 8 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=-15,dy=-300] run function bracken:dimension_crossing/pax_to_faewild
 
 #PAX CONDITIONAL SLOWFALL
-execute if score @s bp.tick matches 2 if blocks ~1 ~1 ~1 ~-1 ~-10 ~-1 ~ 500 ~ all unless entity @s[nbt={Inventory:[{id:"minecraft:elytra",Slot:102b}]}] run effect give @s minecraft:slow_falling 1 0 true
+execute if score @s bp.tick matches 2 if blocks ~1 ~1 ~1 ~-1 ~-10 ~-1 ~ 500 ~ all unless entity @s[predicate=bracken:item/wearing_elytra] run effect give @s minecraft:slow_falling 3 0 true
 
-## Pax
+## Pax Protection
 execute if score @s bp.tick matches 1 as @e[type=#bracken:pax_entities,distance=..40] at @s run function bracken:entities/pax/pax_entities
 
-#CROFTER
-execute if score @s bp.5_min_tick matches 1 at @e[type=giant,tag=bp.crofter,distance=..90] run function bracken:entities/pax/crofter
