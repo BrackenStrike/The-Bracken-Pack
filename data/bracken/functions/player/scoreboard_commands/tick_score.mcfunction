@@ -28,17 +28,12 @@ scoreboard players set @s[scores={bp.armor=..10}] bp.gold 0
 #execute if entity @e[type=lightning_bolt,tag=bp.varsk_lightning,distance=..3] run function bracken:dimension_crossing/varskspace_travel
 
 # Ability Books
-execute if entity @s[scores={bp.wtb_cooldown=1..}] run scoreboard players remove @s bp.wtb_cooldown 2
+scoreboard players remove @s[scores={bp.wtb_cooldown=1..}] bp.wtb_cooldown 2
 execute if entity @s[tag=bp.recall_wait] run function bracken:ability_books/recall/wait
-execute if entity @s[scores={bp.giant=1..}] run function bracken:ability_books/swordfall/effects
+execute if score @s bp.giant matches 1.. run function bracken:ability_books/swordfall/effects
 
 # Potions
-execute if entity @s[scores={bp.astral_time=1..}] run function bracken:player/potion/astral_projection/tick
-execute if entity @s[scores={bp.greed_duration=1..}] run function bracken:player/potion/greed/tick
+execute if score @s bp.astral_time matches 1.. run function bracken:player/potion/astral_projection/tick
+execute if score @s bp.greed_duration matches 1.. run function bracken:player/potion/greed/tick
 
-# frost spite
-scoreboard players set @s[predicate=bracken:item/spite_mainhand] bp.spite 3
-scoreboard players set @s[predicate=bracken:item/spite_offhand] bp.spite 3
-scoreboard players remove @s[scores={bp.spite=1..}] bp.spite 1
-execute if entity @s[scores={bp.death=0,bp.spite=1..}] run function bracken:item/frost_spite
 

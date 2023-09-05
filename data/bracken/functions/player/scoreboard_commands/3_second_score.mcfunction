@@ -12,4 +12,5 @@ function bracken:player/reset_bossbars
 function bracken:player/reset_dimension_attributes
 
 # Glacium beacon
-execute if block ~ ~-1 ~ minecraft:beacon run function bracken:dimension_crossing/beacon_portal
+execute if block ~ ~-1 ~ minecraft:beacon run function bracken:dimension_commands/other/beacon_portal
+
