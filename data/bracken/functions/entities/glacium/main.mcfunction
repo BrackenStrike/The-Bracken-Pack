@@ -1,5 +1,5 @@
 ##########################################################
-# Description: Constant commadns for entities in Glacium.
+# Description: Constant commands for entities in Glacium.
 # Creators: Bracken
 ##########################################################
 

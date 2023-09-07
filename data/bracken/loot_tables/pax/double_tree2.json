@@ -17,7 +17,7 @@
             }
           ]
         },
- 	{
+  {
           "type": "minecraft:item",
           "name": "minecraft:melon_slice",
           "conditions": [
@@ -42,7 +42,7 @@
 	{
 	"rolls": 1,
         "entries": [
-	 {
+	{
           "type": "loot_table",
           "name": "bracken:item/portal_keys/pax_key",
           "conditions": [
@@ -57,7 +57,7 @@
 	{
 	"rolls": 1,
         "entries": [
-	 {
+	{
           "type": "loot_table",
           "name": "bracken:item/portal_keys/dormis_key",
           "conditions": [
@@ -72,13 +72,13 @@
 {
 "rolls": 1,
       "entries": [
- {
+  {
         "type": "loot_table",
         "name": "bracken:item/ability_books/returning_tides",
         "conditions": [
           {
             "condition": "minecraft:random_chance",
-            "chance": 0.3
+            "chance": 0.6
           }
         ]
       }

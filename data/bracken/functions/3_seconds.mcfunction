@@ -14,5 +14,7 @@ execute at @a unless entity @e[type=minecraft:giant,tag=bp.solatium_thrall,dista
 ##########   MISCELANEOUS MARKERS   ##########
 execute as @e[type=marker] at @s run function bracken:entities/misc/markers
 
+##########   POLYFOLUS MINIBOSS  ##########
+execute as @e[distance=..50,limit=5,type=minecraft:item,nbt={Item:{id:"minecraft:red_mushroom_block",tag:{CustomModelData:888501}}}] at @s run function bracken:entities/the_underdark/polyfolus
 
-schedule function bracken:other_commands 3s
+schedule function bracken:3_seconds 3s
