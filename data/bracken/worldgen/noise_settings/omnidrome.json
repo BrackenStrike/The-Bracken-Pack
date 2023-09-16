@@ -635,7 +635,7 @@
           "if_true": {
             "type": "minecraft:y_above",
             "anchor": {
-              "absolute": 50
+              "absolute": 49
             },
             "surface_depth_multiplier": 0,
             "add_stone_depth": false
@@ -646,16 +646,16 @@
               "type": "minecraft:vertical_gradient",
               "random_name": "b2",
               "true_at_and_below": {
-                "absolute": 62
+                "absolute": 63
               },
               "false_at_and_above": {
-                "absolute": 62
+                "absolute": 63
               }
             },
             "then_run": {
               "type": "minecraft:block",
               "result_state": {
-                "Name": "minecraft:tinted_glass"
+                "Name": "minecraft:air"
               }
             }
           }
@@ -1304,7 +1304,7 @@
           "if_true": {
             "type": "minecraft:y_above",
             "anchor": {
-              "absolute": 82
+              "absolute": 81
             },
             "surface_depth_multiplier": 0,
             "add_stone_depth": false
@@ -1315,16 +1315,16 @@
               "type": "minecraft:vertical_gradient",
               "random_name": "b3",
               "true_at_and_below": {
-                "absolute": 94
+                "absolute": 95
               },
               "false_at_and_above": {
-                "absolute": 94
+                "absolute": 95
               }
             },
             "then_run": {
               "type": "minecraft:block",
               "result_state": {
-                "Name": "minecraft:lime_stained_glass"
+                "Name": "minecraft:air"
               }
             }
           }
