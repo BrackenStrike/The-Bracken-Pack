@@ -23,7 +23,7 @@
       {
         "weight": 2,
         "element": {
-          "location": "bracken:bracken:blocks/omnidrome_small_tower_base",
+          "location": "bracken:blocks/omnidrome_small_tower_base",
           "processors": "minecraft:empty",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"

@@ -23,7 +23,7 @@
     {
       "weight": 3,
       "element": {
-        "location": "bracken:bracken:blocks/omnidrome_small_cube",
+        "location": "bracken:blocks/omnidrome_small_cube",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
