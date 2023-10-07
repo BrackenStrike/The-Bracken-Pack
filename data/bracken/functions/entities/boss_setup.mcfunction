@@ -21,4 +21,4 @@ execute if entity @s[type=minecraft:slime,tag=bp.sporangium] run function bracke
 
 #unsung
 execute if entity @s[type=minecraft:zombie,tag=bp.unsung] run function bracken:entities/boss/unsung/tick
-execute if entity @s[type=minecraft:marker,tag=bp.unsung] if entity @p[distance=..25] run function bracken:entities/boss/thrall/misc/closing_comment
+execute if entity @s[type=minecraft:marker,tag=bp.unsung] if entity @p[distance=..25] run function bracken:entities/boss/unsung/misc/closing_comment
