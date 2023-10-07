@@ -2,8 +2,8 @@
     "feature": "bracken:pax/cloud_tree1",
     "placement": [
         {
-            "type": "count",
-            "count": 2
+            "type": "minecraft:count_on_every_layer",
+            "count": 4
         },
         {
             "type": "minecraft:block_predicate_filter",
@@ -22,6 +22,7 @@
                   ],
                   "blocks": [
                     "minecraft:grass_block",
+                    "minecraft:dirt",
                     "minecraft:moss_block",
                     "minecraft:podzol",
                     "minecraft:mud",
@@ -45,7 +46,6 @@
                       "minecraft:oak_leaves",
                       "minecraft:jungle_leaves",
                       "minecraft:spruce_leaves",
-                      "minecraft:oak_leaves",
                       "minecraft:mangrove_leaves",
                       "minecraft:azalea_leaves"
                     ]
