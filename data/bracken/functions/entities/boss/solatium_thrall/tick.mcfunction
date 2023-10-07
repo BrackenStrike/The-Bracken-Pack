@@ -26,5 +26,3 @@ execute as @s[tag=bp.boss,tag=bp.solatium_thrall,tag=bp.active] run function bra
 execute if entity @p[distance=..50] if entity @s[tag=!bp.active,name=!Rocco] run function bracken:entities/boss/solatium_thrall/misc/activate
 execute unless entity @p[distance=..95] if entity @s[tag=bp.active,name=!Rocco] run function bracken:entities/boss/solatium_thrall/misc/deactivate
 
-#closing comment
-execute at @e[type=marker,tag=bp.thrall,distance=..100] run execute if entity @p[distance=..125] run function bracken:entities/boss/thrall/misc/closing_comment
