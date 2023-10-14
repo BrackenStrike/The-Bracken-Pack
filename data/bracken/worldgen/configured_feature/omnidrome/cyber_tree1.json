@@ -2,20 +2,17 @@
   "type": "minecraft:huge_fungus",
   "config": {
     "hat_state": {
-      "Name": "minecraft:air"
+      "Name": "minecraft:white_stained_glass"
     },
     "decor_state": {
-      "Name": "minecraft:air"
+      "Name": "minecraft:red_stained_glass"
     },
     "planted": false,
     "valid_base_block": {
-      "Name": "minecraft:obsidian"
+      "Name": "minecraft:cyan_stained_glass"
     },
     "stem_state": {
-      "Properties": {
-        "axis": "y"
-      },
-      "Name": "minecraft:brown_stained_glass"
+      "Name": "minecraft:cyan_stained_glass"
     },
     "replaceable_blocks":{
       "type":"minecraft:matching_blocks",
