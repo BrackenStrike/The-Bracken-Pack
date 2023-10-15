@@ -1,0 +1,11 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/netherite_shovel"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/jewel_of_fuar"}
+
+	]
+}

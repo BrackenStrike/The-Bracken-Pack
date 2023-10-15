@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/ender_eye"
+  },
+  "overrides": [
+        {
+            "predicate": {
+              "custom_model_data": 888501
+            },
+            "model": "item/custom/enderling_teleport"
+        },
+        {
+            "predicate": {
+              "custom_model_data": 888502
+            },
+            "model": "item/custom/enderling_teleport_cooldown"
+        },
+		{
+            "predicate": {
+              "custom_model_data": 888503
+            },
+            "model": "item/custom/ruination_eye"
+        }
+    ]
+}
