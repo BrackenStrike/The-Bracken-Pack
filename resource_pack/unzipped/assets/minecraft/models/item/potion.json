@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/potion_overlay",
+	"layer1": "minecraft:item/potion"
+  },
+  "overrides": [
+        {
+            "predicate": {
+              "custom_model_data": 888501
+            },
+            "model": "item/custom/mega_pot"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "item/fishing_rod"
+	},
+	
+	"overrides": [{"predicate": {"custom_model_data":1}, "model": "item/null"},
+		{"predicate": {"custom_model_data":2}, "model": "item/jewel_of_adhain"},
+		{"predicate": {"custom_model_data":3}, "model": "item/jewel_of_fuar"},
+		{"predicate": {"custom_model_data":4}, "model": "item/shepherdess_cloak"},
+		{"predicate": {"custom_model_data":5}, "model": "item/mortal_cull"},
+		{"predicate": {"custom_model_data":6}, "model": "item/carthendryll"},
+		{"predicate": {"custom_model_data":7}, "model": "item/miramar"},
+		{"predicate": {"custom_model_data":8}, "model": "item/paxkeeper_sword"},
+		{"predicate": {"custom_model_data":9}, "model": "item/feilfri"},
+		{"predicate": {"custom_model_data":10}, "model": "item/jewel_of_adhain"},
+		{"predicate": {"custom_model_data":11}, "model": "item/jewel_of_adhain"},
+		{"predicate": {"custom_model_data":12}, "model": "item/jewel_of_adhain"},
+		{"predicate": {"custom_model_data":13}, "model": "item/jewel_of_adhain"}]
+}

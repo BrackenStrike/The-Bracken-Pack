@@ -1,0 +1,110 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/knowledge_book"
+  },
+  "overrides": [
+        {
+            "predicate": {
+              "custom_model_data": 888501
+            },
+            "model": "item/custom/fireball_book"
+        },
+        {
+            "predicate": {
+              "custom_model_data": 888502
+            },
+            "model": "item/custom/lightning_book"
+        },
+        {
+            "predicate": {
+              "custom_model_data": 888503
+            },
+            "model": "item/custom/iron_book"
+        },
+ 	{
+            "predicate": {
+              "custom_model_data": 888504
+            },
+            "model": "item/custom/slime_book"
+        },
+        {
+            "predicate": {
+              "custom_model_data": 888505
+            },
+            "model": "item/custom/fang_book"
+        },
+ 	{
+            "predicate": {
+              "custom_model_data": 888506
+            },
+            "model": "item/custom/boat_book"
+        },
+        {
+            "predicate": {
+              "custom_model_data": 888507
+            },
+            "model": "item/custom/heal_book"
+        },
+        {
+            "predicate": {
+              "custom_model_data": 888508
+            },
+            "model": "item/custom/kill_book"
+        },
+        {
+            "predicate": {
+              "custom_model_data": 888509
+            },
+            "model": "item/custom/glow_book"
+        },
+        {
+            "predicate": {
+              "custom_model_data": 888510
+            },
+            "model": "item/custom/adamantine_book"
+        },
+        {
+            "predicate": {
+              "custom_model_data": 888511
+            },
+            "model": "item/custom/soar_book"
+        },
+        {
+            "predicate": {
+              "custom_model_data": 888512
+            },
+            "model": "item/custom/frostlock_book"
+        },
+        {
+            "predicate": {
+              "custom_model_data": 888513
+            },
+            "model": "item/custom/scatter_book"
+        },
+        {
+            "predicate": {
+              "custom_model_data": 888514
+            },
+            "model": "item/custom/spark_book"
+        },
+        {
+            "predicate": {
+              "custom_model_data": 888515
+            },
+            "model": "item/custom/swordfall_book"
+        },
+        {
+            "predicate": {
+              "custom_model_data": 888516
+            },
+            "model": "item/custom/worm_tooth_book"
+        },
+        {
+            "predicate": {
+              "custom_model_data": 888517
+            },
+            "model": "item/custom/nul_book"
+        }
+    ]
+}

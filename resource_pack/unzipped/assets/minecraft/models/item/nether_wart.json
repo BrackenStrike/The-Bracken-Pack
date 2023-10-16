@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/nether_wart"
+  },
+  "overrides": [
+		{
+            "predicate": {
+              "custom_model_data": 888501
+            },
+            "model": "item/custom/brine_ing/tempest_nectar"
+        },
+		{
+            "predicate": {
+              "custom_model_data": 888502
+            },
+            "model": "item/custom/brine_ing/sentinel_rings"
+        },
+		{
+            "predicate": {
+              "custom_model_data": 888503
+            },
+            "model": "item/custom/brine_ing/void_petal"
+        },
+        {
+            "predicate": {
+              "custom_model_data": 888504
+            },
+            "model": "item/custom/brine_ing/cordyceps_powder"
+        },
+		{
+            "predicate": {
+              "custom_model_data": 888505
+            },
+            "model": "item/custom/brine_ing/worm_mandible"
+        },
+		{
+            "predicate": {
+              "custom_model_data": 888506
+            },
+            "model": "item/custom/brine_ing/nautilus_chamber"
+        },
+		{
+            "predicate": {
+              "custom_model_data": 888507
+            },
+            "model": "item/custom/brine_ing/jellyfish_stinger"
+        },
+		{
+            "predicate": {
+              "custom_model_data": 888508
+            },
+            "model": "item/custom/brine_ing/wither_fin"
+        },
+		{
+            "predicate": {
+              "custom_model_data": 888509
+            },
+            "model": "item/custom/brine_ing/essence_of_eternity"
+        },
+		{
+            "predicate": {
+              "custom_model_data": 888510
+            },
+            "model": "item/custom/brine_ing/essence_of_infinity"
+        },
+		{
+            "predicate": {
+              "custom_model_data": 888511
+            },
+            "model": "item/custom/brine_ing/abyssal_toxin"
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+  "parent": "block/structure_block",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 888501
+      },
+      "model": "item/custom/keys/brine_key"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 888502
+      },
+      "model": "item/custom/keys/dormis_key"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 888503
+      },
+      "model": "item/custom/keys/end_key"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 888504
+      },
+      "model": "item/custom/keys/faewild_key"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 888505
+      },
+      "model": "item/custom/keys/glacium_key"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 888506
+      },
+      "model": "item/custom/keys/nether_key"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 888507
+      },
+      "model": "item/custom/keys/omnidrome_key"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 888508
+      },
+      "model": "item/custom/keys/overworld_key"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 888509
+      },
+      "model": "item/custom/keys/panacea_key"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 888510
+      },
+      "model": "item/custom/keys/pax_key"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 888511
+      },
+      "model": "item/custom/keys/sanctum_key"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 888512
+      },
+      "model": "item/custom/keys/underdark_key"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 888513
+      },
+      "model": "item/custom/keys/varskspace_key"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 888514
+      },
+      "model": "item/custom/keys/void_key"
+    }
+  ]
+}

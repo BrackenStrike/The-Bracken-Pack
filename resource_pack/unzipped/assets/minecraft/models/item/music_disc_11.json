@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/music_disc_11"
+  },
+  "overrides": [
+        {
+            "predicate": {
+              "custom_model_data": 888501
+            },
+            "model": "item/custom/discs/music_disc_brine"
+        },
+		{
+            "predicate": {
+              "custom_model_data": 888502
+            },
+            "model": "item/custom/discs/music_disc_faewild"
+        },
+		{
+            "predicate": {
+              "custom_model_data": 888503
+            },
+            "model": "item/custom/discs/music_disc_glacium"
+        },
+		{
+            "predicate": {
+              "custom_model_data": 888504
+            },
+            "model": "item/custom/discs/music_disc_pax"
+        },
+		{
+            "predicate": {
+              "custom_model_data": 888505
+            },
+            "model": "item/custom/discs/music_disc_underdark"
+        },
+		{
+            "predicate": {
+              "custom_model_data": 888506
+            },
+            "model": "item/custom/discs/music_disc_viceroy"
+        },
+    {
+            "predicate": {
+              "custom_model_data": 888507
+            },
+            "model": "item/custom/discs/music_disc_varskspace"
+        }
+    ]
+}
